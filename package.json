@@ -1,0 +1,31 @@
+{
+  "name": "vintedsniper",
+  "version": "1.0.0",
+  "description": "Sniper de Vinted: vigila búsquedas y avisa por push (PWA) de artículos nuevos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "vapid": "node scripts/generate-vapid.js",
+    "icons": "node scripts/generate-icons.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pertx1/vintedsniper.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pertx1/vintedsniper/issues"
+  },
+  "homepage": "https://github.com/pertx1/vintedsniper#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1",
+    "web-push": "^3.6.7"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

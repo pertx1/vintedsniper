@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1115">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Sniper">
+  <title>Vinted Sniper</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- Login -->
+  <section id="view-login" class="view login" hidden>
+    <form id="login-form" class="login-card">
+      <img src="/icons/icon-192.png" alt="" class="login-logo">
+      <h1>Vinted Sniper</h1>
+      <label class="field">
+        <span>Contraseña</span>
+        <input type="password" name="password" autocomplete="current-password" required autofocus>
+      </label>
+      <button type="submit" class="btn primary block">Entrar</button>
+      <p id="login-error" class="error" hidden></p>
+    </form>
+  </section>
+
+  <div id="app" hidden>
+    <header class="topbar">
+      <h1 id="page-title">Monitores</h1>
+      <div class="topbar-actions" id="topbar-actions"></div>
+    </header>
+
+    <div id="ios-banner" class="banner" hidden>
+      Para recibir avisos en el iPhone, añade esta web a la pantalla de inicio.
+      <a href="#help">Cómo hacerlo</a>
+    </div>
+
+    <main>
+      <!-- Monitors -->
+      <section id="view-monitors" class="view" hidden>
+        <div id="monitor-list" class="list"></div>
+        <div id="monitors-empty" class="empty" hidden>
+          <p>Todavía no tienes monitores.</p>
+          <p class="muted">Configura los filtros en la web de Vinted, copia la URL y pégala al crear el monitor.</p>
+        </div>
+      </section>
+
+      <!-- Found -->
+      <section id="view-found" class="view" hidden>
+        <div class="toolbar">
+          <select id="found-filter" aria-label="Filtrar por monitor">
+            <option value="">Todos los monitores</option>
+          </select>
+        </div>
+        <div id="found-list" class="grid"></div>
+        <div id="found-empty" class="empty" hidden>
+          <p>Aún no se ha encontrado nada.</p>
+          <p class="muted">Los artículos nuevos que cumplan tus filtros aparecerán aquí.</p>
+        </div>
+        <button id="found-more" class="btn block ghost" hidden>Cargar más</button>
+      </section>
+
+      <!-- Settings -->
+      <section id="view-settings" class="view" hidden>
+        <div class="card">
+          <h2>Notificaciones</h2>
+          <p id="push-state" class="muted"></p>
+          <div class="stack">
+            <button id="push-enable" class="btn primary block">Activar notificaciones</button>
+            <button id="push-test" class="btn block">Enviar notificación de prueba</button>
+            <button id="push-disable" class="btn ghost block" hidden>Desactivar en este dispositivo</button>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="set-notifications">
+            <span>Enviar notificaciones (interruptor general)</span>
+          </label>
+          <p class="muted small"><a href="#help">¿Usas iPhone? Lee cómo activarlas</a></p>
+        </div>
+
+        <div class="card">
+          <h2>Horario silencioso</h2>
+          <label class="switch">
+            <input type="checkbox" id="set-quiet">
+            <span>Silenciar avisos en este horario</span>
+          </label>
+          <div class="row">
+            <label class="field"><span>Desde</span><input type="time" id="set-quiet-start"></label>
+            <label class="field"><span>Hasta</span><input type="time" id="set-quiet-end"></label>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="set-quiet-summary">
+            <span>Enviar un resumen al terminar el horario</span>
+          </label>
+          <p class="muted small">Los artículos encontrados durante el silencio se guardan en «Encontrados». Zona horaria: <span id="set-tz"></span>.</p>
+        </div>
+
+        <div class="card">
+          <h2>Monitorización</h2>
+          <label class="field">
+            <span>Intervalo de comprobación (segundos)</span>
+            <input type="number" id="set-interval" min="15" max="3600" inputmode="numeric">
+          </label>
+          <label class="field">
+            <span>Ignorar artículos publicados hace más de (horas, 0 = sin límite)</span>
+            <input type="number" id="set-max-age" min="0" max="720" inputmode="numeric">
+          </label>
+          <p class="muted small">Cada monitor se comprueba con una variación aleatoria de ±20 % y escalonado respecto a los demás. Por debajo de 30 s aumenta el riesgo de que Vinted te limite.</p>
+          <button id="settings-save" class="btn primary block">Guardar ajustes</button>
+        </div>
+
+        <div class="card">
+          <h2>Estado del sistema</h2>
+          <dl id="system-status" class="kv"></dl>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h2>Registro</h2>
+            <select id="log-level" aria-label="Nivel">
+              <option value="">Todo</option>
+              <option value="warn">Avisos y errores</option>
+              <option value="error">Solo errores</option>
+            </select>
+          </div>
+          <ul id="log-list" class="log"></ul>
+          <button id="log-clear" class="btn ghost block">Vaciar registro</button>
+        </div>
+
+        <button id="logout" class="btn ghost block danger-text">Cerrar sesión</button>
+      </section>
+
+      <!-- Help -->
+      <section id="view-help" class="view" hidden>
+        <div class="card">
+          <h2>Notificaciones en iPhone</h2>
+          <p>iOS solo permite notificaciones web a apps añadidas a la pantalla de inicio (iOS/iPadOS 16.4 o superior).</p>
+          <ol class="steps">
+            <li>Abre esta web en <strong>Safari</strong> (no en Chrome ni dentro de otra app).</li>
+            <li>Pulsa el botón <strong>Compartir</strong> <span class="icon-share" aria-hidden="true">⬆︎</span> en la barra de Safari.</li>
+            <li>Elige <strong>«Añadir a pantalla de inicio»</strong> y confirma.</li>
+            <li>Abre <strong>Sniper</strong> desde el icono de la pantalla de inicio e inicia sesión (la app instalada tiene su propia sesión).</li>
+            <li>Ve a <a href="#settings">Ajustes</a> y pulsa <strong>«Activar notificaciones»</strong>. Acepta el permiso.</li>
+            <li>Pulsa <strong>«Enviar notificación de prueba»</strong> para comprobarlo.</li>
+          </ol>
+          <p class="muted small">Si no te llegan: revisa Ajustes del iPhone → Notificaciones → Sniper, y que el modo Concentración no las esté silenciando. Las notificaciones web de iOS no muestran la foto del artículo; la verás en «Encontrados».</p>
+          <p id="help-env" class="muted small"></p>
+        </div>
+        <div class="card">
+          <h2>Crear monitores pegando una URL</h2>
+          <ol class="steps">
+            <li>En la web de Vinted, busca y aplica los filtros que quieras (categoría, marcas, tallas, estado, precio).</li>
+            <li>Copia la URL de la barra del navegador (o «Compartir → Copiar» en la app).</li>
+            <li>Aquí, pulsa <strong>«+ Nuevo»</strong>, pega la URL y pulsa <strong>«Extraer filtros»</strong>.</li>
+            <li>Revisa el precio máximo y añade palabras excluidas si quieres.</li>
+          </ol>
+          <p class="muted small">Al crear o reactivar un monitor, la primera comprobación marca lo que ya existe como visto: solo te avisará de lo que se publique después.</p>
+        </div>
+      </section>
+    </main>
+
+    <nav class="tabbar">
+      <a href="#monitors" data-tab="monitors"><span class="ti">◎</span>Monitores</a>
+      <a href="#found" data-tab="found"><span class="ti">★</span>Encontrados</a>
+      <a href="#settings" data-tab="settings"><span class="ti">⚙︎</span>Ajustes</a>
+    </nav>
+  </div>
+
+  <!-- Monitor editor -->
+  <dialog id="monitor-dialog" class="sheet">
+    <form id="monitor-form" method="dialog" novalidate>
+      <header class="sheet-head">
+        <button type="button" class="btn ghost" data-close>Cancelar</button>
+        <h2 id="monitor-dialog-title">Nuevo monitor</h2>
+        <button type="submit" class="btn primary">Guardar</button>
+      </header>
+      <div class="sheet-body">
+        <div class="card inset">
+          <label class="field">
+            <span>Pegar URL de búsqueda de Vinted</span>
+            <textarea id="paste-url" rows="2" placeholder="https://www.vinted.es/catalog?search_text=…" autocapitalize="off" autocorrect="off" spellcheck="false"></textarea>
+          </label>
+          <button type="button" id="parse-url" class="btn block">Extraer filtros</button>
+          <ul id="parse-warnings" class="warnings"></ul>
+        </div>
+
+        <p id="monitor-error" class="error" hidden></p>
+
+        <label class="field"><span>Nombre *</span><input name="name" required maxlength="80" placeholder="Jordan 1 talla 42"></label>
+        <label class="field"><span>Texto de búsqueda</span><input name="search_text" maxlength="200" placeholder="jordan 1 high"></label>
+
+        <div class="row">
+          <label class="field">
+            <span>Tipo</span>
+            <select name="kind">
+              <option value="sneakers">Zapatillas</option>
+              <option value="shoes">Calzado (todo)</option>
+              <option value="clothing">Ropa</option>
+              <option value="custom">Personalizado / desde URL</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Género</span>
+            <select name="gender">
+              <option value="">Todos</option>
+              <option value="men">Hombre</option>
+              <option value="women">Mujer</option>
+            </select>
+          </label>
+        </div>
+        <label class="field" id="subcategory-field">
+          <span>Subcategoría</span>
+          <select name="subcategory"></select>
+        </label>
+        <label class="field" id="catalog-field">
+          <span>IDs de categoría (catalog)</span>
+          <input name="catalog_ids" inputmode="numeric" placeholder="1242, 2632">
+        </label>
+
+        <div class="row">
+          <label class="field"><span>Precio mínimo €</span><input name="price_from" inputmode="decimal" placeholder="opcional"></label>
+          <label class="field"><span>Precio máximo € *</span><input name="price_to" inputmode="decimal" required></label>
+        </div>
+
+        <label class="field"><span>IDs de marca</span><input name="brand_ids" inputmode="numeric" placeholder="Se rellenan al pegar una URL"></label>
+        <label class="field"><span>IDs de talla</span><input name="size_ids" inputmode="numeric" placeholder="Se rellenan al pegar una URL"></label>
+
+        <fieldset class="field">
+          <legend>Estado del artículo</legend>
+          <div id="status-options" class="chips"></div>
+        </fieldset>
+
+        <label class="field">
+          <span>Palabras excluidas (separadas por comas)</span>
+          <textarea name="exclude_words" rows="2" placeholder="réplica, fake, caja, roto"></textarea>
+        </label>
+        <label class="switch">
+          <input type="checkbox" name="check_description">
+          <span>Buscar también en la descripción (1 petición extra por artículo nuevo)</span>
+        </label>
+
+        <div id="extra-params" class="card inset" hidden>
+          <div class="card-head">
+            <span class="muted small">Otros filtros de la URL</span>
+            <button type="button" id="extra-clear" class="btn ghost small">Quitar</button>
+          </div>
+          <div id="extra-list" class="chips"></div>
+        </div>
+
+        <label class="switch">
+          <input type="checkbox" name="enabled" checked>
+          <span>Monitor activado</span>
+        </label>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

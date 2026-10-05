@@ -1,0 +1,5 @@
+# Sustituye por tu dominio (con un registro DNS A/AAAA apuntando al servidor).
+sniper.tudominio.com {
+	encode gzip
+	reverse_proxy 127.0.0.1:3000
+}
