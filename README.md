@@ -79,6 +79,10 @@ npm test
 
 ## Desplegar con HTTPS
 
+> ❌ **No funciona en Vercel, Netlify ni plataformas «serverless»**: el sniper necesita un proceso encendido 24/7 y un disco donde guardar la base de datos. Tampoco en planes gratuitos que apagan la app por inactividad (Render, Koyeb…).
+>
+> 💸 **Opción online y gratis:** sigue la guía [deploy/GRATIS-ORACLE.md](deploy/GRATIS-ORACLE.md) (Oracle Cloud Always Free + DuckDNS, instalación con un solo script).
+
 Hay dos caminos. **Recomendado: la opción A**, porque Vinted bloquea con frecuencia las IPs de centros de datos (VPS) con 403, y desde una conexión doméstica eso pasa mucho menos.
 
 ### Opción A — Ordenador o Raspberry Pi en casa + Cloudflare Tunnel (sin abrir puertos)
