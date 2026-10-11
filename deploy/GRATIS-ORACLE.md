@@ -1,13 +1,14 @@
 # Desplegar gratis en Oracle Cloud (Always Free)
 
-Oracle Cloud regala para siempre una máquina virtual pequeña que está encendida 24/7 y tiene disco propio. Es justo lo que necesita el sniper. Tiempo aproximado: 20–30 minutos.
+Oracle Cloud regala para siempre una máquina virtual pequeña que está encendida 24/7 y tiene disco propio. Es justo lo que necesita el sniper. Tiempo aproximado: 15–20 minutos.
+
+Como todo se maneja desde Telegram y la app no abre ningún puerto, **no hace falta dominio, HTTPS ni abrir puertos**: basta con que la máquina pueda conectarse a internet.
 
 Necesitarás:
 - Una tarjeta para verificar la cuenta. **No se cobra** mientras uses recursos «Always Free»; la cuenta empieza con 300 $ de prueba y después pasa sola al nivel gratuito.
-- Un subdominio gratis de **DuckDNS** para abrir la web con HTTPS (protege la contraseña).
 - Tu bot de Telegram ya creado: el **token** y tu **chat ID** (ver «Crear el bot de Telegram» en el README).
 
-> ⚠️ Las IPs de Oracle son de centro de datos y Vinted puede limitarlas (lo verás como «Limitado» en los monitores). Si pasa mucho, sube el intervalo a 60–90 s desde Ajustes.
+> ⚠️ Las IPs de Oracle son de centro de datos y Vinted puede limitarlas (lo verás como «limitado» en `/estado`). Si pasa mucho, sube el intervalo con `/intervalo 90`.
 
 ---
 
@@ -23,26 +24,11 @@ Necesitarás:
 3. **Image and shape → Edit**:
    - Image: **Canonical Ubuntu 24.04**.
    - Shape: **Ampere (VM.Standard.A1.Flex)** con 1 OCPU y 6 GB, o **VM.Standard.E2.1.Micro** si Ampere da error de «out of capacity». Las dos son *Always Free eligible*.
-4. **Networking**: deja que cree la red (VCN) y marca **Assign a public IPv4 address**.
+4. **Networking**: deja que cree la red (VCN) y marca **Assign a public IPv4 address** (solo para poder entrar por SSH).
 5. **Add SSH keys**: pulsa **Generate a key pair for me** y **descarga la clave privada** (`.key`). La necesitas para entrar.
 6. **Create**. En un par de minutos estará en *Running*. Apunta la **Public IP address**.
 
-## 3. Abrir los puertos 80 y 443 en Oracle
-
-1. En la página de la instancia, pulsa el enlace de la **Subnet** → **Security Lists** → *Default Security List*.
-2. **Add Ingress Rules** y añade dos reglas:
-   - Source CIDR `0.0.0.0/0`, IP Protocol TCP, Destination Port **80**
-   - Source CIDR `0.0.0.0/0`, IP Protocol TCP, Destination Port **443**
-
-(El cortafuegos interno de Ubuntu lo abre el script automáticamente.)
-
-## 4. Subdominio gratis con DuckDNS
-
-1. Entra en <https://www.duckdns.org> (con Google o GitHub).
-2. Crea un subdominio, por ejemplo `misniper` → `misniper.duckdns.org`.
-3. En **current ip** pon la **IP pública** de tu instancia y pulsa **update ip**.
-
-## 5. Instalar el sniper (un solo comando)
+## 3. Instalar el sniper (un solo comando)
 
 Conéctate por SSH a la máquina:
 
@@ -54,42 +40,42 @@ Conéctate por SSH a la máquina:
 - **Windows**: abre *PowerShell* y usa el mismo comando `ssh -i RUTA\a\la\clave.key ubuntu@TU_IP`.
 - **Desde el navegador**: en la instancia de Oracle también tienes *Cloud Shell → SSH*.
 
-Una vez dentro, ejecuta (cambia el dominio y la contraseña de la web). El script te pedirá el **token del bot** (no se ve al escribirlo, es normal) y tu **chat ID**:
+Una vez dentro, ejecuta lo siguiente. El script te pedirá el **token del bot** (no se ve al escribirlo, es normal) y tu **chat ID**:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/pertx1/vintedsniper/claude/charming-mayer-9520k7/deploy/setup-vps.sh -o setup.sh
-sudo bash setup.sh misniper.duckdns.org UnaContraseñaLarga
+sudo bash setup.sh
 ```
 
-El script instala Node 22 y Caddy (que saca el certificado HTTPS solo), descarga la app, crea el `.env` con tu token y chat ID (solo legible por la app), y la deja como servicio que arranca sola. Al final verás **✅ Listo**.
+El script instala Node 22, descarga la app, crea el `.env` con tu token y chat ID (solo legible por la app) y la deja como servicio que arranca sola. Al final verás **✅ Listo**.
 
 > **Si el repositorio es privado**, GitHub no dejará descargarlo así. Crea un token en GitHub (*Settings → Developer settings → Fine-grained tokens*, con permiso de lectura de *Contents* sobre este repo) y:
 > ```bash
 > curl -fsSL -H "Authorization: token TU_TOKEN" https://raw.githubusercontent.com/pertx1/vintedsniper/claude/charming-mayer-9520k7/deploy/setup-vps.sh -o setup.sh
-> sudo REPO_URL=https://TU_TOKEN@github.com/pertx1/vintedsniper.git bash setup.sh misniper.duckdns.org UnaContraseñaLarga
+> sudo REPO_URL=https://TU_TOKEN@github.com/pertx1/vintedsniper.git bash setup.sh
 > ```
 
-## 6. Probarlo
+## 4. Probarlo
 
-1. Abre `https://misniper.duckdns.org` e inicia sesión. Si quieres, en el móvil: **Compartir → Añadir a pantalla de inicio** para tenerla como app.
-2. **Ajustes → Enviar aviso de prueba**: te debe llegar un mensaje del bot con el botón «Ver en Vinted».
-3. Escribe `/estado` al bot para comprobar que también responde a comandos.
+1. En Telegram, escribe `/start` a tu bot: te responde con la lista de comandos.
+2. `/test`: te llega un aviso de ejemplo con el botón «Ver en Vinted».
+3. En la app o la web de Vinted, haz una búsqueda con filtros, copia el enlace y **pégalo en el chat del bot** para crear tu primer monitor.
 
-> ¿Ya tenías instalada la versión con notificaciones push? Ejecuta `sudo bash /opt/vintedsniper/deploy/update.sh`, añade `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` con `sudo nano /opt/vintedsniper/.env` (puedes borrar las líneas `VAPID_…`) y reinicia con `sudo systemctl restart vinted-sniper`.
+> ¿Tenías instalada una versión anterior (con web)? Ejecuta otra vez `sudo bash setup.sh`: actualiza la app, conserva tu `.env` y detiene Caddy si solo servía para la web. Las líneas `APP_PASSWORD`, `PORT`, `VAPID_…` del `.env` ya no se usan y puedes borrarlas. Si quieres, quita también las reglas de los puertos 80/443 en Oracle y el subdominio de DuckDNS.
 
 ## Mantenimiento
 
-| Qué | Comando (por SSH) |
+| Qué | Cómo |
 |---|---|
-| Ver el log en directo | `journalctl -u vinted-sniper -f` |
+| Ver el estado | `/estado` y `/registro` en el bot |
+| Ver el log completo | `journalctl -u vinted-sniper -f` (por SSH) |
 | Reiniciar | `sudo systemctl restart vinted-sniper` |
 | Actualizar a la última versión | `sudo bash /opt/vintedsniper/deploy/update.sh` |
-| Cambiar contraseña u otros ajustes | `sudo nano /opt/vintedsniper/.env` y reiniciar |
+| Cambiar el token o el chat ID | `sudo nano /opt/vintedsniper/.env` y reiniciar |
 | Copia de seguridad de la base de datos | `sudo cp /opt/vintedsniper/data/sniper.db ~/sniper-backup.db` |
 
 ## Si algo falla
 
-- **La web no carga**: comprueba las reglas de ingreso del paso 3 y que DuckDNS tiene la IP correcta (`ping misniper.duckdns.org`).
-- **Error de certificado**: mira `journalctl -u caddy -n 50`. Casi siempre son los puertos 80/443 cerrados o la IP mal puesta en DuckDNS.
+- **El bot no contesta**: mira `journalctl -u vinted-sniper -n 50`. Si dice «Falta TELEGRAM_BOT_TOKEN» o «formato», revisa el `.env`; si dice «401 Unauthorized», el token está mal copiado o revocado.
 - **«out of capacity» al crear la máquina con Ampere**: usa la forma *VM.Standard.E2.1.Micro* o inténtalo más tarde.
 - **Oracle avisa de que reclamará la instancia por inactividad**: pasa con máquinas casi sin uso de CPU; si te llega el aviso, convertir la cuenta a *Pay As You Go* lo evita y, sin salir de los recursos Always Free, sigue sin coste.

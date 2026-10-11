@@ -1,12 +1,11 @@
 {
   "name": "vintedsniper",
   "version": "1.0.0",
-  "description": "Sniper de Vinted: vigila búsquedas y avisa por Telegram de artículos nuevos",
-  "main": "src/server.js",
+  "description": "Sniper de Vinted manejado desde Telegram: avisa al instante de artículos nuevos",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js",
-    "icons": "node scripts/generate-icons.js",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
     "test": "node --test \"test/*.test.js\""
   },
   "repository": {
@@ -19,8 +18,7 @@
   },
   "homepage": "https://github.com/pertx1/vintedsniper#readme",
   "dependencies": {
-    "better-sqlite3": "^13.0.3",
-    "express": "^5.2.1"
+    "better-sqlite3": "^13.0.3"
   },
   "private": true,
   "engines": {

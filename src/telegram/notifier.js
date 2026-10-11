@@ -170,21 +170,11 @@ function createNotifier({ store, logger, api, chatId, timezone, now = Date.now }
     return { mode, usedRealItem: !!latest };
   }
 
-  /** Plain message to the configured chat (bot replies). */
-  async function sendText(text) {
-    return api.send('sendMessage', {
-      chat_id: chatId,
-      text,
-      parse_mode: 'HTML',
-      link_preview_options: { is_disabled: true },
-    });
-  }
-
   function status() {
     return { configured, ...state };
   }
 
-  return { configured, notifyItem, sendTest, sendText, sendItem, status };
+  return { configured, notifyItem, sendTest, sendItem, status };
 }
 
 module.exports = { createNotifier, formatCaption, escapeHtml, formatPrice, itemFromRow };

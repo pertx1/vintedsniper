@@ -7,5 +7,3 @@ services:
       DB_PATH: /app/data/sniper.db
     volumes:
       - ./data:/app/data
-    ports:
-      - "127.0.0.1:3000:3000"

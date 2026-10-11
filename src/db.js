@@ -103,6 +103,10 @@ const MIGRATIONS = [
   DROP TABLE IF EXISTS push_subscriptions;
   DELETE FROM settings WHERE key IN ('quiet_summary', 'quiet_pending');
   `,
+  // 3: the web interface was removed; everything is managed from Telegram
+  `
+  DROP TABLE IF EXISTS sessions;
+  `,
 ];
 
 function openDatabase(file) {

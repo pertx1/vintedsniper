@@ -203,12 +203,18 @@ function createStore(db) {
       stmts.setSetting.run(`state:${key}`, JSON.stringify(value));
     },
 
+    // ---- logs ----
+    listLogs({ levels = ['info', 'warn', 'error'], limit = 50 } = {}) {
+      return db
+        .prepare(`SELECT * FROM logs WHERE level IN (${levels.map(() => '?').join(',')}) ORDER BY id DESC LIMIT ?`)
+        .all(...levels, Math.min(Math.max(limit, 1), 500));
+    },
+
     // ---- housekeeping ----
     prune({ seenDays = 30, foundDays = 60 } = {}) {
       const day = 24 * 3600 * 1000;
       stmts.pruneSeen.run(Date.now() - seenDays * day);
       stmts.pruneFound.run(Date.now() - foundDays * day);
-      db.prepare('DELETE FROM sessions WHERE expires_at < ?').run(Date.now());
     },
 
     counts() {

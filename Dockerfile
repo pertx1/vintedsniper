@@ -8,12 +8,10 @@ COPY package.json package-lock.json ./
 RUN npm ci --omit=dev && npm cache clean --force
 
 COPY src ./src
-COPY public ./public
-COPY scripts ./scripts
 
 RUN mkdir -p /app/data && chown node:node /app/data
 
 VOLUME ["/app/data"]
-EXPOSE 3000
 USER node
-CMD ["node", "src/server.js"]
+# No ports: the bot only makes outgoing connections to Telegram and Vinted.
+CMD ["node", "src/index.js"]

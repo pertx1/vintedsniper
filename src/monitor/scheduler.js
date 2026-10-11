@@ -110,6 +110,13 @@ class Scheduler {
     this.schedule(id, 1500 + Math.round(this.random() * 3000));
   }
 
+  /** Re-spreads every active monitor over the (possibly new) interval. */
+  rescheduleAll() {
+    const active = this.store.listMonitors().filter((m) => m.enabled);
+    const interval = this.intervalMs();
+    active.forEach((m, i) => this.schedule(m.id, Math.round((i / active.length) * interval) + 2000));
+  }
+
   /** Runs a monitor now and waits for the result. */
   async runNow(id) {
     this.unschedule(id);
