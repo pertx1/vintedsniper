@@ -98,6 +98,11 @@ const MIGRATIONS = [
     user_agent TEXT NOT NULL DEFAULT ''
   );
   `,
+  // 2: alerts moved from Web Push to Telegram
+  `
+  DROP TABLE IF EXISTS push_subscriptions;
+  DELETE FROM settings WHERE key IN ('quiet_summary', 'quiet_pending');
+  `,
 ];
 
 function openDatabase(file) {

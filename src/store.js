@@ -10,8 +10,6 @@ const SETTING_DEFAULTS = {
   quiet_enabled: false,
   quiet_start: '00:00',
   quiet_end: '08:00',
-  quiet_summary: true,
-  quiet_pending: 0,
   max_item_age_hours: 24,
 };
 
@@ -58,15 +56,6 @@ function createStore(db) {
     setSetting: db.prepare(
       'INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value',
     ),
-    listSubs: db.prepare('SELECT * FROM push_subscriptions'),
-    upsertSub: db.prepare(`
-      INSERT INTO push_subscriptions (endpoint, p256dh, auth, user_agent, created_at)
-      VALUES (?, ?, ?, ?, ?)
-      ON CONFLICT(endpoint) DO UPDATE SET p256dh = excluded.p256dh, auth = excluded.auth,
-                                          user_agent = excluded.user_agent`),
-    deleteSubByEndpoint: db.prepare('DELETE FROM push_subscriptions WHERE endpoint = ?'),
-    deleteSubById: db.prepare('DELETE FROM push_subscriptions WHERE id = ?'),
-    subOk: db.prepare('UPDATE push_subscriptions SET last_ok_at = ? WHERE id = ?'),
   };
 
   const monitorColumns = [
@@ -200,21 +189,18 @@ function createStore(db) {
       return store.getSettings();
     },
 
-    // ---- push subscriptions ----
-    listSubscriptions() {
-      return stmts.listSubs.all();
+    // ---- internal key/value state (not user settings), e.g. the Telegram update offset ----
+    getValue(key, fallback = null) {
+      const row = stmts.getSetting.get(`state:${key}`);
+      if (!row) return fallback;
+      try {
+        return JSON.parse(row.value);
+      } catch {
+        return fallback;
+      }
     },
-    saveSubscription(sub, userAgent = '') {
-      stmts.upsertSub.run(sub.endpoint, sub.keys.p256dh, sub.keys.auth, userAgent, Date.now());
-    },
-    deleteSubscriptionByEndpoint(endpoint) {
-      return stmts.deleteSubByEndpoint.run(endpoint).changes > 0;
-    },
-    deleteSubscription(id) {
-      stmts.deleteSubById.run(id);
-    },
-    markSubscriptionOk(id) {
-      stmts.subOk.run(Date.now(), id);
+    setValue(key, value) {
+      stmts.setSetting.run(`state:${key}`, JSON.stringify(value));
     },
 
     // ---- housekeeping ----
@@ -234,7 +220,6 @@ function createStore(db) {
           .prepare('SELECT COUNT(*) AS n FROM found_items WHERE found_at > ?')
           .get(Date.now() - 24 * 3600 * 1000).n,
         seen: db.prepare('SELECT COUNT(*) AS n FROM seen_items').get().n,
-        subscriptions: db.prepare('SELECT COUNT(*) AS n FROM push_subscriptions').get().n,
       };
     },
   };

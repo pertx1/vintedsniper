@@ -4,7 +4,8 @@ Oracle Cloud regala para siempre una máquina virtual pequeña que está encendi
 
 Necesitarás:
 - Una tarjeta para verificar la cuenta. **No se cobra** mientras uses recursos «Always Free»; la cuenta empieza con 300 $ de prueba y después pasa sola al nivel gratuito.
-- Un subdominio gratis de **DuckDNS** para tener HTTPS (imprescindible para el iPhone).
+- Un subdominio gratis de **DuckDNS** para abrir la web con HTTPS (protege la contraseña).
+- Tu bot de Telegram ya creado: el **token** y tu **chat ID** (ver «Crear el bot de Telegram» en el README).
 
 > ⚠️ Las IPs de Oracle son de centro de datos y Vinted puede limitarlas (lo verás como «Limitado» en los monitores). Si pasa mucho, sube el intervalo a 60–90 s desde Ajustes.
 
@@ -53,14 +54,14 @@ Conéctate por SSH a la máquina:
 - **Windows**: abre *PowerShell* y usa el mismo comando `ssh -i RUTA\a\la\clave.key ubuntu@TU_IP`.
 - **Desde el navegador**: en la instancia de Oracle también tienes *Cloud Shell → SSH*.
 
-Una vez dentro, ejecuta (cambia el dominio y la contraseña):
+Una vez dentro, ejecuta (cambia el dominio y la contraseña de la web). El script te pedirá el **token del bot** (no se ve al escribirlo, es normal) y tu **chat ID**:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/pertx1/vintedsniper/claude/charming-mayer-9520k7/deploy/setup-vps.sh -o setup.sh
 sudo bash setup.sh misniper.duckdns.org UnaContraseñaLarga
 ```
 
-El script instala Node 22 y Caddy (que saca el certificado HTTPS solo), descarga la app, genera las claves VAPID y el `.env`, y la deja como servicio que arranca sola. Al final verás **✅ Listo**.
+El script instala Node 22 y Caddy (que saca el certificado HTTPS solo), descarga la app, crea el `.env` con tu token y chat ID (solo legible por la app), y la deja como servicio que arranca sola. Al final verás **✅ Listo**.
 
 > **Si el repositorio es privado**, GitHub no dejará descargarlo así. Crea un token en GitHub (*Settings → Developer settings → Fine-grained tokens*, con permiso de lectura de *Contents* sobre este repo) y:
 > ```bash
@@ -68,11 +69,13 @@ El script instala Node 22 y Caddy (que saca el certificado HTTPS solo), descarga
 > sudo REPO_URL=https://TU_TOKEN@github.com/pertx1/vintedsniper.git bash setup.sh misniper.duckdns.org UnaContraseñaLarga
 > ```
 
-## 6. Usarlo en el iPhone
+## 6. Probarlo
 
-1. Abre `https://misniper.duckdns.org` en **Safari** e inicia sesión.
-2. **Compartir → Añadir a pantalla de inicio**.
-3. Abre la app desde el icono, inicia sesión de nuevo, ve a **Ajustes → Activar notificaciones** y luego **Enviar notificación de prueba**.
+1. Abre `https://misniper.duckdns.org` e inicia sesión. Si quieres, en el móvil: **Compartir → Añadir a pantalla de inicio** para tenerla como app.
+2. **Ajustes → Enviar aviso de prueba**: te debe llegar un mensaje del bot con el botón «Ver en Vinted».
+3. Escribe `/estado` al bot para comprobar que también responde a comandos.
+
+> ¿Ya tenías instalada la versión con notificaciones push? Ejecuta `sudo bash /opt/vintedsniper/deploy/update.sh`, añade `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID` con `sudo nano /opt/vintedsniper/.env` (puedes borrar las líneas `VAPID_…`) y reinicia con `sudo systemctl restart vinted-sniper`.
 
 ## Mantenimiento
 

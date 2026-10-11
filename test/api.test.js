@@ -4,26 +4,16 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const { openDatabase } = require('../src/db');
 const { createApp } = require('../src/server');
+const { FAKE_TOKEN, fakeTelegram } = require('./helpers');
 
-function start() {
-  const sent = [];
-  const pushSender = {
-    setVapidDetails() {},
-    async sendNotification(sub, body) {
-      if (sub.endpoint.includes('gone')) {
-        const err = new Error('Gone');
-        err.statusCode = 410;
-        throw err;
-      }
-      sent.push({ endpoint: sub.endpoint, payload: JSON.parse(body) });
-    },
-  };
+function start({ telegram = true } = {}) {
+  const tg = fakeTelegram();
   const cfg = {
     appPassword: 'secreto',
     timezone: 'Europe/Madrid',
     trustProxy: true,
     vinted: { domain: 'www.vinted.es', pollIntervalSeconds: 45, userAgent: 't', minRequestGapMs: 0 },
-    vapid: { publicKey: 'BPub', privateKey: 'priv', subject: 'mailto:x@y.z' },
+    telegram: telegram ? { token: FAKE_TOKEN, chatId: '42' } : { token: '', chatId: '' },
   };
   const ctx = createApp({
     cfg,
@@ -31,7 +21,7 @@ function start() {
     fetchImpl: async () => {
       throw new Error('no network in tests');
     },
-    pushSender,
+    telegramFetch: tg.fetchImpl,
     quietLogs: true,
   });
   return new Promise((resolve) => {
@@ -48,13 +38,13 @@ function start() {
         if (set) cookie = set.split(';')[0];
         return { status: res.status, body: await res.json().catch(() => null) };
       }
-      resolve({ ctx, server, call, sent });
+      resolve({ ctx, server, call, tg });
     });
   });
 }
 
-test('login, monitor CRUD, URL parsing, push subscriptions', async (t) => {
-  const { ctx, server, call, sent } = await start();
+test('login, monitor CRUD, URL parsing, settings, Telegram test', async (t) => {
+  const { ctx, server, call, tg } = await start();
   t.after(() => {
     ctx.scheduler.stop();
     server.close();
@@ -107,20 +97,18 @@ test('login, monitor CRUD, URL parsing, push subscriptions', async (t) => {
   assert.equal((await call(`/api/monitors/${id}`, { method: 'DELETE' })).status, 200);
   assert.equal((await call('/api/monitors')).body.length, 1);
 
-  // Push: subscribe a live and a dead endpoint, the dead one is cleaned up on send.
-  for (const endpoint of ['https://push.example/live', 'https://push.example/gone']) {
-    const r = await call('/api/push/subscribe', {
-      method: 'POST',
-      body: { subscription: { endpoint, keys: { p256dh: 'k', auth: 'a' } } },
-    });
-    assert.equal(r.status, 200);
-  }
-  const testPush = await call('/api/push/test', { method: 'POST' });
-  assert.equal(testPush.status, 200);
-  assert.equal(testPush.body.sent, 1);
-  assert.equal(testPush.body.removed, 1);
-  assert.equal(sent.length, 1);
-  assert.equal(ctx.store.listSubscriptions().length, 1);
+  // Telegram test alert: no finds yet -> text-only sample with the button.
+  const testRes = await call('/api/telegram/test', { method: 'POST' });
+  assert.equal(testRes.status, 200);
+  assert.deepEqual(testRes.body, { mode: 'text', usedRealItem: false });
+  const [msg] = tg.sent();
+  assert.equal(msg.method, 'sendMessage');
+  assert.equal(msg.body.chat_id, '42');
+  assert.match(msg.body.text, /PRUEBA/);
+  assert.equal(msg.body.reply_markup.inline_keyboard[0][0].text, 'Ver en Vinted');
+
+  // Old push endpoints are gone.
+  assert.equal((await call('/api/push/test', { method: 'POST' })).status, 404);
 
   // Settings
   const s = await call('/api/settings', {
@@ -129,11 +117,13 @@ test('login, monitor CRUD, URL parsing, push subscriptions', async (t) => {
   });
   assert.equal(s.status, 200);
   assert.equal(s.body.poll_interval_seconds, 60);
+  assert.equal('quiet_summary' in s.body, false);
   assert.equal((await call('/api/settings', { method: 'PUT', body: { quiet_start: '25:00' } })).status, 400);
 
   const status = await call('/api/status');
   assert.equal(status.status, 200);
-  assert.equal(status.body.counts.subscriptions, 1);
+  assert.equal(status.body.telegram.configured, true);
+  assert.equal(JSON.stringify(status.body).includes(FAKE_TOKEN), false, 'token never exposed');
 
   const logs = await call('/api/logs');
   assert.ok(Array.isArray(logs.body));
@@ -142,24 +132,12 @@ test('login, monitor CRUD, URL parsing, push subscriptions', async (t) => {
   assert.equal((await call('/api/monitors')).status, 401);
 });
 
-test('item notification payload', () => {
-  const { createPush } = require('../src/push/push');
-  const push = createPush({
-    store: {},
-    logger: {},
-    vapid: {},
-    timezone: 'Europe/Madrid',
-    sender: { setVapidDetails() {} },
-  });
-  const p = push.itemPayload(
-    { id: 1, title: 'Dunk Low', brand: 'Nike', price: 45, totalPrice: 48.05, currency: 'EUR', size: '42', condition: 'Muy bueno', url: 'https://www.vinted.es/items/1', photoUrl: 'https://img/1.jpg' },
-    'Dunks',
-  );
-  assert.equal(p.title, 'Nike · Dunk Low');
-  assert.match(p.body, /45,00\s€/);
-  assert.match(p.body, /Talla 42/);
-  assert.match(p.body, /Muy bueno/);
-  assert.match(p.body, /\[Dunks\]/);
-  assert.equal(p.url, 'https://www.vinted.es/items/1');
-  assert.equal(p.image, 'https://img/1.jpg');
+test('Telegram test endpoint explains missing configuration', async (t) => {
+  const { ctx, server, call } = await start({ telegram: false });
+  t.after(() => server.close());
+  await call('/api/login', { method: 'POST', body: { password: 'secreto' } });
+  const r = await call('/api/telegram/test', { method: 'POST' });
+  assert.equal(r.status, 400);
+  assert.match(r.body.error, /TELEGRAM_BOT_TOKEN/);
+  assert.equal(ctx.bot, null);
 });

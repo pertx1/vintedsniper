@@ -46,3 +46,33 @@ function response(status, { json, text = '', headers: hdrs } = {}) {
 }
 
 module.exports = { makeDb, rawItem, headers, response };
+
+const FAKE_TOKEN = '123456789:AAFakeTokenForTestsOnly_abcdefghij';
+
+/**
+ * Fake Telegram Bot API. `handlers[method]` can return a result, or
+ * { error_code, description, parameters } to simulate a failure.
+ */
+function fakeTelegram(handlers = {}) {
+  const calls = [];
+  const fetchImpl = async (url, opts) => {
+    const method = url.split('/').pop();
+    const body = JSON.parse(opts.body || '{}');
+    calls.push({ url, method, body });
+    const h = handlers[method];
+    const out = typeof h === 'function' ? await h(body, calls) : h;
+    if (out && out.error_code) {
+      return { status: out.error_code, json: async () => ({ ok: false, ...out }) };
+    }
+    const defaults = {
+      getMe: { id: 1, username: 'sniper_test_bot' },
+      sendPhoto: { message_id: calls.length },
+      sendMessage: { message_id: calls.length },
+    };
+    return { status: 200, json: async () => ({ ok: true, result: out ?? defaults[method] ?? true }) };
+  };
+  return { calls, fetchImpl, sent: () => calls.filter((c) => c.method === 'sendPhoto' || c.method === 'sendMessage') };
+}
+
+module.exports.FAKE_TOKEN = FAKE_TOKEN;
+module.exports.fakeTelegram = fakeTelegram;

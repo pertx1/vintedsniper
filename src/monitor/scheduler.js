@@ -13,12 +13,12 @@ const MAX_ERROR_BACKOFF_MS = 10 * 60_000;
  */
 class Scheduler {
   constructor({
-    store, client, push, logger, defaultIntervalSeconds,
+    store, client, notifier, logger, defaultIntervalSeconds,
     random = Math.random, now = Date.now, timers = { setTimeout, clearTimeout, setInterval, clearInterval },
   }) {
     this.store = store;
     this.client = client;
-    this.push = push;
+    this.notifier = notifier;
     this.logger = logger;
     this.defaultIntervalSeconds = defaultIntervalSeconds;
     this.random = random;
@@ -54,9 +54,6 @@ class Scheduler {
     this.logger.info('monitor', `Monitor iniciado: ${monitors.length} búsquedas activas, intervalo ${interval / 1000} s`);
 
     this.housekeeping.push(
-      this.timers.setInterval(() => {
-        this.push.flushQuietSummary().catch((err) => this.logger.error('push', err));
-      }, 60_000),
       this.timers.setInterval(() => {
         try {
           this.store.prune();
@@ -246,10 +243,10 @@ class Scheduler {
     if (!isNew) return; // another monitor already notified this item
     this.logger.info('monitor', `${monitor.name}: nuevo artículo ${item.id} "${item.title}" ${item.price} ${item.currency}`, monitor.id);
     try {
-      const sent = await this.push.notifyItem(item, monitor.name);
+      const sent = await this.notifier.notifyItem(item, monitor.name);
       this.store.setNotified(item.id, sent);
     } catch (err) {
-      this.logger.error('push', err, monitor.id);
+      this.logger.error('telegram', err, monitor.id);
     }
   }
 

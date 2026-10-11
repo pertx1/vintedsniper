@@ -14,7 +14,6 @@ const state = {
   foundDone: false,
   editingId: null,
   extraParams: {},
-  pushKey: null,
   refreshTimer: null,
 };
 
@@ -87,10 +86,6 @@ function money(n, cur = 'EUR') {
   }
 }
 
-const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-const isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
-const pushSupported = 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;
-
 // ------------------------------------------------------------------ auth
 
 function showLogin() {
@@ -102,7 +97,6 @@ function showLogin() {
 async function showApp() {
   $('#view-login').hidden = true;
   $('#app').hidden = false;
-  $('#ios-banner').hidden = !(isIOS && !isStandalone);
   if (!state.catalogs) {
     const ref = await api('/catalogs');
     state.catalogs = ref.catalogs;
@@ -155,7 +149,7 @@ function route() {
   }
 
   clearInterval(state.refreshTimer);
-  const load = { monitors: loadMonitors, found: () => loadFound(true), settings: loadSettings, help: renderHelp }[view];
+  const load = { monitors: loadMonitors, found: () => loadFound(true), settings: loadSettings, help: async () => {} }[view];
   load().catch((e) => toast(e.message, true));
   // Light auto-refresh while the screen is open.
   if (view === 'monitors' || view === 'found' || view === 'settings') {
@@ -481,130 +475,64 @@ $('#found-filter').addEventListener('change', (e) => {
 });
 $('#found-more').addEventListener('click', () => loadFound(false).catch((ex) => toast(ex.message, true)));
 
-// ------------------------------------------------------------------ push
+// ------------------------------------------------------------------ telegram
 
-function urlBase64ToUint8Array(base64) {
-  const padding = '='.repeat((4 - (base64.length % 4)) % 4);
-  const raw = atob((base64 + padding).replace(/-/g, '+').replace(/_/g, '/'));
-  return Uint8Array.from(raw, (c) => c.charCodeAt(0));
-}
-
-function sameKey(sub, key) {
-  const current = sub?.options?.applicationServerKey;
-  if (!current || !key) return true;
-  const a = new Uint8Array(current);
-  const b = urlBase64ToUint8Array(key);
-  return a.length === b.length && a.every((v, i) => v === b[i]);
-}
-
-async function registerSW() {
-  if (!('serviceWorker' in navigator)) return null;
-  try {
-    return await navigator.serviceWorker.register('/sw.js', { scope: '/' });
-  } catch (e) {
-    console.warn('No se pudo registrar el service worker', e);
-    return null;
-  }
-}
-
-async function renderPushState() {
-  const el = $('#push-state');
-  const enableBtn = $('#push-enable');
-  const disableBtn = $('#push-disable');
-  if (!pushSupported) {
-    el.textContent = isIOS && !isStandalone
-      ? 'En iPhone primero tienes que añadir la web a la pantalla de inicio y abrirla desde allí.'
-      : 'Este navegador no admite notificaciones push.';
-    enableBtn.disabled = true;
-    disableBtn.hidden = true;
-    return;
-  }
-  const reg = await navigator.serviceWorker.getRegistration('/');
-  const sub = reg ? await reg.pushManager.getSubscription() : null;
-  const perm = Notification.permission;
-  if (perm === 'denied') {
-    el.textContent = 'Has bloqueado las notificaciones. Actívalas en los ajustes del sistema para esta app.';
-  } else if (sub && perm === 'granted') {
-    el.textContent = '✅ Este dispositivo está suscrito.';
+function renderTelegramState(tg) {
+  const el = $('#tg-state');
+  const bot = tg.bot;
+  let text;
+  if (!tg.tokenSet || !tg.chatIdSet) {
+    text = `⚠️ Falta ${[!tg.tokenSet && 'TELEGRAM_BOT_TOKEN', !tg.chatIdSet && 'TELEGRAM_CHAT_ID'].filter(Boolean).join(' y ')} en el .env del servidor.`;
   } else {
-    el.textContent = 'Este dispositivo no está suscrito.';
+    text = bot?.username ? `Bot @${bot.username}` : 'Bot configurado';
+    text += bot?.polling ? ' · ✅ escuchando comandos' : bot?.lastError ? ` · ⚠️ ${bot.lastError}` : '';
+    if (tg.lastErrorAt && (!tg.lastOkAt || tg.lastErrorAt > tg.lastOkAt)) {
+      text += `\n⚠️ Último envío fallido ${ago(tg.lastErrorAt)}: ${tg.lastError}`;
+    } else if (tg.lastOkAt) {
+      text += `\nÚltimo aviso enviado ${ago(tg.lastOkAt)}.`;
+    }
   }
-  if (!state.pushKey) el.textContent += ' ⚠️ El servidor no tiene claves VAPID.';
-  enableBtn.disabled = perm === 'denied';
-  enableBtn.textContent = sub ? 'Volver a suscribir este dispositivo' : 'Activar notificaciones';
-  disableBtn.hidden = !sub;
+  el.textContent = text;
+  el.style.whiteSpace = 'pre-line';
+  $('#tg-test').disabled = !tg.configured;
 }
 
-// Must run directly from the button tap: iOS only shows the permission prompt on a user gesture.
-$('#push-enable').addEventListener('click', async () => {
-  if (!pushSupported) return (location.hash = '#help');
+$('#tg-test').addEventListener('click', async (e) => {
+  const btn = e.currentTarget;
+  btn.disabled = true;
   try {
-    const permission = await Notification.requestPermission();
-    if (permission !== 'granted') {
-      toast('Permiso de notificaciones no concedido', true);
-      return renderPushState();
-    }
-    if (!state.pushKey) throw new Error('El servidor no tiene claves VAPID configuradas');
-    const reg = (await navigator.serviceWorker.getRegistration('/')) || (await registerSW());
-    await navigator.serviceWorker.ready;
-    let sub = await reg.pushManager.getSubscription();
-    if (sub && !sameKey(sub, state.pushKey)) {
-      await sub.unsubscribe();
-      sub = null;
-    }
-    if (!sub) {
-      sub = await reg.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(state.pushKey),
-      });
-    }
-    await api('/push/subscribe', { method: 'POST', body: { subscription: sub.toJSON() } });
-    toast('Notificaciones activadas');
-  } catch (ex) {
-    toast(`No se pudo activar: ${ex.message}`, true);
-  }
-  renderPushState();
-});
-
-$('#push-disable').addEventListener('click', async () => {
-  try {
-    const reg = await navigator.serviceWorker.getRegistration('/');
-    const sub = reg && (await reg.pushManager.getSubscription());
-    if (sub) {
-      await api('/push/unsubscribe', { method: 'POST', body: { endpoint: sub.endpoint } });
-      await sub.unsubscribe();
-    }
-    toast('Notificaciones desactivadas en este dispositivo');
+    const r = await api('/telegram/test', { method: 'POST' });
+    toast(r.usedRealItem ? 'Aviso de prueba enviado a Telegram' : 'Aviso de ejemplo (solo texto) enviado a Telegram');
   } catch (ex) {
     toast(ex.message, true);
   }
-  renderPushState();
+  btn.disabled = false;
+  loadStatus().catch(() => {});
 });
 
-$('#push-test').addEventListener('click', async () => {
+// Earlier versions installed a service worker for Web Push: remove it.
+async function removeOldServiceWorkers() {
+  if (!('serviceWorker' in navigator)) return;
   try {
-    const r = await api('/push/test', { method: 'POST' });
-    toast(`Enviada a ${r.sent} dispositivo${r.sent === 1 ? '' : 's'}`);
-  } catch (ex) {
-    toast(ex.message, true);
+    for (const reg of await navigator.serviceWorker.getRegistrations()) await reg.unregister();
+  } catch {
+    /* ignore */
   }
-});
+}
 
 // ------------------------------------------------------------------ settings
 
 async function loadSettings() {
-  const [settings, key] = await Promise.all([api('/settings'), api('/push/public-key')]);
-  state.pushKey = key.publicKey;
+  const settings = await api('/settings');
   $('#set-notifications').checked = settings.notifications_enabled;
   $('#set-quiet').checked = settings.quiet_enabled;
   $('#set-quiet-start').value = settings.quiet_start;
   $('#set-quiet-end').value = settings.quiet_end;
-  $('#set-quiet-summary').checked = settings.quiet_summary;
   $('#set-interval').value = settings.poll_interval_seconds ?? '';
   $('#set-interval').placeholder = `${settings.default_poll_interval_seconds} (valor del .env)`;
   $('#set-max-age').value = settings.max_item_age_hours;
   $('#set-tz').textContent = settings.timezone;
-  await Promise.all([renderPushState(), loadStatus(), loadLogs()]);
+  await Promise.all([loadStatus(), loadLogs()]);
 }
 
 async function saveSettings(partial) {
@@ -622,19 +550,17 @@ $('#settings-save').addEventListener('click', () =>
     quiet_enabled: $('#set-quiet').checked,
     quiet_start: $('#set-quiet-start').value,
     quiet_end: $('#set-quiet-end').value,
-    quiet_summary: $('#set-quiet-summary').checked,
     poll_interval_seconds: $('#set-interval').value || null,
     max_item_age_hours: $('#set-max-age').value || 0,
   }),
 );
-for (const id of ['#set-quiet', '#set-quiet-summary']) {
+for (const id of ['#set-quiet']) {
   $(id).addEventListener('change', () =>
     saveSettings({
       quiet_enabled: $('#set-quiet').checked,
       quiet_start: $('#set-quiet-start').value,
       quiet_end: $('#set-quiet-end').value,
-      quiet_summary: $('#set-quiet-summary').checked,
-    }),
+      }),
   );
 }
 
@@ -659,11 +585,11 @@ async function loadStatus() {
     ['Intervalo', `${s.intervalSeconds} s`],
     ['Monitores activos', `${s.counts.activeMonitors} / ${s.counts.monitors}`],
     ['Encontrados (24 h / total)', `${s.counts.found24h} / ${s.counts.found}`],
-    ['Dispositivos suscritos', s.counts.subscriptions],
-    ['Push (VAPID)', s.push.configured ? 'Configurado' : '⚠️ Sin claves'],
+    ['Telegram', s.telegram.configured ? (s.telegram.bot?.polling ? 'Conectado' : '⚠️ Sin conexión con el bot') : '⚠️ Sin configurar'],
     ['Versión', s.version],
   ];
   $('#system-status').innerHTML = rows.map(([k, val]) => `<dt>${esc(k)}</dt><dd>${esc(val)}</dd>`).join('');
+  renderTelegramState(s.telegram);
 }
 
 async function loadLogs() {
@@ -684,22 +610,10 @@ $('#log-clear').addEventListener('click', async () => {
   loadLogs();
 });
 
-// ------------------------------------------------------------------ help
-
-async function renderHelp() {
-  const parts = [
-    `Dispositivo: ${isIOS ? 'iOS' : 'otro'}`,
-    `abierta como app: ${isStandalone ? 'sí' : 'no'}`,
-    `push disponible: ${pushSupported ? 'sí' : 'no'}`,
-  ];
-  if ('Notification' in window) parts.push(`permiso: ${Notification.permission}`);
-  $('#help-env').textContent = parts.join(' · ');
-}
-
 // ------------------------------------------------------------------ boot
 
 (async function boot() {
-  registerSW();
+  removeOldServiceWorkers();
   try {
     const me = await api('/me');
     if (me.authenticated) await showApp();

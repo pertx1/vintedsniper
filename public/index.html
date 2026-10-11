@@ -36,11 +36,6 @@
       <div class="topbar-actions" id="topbar-actions"></div>
     </header>
 
-    <div id="ios-banner" class="banner" hidden>
-      Para recibir avisos en el iPhone, añade esta web a la pantalla de inicio.
-      <a href="#help">Cómo hacerlo</a>
-    </div>
-
     <main>
       <!-- Monitors -->
       <section id="view-monitors" class="view" hidden>
@@ -69,35 +64,27 @@
       <!-- Settings -->
       <section id="view-settings" class="view" hidden>
         <div class="card">
-          <h2>Notificaciones</h2>
-          <p id="push-state" class="muted"></p>
-          <div class="stack">
-            <button id="push-enable" class="btn primary block">Activar notificaciones</button>
-            <button id="push-test" class="btn block">Enviar notificación de prueba</button>
-            <button id="push-disable" class="btn ghost block" hidden>Desactivar en este dispositivo</button>
-          </div>
+          <h2>Avisos por Telegram</h2>
+          <p id="tg-state" class="muted"></p>
+          <button id="tg-test" class="btn primary block">Enviar aviso de prueba</button>
           <label class="switch">
             <input type="checkbox" id="set-notifications">
-            <span>Enviar notificaciones (interruptor general)</span>
+            <span>Enviar avisos (interruptor general)</span>
           </label>
-          <p class="muted small"><a href="#help">¿Usas iPhone? Lee cómo activarlas</a></p>
+          <p class="muted small"><a href="#help">Cómo crear el bot y conseguir el chat ID</a></p>
         </div>
 
         <div class="card">
           <h2>Horario silencioso</h2>
           <label class="switch">
             <input type="checkbox" id="set-quiet">
-            <span>Silenciar avisos en este horario</span>
+            <span>Avisos sin sonido en este horario</span>
           </label>
           <div class="row">
             <label class="field"><span>Desde</span><input type="time" id="set-quiet-start"></label>
             <label class="field"><span>Hasta</span><input type="time" id="set-quiet-end"></label>
           </div>
-          <label class="switch">
-            <input type="checkbox" id="set-quiet-summary">
-            <span>Enviar un resumen al terminar el horario</span>
-          </label>
-          <p class="muted small">Los artículos encontrados durante el silencio se guardan en «Encontrados». Zona horaria: <span id="set-tz"></span>.</p>
+          <p class="muted small">En ese tramo los avisos siguen llegando a Telegram, pero sin sonido ni vibración. Zona horaria: <span id="set-tz"></span>.</p>
         </div>
 
         <div class="card">
@@ -138,18 +125,16 @@
       <!-- Help -->
       <section id="view-help" class="view" hidden>
         <div class="card">
-          <h2>Notificaciones en iPhone</h2>
-          <p>iOS solo permite notificaciones web a apps añadidas a la pantalla de inicio (iOS/iPadOS 16.4 o superior).</p>
+          <h2>Avisos por Telegram</h2>
+          <p>Los avisos llegan por un bot de Telegram. Se configura una sola vez en el servidor:</p>
           <ol class="steps">
-            <li>Abre esta web en <strong>Safari</strong> (no en Chrome ni dentro de otra app).</li>
-            <li>Pulsa el botón <strong>Compartir</strong> <span class="icon-share" aria-hidden="true">⬆︎</span> en la barra de Safari.</li>
-            <li>Elige <strong>«Añadir a pantalla de inicio»</strong> y confirma.</li>
-            <li>Abre <strong>Sniper</strong> desde el icono de la pantalla de inicio e inicia sesión (la app instalada tiene su propia sesión).</li>
-            <li>Ve a <a href="#settings">Ajustes</a> y pulsa <strong>«Activar notificaciones»</strong>. Acepta el permiso.</li>
-            <li>Pulsa <strong>«Enviar notificación de prueba»</strong> para comprobarlo.</li>
+            <li>En Telegram, abre <strong>@BotFather</strong>, envía <code>/newbot</code> y sigue los pasos. Te dará un <strong>token</strong> (<code>123456:ABC…</code>). Guárdalo en secreto.</li>
+            <li>Abre tu bot nuevo y envíale cualquier mensaje (por ejemplo <code>/start</code>).</li>
+            <li>Consigue tu <strong>chat ID</strong>: escribe a <strong>@userinfobot</strong> y te dirá tu «Id», o abre <code>https://api.telegram.org/bot&lt;TOKEN&gt;/getUpdates</code> y busca <code>"chat":{"id":…}</code>.</li>
+            <li>En el <code>.env</code> del servidor pon <code>TELEGRAM_BOT_TOKEN</code> y <code>TELEGRAM_CHAT_ID</code> y reinicia la app.</li>
+            <li>Pulsa <a href="#settings">«Enviar aviso de prueba»</a> o escribe <code>/test</code> al bot.</li>
           </ol>
-          <p class="muted small">Si no te llegan: revisa Ajustes del iPhone → Notificaciones → Sniper, y que el modo Concentración no las esté silenciando. Las notificaciones web de iOS no muestran la foto del artículo; la verás en «Encontrados».</p>
-          <p id="help-env" class="muted small"></p>
+          <p class="muted small">El bot solo responde a tu chat ID. Comandos: /estado, /monitores, /pausar &lt;nombre&gt;, /reanudar &lt;nombre&gt;, /pausartodo, /reanudartodo, /test y /ayuda.</p>
         </div>
         <div class="card">
           <h2>Crear monitores pegando una URL</h2>

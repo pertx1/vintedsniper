@@ -8,14 +8,17 @@ const { openDatabase } = require('./db');
 const { createLogger } = require('./logger');
 const { createStore } = require('./store');
 const { VintedClient } = require('./vinted/client');
-const { createPush } = require('./push/push');
+const { createTelegramApi } = require('./telegram/api');
+const { createNotifier } = require('./telegram/notifier');
+const { TelegramBot } = require('./telegram/bot');
 const { Scheduler } = require('./monitor/scheduler');
+const { createMonitorActions } = require('./monitor/actions');
 const { createAuth } = require('./api/auth');
 const { createApiRouter } = require('./api/routes');
 
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');
 
-function createApp({ cfg = config, db, fetchImpl, pushSender, quietLogs = false } = {}) {
+function createApp({ cfg = config, db, fetchImpl, telegramFetch, quietLogs = false } = {}) {
   db = db || openDatabase(cfg.dbPath);
   const logger = createLogger(db, { quiet: quietLogs });
   const store = createStore(db);
@@ -26,14 +29,20 @@ function createApp({ cfg = config, db, fetchImpl, pushSender, quietLogs = false 
     fetchImpl,
     logger,
   });
-  const push = createPush({ store, logger, vapid: cfg.vapid, timezone: cfg.timezone, sender: pushSender });
+  const tg = cfg.telegram;
+  const api = tg.token ? createTelegramApi({ token: tg.token, fetchImpl: telegramFetch }) : null;
+  const notifier = createNotifier({ store, logger, api, chatId: tg.chatId, timezone: cfg.timezone });
   const scheduler = new Scheduler({
     store,
     client,
-    push,
+    notifier,
     logger,
     defaultIntervalSeconds: cfg.vinted.pollIntervalSeconds,
   });
+  const actions = createMonitorActions({ store, scheduler });
+  const bot = notifier.configured
+    ? new TelegramBot({ api, chatId: tg.chatId, store, client, notifier, actions, logger, timezone: cfg.timezone })
+    : null;
   const auth = createAuth({ db, password: cfg.appPassword });
 
   const app = express();
@@ -47,14 +56,8 @@ function createApp({ cfg = config, db, fetchImpl, pushSender, quietLogs = false 
     next();
   });
 
-  app.use('/api', createApiRouter({ store, db, auth, scheduler, client, push, config: cfg }));
+  app.use('/api', createApiRouter({ store, db, auth, scheduler, actions, client, notifier, bot, config: cfg }));
 
-  // The service worker must never be cached, or updates would not reach the phone.
-  app.get('/sw.js', (req, res) => {
-    res.setHeader('Cache-Control', 'no-cache');
-    res.setHeader('Service-Worker-Allowed', '/');
-    res.sendFile(path.join(PUBLIC_DIR, 'sw.js'));
-  });
   app.use(
     express.static(PUBLIC_DIR, {
       setHeaders(res, file) {
@@ -66,7 +69,7 @@ function createApp({ cfg = config, db, fetchImpl, pushSender, quietLogs = false 
     }),
   );
 
-  return { app, db, store, client, push, scheduler, logger };
+  return { app, db, store, client, notifier, bot, actions, scheduler, logger };
 }
 
 function main() {
@@ -76,10 +79,12 @@ function main() {
     ctx.logger.info('server', `Vinted Sniper escuchando en http://${config.host}:${config.port} (Vinted: ${config.vinted.domain})`);
   });
   ctx.scheduler.start();
+  if (ctx.bot) ctx.bot.start();
 
   const shutdown = (signal) => {
     ctx.logger.info('server', `${signal} recibido, cerrando`);
     ctx.scheduler.stop();
+    ctx.bot?.stop();
     server.close(() => {
       ctx.db.close();
       process.exit(0);

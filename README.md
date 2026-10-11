@@ -1,11 +1,11 @@
 # Vinted Sniper 🎯
 
-Vigila búsquedas de Vinted y te manda una **notificación push al iPhone** (o a cualquier navegador) en cuanto aparece un artículo nuevo que cumple tus filtros. **Solo avisa, no compra.**
+Vigila búsquedas de Vinted y te manda un **aviso por Telegram** (con foto y botón «Ver en Vinted») en cuanto aparece un artículo nuevo que cumple tus filtros. **Solo avisa, no compra.** Los monitores se gestionan desde una web pensada para el móvil, y también se pueden pausar y consultar desde el propio bot.
 
 - Backend: Node.js 22 + Express, un único proceso que sirve la web y ejecuta el monitor.
 - Base de datos: SQLite (`better-sqlite3`).
-- Push: `web-push` con claves VAPID.
-- Frontend: PWA sin framework, tema oscuro, pensada para móvil.
+- Avisos: API de bots de Telegram (sin dependencias extra; *long polling*, no necesita URL pública).
+- Frontend: web sin framework, tema oscuro, pensada para móvil.
 
 > Proyecto de uso personal. Respeta las condiciones de uso de Vinted y no bajes el intervalo de sondeo de forma agresiva.
 
@@ -14,10 +14,10 @@ Vigila búsquedas de Vinted y te manda una **notificación push al iPhone** (o a
 ## Índice
 
 1. [Instalación](#instalación)
-2. [Claves VAPID](#claves-vapid)
+2. [Crear el bot de Telegram](#crear-el-bot-de-telegram)
 3. [Ejecutar en local](#ejecutar-en-local)
-4. [Desplegar con HTTPS](#desplegar-con-https)
-5. [Activar las notificaciones en el iPhone](#activar-las-notificaciones-en-el-iphone)
+4. [Desplegar](#desplegar)
+5. [Avisos y comandos del bot](#avisos-y-comandos-del-bot)
 6. [Crear monitores](#crear-monitores)
 7. [Cómo funciona el motor](#cómo-funciona-el-motor)
 8. [Estructura del código](#estructura-del-código)
@@ -41,25 +41,32 @@ Edita `.env`:
 | Variable | Descripción | Por defecto |
 |---|---|---|
 | `APP_PASSWORD` | Contraseña para entrar en la web. **Obligatoria.** | — |
-| `VAPID_PUBLIC_KEY` / `VAPID_PRIVATE_KEY` | Claves de Web Push (ver abajo). **Obligatorias para notificar.** | — |
-| `VAPID_SUBJECT` | `mailto:` de contacto que se envía al servicio push de Apple/Google. | `mailto:admin@example.com` |
+| `TELEGRAM_BOT_TOKEN` | Token del bot que da @BotFather (ver abajo). **Secreto. Obligatorio para avisar.** | — |
+| `TELEGRAM_CHAT_ID` | Tu chat ID. El bot solo envía avisos y responde a este chat. **Obligatorio.** | — |
 | `VINTED_DOMAIN` | Dominio de Vinted que se consulta. | `www.vinted.es` |
 | `POLL_INTERVAL_SECONDS` | Segundos entre comprobaciones de cada monitor (±20 % aleatorio). Editable desde Ajustes. | `45` |
 | `VINTED_MIN_GAP_MS` | Pausa mínima entre dos peticiones a Vinted (de cualquier monitor). | `1500` |
-| `TZ` | Zona horaria del horario silencioso. | `Europe/Madrid` |
+| `TZ` | Zona horaria del horario silencioso y de las horas que muestra el bot. | `Europe/Madrid` |
 | `PORT` / `HOST` | Puerto y dirección de escucha. | `3000` / `0.0.0.0` |
 | `DB_PATH` | Ruta del fichero SQLite. | `./data/sniper.db` |
 | `TRUST_PROXY` | Confiar en `X-Forwarded-*` de un proxy local (Caddy, cloudflared…). | `true` |
 
-## Claves VAPID
+## Crear el bot de Telegram
 
-Las notificaciones Web Push necesitan un par de claves VAPID. Genéralas **una sola vez**:
+1. **Crea el bot.** En Telegram abre [@BotFather](https://t.me/BotFather), envía `/newbot`, elige un nombre (p. ej. *Mi Sniper*) y un usuario que acabe en `bot` (p. ej. `mi_sniper_bot`). BotFather te responde con el **token**, algo como `123456789:AAH…`.
+2. **Escribe a tu bot.** Ábrelo (el enlace `t.me/mi_sniper_bot` que te da BotFather) y pulsa **Iniciar** o envíale cualquier mensaje. Un bot no puede escribirte hasta que tú le hayas escrito primero.
+3. **Consigue tu chat ID** (un número). Cualquiera de estas formas vale:
+   - Escribe a [@userinfobot](https://t.me/userinfobot): te responde con tu **Id**.
+   - O abre en el navegador `https://api.telegram.org/bot<TOKEN>/getUpdates` (con tu token, **sin** los `<>`) y busca `"chat":{"id":123456789`. Hazlo antes de arrancar el sniper: cuando está en marcha, él consume esos mensajes y la lista sale vacía.
+   - Si quieres los avisos en un **grupo**, añade el bot al grupo, escribe algo en él y usa el `id` del grupo (empieza por `-100…`).
+4. **Ponlo en el `.env`:**
+   ```bash
+   TELEGRAM_BOT_TOKEN=123456789:AAH...
+   TELEGRAM_CHAT_ID=123456789
+   ```
+5. Arranca (o reinicia) la app y prueba con **Ajustes → Enviar aviso de prueba** o escribiendo `/test` al bot.
 
-```bash
-npm run vapid
-```
-
-Copia las tres líneas que imprime en tu `.env`. No las cambies después: si lo haces, todas las suscripciones existentes dejan de funcionar y tendrás que volver a pulsar «Activar notificaciones» en cada dispositivo.
+> 🔐 **El token da control total del bot.** Va solo en el `.env` (que está en `.gitignore`), nunca en el código. La app no lo escribe en el registro ni lo devuelve por la API: cualquier error que lo contenga se muestra como `bot***`. Si se te escapa, en @BotFather usa `/revoke` para generar uno nuevo y actualiza el `.env`.
 
 ## Ejecutar en local
 
@@ -69,7 +76,7 @@ npm start          # o "npm run dev" para recargar al editar
 
 Abre <http://localhost:3000> e inicia sesión con `APP_PASSWORD`.
 
-En `localhost` el navegador del ordenador ya permite push (Chrome/Firefox/Safari en macOS), así que puedes probar todo menos el iPhone. **El iPhone exige HTTPS con un certificado válido**, así que para él necesitas uno de los despliegues de abajo.
+Los avisos de Telegram funcionan igual en local: el bot pregunta a Telegram por los mensajes nuevos (*long polling*), así que **no hace falta ninguna URL pública ni HTTPS** para recibir avisos ni usar los comandos. Solo un proceso por bot: si arrancas dos copias con el mismo token, Telegram rechaza la segunda (lo verás como error 409 en el registro).
 
 Tests:
 
@@ -77,7 +84,9 @@ Tests:
 npm test
 ```
 
-## Desplegar con HTTPS
+## Desplegar
+
+Lo que necesita el sniper es **un proceso encendido 24/7 con disco**. HTTPS ya no es imprescindible para los avisos (van por Telegram), pero sí es muy recomendable si vas a abrir la web desde fuera de casa, porque protege la contraseña.
 
 > ❌ **No funciona en Vercel, Netlify ni plataformas «serverless»**: el sniper necesita un proceso encendido 24/7 y un disco donde guardar la base de datos. Tampoco en planes gratuitos que apagan la app por inactividad (Render, Koyeb…).
 >
@@ -161,17 +170,41 @@ sudo systemctl enable --now vinted-sniper
 journalctl -u vinted-sniper -f
 ```
 
-## Activar las notificaciones en el iPhone
+## Avisos y comandos del bot
 
-Requiere **iOS 16.4 o superior**.
+Cada artículo nuevo llega como **foto con pie de texto**:
 
-1. Abre `https://sniper.tudominio.com` en **Safari**.
-2. Botón **Compartir** → **Añadir a pantalla de inicio**.
-3. Abre **Sniper** desde el icono e inicia sesión. La app instalada tiene sus propias cookies, así que hay que entrar otra vez aunque ya lo hicieras en Safari.
-4. **Ajustes → Activar notificaciones** y acepta el permiso. iOS solo muestra el permiso si lo pides pulsando un botón, por eso no se pide al abrir.
-5. **Enviar notificación de prueba**.
+```
+Nike · Dunk Low Panda
+💶 45,00 € (48,05 € con protección)
+📏 Talla 42 · ✨ Muy bueno
+🎯 Dunks · publicado hace 2 min
+[ Ver en Vinted ]
+```
 
-Las notificaciones muestran marca y título; el texto lleva precio (y total con protección al comprador), talla, estado y nombre del monitor. Al tocarlas se abre el artículo en Vinted. **iOS no muestra imágenes en las notificaciones web**; la foto se ve en «Encontrados» (y sí aparece en Android o en el escritorio).
+- El botón **Ver en Vinted** abre el artículo (en la app de Vinted si la tienes).
+- Si Telegram no puede descargar la foto, se envía el mismo aviso **solo con texto**.
+- Si Telegram responde **429** (demasiados mensajes), se espera el tiempo que indica (`retry_after`) y se reintenta hasta 3 veces. Además, los envíos se espacian al menos 1,1 s.
+- **Horario silencioso** (Ajustes): en ese tramo los avisos llegan igual, pero **sin sonido**.
+- El **interruptor general** de Ajustes corta todos los avisos (los artículos se siguen guardando en «Encontrados»).
+
+### Comandos
+
+El bot **solo responde a `TELEGRAM_CHAT_ID`**; los mensajes de cualquier otro chat se ignoran sin contestar.
+
+| Comando | |
+|---|---|
+| `/estado` | Estado de Vinted, encontrados en 24 h y, por monitor, OK / limitado / error / pausado con la hora de la última comprobación |
+| `/monitores` | Lista con número, nombre y precio máximo (y mínimo si lo hay) |
+| `/pausar <nombre>` | Pausa un monitor. Vale el nombre completo o una parte única, sin importar mayúsculas ni acentos, o su número (`/pausar 3`). Si hay varios que encajan, no toca ninguno y te los lista |
+| `/reanudar <nombre>` | Lo reanuda; la primera pasada vuelve a marcar lo existente como visto, sin avisar |
+| `/pausartodo`, `/reanudartodo` | Todos a la vez |
+| `/test` | Envía un aviso de prueba con el último artículo encontrado (o un ejemplo si aún no hay ninguno) |
+| `/ayuda` | Lista de comandos |
+
+Los comandos que se envían mientras la app está apagada se ignoran si tienen más de 10 minutos, para que un `/pausartodo` antiguo no se ejecute por sorpresa al arrancar.
+
+La web se puede seguir añadiendo a la pantalla de inicio del móvil como acceso directo (Safari → Compartir → Añadir a pantalla de inicio).
 
 ## Crear monitores
 
@@ -206,8 +239,7 @@ Tipo (zapatillas, calzado, ropa), género y subcategoría se traducen a IDs de c
 - **Otros errores** (red, 5xx) → el monitor pasa a **Error** y reintenta con backoff propio (máximo 10 minutos).
 - **Sondeo**: cada monitor tiene su propio temporizador (intervalo ±20 %). Al arrancar se reparten a lo largo del intervalo y todas las peticiones pasan por una cola con al menos `VINTED_MIN_GAP_MS` entre ellas, así que nunca salen todas a la vez.
 - **Vistos**: los IDs vistos se guardan por monitor en SQLite y se marcan **antes** de notificar, así que un reinicio nunca provoca avisos duplicados. Se olvidan a los 30 días sin aparecer en los resultados.
-- **Horario silencioso**: durante el silencio no se envían avisos, pero los artículos se guardan en «Encontrados». Al terminar, opcionalmente se envía un resumen («5 artículos nuevos durante el horario silencioso»).
-- **Push**: las suscripciones se guardan en SQLite; las que el servicio push responde con 404/410 se borran automáticamente.
+- **Telegram**: los avisos salen por una cola con al menos 1,1 s entre mensajes y reintento con `retry_after` ante un 429. Los comandos se leen con `getUpdates` (*long polling*), guardando en SQLite el último mensaje procesado para no repetir ninguno tras un reinicio.
 - **Registro**: avisos y errores se guardan en la tabla `logs` (últimas 2000 entradas) y se ven en **Ajustes → Registro**.
 
 > El endpoint interno de Vinted no es una API pública y puede cambiar sin aviso. Si un día todo da error, mira el registro: los cambios suelen estar en `src/vinted/client.js`.
@@ -219,7 +251,7 @@ src/
   server.js            arranque: Express + monitor en el mismo proceso
   config.js            variables de entorno (.env)
   db.js                esquema SQLite y migraciones
-  store.js             acceso a datos (monitores, vistos, encontrados, ajustes, suscripciones)
+  store.js             acceso a datos (monitores, vistos, encontrados, ajustes)
   logger.js            log a consola + tabla logs
   vinted/
     client.js          sesión con cookies, búsqueda, 401/403/429, backoff global
@@ -228,15 +260,18 @@ src/
   monitor/
     scheduler.js       sondeo escalonado, primera pasada, deduplicado, estados
     filters.js         precio, palabras excluidas, antigüedad
-  push/
-    push.js            web-push, limpieza 404/410, resumen del silencio
+    actions.js         pausar/reanudar y búsqueda por nombre (web y bot)
+  telegram/
+    api.js             cliente de la API de bots: cola, 429/retry_after, token oculto en errores
+    notifier.js        aviso con foto + botón, caída a texto, horario silencioso, prueba
+    bot.js             comandos (/estado, /pausar…) por long polling, solo tu chat
     quiet-hours.js     cálculo del horario silencioso por zona horaria
   api/
     auth.js            login con contraseña + cookie de sesión (SQLite)
     routes.js          API REST
-public/                PWA: index.html, app.js, styles.css, sw.js, manifest.json, icons/
-scripts/               generate-vapid.js, generate-icons.js
-test/                  tests (node:test) con Vinted y push simulados
+public/                web: index.html, app.js, styles.css, manifest.json, icons/
+scripts/               generate-icons.js
+test/                  tests (node:test) con Vinted y Telegram simulados
 ```
 
 ### API (todas bajo `/api`, requieren sesión salvo login)
@@ -251,12 +286,15 @@ test/                  tests (node:test) con Vinted y push simulados
 | GET | `/found?monitor_id=&before=&limit=` | Feed de encontrados |
 | GET/PUT | `/settings` | Ajustes |
 | GET | `/status`, `/logs` | Estado del sistema y registro |
-| GET/POST | `/push/public-key`, `/push/subscribe`, `/push/unsubscribe`, `/push/test` | Web Push |
+| POST | `/telegram/test` | Enviar aviso de prueba |
 
 ## Problemas frecuentes
 
-- **No aparece el botón de permiso en iPhone**: la web tiene que estar abierta desde el icono de la pantalla de inicio, no desde Safari. Comprueba también que la versión de iOS es 16.4 o superior.
-- **«No hay ningún dispositivo suscrito» al probar**: pulsa antes «Activar notificaciones» en ese dispositivo.
-- **Las notificaciones dejaron de llegar**: en iPhone, Ajustes → Notificaciones → Sniper. Revisa también los modos de Concentración. Si cambiaste las claves VAPID, vuelve a activar las notificaciones.
+- **«Telegram sendMessage: 401 Unauthorized»**: el token está mal copiado o lo revocaste. Cópialo otra vez de @BotFather.
+- **«400 Bad Request: chat not found»**: el `TELEGRAM_CHAT_ID` no es correcto, o nunca le has escrito al bot. Escríbele `/start` y comprueba el número.
+- **«403 Forbidden: bot was blocked by the user»**: has bloqueado el bot en Telegram; desbloquéalo desde su chat.
+- **«409 Conflict» al leer comandos**: hay otra copia de la app usando el mismo token, o un webhook configurado. Para la otra copia (la app borra el webhook al arrancar).
+- **Llegan avisos pero el bot no contesta a los comandos**: mira que escribes desde el chat de `TELEGRAM_CHAT_ID` (desde otro chat se ignoran a propósito) y el estado del bot en Ajustes.
+- **Los avisos no suenan**: revisa el horario silencioso en Ajustes y que el chat del bot no esté silenciado en Telegram.
 - **Monitores en «Limitado» todo el rato**: sube el intervalo (60–90 s), reduce el número de monitores o ejecuta la app desde una IP doméstica.
 - **«La página principal no devolvió access_token_web»** en el registro: Vinted ha cambiado algo o te está mostrando un reto anti-bot. Prueba a cambiar `VINTED_USER_AGENT` o la IP.

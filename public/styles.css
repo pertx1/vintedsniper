@@ -87,16 +87,6 @@ main {
 .tabbar .ti { font-size: 1.3rem; line-height: 1; }
 .tabbar a.active { color: var(--accent); }
 
-.banner {
-  margin: 12px 16px 0;
-  padding: 10px 14px;
-  border-radius: var(--radius);
-  background: #2a2312;
-  border: 1px solid #5a4614;
-  color: #f8d98a;
-  font-size: 0.9rem;
-}
-
 /* ---------- controls ---------- */
 .btn {
   appearance: none;
@@ -288,3 +278,5 @@ dialog.sheet::backdrop { background: rgba(0, 0, 0, 0.6); }
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 .toast.err { border-color: var(--err); }
+
+code { overflow-wrap: anywhere; font-size: 0.9em; }

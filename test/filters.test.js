@@ -3,7 +3,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const { findExcludedWord, checkItem } = require('../src/monitor/filters');
-const { isQuietTime } = require('../src/push/quiet-hours');
+const { isQuietTime } = require('../src/telegram/quiet-hours');
 
 test('excluded words match whole words, ignoring accents and case', () => {
   assert.equal(findExcludedWord('Nike Dunk RÉPLICA talla 42', ['replica']), 'replica');

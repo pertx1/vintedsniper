@@ -62,25 +62,37 @@ chown -R "$APP_USER:$APP_USER" "$APP_DIR"
 sudo -u "$APP_USER" -H bash -c "cd $APP_DIR && npm ci --omit=dev --no-audit --no-fund"
 
 if [[ ! -f "$APP_DIR/.env" ]]; then
-  echo "==> Generando .env y claves VAPID"
-  VAPID=$(cd "$APP_DIR" && node -e 'const k=require("web-push").generateVAPIDKeys();console.log(k.publicKey+" "+k.privateKey)')
+  echo "==> Configuración de Telegram"
+  # Se piden por teclado (el token sin mostrarse) para que no queden en el historial de la terminal.
+  TG_TOKEN="${TELEGRAM_BOT_TOKEN:-}"
+  TG_CHAT="${TELEGRAM_CHAT_ID:-}"
+  if [[ -z "$TG_TOKEN" && -t 0 ]]; then read -rsp "Token del bot de Telegram (no se verá al escribir): " TG_TOKEN; echo; fi
+  if [[ -z "$TG_CHAT" && -t 0 ]]; then read -rp "Tu chat ID de Telegram: " TG_CHAT; fi
+  if [[ -z "$TG_TOKEN" || -z "$TG_CHAT" ]]; then
+    echo "⚠️  Sin token o chat ID: la app arrancará sin avisos. Edita $APP_DIR/.env más tarde."
+  fi
+  echo "==> Generando .env"
+  umask 077
   cat > "$APP_DIR/.env" <<ENV
 APP_PASSWORD=${PASSWORD}
 PORT=3000
 HOST=127.0.0.1
-VAPID_PUBLIC_KEY=${VAPID% *}
-VAPID_PRIVATE_KEY=${VAPID#* }
-VAPID_SUBJECT=mailto:admin@${DOMAIN}
+TELEGRAM_BOT_TOKEN=${TG_TOKEN}
+TELEGRAM_CHAT_ID=${TG_CHAT}
 VINTED_DOMAIN=www.vinted.es
 POLL_INTERVAL_SECONDS=45
 TZ=Europe/Madrid
 DB_PATH=${APP_DIR}/data/sniper.db
 TRUST_PROXY=true
 ENV
+  umask 022
   chown "$APP_USER:$APP_USER" "$APP_DIR/.env"
   chmod 600 "$APP_DIR/.env"
 else
-  echo "==> .env ya existe: se conserva (claves VAPID incluidas)"
+  echo "==> .env ya existe: se conserva"
+  if grep -q '^VAPID_' "$APP_DIR/.env" && ! grep -q '^TELEGRAM_BOT_TOKEN=.' "$APP_DIR/.env"; then
+    echo "⚠️  Tu .env es de la versión con Web Push: añade TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID (sudo nano $APP_DIR/.env)"
+  fi
 fi
 
 echo "==> Servicio systemd"

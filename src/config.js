@@ -42,18 +42,23 @@ const config = {
     minRequestGapMs: int('VINTED_MIN_GAP_MS', 1500),
   },
 
-  vapid: {
-    publicKey: process.env.VAPID_PUBLIC_KEY || '',
-    privateKey: process.env.VAPID_PRIVATE_KEY || '',
-    subject: process.env.VAPID_SUBJECT || 'mailto:admin@example.com',
+  // Never log or expose the token: it gives full control of the bot.
+  telegram: {
+    token: (process.env.TELEGRAM_BOT_TOKEN || '').trim(),
+    chatId: (process.env.TELEGRAM_CHAT_ID || '').trim(),
   },
 };
 
 function validateConfig(cfg = config) {
   const problems = [];
   if (!cfg.appPassword) problems.push('APP_PASSWORD no está definida: nadie podrá iniciar sesión.');
-  if (!cfg.vapid.publicKey || !cfg.vapid.privateKey) {
-    problems.push('Faltan VAPID_PUBLIC_KEY / VAPID_PRIVATE_KEY: ejecuta "npm run vapid" y cópialas al .env.');
+  if (!cfg.telegram.token || !cfg.telegram.chatId) {
+    problems.push('Faltan TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID: no se enviarán avisos (mira el README).');
+  } else if (!/^\d+:[\w-]{20,}$/.test(cfg.telegram.token)) {
+    problems.push('TELEGRAM_BOT_TOKEN no tiene el formato esperado (123456:ABC...).');
+  }
+  if (cfg.telegram.chatId && !/^-?\d+$/.test(cfg.telegram.chatId)) {
+    problems.push('TELEGRAM_CHAT_ID debe ser un número (por ejemplo 123456789, o -100... para un grupo).');
   }
   if (cfg.vinted.pollIntervalSeconds < 15) {
     problems.push('POLL_INTERVAL_SECONDS < 15 aumenta mucho el riesgo de bloqueo por parte de Vinted.');

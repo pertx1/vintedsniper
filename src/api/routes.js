@@ -3,7 +3,7 @@
 const express = require('express');
 const { parseVintedUrl } = require('../vinted/url-parser');
 const { CATALOGS, CONDITIONS, resolveCatalogIds } = require('../vinted/catalogs');
-const { toMinutes } = require('../push/quiet-hours');
+const { toMinutes } = require('../telegram/quiet-hours');
 
 const KINDS = ['sneakers', 'shoes', 'clothing', 'custom'];
 const GENDERS = ['', 'men', 'women'];
@@ -87,7 +87,7 @@ function validateSettings(body) {
       else out.poll_interval_seconds = n;
     }
   }
-  for (const k of ['notifications_enabled', 'quiet_enabled', 'quiet_summary']) {
+  for (const k of ['notifications_enabled', 'quiet_enabled']) {
     if (k in b) out[k] = !!b[k];
   }
   for (const k of ['quiet_start', 'quiet_end']) {
@@ -104,7 +104,7 @@ function validateSettings(body) {
   return { data: out, errors };
 }
 
-function createApiRouter({ store, db, auth, scheduler, client, push, config, startedAt = Date.now() }) {
+function createApiRouter({ store, db, auth, scheduler, actions, client, notifier, bot, config, startedAt = Date.now() }) {
   const r = express.Router();
   r.use(express.json({ limit: '100kb' }));
 
@@ -172,10 +172,7 @@ function createApiRouter({ store, db, auth, scheduler, client, push, config, sta
     const id = idParam(req, res);
     if (id == null) return;
     const enabled = req.body?.enabled === undefined ? !store.getMonitor(id).enabled : !!req.body.enabled;
-    store.updateMonitor(id, { enabled });
-    if (enabled) store.patchMonitorState(id, { primed: false, failures: 0, status: 'pending', status_message: 'Reactivado' });
-    scheduler.sync(id);
-    res.json(store.getMonitor(id));
+    res.json(actions.setEnabled(id, enabled));
   });
 
   r.post('/monitors/:id/run', async (req, res) => {
@@ -201,32 +198,16 @@ function createApiRouter({ store, db, auth, scheduler, client, push, config, sta
     res.json(store.listFound({ monitorId, limit, before }));
   });
 
-  // ---- push ----
-  r.get('/push/public-key', (req, res) => res.json({ publicKey: push.publicKey || null, configured: push.configured }));
-
-  r.post('/push/subscribe', (req, res) => {
-    const sub = req.body?.subscription;
-    if (!sub || typeof sub.endpoint !== 'string' || !sub.keys?.p256dh || !sub.keys?.auth) {
-      return res.status(400).json({ error: 'Suscripción no válida' });
+  // ---- telegram ----
+  r.post('/telegram/test', async (req, res) => {
+    if (!notifier.configured) {
+      return res.status(400).json({ error: 'Telegram no está configurado: define TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID en el .env' });
     }
-    if (!/^https:\/\//.test(sub.endpoint)) return res.status(400).json({ error: 'Endpoint no válido' });
-    store.saveSubscription(sub, String(req.headers['user-agent'] || '').slice(0, 300));
-    res.json({ ok: true });
-  });
-
-  r.post('/push/unsubscribe', (req, res) => {
-    const endpoint = req.body?.endpoint;
-    if (typeof endpoint === 'string') store.deleteSubscriptionByEndpoint(endpoint);
-    res.json({ ok: true });
-  });
-
-  r.post('/push/test', async (req, res) => {
-    if (!push.configured) return res.status(400).json({ error: 'Faltan las claves VAPID en el servidor' });
-    const result = await push.sendTest();
-    if (!result.sent) {
-      return res.status(400).json({ error: 'No hay ningún dispositivo suscrito que haya aceptado la notificación', ...result });
+    try {
+      res.json(await notifier.sendTest());
+    } catch (err) {
+      res.status(502).json({ error: err.message });
     }
-    res.json(result);
   });
 
   // ---- settings & status ----
@@ -255,7 +236,12 @@ function createApiRouter({ store, db, auth, scheduler, client, push, config, sta
       version: require('../../package.json').version,
       vinted: client.status(),
       scheduler: scheduler.status(),
-      push: { configured: push.configured },
+      telegram: {
+        ...notifier.status(),
+        bot: bot ? bot.status() : null,
+        chatIdSet: !!config.telegram.chatId,
+        tokenSet: !!config.telegram.token,
+      },
       counts: store.counts(),
       intervalSeconds: scheduler.intervalMs() / 1000,
       timezone: config.timezone,

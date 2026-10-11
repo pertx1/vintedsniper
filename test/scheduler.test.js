@@ -25,15 +25,14 @@ function setup({ settings = {} } = {}) {
     },
   };
   const notified = [];
-  const push = {
+  const notifier = {
     async notifyItem(item, monitorName) {
       notified.push({ id: item.id, monitorName });
       return true;
     },
-    async flushQuietSummary() {},
   };
-  const scheduler = new Scheduler({ store, client, push, logger, defaultIntervalSeconds: 45, random: () => 0.5 });
-  return { db, store, client, push, scheduler, results, notified };
+  const scheduler = new Scheduler({ store, client, notifier, logger, defaultIntervalSeconds: 45, random: () => 0.5 });
+  return { db, store, client, notifier, scheduler, results, notified };
 }
 
 const monitorData = (extra = {}) => ({
