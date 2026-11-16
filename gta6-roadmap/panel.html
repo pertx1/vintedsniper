@@ -251,7 +251,7 @@ const DAYS = [
   ["S29 \"v2.0 + 1 truco gratis\" a las 21:00 (35 min)","content"]]},
  {d:"2026-12-08",pub:"S27 a las 14:00",tasks:[
   ["S27 a las 14:00 (35 min)","content"],
-  ["🎬 L6 \"Secretos del primer mes\": guion (40 min)","content"],
+  ["🎬 L6 \"El Iceberg de GTA VI\" (20-30 min): guion (60 min)","content"],
   ["Revisión semanal (20 min)","review"]]},
  {d:"2026-12-09",pub:"🎬 L6 a las 18:00 · S28 a las 21:00",tasks:[
   ["🎬 L6: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
@@ -261,7 +261,7 @@ const DAYS = [
   ["Alta en Amazon Afiliados + 3 enlaces en los vídeos largos (30 min)","product"]]},
  {d:"2026-12-11",pub:"S32 a las 14:00",tasks:[
   ["S32 a las 14:00 (35 min)","content"],
-  ["🎬 L7 \"El mapa explicado\": guion (40 min)","content"],
+  ["🎬 L7 \"30 lugares secretos\": guion (40 min)","content"],
   ["Pack: checklist imprimible en Canva (40 min)","product"]]},
  {d:"2026-12-12",pub:"🎬 L7 a las 18:00",tasks:[
   ["🎬 L7: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
@@ -343,10 +343,10 @@ const LONGS=[
  [3,"GTA VI en PC: fecha, requisitos y todo lo que sabemos","PC con luces + «¿CUÁNDO?»","Estado oficial · historial 8/19/13 meses · PC estimado (marcado como estimación) · alternativas","L3"],
  [4,"Los mejores coches de GTA VI y dónde encontrarlos","Deportivo de stock + «TOP 10 GRATIS»","Del 10 al 1 · gratis frente a pago · el más rápido según la comunidad","L5"],
  [5,"¿Cuánto dura GTA VI? Historia, secundarias y 100 %","3 relojes + «¿CUÁNTAS HORAS?»","HowLongToBeat · comparación con V y RDR2 · número de misiones · ruta → guía",""],
- [6,"Todos los secretos y easter eggs del primer mes","Lupa sobre captura + «50 SECRETOS»","Del 50 al 1 en bloques de 10 · créditos · el mejor al final · pedir nuevos","L4"],
- [7,"El mapa de GTA VI explicado: zonas y su versión real","Mapa dibujado + «LEONIDA = FLORIDA»","Zona por zona con tu mapa + stock · tamaño frente a GTA V · los mejores sitios",""],
+ [6,"El Iceberg de GTA VI: todos los misterios y secretos ⭐","Iceberg de 7 niveles + «¿HASTA DÓNDE BAJAS?»","20-30 min · 7 niveles de lo conocido a lo más oscuro · fuentes en pantalla · reenganche cada 30-60 s · formato probado (~5 M en el iceberg de GTA)","L6"],
+ [7,"30 lugares secretos de GTA VI que no conocías","Mapa con 30 chinchetas + «30 SECRETOS»","12-15 min · del 30 al 1 · zona de Leonida + versión real · créditos","L7"],
  [8,"Final de GTA VI explicado ⚠️ SPOILERS (no antes del 3/12)","Siluetas + «¿QUÉ PASÓ?» sin revelar nada","Aviso a los 0:05 · actos · finales · teorías · nada de spoilers en la miniatura",""],
- [9,"GTA VI Online: cuándo sale y qué sabemos","Siluetas de grupo + «¿ONLINE?»","Solo información oficial · lanzamiento de GTA Online en 2013 · qué esperar · nada de leaks",""],
+ [9,"30 curiosidades de los NPC de GTA VI","Siluetas de NPC + «NO TE HABÍAS FIJADO»","12-15 min · rutinas, diálogos, reacciones, animales · del 30 al 1",""],
  [10,"Todas las canciones y radios de GTA VI","Radio retro + «TODAS LAS CANCIONES»","Solo la lista en texto, SIN poner las canciones · emisoras · top 5 con enlace a Spotify",""],
  [11,"Las mejores armas para empezar","Silueta de arma en gris + «TOP ARMAS»","Sin violencia en los primeros 7 s · tabla de estadísticas · dónde conseguirlas",""],
  [12,"Guía del 100 %: coleccionables y ruta óptima","Checklist + «100 % SIN PERDER HORAS»","Tipos · orden óptimo · desbloqueos → vende el pack",""],
@@ -356,7 +356,7 @@ const LONGS=[
  [16,"Todas las referencias a Florida Man","Caimán + «🐊 FLORIDA MAN»","Referencia del juego frente a noticia real (con la fuente) · ranking",""],
  [17,"15 errores de principiante que te hacen perder horas","Cruz roja + «NO HAGAS ESTO»","Del 15 al 1 · solución de cada uno · CTA guía",""],
  [18,"La historia de Vice City: de 2002 a GTA VI (largo plazo)","Siluetas de Tommy y Lucia + «24 AÑOS»","Vice City → Vice City Stories → GTA VI · guiños",""],
- [19,"GTA VI vs RDR2: ¿cuál es mejor?","Mitad vaquero y mitad Miami + «¿CUÁL GANA?»","8 categorías · votación en los comentarios",""],
+ [19,"El Iceberg de Leonida: los casos reales de Florida que inspiraron GTA VI","Iceberg + caimán + «TODO ES REAL»","20-25 min · niveles · titular real con su fuente en cada entrada",""],
  [20,"Todos los récords de GTA VI: ventas, jugadores y cifras","Gráfico que sube + «RÉCORD»","Cifras de Take-Two frente a GTA V · actualizar cada trimestre",""]
 ];
 const SETUP=[
@@ -478,7 +478,7 @@ V.hoy=()=>{
 
 
 function yppDays(){return Math.max(0,Math.round((dt("2027-01-31")-dt(iso(new Date())))/864e5))}
-const LPLAN=[["L1","Trucos para PS5 y Xbox","2026-11-25"],["L2","50 datos curiosos","2026-11-27"],["L3","GTA VI en PC","2026-11-30"],["L4","Mejores coches","2026-12-03"],["L5","Cuánto dura + 100 %","2026-12-06"],["L6","Secretos del primer mes","2026-12-09"],["L7","El mapa explicado","2026-12-12"],["L8","Final explicado ⚠️ spoilers","2026-12-15"]];
+const LPLAN=[["L1","Trucos para PS5 y Xbox","2026-11-25"],["L2","50 datos curiosos","2026-11-27"],["L3","GTA VI en PC","2026-11-30"],["L4","Mejores coches","2026-12-03"],["L5","Cuánto dura + 100 %","2026-12-06"],["L6","El Iceberg de GTA VI (20-30 min)","2026-12-09"],["L7","30 lugares secretos","2026-12-12"],["L8","Final explicado ⚠️ spoilers","2026-12-15"]];
 const YPPCHK=["1.000 suscriptores y 4.000 h (o 10 M en Shorts) en YouTube Studio","Ningún aviso de copyright ni de normas activo","≥ 8 vídeos largos con guion propio y plantillas personalizadas","Ningún vídeo es un tráiler o gameplay ajeno con voz encima","«Contenido alterado o sintético» marcado donde toca","Verificación en 2 pasos + AdSense (con un adulto si tienes menos de 18)","Solicitud enviada antes del 31/01/2027 (objetivo: hacia el 20/01)"];
 V.youtube=()=>{const t=totals().last, d=yppDays(); const hLeft=Math.max(0,4000-t.hYT), sLeft=Math.max(0,1000-t.sYT);
  const bar=(cur,goal,cls)=>`<div class="bar ${cls||""}" style="margin-top:6px"><i style="width:${Math.min(100,cur/goal*100)}%"></i></div>`;
@@ -493,12 +493,14 @@ V.youtube=()=>{const t=totals().last, d=yppDays(); const hLeft=Math.max(0,4000-t
  <div class="panel"><h3>🎬 Vídeos largos: 2 por semana</h3><div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>#</th><th>Tema</th><th>Publicación (18:00)</th></tr></thead><tbody>
   ${LPLAN.map(([c,tt,dd])=>`<tr><td class="num">${c}</td><td>${esc(tt)}</td><td><button class="btn small" data-goto="${dd}">${fmt(dd)}</button></td></tr>`).join("")}
   <tr><td class="num">L9-L14</td><td class="muted">Ideas #9-#17 de la pestaña Vídeos largos</td><td class="muted">2 por semana hasta el 20/01</td></tr></tbody></table></div>
-  <ul style="margin:10px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px"><li>De 10 a 15 min · los primeros 30 s repiten la promesa · lista hacia atrás con el n.º 1 al final</li><li>Pantalla final hacia otro vídeo largo · cada Short con «Vídeo relacionado» hacia su vídeo largo · listas de reproducción por tema</li><li>Los días de vídeo largo, solo 1 Short. Instagram, solo como repost.</li></ul></div>
+  <ul style="margin:10px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px"><li>De 10 a 15 min (los icebergs, de 20 a 30) · los primeros 30 s repiten la promesa · lista hacia atrás con el n.º 1 al final · reenganche cada 30-60 s</li><li>Pantalla final hacia otro vídeo largo · cada Short con «Vídeo relacionado» hacia su vídeo largo · listas de reproducción por tema</li><li>Los días de vídeo largo, solo 1 Short. Instagram, solo como repost.</li></ul></div>
  <div class="panel"><h3>Pack de plantillas (Drive de JimGorlich)</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px">
   <li><b>Útil:</b> 15 plantillas animadas de Remotion (cifras, barras, expedientes, sellos de RUMOR/CONFIRMADO). He revisado el código y está limpio, pero no lo he renderizado.</li>
   <li><b>Son horizontales</b>: añade la composición «Short» de 1080×1920 (instrucciones en 09-estrategia-youtube-y-plantillas.md). El ejemplo del S1 está en plantillas/guion-S1-vertical.json.</li>
   <li><b>Personalízalas</b> (paleta y tipografías en gta-base.tsx): si todos los compradores usan las mismas, YouTube puede verlo como contenido en serie.</li>
   <li><b>El folleto es publicidad</b>: casos de éxito sin verificar y una llamada de venta. No hace falta pagar nada más para este plan.</li></ul></div>
+ <div class="grid2"><div class="panel yes"><h3>✅ Del vídeo de Jim: aplicar</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px"><li>Formato <b>Iceberg</b> (20-30 min = muchas horas de visualización) → L6</li><li>«30 curiosidades de X» como saga → L7, #9</li><li>Nicho: curiosidades, referencias ocultas, documental</li><li>Reenganche cada 30-60 s + adelantos de lo que viene</li><li>Animación propia con Claude Code en vez de clips</li><li>La ventana del boom es de 6 a 10 semanas: velocidad</li><li>Proyecto de Claude «Archivo Neón» con tu Base para sacar ideas</li></ul></div>
+ <div class="panel no"><h3>❌ Del vídeo de Jim: no hacer</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px"><li>Canales pre-monetizados o comprados, proxies, «calentar» canales</li><li>Clips de streamers «con trucos»</li><li>«Clonador de vídeos» de la competencia</li><li>Varios canales a la vez con 2 h al día</li><li>Fiarte de los casos de éxito de su folleto</li></ul></div></div>
  <div class="panel"><h3>Antes de solicitar la monetización</h3><ul class="tasks" style="margin-top:10px">${YPPCHK.map((x,i)=>{const id="ypp#"+i,on=!!S.done[id];return `<li class="task${on?" done":""}"><input type="checkbox" id="yp-${i}" data-task="${id}" ${on?"checked":""}><label for="yp-${i}"><span class="t">${esc(x)}</span></label></li>`}).join("")}</ul></div>
  </section>`};
 

@@ -157,7 +157,7 @@
 ### Mar 08/12
 - **Publicas:** S27 a las 14:00
 - [ ] S27 a las 14:00 (35 min)
-- [ ] 🎬 L6 "Secretos del primer mes": guion (40 min)
+- [ ] 🎬 L6 "El Iceberg de GTA VI" (20-30 min): guion (60 min, empieza el domingo 6 si puedes)
 - [ ] Revisión semanal (20 min)
 
 ### Mié 09/12
@@ -177,7 +177,7 @@
 ### Vie 11/12
 - **Publicas:** S32 a las 14:00
 - [ ] S32 a las 14:00 (35 min)
-- [ ] 🎬 L7 "El mapa explicado": guion (40 min)
+- [ ] 🎬 L7 "30 lugares secretos": guion (40 min)
 - [ ] **Producto:** Pack: checklist imprimible en Canva (40 min)
 
 ### Sáb 12/12

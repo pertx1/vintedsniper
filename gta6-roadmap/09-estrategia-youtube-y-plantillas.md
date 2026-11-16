@@ -44,8 +44,8 @@ Las tareas nuevas de vídeo largo ya están metidas en el panel (marcadas 🎬) 
 | L3 | #3 GTA VI en PC | dom 29/11 | **lun 30/11** |
 | L4 | #4 Mejores coches | mié 2/12 | **jue 3/12** |
 | L5 | #5 Cuánto dura + 100 % | sáb 5/12 | **dom 6/12** |
-| L6 | #6 Secretos del primer mes | mar 8/12 | **mié 9/12** |
-| L7 | #7 El mapa explicado | vie 11/12 | **sáb 12/12** |
+| L6 | #6 El Iceberg de GTA VI (20-30 min) | mar 8/12 | **mié 9/12** |
+| L7 | #7 30 lugares secretos | vie 11/12 | **sáb 12/12** |
 | L8 | #8 Final explicado (spoilers) | lun 14/12 | **mar 15/12** |
 | L9-L14 | #9-#17 (2 por semana hasta el 20/01) | — | — |
 
@@ -131,3 +131,34 @@ npx remotion render src/index.ts Short salida/short.mp4
 - [ ] "Contenido alterado o sintético" marcado donde toca
 - [ ] Verificación en 2 pasos en la cuenta de Google y AdSense creado (con un adulto como titular si tienes menos de 18 años)
 - [ ] Solicitud enviada **antes del 31/01/2027**
+
+---
+
+## 5. Análisis del vídeo de Jim Gorlich (transcripción del 16/11)
+
+El vídeo dura 17 minutos y es, en el fondo, un anuncio de su programa y de las llamadas 1:1. Aun así trae ideas útiles. Las separo de los consejos que **no** debes seguir.
+
+### ✅ Lo que sí aplico al plan
+| Idea del vídeo | Qué cambia en tu plan |
+|---|---|
+| **Formato Iceberg** ("el iceberg de GTA" con unos 5 M de visitas). La gente que ve estos vídeos consume contenido largo, curiosidades y documentales, así que hay más tiempo de visualización y mejor RPM | **L6 pasa a ser "El Iceberg de GTA VI"** (20-30 min) y añado el "Iceberg de Leonida: casos reales de Florida" (#19). Un solo iceberg que funcione puede darte cientos de horas: **es el mejor formato para llegar a las 4.000 h**. |
+| **Formato "30 curiosidades de X"** (lugares secretos, NPC, bandas…) | L7 = "30 lugares secretos" y #9 = "30 curiosidades de los NPC". Es serializable: de cada tema sale una saga. |
+| **Nicho concreto:** curiosidades, referencias ocultas y documental, no "GTA en general" | Es justo tu enfoque nuevo (trucos, datos curiosos, easter eggs). "Archivo Neón" encaja como canal de archivo o documental. |
+| **Guion y storytelling:** reengancha cada pocos segundos y adelanta lo que vendrá | Añadido a la estructura de `04-…`. Pídeselo a Claude en el prompt: *"Incluye un reenganche cada 45 s y 2 adelantos de lo que viene"*. |
+| **Animaciones hechas con Claude Code** (sus vídeos de 130.000-300.000 visitas en un canal de 2.000 suscriptores son casi todo animación) | Confirma el flujo de plantillas de Remotion: **depender poco de clips ajenos** es a la vez lo que te protege legalmente y lo que diferencia el canal. |
+| **La ventana es de 6 a 10 semanas** de boom | Coincide con el plan: velocidad hasta mediados o finales de enero. |
+| **Los Shorts pagan muy poco** (él estima unos 0,10 $ por cada 1.000 visitas) y los vídeos largos mucho más | Refuerza la decisión de 2 vídeos largos por semana. Los Shorts sirven para suscriptores y para llevar gente a los vídeos largos y a la guía. |
+| Entrenar un **Proyecto de Claude** con mucha información del nicho para sacar ideas | Crea un Proyecto en Claude llamado "Archivo Neón" y súbele tu Base de descubrimientos (exportada de Notion), los guiones publicados y tus métricas. Pídele ideas ahí, no en un chat nuevo. |
+
+### ❌ Lo que NO debes hacer (aunque el vídeo lo sugiera)
+| Lo que dice | Por qué no |
+|---|---|
+| Usar un **canal "pre-monetizado"** o comprado, **proxies** y **"calentamiento de canales"** | Comprar o vender canales y usar proxies para gestionar varios canales va contra las condiciones de YouTube. Si lo detectan, pueden cerrar todos los canales asociados a tu cuenta, el tuyo incluido. |
+| **Clips de streamers** "monetizables con trucos" ("te lo dejo al aire") | Es justo lo que la política de contenido reutilizado o no auténtico rechaza, y además los streamers reclaman por copyright. Ya está prohibido en `07-…`. |
+| **"Clonador de vídeos":** pegar el enlace de la competencia y copiar el vídeo entero con sus animaciones | Es plagio y contenido no auténtico de manual. Te expone a avisos por copyright y a que te rechacen la monetización. |
+| **Probar varios canales a la vez** | Con 2 h al día, dividirte en varios canales hace que ninguno llegue a los 1.000 suscriptores y las 4.000 h antes del 31/01. Uno solo. |
+| Casos de éxito (10.000 € el primer mes, etc.) | Son de sus alumnos, elegidos para venderte la llamada. Él mismo admite que "no todos los vídeos pegan". Tus objetivos realistas están en `00-…`. |
+| Formatos con gameplay propio ("sobreviví 100 días", carreras, roleplay) | Necesitan tener el juego. Quedan para cuando lo compres (**largo plazo**). |
+
+### Nota de calidad
+El vídeo de ejemplo que enseña ("quedan 11 días… del tercero al cuarto pasaron seis años, del cuarto al quinto cinco, del quinto al sexto trece") es una cuenta atrás con datos, muy parecida a tu S1 y tu S3. Eso confirma que **tus guiones del S1 al S5 van por buen camino**. Comprueba cada cifra antes de publicar: GTA III salió en octubre de 2001 y GTA IV en abril de 2008, así que fueron unos 6,5 años.
