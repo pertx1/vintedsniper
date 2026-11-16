@@ -3,6 +3,7 @@
 ## Cómo usar este archivo (léelo una vez)
 - **Cada día abres este archivo, buscas la fecha de hoy y haces solo lo de hoy.** Si te saltas un día, no lo recuperes: sigue con el de hoy.
 - **Bloque fijo de 2 h:** unos 70 min para los Shorts, 35 min para la guía o el vídeo largo y 15 min para investigar y rellenar el tracker.
+- **Actualizado el 16/11 para ir a por la monetización de YouTube:** desde el 24/11 hay **2 vídeos largos por semana** (🎬). Los días de vídeo largo publicas 1 Short e Instagram queda solo como repost. Ver `09-estrategia-youtube-y-plantillas.md`.
 - **Códigos:** `S#` = guion de Short (S1-S15 están completos en `03-…`; S16-S41 los sacas del banco de temas al final de este archivo). `L#` = vídeo largo de `04-…`.
 - **"Publicar en las 3"** = el mismo vídeo vertical en YouTube Shorts, TikTok e Instagram Reels.
 - **Horas de publicación:** 14:00 y 21:00, hora de España (cubres España y la tarde de Latinoamérica).
@@ -66,123 +67,146 @@
 - [ ] S10 y **publicarlo a las 21:00** con CTA a la guía (35 min)
 - [ ] **Promoción:** si algún Short cumple la regla, TikTok Promote de 5 € (5 min)
 
-### Mar 24/11
-- [ ] S11 y S12, **publicados a las 14:00 y a las 21:00** (70 min)
-- [ ] +10 descubrimientos a la Base (20 min)
-- [ ] Fijar en todos los Shorts un comentario con: "📖 Lista completa de métodos de dinero en la guía (enlace en el perfil)" (10 min)
-- **Producto:** apunta las preguntas de los compradores y de los comentarios para la v1.1.
-
-### Mié 25/11
-- [ ] S13 (dinero #2) y S14, **publicados a las 14:00 y a las 21:00** (70 min)
-- [ ] **Vídeo largo L1** ("Cómo ganar dinero rápido en GTA VI"): guion con Claude a partir de la Base (35 min)
-- **Producto:** —
-
 ---
 
-## SEMANA 2 · Consolidar y sacar el primer vídeo largo (26/11-2/12)
+## SEMANA 2 · Consolidar y 2 vídeos largos por semana (24/11-2/12)
+
+### Mar 24/11
+- **Publicas:** S11 a las 14:00
+- [ ] S11 a las 14:00 (35 min)
+- [ ] 🎬 L1 "Dinero rápido": guion con Claude (40 min)
+- [ ] **Producto:** +10 descubrimientos (20 min)
+- [ ] Comentario fijado con CTA en todos los Shorts (10 min)
+
+### Mié 25/11
+- **Publicas:** 🎬 L1 a las 18:00 · S13 a las 21:00
+- [ ] 🎬 L1: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] S13 (dinero #2) a las 21:00 (35 min)
 
 ### Jue 26/11
-- [ ] S15 y **publicarlo a las 14:00** (35 min)
-- [ ] L1: generar la voz en ElevenLabs y montar la primera mitad (70 min)
-- [ ] Mirar el tracker: ¿qué formato de Short ha ido mejor? Apúntalo (5 min)
+- **Publicas:** S14 a las 14:00
+- [ ] S14 a las 14:00 (35 min)
+- [ ] 🎬 L2 "Trucos de GTA VI": guion (40 min)
+- [ ] Tracker: ¿qué Short y qué vídeo largo van mejor? (5 min)
 
 ### Vie 27/11 · Black Friday
-- [ ] L1: terminar el montaje y la miniatura, y **publicarlo a las 18:00** (80 min)
-- [ ] **Producto:** código `BLACKVI` (−40 %, 72 h) y Short S16 sobre la oferta, **publicado a las 21:00** (35 min)
+- **Publicas:** 🎬 L2 a las 18:00 · S16 a las 21:00
+- [ ] 🎬 L2: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] **Producto:** Código BLACKVI −40 % (72 h) + S16 a las 21:00 (35 min)
 
 ### Sáb 28/11
-- [ ] S17 y S18 a las 14:00 y a las 21:00 (70 min)
-- [ ] **Producto:** v1.1, añadir 5 métodos o trucos nuevos de la Base y una sección de "Preguntas frecuentes" (40 min)
+- **Publicas:** S15 a las 14:00 · S17 a las 21:00
+- [ ] S15 y S17 (70 min)
+- [ ] **Producto:** v1.1: 5 métodos nuevos + preguntas frecuentes (40 min)
 
 ### Dom 29/11
-- [ ] S19 a las 14:00 (35 min)
-- [ ] **L2** ("Trucos de GTA VI para PS5 y Xbox"): guion y voz (70 min)
-- [ ] **Promoción:** aplicar la regla de los 5 € si algún Short la cumple (5 min)
+- **Publicas:** S18 a las 14:00
+- [ ] S18 a las 14:00 (35 min)
+- [ ] 🎬 L3 "GTA VI en PC": guion (40 min)
+- [ ] **Promoción:** Promoción: regla de los 5 € (5 min)
 
 ### Lun 30/11
-- [ ] L2: montaje y miniatura, y **publicarlo a las 18:00** (90 min)
-- [ ] **Producto:** subir la v1.1 a Gumroad y enviar un email a los compradores ("Actualización gratis disponible") (15 min)
+- **Publicas:** 🎬 L3 a las 18:00
+- [ ] 🎬 L3: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] **Producto:** Subir la v1.1 + email a los compradores (15 min)
 
-### Mar 1/12
-- [ ] S20 y S21 a las 14:00 y a las 21:00 (70 min)
-- [ ] **Revisión semanal** (20 min): las 3 métricas de `00-resumen.md`. Aplica la tabla "Qué hago si algo no funciona".
-- [ ] En YouTube, vincular cada Short al vídeo largo relacionado (botón "Vídeo relacionado") (10 min)
+### Mar 01/12
+- **Publicas:** S19 a las 14:00 · S20 a las 21:00
+- [ ] S19 y S20 (70 min)
+- [ ] Revisión semanal: 3 métricas + horas de YouTube (20 min)
+- [ ] "Vídeo relacionado" de cada Short → su vídeo largo (10 min)
 
-### Mié 2/12
-- [ ] S22 y S23 a las 14:00 y a las 21:00 (70 min)
-- [ ] **Producto:** enviar a los compradores la encuesta "¿Qué capítulo quieres en la v2.0? Responde a este email" (10 min)
-- [ ] **Producto:** empezar el capítulo de coleccionables y del 100 % de la v2.0 (30 min)
+### Mié 02/12
+- **Publicas:** S21 a las 14:00
+- [ ] S21 a las 14:00 (35 min)
+- [ ] 🎬 L4 "Mejores coches": guion (40 min)
+- [ ] **Producto:** Encuesta a los compradores: ¿qué capítulo quieres? (10 min)
 
 ---
 
 ## SEMANA 3 · Guía v2.0 y subida de precio (3-9/12)
 
-### Jue 3/12
-- [ ] S24 a las 14:00 (35 min)
-- [ ] **L3** ("GTA VI en PC: todo lo que sabemos"): guion y voz (70 min)
+### Jue 03/12
+- **Publicas:** 🎬 L4 a las 18:00 · S22 a las 21:00
+- [ ] 🎬 L4: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] S22 a las 21:00 (35 min)
 
-### Vie 4/12
-- [ ] L3: montaje y **publicarlo a las 18:00** (80 min)
-- [ ] S25 a las 21:00 (35 min)
+### Vie 04/12
+- **Publicas:** S23 a las 14:00 · S24 a las 21:00
+- [ ] S23 y S24 (70 min)
+- [ ] **Producto:** v2.0: capítulo del 100 % (40 min)
 
-### Sáb 5/12
-- [ ] S26 y S27 a las 14:00 y a las 21:00 (70 min)
-- [ ] **Producto:** v2.0, escribir el capítulo del 100 % y el de coleccionables (45 min)
+### Sáb 05/12
+- **Publicas:** S25 a las 14:00
+- [ ] S25 a las 14:00 (35 min)
+- [ ] 🎬 L5 "Cuánto dura + 100 %": guion (40 min)
+- [ ] **Producto:** v2.0: capítulo de coleccionables (40 min)
 
-### Dom 6/12
-- [ ] S28 a las 14:00 (35 min)
-- [ ] **Producto:** v2.0, maquetar, poner la portada "v2.0" y el registro de cambios (60 min)
-- [ ] **Promoción:** aplicar la regla de los 5 € (5 min)
+### Dom 06/12
+- **Publicas:** 🎬 L5 a las 18:00
+- [ ] 🎬 L5: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] **Producto:** v2.0: maquetar + portada + registro de cambios (40 min)
+- [ ] **Promoción:** Promoción: regla de los 5 € (5 min)
 
-### Lun 7/12 · 💶 Sale la guía v2.0
-- [ ] **Producto:** subir la v2.0 y **cambiar el precio a 6,99 €** (los compradores anteriores la reciben gratis). Enviar un email a todos (20 min)
-- [ ] S29 ("v2.0 + 1 truco gratis") a las 21:00 (35 min)
-- [ ] **L4** ("Todos los secretos del primer mes"): guion (40 min)
+### Lun 07/12 · 💶 Guía v2.0 · 6,99 €
+- **Publicas:** S26 a las 14:00 · S29 a las 21:00
+- [ ] **Producto:** Subir la v2.0 + precio a 6,99 € + email a todos (20 min)
+- [ ] S26 a las 14:00 (35 min)
+- [ ] S29 "v2.0 + 1 truco gratis" a las 21:00 (35 min)
 
-### Mar 8/12 (festivo)
-- [ ] L4: voz y montaje (90 min)
-- [ ] S30 a las 21:00 (35 min)
+### Mar 08/12
+- **Publicas:** S27 a las 14:00
+- [ ] S27 a las 14:00 (35 min)
+- [ ] 🎬 L6 "Secretos del primer mes": guion (40 min)
+- [ ] Revisión semanal (20 min)
 
-### Mié 9/12
-- [ ] L4: miniatura y **publicarlo a las 18:00** (30 min)
-- [ ] S31 a las 21:00 (35 min)
-- [ ] **Revisión semanal** con las 3 métricas (20 min)
+### Mié 09/12
+- **Publicas:** 🎬 L6 a las 18:00 · S28 a las 21:00
+- [ ] 🎬 L6: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] S28 a las 21:00 (35 min)
 
 ---
 
 ## SEMANA 4 · Pack y cierre de mes (10-16/12)
 
 ### Jue 10/12
-- [ ] S32 y S33 a las 14:00 y a las 21:00 (70 min)
-- [ ] **Afiliados:** darte de alta en Amazon Afiliados España y poner 3 enlaces (mando, auriculares, disco SSD para PS5) en las descripciones de L1-L4 (30 min). Ver `06-…`.
+- **Publicas:** S30 a las 14:00 · S31 a las 21:00
+- [ ] S30 y S31 (70 min)
+- [ ] **Producto:** Alta en Amazon Afiliados + 3 enlaces en los vídeos largos (30 min)
 
 ### Vie 11/12
-- [ ] S34 a las 14:00 (35 min)
-- [ ] **Producto:** pack "100 %", crear en Canva la checklist imprimible (40 min)
-- [ ] **Producto:** pack, crear el mapa-resumen ilustrado (con Higgsfield + Canva, sin el mapa oficial) (30 min)
+- **Publicas:** S32 a las 14:00
+- [ ] S32 a las 14:00 (35 min)
+- [ ] 🎬 L7 "El mapa explicado": guion (40 min)
+- [ ] **Producto:** Pack: checklist imprimible en Canva (40 min)
 
 ### Sáb 12/12
-- [ ] S35 y S36 a las 14:00 y a las 21:00 (70 min)
-- [ ] **Producto:** montar el pack en Gumroad (guía v2.0 + checklist + mapa) a **8,99 €**, como borrador (30 min)
-- [ ] **Promoción:** aplicar la regla de los 5 € (5 min)
+- **Publicas:** 🎬 L7 a las 18:00
+- [ ] 🎬 L7: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] **Producto:** Pack: mapa-resumen ilustrado (30 min)
+- [ ] **Promoción:** Promoción: regla de los 5 € (5 min)
 
 ### Dom 13/12
-- [ ] **L5** (el de más potencial que quede en `04-…`): guion, voz y montaje (100 min)
-- [ ] S37 a las 21:00, solo si te queda tiempo
+- **Publicas:** S33 a las 14:00 · S34 a las 21:00
+- [ ] S33 y S34 (70 min)
+- [ ] **Producto:** Pack en Gumroad a 8,99 € como borrador (30 min)
 
-### Lun 14/12 · 💶 Sale el pack 100 %
-- [ ] **Producto:** publicar el pack. Email a los compradores con un −30 % para quien ya tiene la guía (código `PACK30`) (20 min)
-- [ ] L5: **publicarlo a las 18:00** (15 min)
-- [ ] S38 ("Pack 100 % + truco gratis") a las 21:00 (35 min)
+### Lun 14/12 · 💶 Pack 100 %
+- **Publicas:** S38 a las 21:00
+- [ ] **Producto:** Publicar el pack + email con PACK30 (20 min)
+- [ ] S38 "Pack + truco gratis" a las 21:00 (35 min)
+- [ ] 🎬 L8 "Final explicado ⚠️ spoilers": guion (40 min)
 
 ### Mar 15/12
-- [ ] S39 y S40 a las 14:00 y a las 21:00 (70 min)
-- [ ] Contestar comentarios y mensajes privados de colaboraciones (20 min)
+- **Publicas:** 🎬 L8 a las 18:00 · S35 a las 21:00
+- [ ] 🎬 L8: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- [ ] S35 a las 21:00 (35 min)
 
 ### Mié 16/12 · Cierre del mes
-- [ ] S41 ("Resumen del primer mes de GTA VI") a las 14:00 (35 min)
-- [ ] **Revisión del mes** (45 min): pásale a Claude tu `08-tracker.md` con este prompt: *"Analiza mi tracker. Dime los 3 formatos que más visitas y ventas dan, qué dejo de hacer y hazme el plan de los próximos 30 días en el mismo formato que 02-plan-diario-30-dias.md"*.
-- [ ] Comparar los ingresos con los objetivos de `00-resumen.md`
+- **Publicas:** S36 a las 14:00
+- [ ] S36 a las 14:00 (35 min)
+- [ ] Revisión del mes con Claude a partir del tracker (45 min)
+- [ ] Plan YPP hasta el 31/01: 2 vídeos largos por semana (L9-L14) + comprobar horas y suscriptores
 
 ---
 

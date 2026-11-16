@@ -148,7 +148,7 @@ svg text{fill:var(--muted);font-family:var(--mono);font-size:10px}
   <div class="kpis" id="kpis"></div>
 
   <nav class="tabs" id="tabs" aria-label="Secciones">
-    <a href="#hoy">Hoy</a><a href="#calendario">Calendario</a><a href="#shorts">Shorts</a><a href="#largos">Vídeos largos</a>
+    <a href="#hoy">Hoy</a><a href="#youtube">YouTube YPP</a><a href="#calendario">Calendario</a><a href="#shorts">Shorts</a><a href="#largos">Vídeos largos</a>
     <a href="#producto">Guía de pago</a><a href="#tracker">Tracker</a><a href="#monetizacion">Monetización</a><a href="#reglas">Reglas</a><a href="#preparacion">Preparación 48 h</a>
   </nav>
 
@@ -198,87 +198,89 @@ const DAYS = [
   ["Email a la lista de espera + cambiar el enlace de las 3 bios (10 min)","product"],
   ["S10 a las 21:00 con CTA (35 min)","content"],
   ["Promoción: 5 € de TikTok Promote si algún Short cumple la regla","promo"]]},
- {d:"2026-11-24",pub:"S11 a las 14:00 · S12 a las 21:00",tasks:[
-  ["S11 y S12 (70 min)","content"],
+ {d:"2026-11-24",pub:"S11 a las 14:00",tasks:[
+  ["S11 a las 14:00 (35 min)","content"],
+  ["🎬 L1 \"Dinero rápido\": guion con Claude (40 min)","content"],
   ["+10 descubrimientos (20 min)","product"],
   ["Comentario fijado con CTA en todos los Shorts (10 min)","content"]]},
- {d:"2026-11-25",pub:"S13 a las 14:00 · S14 a las 21:00",tasks:[
-  ["S13 (dinero #2) y S14 (70 min)","content"],
-  ["L1 \"Cómo ganar dinero rápido\": guion con Claude (35 min)","content"]]},
- {d:"2026-11-26",pub:"S15 a las 14:00",tasks:[
-  ["S15 a las 14:00 (35 min)","content"],
-  ["L1: voz + primera mitad del montaje (70 min)","content"],
-  ["Tracker: ¿qué formato de Short va mejor? (5 min)","review"]]},
- {d:"2026-11-27",ms:"Black Friday",pub:"L1 a las 18:00 · S16 a las 21:00",tasks:[
-  ["L1: terminar + miniatura + publicar a las 18:00 (80 min)","content"],
+ {d:"2026-11-25",pub:"🎬 L1 a las 18:00 · S13 a las 21:00",tasks:[
+  ["🎬 L1: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
+  ["S13 (dinero #2) a las 21:00 (35 min)","content"]]},
+ {d:"2026-11-26",pub:"S14 a las 14:00",tasks:[
+  ["S14 a las 14:00 (35 min)","content"],
+  ["🎬 L2 \"Trucos de GTA VI\": guion (40 min)","content"],
+  ["Tracker: ¿qué Short y qué vídeo largo van mejor? (5 min)","review"]]},
+ {d:"2026-11-27",ms:"Black Friday",pub:"🎬 L2 a las 18:00 · S16 a las 21:00",tasks:[
+  ["🎬 L2: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
   ["Código BLACKVI −40 % (72 h) + S16 a las 21:00 (35 min)","product"]]},
- {d:"2026-11-28",pub:"S17 a las 14:00 · S18 a las 21:00",tasks:[
-  ["S17 y S18 (70 min)","content"],
+ {d:"2026-11-28",pub:"S15 a las 14:00 · S17 a las 21:00",tasks:[
+  ["S15 y S17 (70 min)","content"],
   ["v1.1: 5 métodos nuevos + preguntas frecuentes (40 min)","product"]]},
- {d:"2026-11-29",pub:"S19 a las 14:00",tasks:[
-  ["S19 a las 14:00 (35 min)","content"],
-  ["L2 \"Trucos de GTA VI\": guion + voz (70 min)","content"],
+ {d:"2026-11-29",pub:"S18 a las 14:00",tasks:[
+  ["S18 a las 14:00 (35 min)","content"],
+  ["🎬 L3 \"GTA VI en PC\": guion (40 min)","content"],
   ["Promoción: regla de los 5 € (5 min)","promo"]]},
- {d:"2026-11-30",pub:"L2 a las 18:00",tasks:[
-  ["L2: montaje + miniatura + publicar a las 18:00 (90 min)","content"],
+ {d:"2026-11-30",pub:"🎬 L3 a las 18:00",tasks:[
+  ["🎬 L3: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
   ["Subir la v1.1 + email a los compradores (15 min)","product"]]},
- {d:"2026-12-01",pub:"S20 a las 14:00 · S21 a las 21:00",tasks:[
-  ["S20 y S21 (70 min)","content"],
-  ["Revisión semanal: 3 métricas + tabla de \"qué hago si…\" (20 min)","review"],
-  ["Vincular los Shorts al vídeo largo (\"Vídeo relacionado\") (10 min)","content"]]},
- {d:"2026-12-02",pub:"S22 a las 14:00 · S23 a las 21:00",tasks:[
-  ["S22 y S23 (70 min)","content"],
-  ["Encuesta a los compradores: ¿qué capítulo quieres? (10 min)","product"],
-  ["Empezar el capítulo del 100 % de la v2.0 (30 min)","product"]]},
- {d:"2026-12-03",pub:"S24 a las 14:00",tasks:[
-  ["S24 a las 14:00 (35 min)","content"],
-  ["L3 \"GTA VI en PC\": guion + voz (70 min)","content"]]},
- {d:"2026-12-04",pub:"L3 a las 18:00 · S25 a las 21:00",tasks:[
-  ["L3: montaje + publicar a las 18:00 (80 min)","content"],
-  ["S25 a las 21:00 (35 min)","content"]]},
- {d:"2026-12-05",pub:"S26 a las 14:00 · S27 a las 21:00",tasks:[
-  ["S26 y S27 (70 min)","content"],
-  ["v2.0: capítulos del 100 % y de coleccionables (45 min)","product"]]},
- {d:"2026-12-06",pub:"S28 a las 14:00",tasks:[
-  ["S28 a las 14:00 (35 min)","content"],
-  ["v2.0: maquetar + portada + registro de cambios (60 min)","product"],
+ {d:"2026-12-01",pub:"S19 a las 14:00 · S20 a las 21:00",tasks:[
+  ["S19 y S20 (70 min)","content"],
+  ["Revisión semanal: 3 métricas + horas de YouTube (20 min)","review"],
+  ["\"Vídeo relacionado\" de cada Short → su vídeo largo (10 min)","content"]]},
+ {d:"2026-12-02",pub:"S21 a las 14:00",tasks:[
+  ["S21 a las 14:00 (35 min)","content"],
+  ["🎬 L4 \"Mejores coches\": guion (40 min)","content"],
+  ["Encuesta a los compradores: ¿qué capítulo quieres? (10 min)","product"]]},
+ {d:"2026-12-03",pub:"🎬 L4 a las 18:00 · S22 a las 21:00",tasks:[
+  ["🎬 L4: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
+  ["S22 a las 21:00 (35 min)","content"]]},
+ {d:"2026-12-04",pub:"S23 a las 14:00 · S24 a las 21:00",tasks:[
+  ["S23 y S24 (70 min)","content"],
+  ["v2.0: capítulo del 100 % (40 min)","product"]]},
+ {d:"2026-12-05",pub:"S25 a las 14:00",tasks:[
+  ["S25 a las 14:00 (35 min)","content"],
+  ["🎬 L5 \"Cuánto dura + 100 %\": guion (40 min)","content"],
+  ["v2.0: capítulo de coleccionables (40 min)","product"]]},
+ {d:"2026-12-06",pub:"🎬 L5 a las 18:00",tasks:[
+  ["🎬 L5: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
+  ["v2.0: maquetar + portada + registro de cambios (40 min)","product"],
   ["Promoción: regla de los 5 € (5 min)","promo"]]},
- {d:"2026-12-07",ms:"💶 Guía v2.0 · 6,99 €",pub:"S29 a las 21:00",tasks:[
+ {d:"2026-12-07",ms:"💶 Guía v2.0 · 6,99 €",pub:"S26 a las 14:00 · S29 a las 21:00",tasks:[
   ["Subir la v2.0 + precio a 6,99 € + email a todos (20 min)","product"],
-  ["S29 \"v2.0 + 1 truco gratis\" (35 min)","content"],
-  ["L4 \"Secretos del primer mes\": guion (40 min)","content"]]},
- {d:"2026-12-08",pub:"S30 a las 21:00",tasks:[
-  ["L4: voz + montaje (90 min)","content"],
-  ["S30 a las 21:00 (35 min)","content"]]},
- {d:"2026-12-09",pub:"L4 a las 18:00 · S31 a las 21:00",tasks:[
-  ["L4: miniatura + publicar a las 18:00 (30 min)","content"],
-  ["S31 a las 21:00 (35 min)","content"],
+  ["S26 a las 14:00 (35 min)","content"],
+  ["S29 \"v2.0 + 1 truco gratis\" a las 21:00 (35 min)","content"]]},
+ {d:"2026-12-08",pub:"S27 a las 14:00",tasks:[
+  ["S27 a las 14:00 (35 min)","content"],
+  ["🎬 L6 \"Secretos del primer mes\": guion (40 min)","content"],
   ["Revisión semanal (20 min)","review"]]},
- {d:"2026-12-10",pub:"S32 a las 14:00 · S33 a las 21:00",tasks:[
-  ["S32 y S33 (70 min)","content"],
-  ["Alta en Amazon Afiliados + 3 enlaces en L1-L4 (30 min)","product"]]},
- {d:"2026-12-11",pub:"S34 a las 14:00",tasks:[
-  ["S34 a las 14:00 (35 min)","content"],
-  ["Pack: checklist imprimible en Canva (40 min)","product"],
-  ["Pack: mapa-resumen ilustrado (30 min)","product"]]},
- {d:"2026-12-12",pub:"S35 a las 14:00 · S36 a las 21:00",tasks:[
-  ["S35 y S36 (70 min)","content"],
-  ["Pack en Gumroad a 8,99 € como borrador (30 min)","product"],
+ {d:"2026-12-09",pub:"🎬 L6 a las 18:00 · S28 a las 21:00",tasks:[
+  ["🎬 L6: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
+  ["S28 a las 21:00 (35 min)","content"]]},
+ {d:"2026-12-10",pub:"S30 a las 14:00 · S31 a las 21:00",tasks:[
+  ["S30 y S31 (70 min)","content"],
+  ["Alta en Amazon Afiliados + 3 enlaces en los vídeos largos (30 min)","product"]]},
+ {d:"2026-12-11",pub:"S32 a las 14:00",tasks:[
+  ["S32 a las 14:00 (35 min)","content"],
+  ["🎬 L7 \"El mapa explicado\": guion (40 min)","content"],
+  ["Pack: checklist imprimible en Canva (40 min)","product"]]},
+ {d:"2026-12-12",pub:"🎬 L7 a las 18:00",tasks:[
+  ["🎬 L7: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
+  ["Pack: mapa-resumen ilustrado (30 min)","product"],
   ["Promoción: regla de los 5 € (5 min)","promo"]]},
- {d:"2026-12-13",pub:"S37 a las 21:00 si te da tiempo",tasks:[
-  ["L5: guion + voz + montaje (100 min)","content"],
-  ["S37 (opcional)","content"]]},
- {d:"2026-12-14",ms:"💶 Pack 100 %",pub:"L5 a las 18:00 · S38 a las 21:00",tasks:[
+ {d:"2026-12-13",pub:"S33 a las 14:00 · S34 a las 21:00",tasks:[
+  ["S33 y S34 (70 min)","content"],
+  ["Pack en Gumroad a 8,99 € como borrador (30 min)","product"]]},
+ {d:"2026-12-14",ms:"💶 Pack 100 %",pub:"S38 a las 21:00",tasks:[
   ["Publicar el pack + email con PACK30 (20 min)","product"],
-  ["Publicar L5 a las 18:00 (15 min)","content"],
-  ["S38 \"Pack + truco gratis\" (35 min)","content"]]},
- {d:"2026-12-15",pub:"S39 a las 14:00 · S40 a las 21:00",tasks:[
-  ["S39 y S40 (70 min)","content"],
-  ["Comentarios + mensajes de colaboraciones (20 min)","content"]]},
- {d:"2026-12-16",ms:"Cierre del mes",pub:"S41 a las 14:00",tasks:[
-  ["S41 \"Resumen del primer mes\" (35 min)","content"],
+  ["S38 \"Pack + truco gratis\" a las 21:00 (35 min)","content"],
+  ["🎬 L8 \"Final explicado ⚠️ spoilers\": guion (40 min)","content"]]},
+ {d:"2026-12-15",pub:"🎬 L8 a las 18:00 · S35 a las 21:00",tasks:[
+  ["🎬 L8: voz + plantillas + montaje + publicar a las 18:00 (80 min)","content"],
+  ["S35 a las 21:00 (35 min)","content"]]},
+ {d:"2026-12-16",ms:"Cierre del mes",pub:"S36 a las 14:00",tasks:[
+  ["S36 a las 14:00 (35 min)","content"],
   ["Revisión del mes con Claude a partir del tracker (45 min)","review"],
-  ["Comparar los ingresos con el objetivo de 60-150 €","review"]]}
+  ["Plan YPP hasta el 31/01: 2 vídeos largos por semana (L9-L14) + comprobar horas y suscriptores","review"]]}
 ];
 const KLBL={content:"Contenido",product:"Producto",promo:"Promoción",review:"Revisión",setup:"Preparación"};
 
@@ -422,9 +424,9 @@ const big=n=>n>=1e6?(n/1e6).toFixed(1).replace(".",",")+" M":n>=1e4?Math.round(n
 function toast(m){const t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(t._h);t._h=setTimeout(()=>t.hidden=true,2200)}
 async function copy(text){try{await navigator.clipboard.writeText(text);toast("Copiado")}catch(e){toast("No se pudo copiar: selecciona el texto a mano")}}
 function dayProgress(day){const n=day.tasks.length;let k=0;day.tasks.forEach((_,i)=>{if(S.done[tid(day.d,i)])k++});return [k,n]}
-function totals(){let v=0,sales=0,rev=0,promo=0,clicks=0;const last={sYT:0,sTT:0,sIG:0};
+function totals(){let v=0,sales=0,rev=0,promo=0,clicks=0;const last={sYT:0,sTT:0,sIG:0,hYT:0,svYT:0};
   DAYS.forEach(({d})=>{const r=S.tracker[d];if(!r)return;v+=num(r.vYT)+num(r.vTT)+num(r.vIG);sales+=num(r.sales);rev+=num(r.rev);promo+=num(r.promo);clicks+=num(r.clicks);
-    ["sYT","sTT","sIG"].forEach(k=>{if(num(r[k])>0)last[k]=num(r[k])})});
+    ["sYT","sTT","sIG","hYT","svYT"].forEach(k=>{if(num(r[k])>0)last[k]=num(r[k])})});
   return {v,sales,rev,promo,clicks,last}}
 
 /* ============ KPIs + CABECERA ============ */
@@ -441,6 +443,7 @@ function renderHeader(){
    <div class="kpi"><span class="eyebrow">Ingresos · objetivo 60-150 €</span><span class="v">${eur(t.rev)}</span><div class="bar coral"><i style="width:${pct}%"></i></div></div>
    <div class="kpi"><span class="eyebrow">Ventas · conversión</span><span class="v">${t.sales} <span class="muted" style="font-size:13px">· ${conv.toFixed(1).replace(".",",")} %</span></span><span class="muted" style="font-size:12px">Objetivo de conversión ≥ 3 %</span></div>
    <div class="kpi"><span class="eyebrow">Visitas totales</span><span class="v">${big(t.v)}</span><span class="muted" style="font-size:12px">30 ventas ≈ 400-600 k visitas</span></div>
+   <div class="kpi"><span class="eyebrow">YPP · ${yppDays()} días al 31/01</span><span class="v">${big(t.last.sYT)}<span class="muted" style="font-size:14px">/1.000 subs</span></span><div class="bar"><i style="width:${Math.min(100,t.last.sYT/10)}%"></i></div><span class="muted" style="font-size:12px">${big(t.last.hYT)} / 4.000 h</span></div>
    <div class="kpi"><span class="eyebrow">Promoción · tope 40 €</span><span class="v">${eur(t.promo)}</span><div class="bar sun"><i style="width:${Math.min(100,t.promo/40*100)}%"></i></div></div>`;
 }
 
@@ -464,7 +467,7 @@ V.hoy=()=>{
      <input type="checkbox" id="tk-${day.d}-${j}" data-task="${id}" ${on?"checked":""}>
      <label for="tk-${day.d}-${j}"><span class="t">${esc(t)}</span><span class="meta"><span class="chip k-${kind}">${KLBL[kind]}</span></span></label></li>`}).join("")}</ul>
    <div class="panel"><div class="row" style="justify-content:space-between"><h3>Tracker de este día</h3><span class="muted" style="font-size:12px">Se guarda solo · seguidores = totales acumulados</span></div>
-     <div class="row" style="margin-top:10px;align-items:flex-end">${f("pub","Publicado",1)}${f("vYT","Visitas YT")}${f("vTT","Visitas TT")}${f("vIG","Visitas IG")}${f("sYT","Seg. YT")}${f("sTT","Seg. TT")}${f("sIG","Seg. IG")}${f("clicks","Clics enlace")}${f("sales","Ventas")}${f("rev","Ingresos €")}${f("promo","Promoción €")}</div></div>
+     <div class="row" style="margin-top:10px;align-items:flex-end">${f("pub","Publicado",1)}${f("vYT","Visitas YT")}${f("vTT","Visitas TT")}${f("vIG","Visitas IG")}${f("sYT","Seg. YT")}${f("sTT","Seg. TT")}${f("sIG","Seg. IG")}${f("hYT","Horas YT total")}${f("svYT","Vis. Shorts 90 d")}${f("clicks","Clics enlace")}${f("sales","Ventas")}${f("rev","Ingresos €")}${f("promo","Promoción €")}</div></div>
    <div class="panel"><h3>Si algo no funciona</h3><div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>Síntoma</th><th>Qué haces</th></tr></thead><tbody>
      <tr><td>Menos de 500 visitas por Short durante 3 días</td><td>Rehaz el gancho: afirmación o número en los 2 primeros segundos, texto desde el fotograma 1. Republica la idea con otro gancho.</td></tr>
      <tr><td>Muchas visitas, pocos clics</td><td>CTA que continúa el vídeo («los otros 9 están en la guía») + flecha al perfil en el último fotograma + comentario fijado.</td></tr>
@@ -472,6 +475,32 @@ V.hoy=()=>{
      <tr><td>Reclamación de Content ID</td><td>No la disputes. Recorta el clip a ≤3 s, ponle tu voz y un gráfico encima, y vuelve a subirlo.</td></tr>
      <tr><td>Te saltaste días</td><td>No los recuperes. Haz solo las tareas de hoy.</td></tr></tbody></table></div></div>
   </section>`};
+
+
+function yppDays(){return Math.max(0,Math.round((dt("2027-01-31")-dt(iso(new Date())))/864e5))}
+const LPLAN=[["L1","Dinero rápido","2026-11-25"],["L2","Trucos para PS5 y Xbox","2026-11-27"],["L3","GTA VI en PC","2026-11-30"],["L4","Mejores coches","2026-12-03"],["L5","Cuánto dura + 100 %","2026-12-06"],["L6","Secretos del primer mes","2026-12-09"],["L7","El mapa explicado","2026-12-12"],["L8","Final explicado ⚠️ spoilers","2026-12-15"]];
+const YPPCHK=["1.000 suscriptores y 4.000 h (o 10 M en Shorts) en YouTube Studio","Ningún aviso de copyright ni de normas activo","≥ 8 vídeos largos con guion propio y plantillas personalizadas","Ningún vídeo es un tráiler o gameplay ajeno con voz encima","«Contenido alterado o sintético» marcado donde toca","Verificación en 2 pasos + AdSense (con un adulto si tienes menos de 18)","Solicitud enviada antes del 31/01/2027 (objetivo: hacia el 20/01)"];
+V.youtube=()=>{const t=totals().last, d=yppDays(); const hLeft=Math.max(0,4000-t.hYT), sLeft=Math.max(0,1000-t.sYT);
+ const bar=(cur,goal,cls)=>`<div class="bar ${cls||""}" style="margin-top:6px"><i style="width:${Math.min(100,cur/goal*100)}%"></i></div>`;
+ return `<section class="view">
+ <div class="panel"><div class="row" style="justify-content:space-between"><div><div class="eyebrow">Fecha límite antes de que suban los requisitos</div><h2>${d} días hasta el 31/01/2027</h2></div><span class="chip ms">Desde el 01/02: 8.000 h o 20 M</span></div>
+  <p class="muted" style="margin:8px 0 0">Hasta el 31/01 te basta con 1.000 suscriptores y 4.000 h de vídeos largos (o 10 M de visitas en Shorts en 90 días). Los que ya están dentro del programa conservan las condiciones. Las horas de los Shorts y las visitas de anuncios no cuentan. Apunta en el tracker las cifras de YouTube Studio → Ganar dinero.</p></div>
+ <div class="grid2">
+  <div class="panel"><h3>Suscriptores</h3><div class="v num" style="font-size:26px;font-weight:600">${big(t.sYT)} <span class="muted" style="font-size:14px">/ 1.000</span></div>${bar(t.sYT,1000,"coral")}<p class="muted" style="margin:6px 0 0;font-size:13px">Faltan ${big(sLeft)} → ${d?Math.ceil(sLeft/d):0} al día</p></div>
+  <div class="panel"><h3>Horas de visualización (vídeos largos)</h3><div class="v num" style="font-size:26px;font-weight:600">${big(t.hYT)} <span class="muted" style="font-size:14px">/ 4.000 h</span></div>${bar(t.hYT,4000)}<p class="muted" style="margin:6px 0 0;font-size:13px">Faltan ${big(Math.round(hLeft))} h → ${d?(hLeft/d).toFixed(0):0} h al día ≈ ${d?Math.round(hLeft/d*60/3.5).toLocaleString("es-ES"):0} visitas de vídeo largo al día (con 3,5 min de media)</p></div>
+  <div class="panel"><h3>Extra: visitas de Shorts (90 días)</h3><div class="v num" style="font-size:26px;font-weight:600">${big(t.svYT)} <span class="muted" style="font-size:14px">/ 10 M</span></div>${bar(t.svYT,1e7,"sun")}<p class="muted" style="margin:6px 0 0;font-size:13px">No lo planifiques: si un Short se hace viral, este camino se abre solo.</p></div>
+ </div>
+ <div class="panel"><h3>🎬 Vídeos largos: 2 por semana</h3><div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>#</th><th>Tema</th><th>Publicación (18:00)</th></tr></thead><tbody>
+  ${LPLAN.map(([c,tt,dd])=>`<tr><td class="num">${c}</td><td>${esc(tt)}</td><td><button class="btn small" data-goto="${dd}">${fmt(dd)}</button></td></tr>`).join("")}
+  <tr><td class="num">L9-L14</td><td class="muted">Ideas #9-#17 de la pestaña Vídeos largos</td><td class="muted">2 por semana hasta el 20/01</td></tr></tbody></table></div>
+  <ul style="margin:10px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px"><li>De 10 a 15 min · los primeros 30 s repiten la promesa · lista hacia atrás con el n.º 1 al final</li><li>Pantalla final hacia otro vídeo largo · cada Short con «Vídeo relacionado» hacia su vídeo largo · listas de reproducción por tema</li><li>Los días de vídeo largo, solo 1 Short. Instagram, solo como repost.</li></ul></div>
+ <div class="panel"><h3>Pack de plantillas (Drive de JimGorlich)</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px">
+  <li><b>Útil:</b> 15 plantillas animadas de Remotion (cifras, barras, expedientes, sellos de RUMOR/CONFIRMADO). He revisado el código y está limpio, pero no lo he renderizado.</li>
+  <li><b>Son horizontales</b>: añade la composición «Short» de 1080×1920 (instrucciones en 09-estrategia-youtube-y-plantillas.md). El ejemplo del S1 está en plantillas/guion-S1-vertical.json.</li>
+  <li><b>Personalízalas</b> (paleta y tipografías en gta-base.tsx): si todos los compradores usan las mismas, YouTube puede verlo como contenido en serie.</li>
+  <li><b>El folleto es publicidad</b>: casos de éxito sin verificar y una llamada de venta. No hace falta pagar nada más para este plan.</li></ul></div>
+ <div class="panel"><h3>Antes de solicitar la monetización</h3><ul class="tasks" style="margin-top:10px">${YPPCHK.map((x,i)=>{const id="ypp#"+i,on=!!S.done[id];return `<li class="task${on?" done":""}"><input type="checkbox" id="yp-${i}" data-task="${id}" ${on?"checked":""}><label for="yp-${i}"><span class="t">${esc(x)}</span></label></li>`}).join("")}</ul></div>
+ </section>`};
 
 V.calendario=()=>{
   const first=dt(START); const pad=(first.getDay()+6)%7; let cells="";
@@ -569,7 +598,7 @@ V.producto=()=>{const steps=[["16/11","Lista de espera gratis en Gumroad","0 €
  </section>`};
 
 V.tracker=()=>{
-  const cols=[["pub","Publicado",1],["vYT","Vis. YT"],["vTT","Vis. TT"],["vIG","Vis. IG"],["sYT","Seg. YT"],["sTT","Seg. TT"],["sIG","Seg. IG"],["clicks","Clics"],["sales","Ventas"],["rev","€"],["promo","Promoción €"]];
+  const cols=[["pub","Publicado",1],["vYT","Vis. YT"],["vTT","Vis. TT"],["vIG","Vis. IG"],["sYT","Seg. YT"],["sTT","Seg. TT"],["sIG","Seg. IG"],["hYT","Horas YT (total)"],["svYT","Vis. Shorts 90 d"],["clicks","Clics"],["sales","Ventas"],["rev","€"],["promo","Promoción €"]];
   const t=totals();
   // chart
   const W=720,H=200,P={l:44,r:12,t:12,b:26};const vals=DAYS.map(d=>{const r=S.tracker[d.d]||{};return num(r.vYT)+num(r.vTT)+num(r.vIG)});
@@ -587,7 +616,7 @@ V.tracker=()=>{
    <div style="margin-top:10px">${svg}</div><div class="row muted" style="font-size:12px"><span class="chip k-content">■ visitas (YT + TT + IG)</span><span class="chip k-product">● días con ventas</span></div></div>
   <div class="tablewrap"><table><thead><tr><th>Fecha</th>${cols.map(c=>`<th class="${c[2]?"":"n"}">${c[1]}</th>`).join("")}</tr></thead><tbody>
   ${DAYS.map(d=>{const r=S.tracker[d.d]||{};return `<tr class="${d.d===todayIso?"cur":""}"><td class="num" style="white-space:nowrap">${fmt(d.d)}</td>${cols.map(([k,,w])=>`<td><input class="tin${w?" wide":""}" id="tr-${d.d}-${k}" data-day="${d.d}" data-k="${k}" value="${esc(r[k]??"")}" inputmode="${w?"text":"decimal"}" aria-label="${k} ${d.d}"></td>`).join("")}</tr>`}).join("")}
-  <tr><td><b>Total</b></td><td></td><td class="n" colspan="3">${big(t.v)} vis.</td><td class="n" colspan="3">${big(t.last.sYT+t.last.sTT+t.last.sIG)} seg.</td><td class="n">${t.clicks}</td><td class="n">${t.sales}</td><td class="n">${eur(t.rev)}</td><td class="n">${eur(t.promo)}</td></tr>
+  <tr><td><b>Total</b></td><td></td><td class="n" colspan="3">${big(t.v)} vis.</td><td class="n" colspan="3">${big(t.last.sYT+t.last.sTT+t.last.sIG)} seg.</td><td class="n">${big(t.last.hYT)} h</td><td class="n">${big(t.last.svYT)}</td><td class="n">${t.clicks}</td><td class="n">${t.sales}</td><td class="n">${eur(t.rev)}</td><td class="n">${eur(t.promo)}</td></tr>
   </tbody></table></div>
   <div class="panel"><h3>Las 3 métricas que miras</h3><div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>Métrica</th><th>Bueno</th><th>Alarma</th></tr></thead><tbody>
    <tr><td>Retención a 3 s (YT «Lo vieron»)</td><td>≥ 70 %</td><td>&lt; 55 %</td></tr>
@@ -630,7 +659,7 @@ V.preparacion=()=>{const chosen=S.settings.channel||"";
 🇪🇸 Shorts nuevos cada día · Canal fan no oficial</pre><button class="btn small" data-copybio>Copiar la bio</button></div></section>`};
 
 /* ============ ROUTER + EVENTOS ============ */
-const ROUTES=["hoy","calendario","shorts","largos","producto","tracker","monetizacion","reglas","preparacion"];
+const ROUTES=["hoy","youtube","calendario","shorts","largos","producto","tracker","monetizacion","reglas","preparacion"];
 let route="hoy";
 function render(){
   const h=(location.hash||"").slice(1); route=ROUTES.includes(h)?h:"hoy";

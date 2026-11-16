@@ -1,7 +1,7 @@
 # 04 · 20 ideas de vídeos largos de YouTube
 
 **Están ordenadas por potencial de búsqueda en español.** Es mi estimación según lo que más se buscó con GTA V y RDR2 (trucos, dinero, PC, coches, duración…). Compruébala tecleando cada título en la barra de YouTube y mirando las sugerencias de autocompletar.
-**Orden en el que las produces (plan diario):** L1 = #2, L2 = #1, L3 = #3, L4 = #6, L5 = #4. Empiezo por "dinero" en lugar de "trucos" porque es el que vende la guía.
+**Orden en el que las produces (plan diario, 2 por semana para la monetización):** L1 = #2, L2 = #1, L3 = #3, L4 = #4, L5 = #5, L6 = #6, L7 = #7, L8 = #8, y del L9 al L14 = #9-#17 hasta el 20/01. Usa las plantillas del pack (ver `09-…`). Empiezo por "dinero" en lugar de "trucos" porque es el que vende la guía.
 
 **Formato para todos:** de 8 a 12 minutos (suma horas de visualización sin necesitar gameplay infinito), voz IA, **guion 100 % tuyo**, y gráficos propios (tablas, mapas dibujados, rankings) en al menos el 60 % del tiempo. Clips de terceros con permiso u oficiales ≤ 3 s, sin su audio. Capítulos en la descripción. Las 2 primeras frases repiten el título (es bueno para el SEO).
 

@@ -29,7 +29,7 @@ Son estimaciones mías, no promesas. Parten de una cuenta nueva, 2 h al día y s
 100.000 visitas → aprox. 1.000 visitas al perfil (1 %) → aprox. 150 clics en el enlace de la bio (15 %) → aprox. 5-8 ventas (3-5 %).
 Para vender 30 guías en el primer mes necesitas unas **400.000-600.000 visitas sumando las 3 plataformas**. Es alcanzable con 2-3 Shorts al día durante el pico, pero no está garantizado.
 
-**Monetización de YouTube (largo plazo):** para cobrar anuncios necesitas 1.000 suscriptores y además 4.000 horas de visualización o 10 millones de visitas en Shorts. A partir del 01/02/2027 los nuevos solicitantes necesitarán 8.000 horas o 20 millones de visitas en Shorts. Lo más probable es que no llegues antes de febrero, así que no cuentes con ese dinero en estos 90 días (detalles en `06-monetizacion.md`).
+**Monetización de YouTube (largo plazo):** para cobrar anuncios necesitas 1.000 suscriptores y además 4.000 horas de visualización o 10 millones de visitas en Shorts. A partir del 01/02/2027 los nuevos solicitantes necesitarán 8.000 horas o 20 millones de visitas en Shorts. **Objetivo:** cumplir los requisitos antes del 31/01/2027 con 2 vídeos largos por semana (plan en `09-estrategia-youtube-y-plantillas.md`). Aun así, no cuentes con dinero de anuncios en estos 90 días.
 
 ---
 
@@ -61,7 +61,7 @@ No te obsesiones con los seguidores. Si las 3 métricas van bien, los seguidores
 ---
 
 ## Archivos de este roadmap
-`01-setup-48h.md` · `02-plan-diario-30-dias.md` · `03-guiones-primeros-15-shorts.md` · `04-ideas-videos-largos.md` · `05-producto-digital.md` · `06-monetizacion.md` · `07-riesgos-y-reglas.md` · `08-tracker.md`
+`01-setup-48h.md` · `02-plan-diario-30-dias.md` · `03-guiones-primeros-15-shorts.md` · `04-ideas-videos-largos.md` · `05-producto-digital.md` · `06-monetizacion.md` · `07-riesgos-y-reglas.md` · `08-tracker.md` · `09-estrategia-youtube-y-plantillas.md` · `panel.html`
 
 **Fuentes del contexto (consultadas el 16/11/2026):**
 - Fecha de lanzamiento y plataformas: [PCWorld](https://www.pcworld.com/article/3052217/gta-6s-release-date-confirmed-for-real-this-time-seriously.html), [Fox10](https://www.fox10tv.com/2026/10/16/gta-6-locks-nov-19-release-date-after-delays/?outputType=amp), [TechRadar](https://www.techradar.com/gaming/grand-theft-auto-6-delayed-again-but-itll-still-ship-in-2026).

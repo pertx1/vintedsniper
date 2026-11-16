@@ -1,0 +1,9 @@
+[
+ {"plantilla":"gta-capitulo","segundos":2,"text":"FALTAN","value":2,"unit":"DÍAS","lang":"es"},
+ {"plantilla":"gta-atardecer","segundos":3,"topText":"jueves 19 de noviembre","text":"GTA VI","bottomText":"solo PS5 y Xbox Series"},
+ {"plantilla":"gta-sello","segundos":2.5,"text":"PC: SIN ANUNCIAR","accent":"#EC517D","grado":-8,"imageUrl":"pc-stock.jpg"},
+ {"plantilla":"gta-sinopsis","segundos":4,"text":"LO QUE SABEMOS","value":8,"items":["Dos protagonistas: Jason y Lucia","Leonida, un estado inspirado en Florida","Vice City como gran ciudad"]},
+ {"plantilla":"gta-dato","segundos":3,"topText":"DESDE GTA V","value":13,"unit":" AÑOS","text":"el último GTA principal salió en 2013","lang":"es"},
+ {"plantilla":"gta-sello","segundos":2.5,"text":"PRECARGA ABIERTA","accent":"#2BD47D","grado":6,"imageUrl":"descarga-stock.jpg"},
+ {"plantilla":"gta-marcador","segundos":4,"topText":"cada día desde el jueves","text":"SÍGUEME","items":["Secretos","Dinero rápido","Easter eggs"],"value":25}
+]
