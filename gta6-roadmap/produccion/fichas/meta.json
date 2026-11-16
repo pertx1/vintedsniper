@@ -1,0 +1,256 @@
+{
+ "S4": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Jason_and_Lucia_Beach_Jason_and_Lucia_Beach_portrait.jpg",
+  "lineas": [
+   "¿JASON",
+   "O LUCÍA?"
+  ],
+  "desc": "Hoy sale GTA 6: quiénes son Jason Duval y Lucía Caminos según la web oficial de Rockstar. Su pasado, la cárcel de Leonida y por qué se necesitan. ¿Con quién te quedas?",
+  "tags": "#gta6 #jasonyLucia #gta6español #shorts"
+ },
+ "S5": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p/Vice_City_27.jpg",
+  "cx": 0.5,
+  "lineas": [
+   "¿GTA 6",
+   "EN PC?"
+  ],
+  "desc": "GTA 6 sale en PS5 y Xbox Series, pero no en PC. Lo que tardaron GTA IV, GTA V y RDR2 en llegar a PC, y cuándo podría llegar GTA 6 (estimación, no es oficial).",
+  "tags": "#gta6 #gta6pc #gta6español #shorts"
+ },
+ "S6": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p/Lucia_Caminos_05.jpg",
+  "cx": 0.35,
+  "lineas": [
+   "ROMPIÓ",
+   "YOUTUBE"
+  ],
+  "desc": "El primer tráiler de GTA 6 hizo unos 90 millones de visitas en 24 horas (récord Guinness) y el segundo, según Rockstar, 475 millones en su primer día. Así batió récords antes de salir.",
+  "tags": "#gta6 #record #gta6español #shorts"
+ },
+ "S7": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Cal_Hampton_Cal_Hampton_portrait.jpg",
+  "lineas": [
+   "EL MÁS",
+   "RARO"
+  ],
+  "desc": "Cal Hampton, el amigo conspiranoico de Jason en GTA 6: sus frases oficiales y por qué es el personaje más raro del juego.",
+  "tags": "#gta6 #calhampton #gta6español #shorts"
+ },
+ "S8": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Brian_Heder_Brian_Heder_portrait.jpg",
+  "lineas": [
+   "EL CASERO",
+   "DE JASON"
+  ],
+  "desc": "Brian Heder: el traficante veterano de los Cayos que deja vivir gratis a Jason… con letra pequeña. Todo lo que dice la web oficial de GTA 6.",
+  "tags": "#gta6 #brianheder #gta6español #shorts"
+ },
+ "S9": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_GROTTI_CHEETAH_01.jpg",
+  "cx": 0.5,
+  "lineas": [
+   "ULTIMATE",
+   "¿MERECE?"
+  ],
+  "desc": "Los extras de la Ultimate Edition de GTA 6 en 40 segundos: Grotti Cheetah, lancha Squalo, buggy Dominator, revólveres Vercetti y 5 negocios exclusivos. ¿Te compensa?",
+  "tags": "#gta6 #gta6ultimate #gta6español #shorts"
+ },
+ "S10": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Official_Cover_Art_Official_Cover_Art_portrait.jpg",
+  "lineas": [
+   "SIN",
+   "DISCO"
+  ],
+  "desc": "La edición física de GTA 6 no trae disco: dentro de la caja hay un código de descarga. Qué ediciones hay y cómo pasar a la Ultimate.",
+  "tags": "#gta6 #gta6fisico #gta6español #shorts"
+ },
+ "S11": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p/Leonida_Keys_02.jpg",
+  "cx": 0.22,
+  "lineas": [
+   "5 ANIMALES",
+   "OCULTOS"
+  ],
+  "desc": "Iguanas, caimanes, una serpiente, tortugas y peces león, ciervos… y un pitbull con cadena de oro: los animales que salen en las imágenes oficiales de GTA 6.",
+  "tags": "#gta6 #animales #gta6español #shorts"
+ },
+ "S12": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/vc/Artwork-GTAVC-TommyVercetti.jpg",
+  "cx": 0.5,
+  "lineas": [
+   "GUIÑOS A",
+   "VICE CITY"
+  ],
+  "desc": "4 guiños a GTA Vice City (2002) escondidos en GTA 6: la ciudad, Washington Beach, la mansión Vercetti y el pack Vintage Vice City.",
+  "tags": "#gta6 #vicecity #tommyvercetti #shorts"
+ },
+ "L1": {
+  "largo": true,
+  "bg": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_GROTTI_CHEETAH_01.jpg",
+  "lado": "izq",
+  "dark": 760,
+  "lineas": [
+   [
+    "ULTIMATE",
+    140,
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   [
+    "VS ESTÁNDAR",
+    112,
+    [
+     255,
+     224,
+     46
+    ]
+   ],
+   [
+    "¿MERECE LA PENA?",
+    58,
+    [
+     255,
+     255,
+     255
+    ]
+   ]
+  ],
+  "desc": "GTA 6 Ultimate Edition vs Estándar: todos los extras uno a uno con imágenes oficiales (Grotti Cheetah, Squalo, Dominator Buggy, revólveres Vercetti, Rideout Customs, Electric Fang…), dónde está cada cosa y mi veredicto.\\n\\n0:00 Intro\\n0:22 Precio y formato\\n0:55 Qué no cambia\\n1:16 Vehículos\\n2:24 Armas\\n2:53 Ropa\\n3:09 Actividades\\n3:41 Los 5 negocios\\n4:24 Ediciones de GTA V y RDR2\\n5:22 Dónde está cada cosa\\n5:50 Mi top 3\\n6:18 Veredicto",
+  "tags": "#gta6 #gta6ultimate #gta6español #vicecity"
+ },
+ "S13": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p/GTAVI_Pre_Load.jpg",
+  "cx": 0.4,
+  "lineas": [
+   "¿GTA 6",
+   "ONLINE?"
+  ],
+  "desc": "¿GTA 6 tiene online? De momento Rockstar no lo ha anunciado. Lo que dice la web oficial y lo que tardaron GTA Online y Red Dead Online en llegar.",
+  "tags": "#gta6 #gta6online #gta6español #shorts"
+ },
+ "S14": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p/Leonida_Keys_02.jpg",
+  "cx": 0.22,
+  "lineas": [
+   "ESTO PASA",
+   "EN FLORIDA"
+  ],
+  "desc": "Iguanas que caen de los árboles, caimanes en los Everglades y la plaga del pez león: 3 cosas de GTA 6 que pasan de verdad en Florida.",
+  "tags": "#gta6 #florida #gta6español #shorts"
+ },
+ "S15": {
+  "t": 12.6,
+  "lineas": [
+   "¿LO",
+   "VISTE?"
+  ],
+  "desc": "Brian's Marina: el detalle del tráiler de lanzamiento de GTA 6 que casi nadie vio, y por qué es el negocio de Brian Heder.",
+  "tags": "#gta6 #easteregg #gta6español #shorts"
+ },
+ "S16": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Boobie_Ike_Boobie_Ike_portrait.jpg",
+  "lineas": [
+   "EL REY DE",
+   "VICE CITY"
+  ],
+  "desc": "Boobie Ike: la leyenda de Vice City que pasó de la calle a un imperio legal, con el club Jack of Hearts y el sello Only Raw Records.",
+  "tags": "#gta6 #boobieike #gta6español #shorts"
+ },
+ "S17": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_DreQuan_Priest_DreQuan_Priest_portrait.jpg",
+  "lineas": [
+   "EL",
+   "MAGNATE"
+  ],
+  "desc": "Dre'Quan Priest, socio de Boobie en Only Raw Records y el que ha fichado a Real Dimez. Todo lo que dice la web oficial de GTA 6.",
+  "tags": "#gta6 #drequan #gta6español #shorts"
+ },
+ "S18": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Real_Dimez_Real_Dimez_portrait.jpg",
+  "lineas": [
+   "RAPERAS",
+   "VIRALES"
+  ],
+  "desc": "Real Dimez: Bae-Luxe y Roxy, las raperas de GTA 6 que triunfan en redes y han fichado por Only Raw Records.",
+  "tags": "#gta6 #realdimez #gta6español #shorts"
+ },
+ "S19": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Raul_Bautista_Raul_Bautista_portrait.jpg",
+  "lineas": [
+   "EL",
+   "ATRACADOR"
+  ],
+  "desc": "Raul Bautista, el atracador de bancos de GTA 6 que siempre busca talento… y siempre sube la apuesta.",
+  "tags": "#gta6 #raulbautista #gta6español #shorts"
+ },
+ "S20": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p/Lucia_Caminos_13.jpg",
+  "cx": 0.32,
+  "lineas": [
+   "¿LIBERTY",
+   "CITY?"
+  ],
+  "desc": "La biografía oficial de Lucía dice que su madre soñaba con la buena vida desde sus días en Liberty City. La pista que conecta GTA 6 con GTA III y GTA IV.",
+  "tags": "#gta6 #libertycity #gta6español #shorts"
+ },
+ "S21": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/vc/OceanDrive-GTAVC.jpg",
+  "cx": 0.5,
+  "lineas": [
+   "2002",
+   "VS 2026"
+  ],
+  "desc": "GTA Vice City (2002) contra la Vice City de GTA 6 (2026): Tommy Vercetti, Ray Liotta, récords… y lo que ha cambiado 24 años después.",
+  "tags": "#gta6 #vicecity #tommyvercetti #shorts"
+ },
+ "S22": {
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_The_Album_Cover_Art_The_Album_Cover_Art_portrait.jpg",
+  "lineas": [
+   "NO ES",
+   "CASUALIDAD"
+  ],
+  "desc": "La música de los tráileres de GTA 6: Tom Petty en el primero y The Pointer Sisters en el segundo. Por qué no es casualidad.",
+  "tags": "#gta6 #musica #gta6español #shorts"
+ },
+ "L0b": {
+  "largo": true,
+  "bg": "vc/OceanDrive-GTAVC.jpg",
+  "lado": "der",
+  "dark": 560,
+  "lineas": [
+   [
+    "LA HISTORIA",
+    120,
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   [
+    "DE VICE CITY",
+    112,
+    [
+     255,
+     224,
+     46
+    ]
+   ],
+   [
+    "1997 → 2026",
+    64,
+    [
+     236,
+     81,
+     125
+    ]
+   ]
+  ],
+  "desc": "La historia completa de Vice City: del primer GTA (1997) a GTA Vice City (2002), Tommy Vercetti, sus récords y polémicas, Vice City Stories, la Definitive Edition… y los guiños que GTA 6 ha heredado.\\n\\n0:00 Intro\\n0:32 Vice City en GTA 1 (1997)\\n0:53 GTA III y la decisión de volver\\n1:18 El anuncio y el lanzamiento (2002)\\n1:43 Inspiraciones: Scarface y Corrupción en Miami\\n2:13 Tommy Vercetti y el reparto\\n3:13 Récords\\n3:40 La polémica\\n4:00 Vice City Stories, móviles y Definitive Edition\\n4:32 El regreso en GTA 6\\n5:06 4 guiños de GTA 6 a Vice City\\n5:58 Cierre",
+  "tags": "#gta6 #vicecity #historia #gta6español"
+ }
+}

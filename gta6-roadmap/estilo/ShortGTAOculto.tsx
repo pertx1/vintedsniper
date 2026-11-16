@@ -62,7 +62,7 @@ const Subtitulos: React.FC = () => {
   const t = frame / FPS;
   let idx = W.findIndex(([, s, e]) => t >= s && t < e + 0.12);
   if (idx === -1) { for (let i = W.length - 1; i >= 0; i--) if (W[i][1] <= t) { idx = i; break; } }
-  if (idx === -1 || P[planoEn(t)].plantilla === "gta-personaje") return null;
+  if (idx === -1 || ["gta-personaje", "gta-cita"].includes(P[planoEn(t)].plantilla)) return null;
   const g = GRUPO[idx];
   const n = GRUPO.findIndex((x, j) => j > idx && x !== g);
   const fin = n === -1 ? W.length : n;

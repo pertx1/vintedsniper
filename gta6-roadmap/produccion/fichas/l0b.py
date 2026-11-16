@@ -1,0 +1,51 @@
+import json
+SP='/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad'
+AW='p2/Artwork_Wallpapers_'; U='p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_'; VV='p2/Vintage_Vice_City_Pack_VINTAGE_VICE_CITY_'
+def v(n,top=None): d={'img':f'vc/{n}.jpg'}; top and d.update(top=top); return d
+def P(n,top=None): d={'img':f'p/{n}.jpg'}; top and d.update(top=top); return d
+pl=[
+ {'lista':[P('Vice_City_01','LA HISTORIA DE VICE CITY'),v('OceanDrive-GTAVC'),P('Vice_City_27'),P('Vice_City_15')]},
+ {'a':'Pero ¿sabes de dónde viene','lista':[v('ViceCity-GTAVC-OfficialRockstarHighResDownload'),v('Screenshot__3__GTAVC'),v('TommyVercetti-GTAVC'),P('Vice_City_15')]},
+ {'a':'Quédate hasta el final','sello':'NO TE LO PIERDAS','img':'p/Vice_City_08.jpg'},
+ {'a':'Empecemos por el principio','lista':[v('ViceCity-GTA1-Montage','GRAND THEFT AUTO · 1997'),v('ViceCity-GTA1-GBC')]},
+ {'a':'Allí era una de las tres','tpl':'gta-sinopsis','text':'GTA 1 · 1997','items':['Liberty City','San Andreas','Vice City'],'value':14},
+ {'a':'Cinco años después','lista':[{'tpl':'gta-dato','topText':'GTA III','value':2001,'unit':'','text':'el primer GTA en 3D','fijo':True},v('Screenshot__5__GTAVC')]},
+ {'a':'El equipo decidió','lista':[v('ViceCityWebsitePC-GTAVC-SS1'),v('ViceCityWebsitePC-GTAVC-SS2'),v('ViceCityWebsitePC-GTAVC-SS3')]},
+ {'a':'GTA Vice City se anunció','lista':[v('GTA_Vice_City_Box_Art','E3 · 22 DE MAYO DE 2002'),v('ViceCityWebsitePC-GTAVC-SS4')]},
+ {'a':'Fue el juego más caro','tpl':'gta-sinopsis','text':'PRESUPUESTO','items':['Desarrollo: 5 M$','Marketing: 13,2 M$'],'value':14},
+ {'a':'Iba a salir','lista':[{'tpl':'gta-dato','topText':'SALIÓ EN PS2 EL','value':29,'unit':' OCT','text':'de 2002','fijo':True},v('ViceCityWebsitePC-GTAVC-SS5'),v('ViceCityWebsitePC-GTAVC-SS6')]},
+ {'a':'La ciudad estaba inspirada','lista':[v('ViceCityWebsitePC-GTAVC-SS7','1986'),v('OceanBeach-GTAVC')]},
+ {'a':'la película El precio del poder','lista':[v('VercettiEstate-GTAVC-Exterior-Front','LA MANSIÓN'),v('VercettiEstate-GTAVC-Interior-MainHall')]},
+ {'a':'Atrapado por su pasado','lista':[v('ViceCityWebsitePC-GTAVC-SS8'),v('ViceCityWebsitePC-GTAVC-SS9','CORRUPCIÓN EN MIAMI')]},
+ {'a':'Por eso la ropa','lista':[v('ViceCityWebsitePC-GTAVC-SS10'),v('Screenshot__7__GTAVC')]},
+ {'a':'Y luego está Tommy','lista':[v('Artwork-GTAVC-TommyVercetti','TOMMY VERCETTI'),v('TommyVercetti-GTAVC-SoireeSuit-Gallery')]},
+ {'a':'Tommy, en cambio, tenía la voz','sello':'RAY LIOTTA','img':'vc/TommyVercetti-Artwork.jpg'},
+ {'a':'La historia: en mil','lista':[v('InTheBeginning-GTAVC-SS28'),v('SonnyForelli-Artwork','SONNY FORELLI'),v('InTheBeginning-GTAVC-SS34'),v('TommyVercetti-GTAVC-FinalCutscene')]},
+ {'a':'El reparto era de lujo','lista':[v('SonnyForelli-Artwork','TOM SIZEMORE'),v('KenRosenberg-Artwork','WILLIAM FICHTNER'),v('AveryCarrington-Artwork','BURT REYNOLDS'),v('LanceVance-Artwork','PHILIP MICHAEL THOMAS')]},
+ {'a':'El juego tenía ocho mil','tpl':'gta-sinopsis','text':'VICE CITY EN CIFRAS','items':['8.000 líneas de diálogo','90+ minutos de escenas','9 horas de música'],'value':14},
+ {'a':'Y el resultado','tpl':'gta-dato','topText':'METACRITIC','value':95,'unit':'/100','text':'el mejor de PS2 en 2002'},
+ {'a':'Vendió más de quinientas','tpl':'gta-dato','topText':'EN 24 HORAS','value':500,'unit':'.000','text':'copias vendidas'},
+ {'a':'y un millón cuatrocientas','sello':'RÉCORD DE VENTAS','img':'vc/ViceCity-GTAVC-Montage.jpg'},
+ {'a':'Fue el más vendido','tpl':'gta-dato','topText':'COPIAS EN TOTAL','value':17,'unit':',5 M','text':'Take-Two, 2008'},
+ {'a':'Pero no todo fue bonito','sello':'POLÉMICA','acc':'#EC517D','g':5,'img':'vc/TommyVercetti-GTAVC-HaitianMissions.jpg'},
+ {'a':'Rockstar acabó publicando','img':'vc/Screenshot__9__GTAVC.jpg','top':'ROCKSTAR SE DISCULPÓ'},
+ {'a':'Después, Vice City siguió viva','lista':[v('VCS_Boxart','VICE CITY STORIES · 2006'),v('VictorVance-GTAVCS','VICTOR VANCE'),v('Downtown-GTAVCS-Night')]},
+ {'a':'En dos mil doce','img':'vc/Tommy_Vercetti-GTAVC-Ipad-GameplayExample.jpg','top':'10º ANIVERSARIO · MÓVILES'},
+ {'a':'Y en dos mil veintiuno','lista':[v('GTATrilogyDE-GTAVC-Screenshot1','DEFINITIVE EDITION · 2021'),v('GTATrilogyDE-GTAVC-Screenshot4'),v('GTATrilogyDE-GTAVC-Screenshot6')]},
+ {'a':'Y entonces, en diciembre','lista':[P('Lucia_Caminos_05','TRÁILER 1 · 2023'),{'clip':'trailer-22'},P('Jason_and_Lucia_14'),{'clip':'trailer-09'}]},
+ {'a':'Había vuelto','sello':'VICE CITY HA VUELTO','img':'p/Vice_City_01.jpg'},
+ {'a':'Pero ya no era','lista':[P('Vice_City_15'),P('Vice_City_04'),P('Vice_City_18')]},
+ {'a':'Y esta vez no estaba sola','lista':[P('Leonida_Keys_01','LEONIDA KEYS'),P('Grassrivers_04','GRASSRIVERS'),P('Ambrosia_01','AMBROSIA'),P('Port_Gellhorn_01','PORT GELLHORN'),P('Mount_Kalaga_National_Park_04','MOUNT KALAGA')]},
+ {'a':'Y aquí viene lo que te prometí','sello':'4 GUIÑOS','img':'p/Vice_City_24.jpg'},
+ {'a':'Uno: Washington Beach','lista':[v('OceanBeach-GTAVC-southwestwards','WASHINGTON BEACH · 2002'),{'img':U+'SQUALO_02.jpg','top':'SHITZU SQUALO · 2026'}]},
+ {'a':'Dos: la mansión Vercetti','lista':[{'img':U+'HAWK_AND_LITTLE_MORGAN_REVOLVERS_01.jpg','top':'HAWK & LITTLE MORGAN'},v('VercettiEstate-GTAVC-Exterior-BackPool','MANSIÓN VERCETTI · 2002')]},
+ {'a':'Tres: el estilo','lista':[{'img':VV+'PACK_01.jpg','top':'VINTAGE VICE CITY'},{'img':VV+'PACK_EXCLUSIVE_LOOKS_02.jpg'},{'img':VV+'PACK_VAPID_STANIER_01.jpg','top':"'55 VAPID STANIER"}]},
+ {'a':'Y cuatro: Lucía','lista':[P('Lucia_Caminos_14','LUCÍA'),{'cita':'Lo que más quiere es la buena vida con la que su madre soñaba desde sus días en Liberty City','quien':'Biografía de Lucía'}]},
+ {'a':'Así que, cuando conduzcas','lista':[v('ViceCity-GTA1-Montage','1997'),v('OceanDrive-GTAVC','2002'),P('Vice_City_27','2026')]},
+ {'a':'Y tú, ¿jugaste','tpl':'gta-marcador','topText':'te leo en comentarios','text':'¿2002 O 2026?','items':['Vice City 2002','GTA 6'],'value':25},
+ {'a':'Y si te ha gustado','img':AW+'Jason_and_Lucia_Rooftop_Jason_Lucia_Rooftop_landscape.jpg','top':'SUSCRÍBETE'},
+]
+F=dict(id='L0b',tipo='largo',voz='voz-l0b2.mp3',words=f'{SP}/words/L0b.json',fin=1.5,planos=pl,
+ booms=['Y luego está Tommy','Pero no todo fue bonito','Había vuelto'],flami=['Había vuelto'],
+ claves=['Vice','noventa','Liotta,','noventa','quinientas','Vercetti.','Lucía.'])
+json.dump(F,open(f'{SP}/fichas/L0b.json','w'),ensure_ascii=False,indent=1); print(len(pl))
