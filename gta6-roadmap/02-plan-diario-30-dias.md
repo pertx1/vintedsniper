@@ -3,7 +3,8 @@
 ## Cómo usar este archivo (léelo una vez)
 - **Cada día abres este archivo, buscas la fecha de hoy y haces solo lo de hoy.** Si te saltas un día, no lo recuperes: sigue con el de hoy.
 - **Bloque fijo de 2 h:** unos 70 min para los Shorts, 35 min para la guía o el vídeo largo y 15 min para investigar y rellenar el tracker.
-- **Actualizado el 16/11 para ir a por la monetización de YouTube:** desde el 24/11 hay **2 vídeos largos por semana** (🎬). Los días de vídeo largo publicas 1 Short e Instagram queda solo como repost. Ver `09-estrategia-youtube-y-plantillas.md`.
+- **Actualizado el 16/11 (frecuencia final): 2 Shorts al día (14:00 y 21:00) y 2 vídeos largos por semana (18:00). Claude monta los vídeos; tú revisas, programas y contestas comentarios.**
+- **Versión anterior:** desde el 24/11 hay **2 vídeos largos por semana** (🎬). Los días de vídeo largo publicas 1 Short e Instagram queda solo como repost. Ver `09-estrategia-youtube-y-plantillas.md`.
 - **Códigos:** `S#` = guion de Short (S1-S15 están completos en `03-…`; S16-S41 los sacas del banco de temas al final de este archivo). `L#` = vídeo largo de `04-…`.
 - **"Publicar en las 3"** = el mismo vídeo vertical en YouTube Shorts, TikTok e Instagram Reels.
 - **Horas de publicación:** 14:00 y 21:00, hora de España (cubres España y la tarde de Latinoamérica).
@@ -28,6 +29,7 @@
 - **Producto:** —
 
 ### Mié 18/11
+- **🎬 Vídeo largo L0 "GTA 6: TODO lo que sabemos antes de jugarlo" a las 18:00** (lo monta Claude; tú revisas el guion y la voz y lo programas, 20 min)
 - [ ] Montar S2 y S3 (70 min)
 - [ ] **Publicar S2 a las 14:00 y S3 a las 21:00** en las 3
 - [ ] Programar S4 para mañana a las 09:00 (YouTube Studio y TikTok web) (10 min)
@@ -35,176 +37,210 @@
 
 ---
 
-## SEMANA 1 · Pico de lanzamiento (19-25/11). La velocidad manda.
+## SEMANA 1 · Lanzamiento (19-23/11)
 
-### Jue 19/11 · 🚀 SALE GTA VI
-- [ ] S4 sale solo a las 09:00. Montar S5 y **publicarlo a las 14:00** (35 min)
-- [ ] 30 min de investigación: r/GTA6, X/Twitter (busca "GTA 6" y ordena por "Más reciente"), YouTube ordenado por "Fecha de subida" y Rockstar Newswire → **10 descubrimientos a la Base**
-- [ ] Mandar el **mensaje de permiso** a 10 creadores pequeños de GTA en español (plantilla al final) (20 min)
+### Jue 19/11 · 🚀 Sale GTA VI
+- **Publicas:** S4 a las 14:00 · S5 a las 21:00
+- [ ] Revisar y programar S4 (14:00) y S5 (21:00) en YouTube Studio (15 min)
+- [ ] **Producto:** 30 min de investigación → 10 descubrimientos a la Base
+- [ ] Mensaje de permiso a 10 creadores pequeños (20 min)
 - [ ] Rellenar el tracker (5 min)
-- **Producto:** la Base es el borrador de la guía.
 
 ### Vie 20/11
-- [ ] Rellenar S6 y S7 con datos de la Base, montarlos y **publicarlos a las 14:00 y a las 21:00** (75 min)
-- [ ] +10 descubrimientos a la Base, marcando los **trucos y easter eggs** (25 min)
-- [ ] Mandar el mensaje de permiso a 5 creadores más y responder a los que contesten (10 min)
-- **Producto:** marca en la Base los 15 mejores trucos y secretos que tengan 2 fuentes.
+- **Publicas:** S6 a las 14:00 · S7 a las 21:00
+- [ ] Revisar y programar S6 (14:00) y S7 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] **Producto:** +10 descubrimientos (marcar trucos y easter eggs) (25 min)
+- [ ] Permiso a 5 creadores más + responder (10 min)
+- [ ] **Producto:** Marcar los 15 mejores trucos y secretos con 2 fuentes
 
 ### Sáb 21/11
-- [ ] S8 ("5 trucos que el juego no te explica") y **publicarlo a las 14:00** (35 min). **Es el Short más importante de la semana: está directamente ligado a la guía.**
-- [ ] Contestar los 20 primeros comentarios en las 3 plataformas (15 min)
-- [ ] **Producto:** crear en Notion el esqueleto de la guía con el índice de `05-…`, solo los títulos (30 min)
-- [ ] Copiar en el borrador de la guía los trucos y secretos de la Base (30 min)
+- **Publicas:** S8 a las 14:00 · S9 a las 21:00
+- [ ] Revisar y programar S8 (14:00) y S9 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] **Producto:** Esqueleto de la guía en Notion con el índice (30 min)
+- [ ] **Producto:** Trucos y secretos de la Base al borrador (30 min)
 
 ### Dom 22/11
-- [ ] S9 y **publicarlo a las 14:00** (35 min)
-- [ ] **Producto:** con Claude, escribir el capítulo 1 (trucos que el juego no explica) y el capítulo 2 (primeras horas) de la v1.0 en tus propias palabras, a partir de la Base (60 min)
-- [ ] Exportar el PDF desde Notion y crear la portada en Canva sin logos oficiales (20 min)
+- **🎬 Vídeo largo L0b "La historia de Vice City: de 2002 a GTA 6" a las 18:00** (revisar y programar, 15 min)
+- **Publicas:** S10 a las 14:00 · S11 a las 21:00
+- [ ] Revisar y programar S10 (14:00) y S11 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] **Producto:** Con Claude: capítulos 1 (trucos) y 2 (primeras horas) de la v1.0 (60 min)
+- [ ] **Producto:** Exportar el PDF y crear la portada en Canva sin logos (20 min)
 
-### Lun 23/11 · 💶 Sale la guía v1.0
-- [ ] **Producto:** publicar la guía en Gumroad a **4,99 €** con el texto de la página de venta de `05-…` (20 min). Crear el código `ESPERA50` (−50 %, 48 h).
-- [ ] **Producto:** enviar un email a la lista de espera (Gumroad → Emails) con el código, y cambiar el enlace de la bio en las 3 (10 min)
-- [ ] S10 y **publicarlo a las 21:00** con CTA a la guía (35 min)
-- [ ] **Promoción:** si algún Short cumple la regla, TikTok Promote de 5 € (5 min)
+### Lun 23/11 · 💶 Guía v1.0
+- **Publicas:** S12 a las 14:00 · S13 a las 21:00
+- [ ] Revisar y programar S12 (14:00) y S13 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] **Producto:** Publicar la guía en Gumroad a 4,99 € + código ESPERA50 (20 min)
+- [ ] **Producto:** Email a la lista de espera + cambiar el enlace de las 3 bios (10 min)
+- [ ] **Promoción:** Promoción: 5 € de TikTok Promote si algún Short cumple la regla
 
 ---
 
-## SEMANA 2 · Consolidar y 2 vídeos largos por semana (24/11-2/12)
+## SEMANA 2 · Ritmo completo: 2 Shorts al día + 2 vídeos largos por semana (24/11-2/12)
 
 ### Mar 24/11
-- **Publicas:** S11 a las 14:00
-- [ ] S11 a las 14:00 (35 min)
-- [ ] 🎬 L1 "Trucos de GTA VI": guion con Claude (40 min)
+- **Publicas:** S14 a las 14:00 · S15 a las 21:00
+- [ ] Revisar y programar S14 (14:00) y S15 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L1 que prepara Claude (15 min)
 - [ ] **Producto:** +10 descubrimientos (20 min)
 - [ ] Comentario fijado con CTA en todos los Shorts (10 min)
 
 ### Mié 25/11
-- **Publicas:** 🎬 L1 a las 18:00 · S13 a las 21:00
-- [ ] 🎬 L1: voz + plantillas + montaje + publicar a las 18:00 (80 min)
-- [ ] S13 (datos curiosos) a las 21:00 (35 min)
+- **Publicas:** 🎬 L1 a las 18:00 · S17 a las 14:00 · S18 a las 21:00
+- [ ] Revisar y programar S17 (14:00) y S18 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L1 a las 18:00 (15 min)
 
 ### Jue 26/11
-- **Publicas:** S14 a las 14:00
-- [ ] S14 a las 14:00 (35 min)
-- [ ] 🎬 L2 "50 datos curiosos": guion (40 min)
+- **Publicas:** S19 a las 14:00 · S20 a las 21:00
+- [ ] Revisar y programar S19 (14:00) y S20 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L2 que prepara Claude (15 min)
 - [ ] Tracker: ¿qué Short y qué vídeo largo van mejor? (5 min)
 
 ### Vie 27/11 · Black Friday
-- **Publicas:** 🎬 L2 a las 18:00 · S16 a las 21:00
-- [ ] 🎬 L2: voz + plantillas + montaje + publicar a las 18:00 (80 min)
-- [ ] **Producto:** Código BLACKVI −40 % (72 h) + S16 a las 21:00 (35 min)
+- **Publicas:** 🎬 L2 a las 18:00 · S21 a las 14:00 · S16 a las 21:00
+- [ ] Revisar y programar S21 (14:00) y S16 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L2 a las 18:00 (15 min)
+- [ ] **Producto:** Código BLACKVI −40 % (72 h) en Gumroad (5 min)
 
 ### Sáb 28/11
-- **Publicas:** S15 a las 14:00 · S17 a las 21:00
-- [ ] S15 y S17 (70 min)
-- [ ] **Producto:** v1.1: 5 trucos o secretos nuevos + preguntas frecuentes (40 min)
+- **Publicas:** S22 a las 14:00 · S23 a las 21:00
+- [ ] Revisar y programar S22 (14:00) y S23 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] **Producto:** v1.1: 5 secretos nuevos + datos curiosos + preguntas frecuentes (40 min)
 
 ### Dom 29/11
-- **Publicas:** S18 a las 14:00
-- [ ] S18 a las 14:00 (35 min)
-- [ ] 🎬 L3 "GTA VI en PC": guion (40 min)
+- **Publicas:** S24 a las 14:00 · S25 a las 21:00
+- [ ] Revisar y programar S24 (14:00) y S25 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L3 que prepara Claude (15 min)
 - [ ] **Promoción:** Promoción: regla de los 5 € (5 min)
 
 ### Lun 30/11
-- **Publicas:** 🎬 L3 a las 18:00
-- [ ] 🎬 L3: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- **Publicas:** 🎬 L3 a las 18:00 · S26 a las 14:00 · S27 a las 21:00
+- [ ] Revisar y programar S26 (14:00) y S27 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L3 a las 18:00 (15 min)
 - [ ] **Producto:** Subir la v1.1 + email a los compradores (15 min)
 
 ### Mar 01/12
-- **Publicas:** S19 a las 14:00 · S20 a las 21:00
-- [ ] S19 y S20 (70 min)
+- **Publicas:** S28 a las 14:00 · S30 a las 21:00
+- [ ] Revisar y programar S28 (14:00) y S30 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] Revisión semanal: 3 métricas + horas de YouTube (20 min)
 - [ ] "Vídeo relacionado" de cada Short → su vídeo largo (10 min)
 
 ### Mié 02/12
-- **Publicas:** S21 a las 14:00
-- [ ] S21 a las 14:00 (35 min)
-- [ ] 🎬 L4 "Mejores coches": guion (40 min)
+- **Publicas:** S31 a las 14:00 · S32 a las 21:00
+- [ ] Revisar y programar S31 (14:00) y S32 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L4 que prepara Claude (15 min)
 - [ ] **Producto:** Encuesta a los compradores: ¿qué capítulo quieres? (10 min)
 
 ---
 
-## SEMANA 3 · Guía v2.0 y subida de precio (3-9/12)
+## SEMANA 3 · Guía v2.0 (3-9/12)
 
 ### Jue 03/12
-- **Publicas:** 🎬 L4 a las 18:00 · S22 a las 21:00
-- [ ] 🎬 L4: voz + plantillas + montaje + publicar a las 18:00 (80 min)
-- [ ] S22 a las 21:00 (35 min)
+- **Publicas:** 🎬 L4 a las 18:00 · S33 a las 14:00 · S34 a las 21:00
+- [ ] Revisar y programar S33 (14:00) y S34 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L4 a las 18:00 (15 min)
 
 ### Vie 04/12
-- **Publicas:** S23 a las 14:00 · S24 a las 21:00
-- [ ] S23 y S24 (70 min)
+- **Publicas:** S35 a las 14:00 · S36 a las 21:00
+- [ ] Revisar y programar S35 (14:00) y S36 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] **Producto:** v2.0: capítulo del 100 % (40 min)
 
 ### Sáb 05/12
-- **Publicas:** S25 a las 14:00
-- [ ] S25 a las 14:00 (35 min)
-- [ ] 🎬 L5 "Cuánto dura + 100 %": guion (40 min)
+- **Publicas:** S37 a las 14:00 · S39 a las 21:00
+- [ ] Revisar y programar S37 (14:00) y S39 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L5 que prepara Claude (15 min)
 - [ ] **Producto:** v2.0: capítulo de coleccionables (40 min)
 
 ### Dom 06/12
-- **Publicas:** 🎬 L5 a las 18:00
-- [ ] 🎬 L5: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- **Publicas:** 🎬 L5 a las 18:00 · S40 a las 14:00 · S41 a las 21:00
+- [ ] Revisar y programar S40 (14:00) y S41 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L5 a las 18:00 (15 min)
 - [ ] **Producto:** v2.0: maquetar + portada + registro de cambios (40 min)
 - [ ] **Promoción:** Promoción: regla de los 5 € (5 min)
 
 ### Lun 07/12 · 💶 Guía v2.0 · 6,99 €
-- **Publicas:** S26 a las 14:00 · S29 a las 21:00
+- **Publicas:** S42 a las 14:00 · S29 a las 21:00
+- [ ] Revisar y programar S42 (14:00) y S29 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] **Producto:** Subir la v2.0 + precio a 6,99 € + email a todos (20 min)
-- [ ] S26 a las 14:00 (35 min)
-- [ ] S29 "v2.0 + 1 truco gratis" a las 21:00 (35 min)
 
 ### Mar 08/12
-- **Publicas:** S27 a las 14:00
-- [ ] S27 a las 14:00 (35 min)
-- [ ] 🎬 L6 "El Iceberg de GTA VI" (20-30 min): guion (60 min, empieza el domingo 6 si puedes)
+- **Publicas:** S43 a las 14:00 · S44 a las 21:00
+- [ ] Revisar y programar S43 (14:00) y S44 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L6 que prepara Claude (15 min)
 - [ ] Revisión semanal (20 min)
 
 ### Mié 09/12
-- **Publicas:** 🎬 L6 a las 18:00 · S28 a las 21:00
-- [ ] 🎬 L6: voz + plantillas + montaje + publicar a las 18:00 (80 min)
-- [ ] S28 a las 21:00 (35 min)
+- **Publicas:** 🎬 L6 a las 18:00 · S45 a las 14:00 · S46 a las 21:00
+- [ ] Revisar y programar S45 (14:00) y S46 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L6 a las 18:00 (15 min)
 
 ---
 
 ## SEMANA 4 · Pack y cierre de mes (10-16/12)
 
 ### Jue 10/12
-- **Publicas:** S30 a las 14:00 · S31 a las 21:00
-- [ ] S30 y S31 (70 min)
+- **Publicas:** S47 a las 14:00 · S48 a las 21:00
+- [ ] Revisar y programar S47 (14:00) y S48 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] **Producto:** Alta en Amazon Afiliados + 3 enlaces en los vídeos largos (30 min)
 
 ### Vie 11/12
-- **Publicas:** S32 a las 14:00
-- [ ] S32 a las 14:00 (35 min)
-- [ ] 🎬 L7 "30 lugares secretos": guion (40 min)
+- **Publicas:** S49 a las 14:00 · S50 a las 21:00
+- [ ] Revisar y programar S49 (14:00) y S50 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar el guion de L7 que prepara Claude (15 min)
 - [ ] **Producto:** Pack: checklist imprimible en Canva (40 min)
 
 ### Sáb 12/12
-- **Publicas:** 🎬 L7 a las 18:00
-- [ ] 🎬 L7: voz + plantillas + montaje + publicar a las 18:00 (80 min)
+- **Publicas:** 🎬 L7 a las 18:00 · S51 a las 14:00 · S52 a las 21:00
+- [ ] Revisar y programar S51 (14:00) y S52 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L7 a las 18:00 (15 min)
 - [ ] **Producto:** Pack: mapa-resumen ilustrado (30 min)
 - [ ] **Promoción:** Promoción: regla de los 5 € (5 min)
 
 ### Dom 13/12
-- **Publicas:** S33 a las 14:00 · S34 a las 21:00
-- [ ] S33 y S34 (70 min)
+- **Publicas:** S53 a las 14:00 · S54 a las 21:00
+- [ ] Revisar y programar S53 (14:00) y S54 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] **Producto:** Pack en Gumroad a 8,99 € como borrador (30 min)
 
 ### Lun 14/12 · 💶 Pack 100 %
-- **Publicas:** S38 a las 21:00
+- **Publicas:** S55 a las 14:00 · S38 a las 21:00
+- [ ] Revisar y programar S55 (14:00) y S38 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] **Producto:** Publicar el pack + email con PACK30 (20 min)
-- [ ] S38 "Pack + truco gratis" a las 21:00 (35 min)
-- [ ] 🎬 L8 "Final explicado ⚠️ spoilers": guion (40 min)
+- [ ] 🎬 Revisar el guion de L8 que prepara Claude (15 min)
 
 ### Mar 15/12
-- **Publicas:** 🎬 L8 a las 18:00 · S35 a las 21:00
-- [ ] 🎬 L8: voz + plantillas + montaje + publicar a las 18:00 (80 min)
-- [ ] S35 a las 21:00 (35 min)
+- **Publicas:** 🎬 L8 a las 18:00 · S56 a las 14:00 · S57 a las 21:00
+- [ ] Revisar y programar S56 (14:00) y S57 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
+- [ ] 🎬 Revisar y programar L8 a las 18:00 (15 min)
 
 ### Mié 16/12 · Cierre del mes
-- **Publicas:** S36 a las 14:00
-- [ ] S36 a las 14:00 (35 min)
+- **Publicas:** S58 a las 14:00 · S59 a las 21:00
+- [ ] Revisar y programar S58 (14:00) y S59 (21:00) en YouTube Studio (15 min)
+- [ ] Contestar los comentarios de los vídeos de ayer (10 min)
 - [ ] Revisión del mes con Claude a partir del tracker (45 min)
 - [ ] Plan YPP hasta el 31/01: 2 vídeos largos por semana (L9-L14) + comprobar horas y suscriptores
 

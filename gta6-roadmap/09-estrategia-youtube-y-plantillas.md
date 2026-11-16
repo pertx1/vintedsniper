@@ -29,7 +29,7 @@
 ### Lo que cambia en tu semana (2 h al día)
 Con 2 h al día no cabe todo: dos vídeos largos a la semana obligan a recortar algo.
 1. **Instagram queda solo como repost:** subes el mismo archivo y no contestas comentarios allí. Ahorras unos 10 min al día.
-2. **Los días de vídeo largo publicas solo 1 Short.**
+2. **Frecuencia final: 2 Shorts al día todos los días y 2 vídeos largos por semana.** Claude monta los vídeos; tú revisas y programas.
 3. **El vídeo largo se monta con las plantillas del pack + Claude Code** (sección 3): pasa de 3-4 h a unas 1,5-2 h, repartidas en 2 días.
 4. **Si un fin de semana puedes hacer 3 h, úsalo en vídeos largos.** Son los que dan las horas.
 
