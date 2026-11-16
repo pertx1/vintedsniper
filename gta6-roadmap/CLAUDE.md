@@ -15,3 +15,4 @@ Oier pregunta cada día algo como "¿qué toca hoy?". Respóndele así:
    - Una línea con cómo va respecto a los objetivos (suscriptores y horas hacia 1.000/4.000 antes del 31/01; ventas hacia 60-150 € en el mes), solo si hay datos en el tracker.
 5. **Reglas del contenido:** va del juego (trucos, datos curiosos, easter eggs, secretos, icebergs, comparativas, noticias), **nunca de "cómo hacer dinero"**. Respeta `07-riesgos-y-reglas.md` (clips ≤ 3 s y sin audio, permisos, nada de leaks ni de violencia en los primeros 7 s).
 6. Cuando el plan cambie, actualiza a la vez `02-…`, el array `DAYS` de `panel.html` y vuelve a publicar el panel en la misma URL.
+7. **Vídeos:** cualquier Short nuevo se hace con el estilo aprobado de `estilo/ESTILO-GTA-OCULTO.md`, la composición `estilo/ShortGTAOculto.tsx` y un JSON de datos como `estilo/ejemplo-S1.json`.

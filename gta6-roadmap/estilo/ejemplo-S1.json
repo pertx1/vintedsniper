@@ -1,0 +1,699 @@
+{
+ "voz": "voz.mp3",
+ "planos": [
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_hook.mp4",
+   "topText": "SALE ESTE JUEVES",
+   "segundos": 2.28
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "FALTAN",
+   "value": 2,
+   "unit": " DÍAS",
+   "text": "lo que tienes que saber",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 1.12
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_playa.mp4",
+   "segundos": 1.28
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "SALE EL",
+   "value": 19,
+   "unit": " NOV",
+   "text": "este jueves",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 1.22
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_noche.mp4",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-sinopsis",
+   "text": "SOLO EN CONSOLA",
+   "value": 8,
+   "items": [
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "segundos": 2.22
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "PC: SIN ANUNCIAR",
+   "accent": "#EC517D",
+   "grado": -8,
+   "videoUrl": "v_pc.mp4",
+   "segundos": 3.05
+  },
+  {
+   "plantilla": "gta-personaje",
+   "imageUrl": "jason-v.jpg",
+   "text": "JASON",
+   "topText": "PROTAGONISTA 1",
+   "bottomText": "Jason Duval",
+   "segundos": 2.28
+  },
+  {
+   "plantilla": "gta-personaje",
+   "imageUrl": "lucia-v.jpg",
+   "text": "LUCÍA",
+   "topText": "PROTAGONISTA 2",
+   "bottomText": "Lucía Caminos",
+   "segundos": 1.35
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_pareja.mp4",
+   "topText": "UNA PAREJA QUE HUYE",
+   "segundos": 1.24
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_keys.mp4",
+   "topText": "LEONIDA ≈ FLORIDA",
+   "segundos": 1.36
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_hidro.mp4",
+   "segundos": 1.2
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_boardwalk.mp4",
+   "topText": "VICE CITY",
+   "segundos": 1.3
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_yate.mp4",
+   "segundos": 1.18
+  },
+  {
+   "plantilla": "gta-barras",
+   "topText": "años entre GTAs",
+   "text": "LA ESPERA MÁS LARGA",
+   "unit": "años",
+   "items": [
+    {
+     "t": "III→IV",
+     "v": 6.5,
+     "en": 0.3
+    },
+    {
+     "t": "IV→V",
+     "v": 5.4,
+     "en": 1.0
+    },
+    {
+     "t": "V→VI",
+     "v": 13.2,
+     "en": 1.7
+    }
+   ],
+   "segundos": 3.12
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "DESDE GTA V",
+   "value": 13,
+   "unit": " AÑOS",
+   "text": "de espera",
+   "lang": "es",
+   "segundos": 1.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_explosion.mp4",
+   "segundos": 1.8
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "PRECARGA ABIERTA",
+   "accent": "#2BD47D",
+   "grado": 6,
+   "videoUrl": "v_club.mp4",
+   "segundos": 1.8
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_moto.mp4",
+   "segundos": 1.8
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "v_pareja2.mp4",
+   "topText": "SÍGUEME",
+   "segundos": 1.9
+  },
+  {
+   "plantilla": "gta-marcador",
+   "topText": "desde el jueves, cada día",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25,
+   "segundos": 2.7
+  }
+ ],
+ "palabras": [
+  [
+   "El",
+   0.137,
+   0.16
+  ],
+  [
+   "jueves",
+   0.24,
+   0.56
+  ],
+  [
+   "sale",
+   0.68,
+   0.8
+  ],
+  [
+   "GTA",
+   0.96,
+   1.44
+  ],
+  [
+   "VI.",
+   1.52,
+   2.24
+  ],
+  [
+   "Esto",
+   2.32,
+   2.6
+  ],
+  [
+   "es",
+   2.64,
+   2.72
+  ],
+  [
+   "lo",
+   2.8,
+   2.96
+  ],
+  [
+   "único",
+   3.04,
+   3.36
+  ],
+  [
+   "que",
+   3.44,
+   3.48
+  ],
+  [
+   "necesitas",
+   3.52,
+   4
+  ],
+  [
+   "saber.",
+   4.04,
+   4.64
+  ],
+  [
+   "Sale",
+   4.72,
+   4.96
+  ],
+  [
+   "el",
+   5,
+   5.04
+  ],
+  [
+   "diecinueve",
+   5.12,
+   5.52
+  ],
+  [
+   "de",
+   5.6,
+   5.64
+  ],
+  [
+   "noviembre,",
+   5.68,
+   6.32
+  ],
+  [
+   "solo",
+   6.4,
+   6.64
+  ],
+  [
+   "en",
+   6.72,
+   6.8
+  ],
+  [
+   "PS5",
+   6.88,
+   7.36
+  ],
+  [
+   "y",
+   7.92,
+   8
+  ],
+  [
+   "Xbox",
+   8.16,
+   8.48
+  ],
+  [
+   "Series.",
+   8.68,
+   9.2
+  ],
+  [
+   "¿En",
+   9.253,
+   9.36
+  ],
+  [
+   "PC?",
+   9.4,
+   10.08
+  ],
+  [
+   "De",
+   10.12,
+   10.16
+  ],
+  [
+   "momento,",
+   10.24,
+   10.88
+  ],
+  [
+   "nada",
+   10.96,
+   11.2
+  ],
+  [
+   "anunciado.",
+   11.28,
+   12.24
+  ],
+  [
+   "Llevas",
+   12.293,
+   12.56
+  ],
+  [
+   "a",
+   12.6,
+   12.64
+  ],
+  [
+   "dos",
+   12.72,
+   12.8
+  ],
+  [
+   "protagonistas,",
+   12.88,
+   13.84
+  ],
+  [
+   "Jason",
+   13.92,
+   14.32
+  ],
+  [
+   "y",
+   14.4,
+   14.48
+  ],
+  [
+   "Lucía:",
+   14.6,
+   15.2
+  ],
+  [
+   "una",
+   15.28,
+   15.44
+  ],
+  [
+   "pareja",
+   15.52,
+   15.84
+  ],
+  [
+   "que",
+   15.92,
+   16
+  ],
+  [
+   "huye",
+   16.08,
+   16.32
+  ],
+  [
+   "junta.",
+   16.427,
+   17.12
+  ],
+  [
+   "El",
+   17.16,
+   17.2
+  ],
+  [
+   "mapa",
+   17.28,
+   17.52
+  ],
+  [
+   "es",
+   17.6,
+   17.68
+  ],
+  [
+   "Leonida,",
+   17.76,
+   18.48
+  ],
+  [
+   "un",
+   18.56,
+   18.64
+  ],
+  [
+   "estado",
+   18.8,
+   18.96
+  ],
+  [
+   "inspirado",
+   19.04,
+   19.44
+  ],
+  [
+   "en",
+   19.48,
+   19.52
+  ],
+  [
+   "Florida,",
+   19.6,
+   20
+  ],
+  [
+   "con",
+   20.08,
+   20.24
+  ],
+  [
+   "Vice",
+   20.32,
+   20.56
+  ],
+  [
+   "City",
+   20.72,
+   20.88
+  ],
+  [
+   "como",
+   21,
+   21.12
+  ],
+  [
+   "gran",
+   21.24,
+   21.36
+  ],
+  [
+   "ciudad.",
+   21.44,
+   22.16
+  ],
+  [
+   "Y",
+   22.2,
+   22.24
+  ],
+  [
+   "lo",
+   22.32,
+   22.36
+  ],
+  [
+   "más",
+   22.4,
+   22.56
+  ],
+  [
+   "loco:",
+   22.64,
+   23.2
+  ],
+  [
+   "el",
+   23.28,
+   23.36
+  ],
+  [
+   "último",
+   23.4,
+   23.68
+  ],
+  [
+   "GTA",
+   23.84,
+   24.16
+  ],
+  [
+   "principal",
+   24.44,
+   24.72
+  ],
+  [
+   "salió",
+   24.8,
+   25.12
+  ],
+  [
+   "en",
+   25.2,
+   25.28
+  ],
+  [
+   "2013.",
+   25.36,
+   26.72
+  ],
+  [
+   "Trece",
+   26.76,
+   27.12
+  ],
+  [
+   "años",
+   27.2,
+   27.52
+  ],
+  [
+   "de",
+   27.56,
+   27.6
+  ],
+  [
+   "espera.",
+   27.76,
+   28.48
+  ],
+  [
+   "Si",
+   28.52,
+   28.56
+  ],
+  [
+   "lo",
+   28.64,
+   28.72
+  ],
+  [
+   "tienes",
+   28.76,
+   28.96
+  ],
+  [
+   "reservado",
+   29.04,
+   29.36
+  ],
+  [
+   "en",
+   29.44,
+   29.48
+  ],
+  [
+   "digital,",
+   29.52,
+   30.08
+  ],
+  [
+   "la",
+   30.16,
+   30.24
+  ],
+  [
+   "precarga",
+   30.32,
+   30.8
+  ],
+  [
+   "ya",
+   30.88,
+   30.96
+  ],
+  [
+   "está",
+   31.04,
+   31.2
+  ],
+  [
+   "abierta.",
+   31.24,
+   32.08
+  ],
+  [
+   "Sígueme:",
+   32.12,
+   32.8
+  ],
+  [
+   "desde",
+   32.88,
+   33
+  ],
+  [
+   "el",
+   33.04,
+   33.12
+  ],
+  [
+   "jueves,",
+   33.16,
+   33.68
+  ],
+  [
+   "cada",
+   33.76,
+   33.92
+  ],
+  [
+   "día,",
+   34,
+   34.32
+  ],
+  [
+   "los",
+   34.4,
+   34.48
+  ],
+  [
+   "secretos",
+   34.56,
+   34.96
+  ],
+  [
+   "que",
+   35.04,
+   35.08
+  ],
+  [
+   "encuentre",
+   35.12,
+   35.52
+  ],
+  [
+   "la",
+   35.56,
+   35.6
+  ],
+  [
+   "comunidad.",
+   35.68,
+   36.32
+  ]
+ ],
+ "claves": [
+  "GTA",
+  "VI.",
+  "diecinueve",
+  "PS5",
+  "Xbox",
+  "PC?",
+  "nada",
+  "Jason",
+  "Lucía:",
+  "huye",
+  "Leonida,",
+  "Florida,",
+  "Vice",
+  "loco:",
+  "2013.",
+  "Trece",
+  "espera.",
+  "precarga",
+  "abierta.",
+  "Sígueme:",
+  "secretos"
+ ],
+ "booms": [
+  0,
+  22.64,
+  26.76,
+  32.12
+ ],
+ "flami": [
+  {
+   "desde": 0.0,
+   "hasta": 2.2,
+   "x": 740,
+   "y": 1080,
+   "h": 440,
+   "rot": -8
+  },
+  {
+   "desde": 22.6,
+   "hasta": 25.2,
+   "x": 700,
+   "y": 1220,
+   "h": 540,
+   "rot": 8
+  },
+  {
+   "desde": 34.0,
+   "hasta": 36.7,
+   "x": 590,
+   "y": 1060,
+   "h": 780,
+   "rot": -4
+  }
+ ]
+}
