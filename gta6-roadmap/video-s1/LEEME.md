@@ -24,3 +24,9 @@ Para cambiar cómo se ve, edita `s1-guion.json` (qué plantilla va en cada plano
 - Barra de progreso arriba. Subtítulos con rebote.
 - Sonido: música synthwave hecha con código (`musica-synthwave.wav`, propia, sin derechos), whoosh en cada corte y boom en los momentos clave (efectos de ElevenLabs).
 - En `gta-dato.tsx` se añadió la propiedad `fijo: true` para que una cifra no cuente hacia arriba (fechas).
+
+## v4 (imágenes oficiales)
+- Sin imágenes de IA: todas las fotos son oficiales de rockstargames.com/VI (biblioteca `biblioteca-gta6`, no se sube al repositorio porque es material de Rockstar).
+- Gancho con el arte oficial de Jason y Lucía, fichas de personaje (`gta-personaje`) con recortes verticales centrados en la cara, Cayos reales para Leonida y el letrero de Vice City.
+- Crédito "Imágenes: Rockstar Games" en pequeño abajo a la izquierda.
+- Archivos de imagen que espera `public/`: jason-lucia-11.jpg, jason-v.jpg, lucia-v.jpg, pareja-v.jpg, cayos-mar-playa-06.jpg, vice-city-01.jpg, vice-city-02.jpg, vice-city-06.jpg, flami.png, voz.mp3, musica.wav, whoosh.mp3, boom.mp3.

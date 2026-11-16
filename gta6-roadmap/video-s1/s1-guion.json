@@ -1,9 +1,8 @@
 [
  {
-  "plantilla": "gta-atardecer",
-  "topText": "sale este jueves",
-  "text": "GTA VI",
-  "bottomText": "todo en 30 segundos",
+  "plantilla": "gta-plano",
+  "topText": "SALE ESTE JUEVES",
+  "imageUrl": "jason-lucia-11.jpg",
   "segundos": 2.28
  },
  {
@@ -13,8 +12,8 @@
   "unit": " DÍAS",
   "text": "lo que tienes que saber",
   "lang": "es",
-  "segundos": 2.4,
-  "fijo": true
+  "fijo": true,
+  "segundos": 2.4
  },
  {
   "plantilla": "gta-dato",
@@ -23,8 +22,8 @@
   "unit": " NOV",
   "text": "este jueves",
   "lang": "es",
-  "segundos": 2.32,
-  "fijo": true
+  "fijo": true,
+  "segundos": 2.32
  },
  {
   "plantilla": "gta-sinopsis",
@@ -41,34 +40,41 @@
   "text": "PC: SIN ANUNCIAR",
   "accent": "#EC517D",
   "grado": -8,
-  "imageUrl": "img2.jpg",
-  "ia": true,
+  "imageUrl": "vice-city-01.jpg",
   "segundos": 3.05
  },
  {
-  "plantilla": "gta-sinopsis",
-  "text": "JASON + LUCÍA",
-  "value": 10,
-  "items": [
-   "2 protagonistas",
-   "Una pareja",
-   "que huye junta"
-  ],
-  "segundos": 4.87
+  "plantilla": "gta-personaje",
+  "imageUrl": "jason-v.jpg",
+  "text": "JASON",
+  "topText": "PROTAGONISTA 1",
+  "bottomText": "Jason Duval",
+  "segundos": 2.28
  },
  {
-  "plantilla": "gta-cita",
-  "text": "Un estado entero inspirado en Florida",
-  "topText": "EL MAPA: LEONIDA",
-  "bottomText": "Vice City, Cayos, pantanos…",
-  "accent": "#FF8A3D",
+  "plantilla": "gta-personaje",
+  "imageUrl": "lucia-v.jpg",
+  "text": "LUCÍA",
+  "topText": "PROTAGONISTA 2",
+  "bottomText": "Lucía Caminos",
+  "segundos": 1.35
+ },
+ {
+  "plantilla": "gta-plano",
+  "topText": "UNA PAREJA QUE HUYE",
+  "imageUrl": "pareja-v.jpg",
+  "segundos": 1.24
+ },
+ {
+  "plantilla": "gta-plano",
+  "topText": "LEONIDA ≈ FLORIDA",
+  "imageUrl": "cayos-mar-playa-06.jpg",
   "segundos": 2.56
  },
  {
   "plantilla": "gta-plano",
   "topText": "VICE CITY",
-  "imageUrl": "img0.jpg",
-  "ia": true,
+  "imageUrl": "vice-city-06.jpg",
   "segundos": 2.48
  },
  {
@@ -109,7 +115,7 @@
   "text": "PRECARGA ABIERTA",
   "accent": "#2BD47D",
   "grado": 6,
-  "imageUrl": "img5.jpg",
+  "imageUrl": "vice-city-02.jpg",
   "segundos": 3.6
  },
  {

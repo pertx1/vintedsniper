@@ -59,7 +59,7 @@ const Subtitulos: React.FC = () => {
   const t = frame / FPS;
   let idx = W.findIndex(([, s, e]) => t >= s && t < e + 0.12);
   if (idx === -1) { for (let i = W.length - 1; i >= 0; i--) if (W[i][1] <= t) { idx = i; break; } }
-  if (idx === -1 || planoEn(t) === 0) return null;
+  if (idx === -1 || P[planoEn(t)].plantilla === "gta-personaje") return null;
   const g = Math.floor(idx / 3) * 3;
   const rebote = spring({ frame: frame - Math.round(W[idx][1] * FPS), fps: FPS, config: { damping: 9, stiffness: 220 } });
   return (
@@ -92,7 +92,7 @@ const EtiquetaIA: React.FC = () => {
 const Flami: React.FC = () => {
   const frame = useCurrentFrame();
   const apariciones = [
-    { desde: 0.0, hasta: 2.2, x: 690, y: 230, h: 560, rot: -8 },
+    { desde: 0.0, hasta: 2.2, x: 740, y: 1080, h: 440, rot: -8 },
     { desde: 22.6, hasta: 25.2, x: 700, y: 1220, h: 540, rot: 8 },
     { desde: 32.1, hasta: 36.7, x: 590, y: 1060, h: 780, rot: -4 },
   ];
@@ -111,6 +111,11 @@ const Flami: React.FC = () => {
   );
 };
 
+const Creditos: React.FC = () => (
+  <div style={{ position: "absolute", bottom: 250, left: 40, color: "rgba(255,255,255,.55)",
+    fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: 20 }}>Imágenes: Rockstar Games</div>
+);
+
 const Marca: React.FC = () => (
   <div style={{ position: "absolute", top: 60, right: 50, color: "rgba(255,255,255,.55)",
     fontFamily: "Montserrat, Inter, sans-serif", fontWeight: 800, fontSize: 30 }}>@gtaoculto_es</div>
@@ -122,7 +127,7 @@ export const ShortS1: React.FC = () => (
     <Flash />
     <Flami />
     <Subtitulos />
-    <EtiquetaIA />
+    <Creditos />
     <Marca />
     <Progreso />
     <Audio src={staticFile("voz.mp3")} />
