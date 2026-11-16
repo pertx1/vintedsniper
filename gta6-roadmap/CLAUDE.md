@@ -26,3 +26,4 @@ Herramientas en `produccion/tools` (copiar al scratchpad si hace falta; el proye
 5. **Render**: `tools/cola.sh ID ...` (≈4 min por Short, ≈60-90 min por largo).
 6. **Entrega**: datos en `fichas/meta.json` y `python3 tools/entregar.py ID` → miniatura + vídeo + entrada del panel; publicar el panel con los `media/` nuevos (máx. ~60 MB por publicación).
 **Shorts 🎮 (desde el 20/11)**: cada día buscar en prensa (IGN, Vandal, 3DJuegos, HobbyConsolas, MeriStation, Rockstar Newswire) lo que haya encontrado la comunidad, confirmar en 2 fuentes y montar con capturas oficiales; no usar gameplay de otros creadores sin permiso.
+**Límite del panel:** una versión del artifact admite 256 MB en total. Cuando haga falta espacio, quitar con `remove` los `media/*.mp4` de vídeos ya publicados (fecha pasada) antes de subir nuevos; los que no quepan se mandan por el chat.
