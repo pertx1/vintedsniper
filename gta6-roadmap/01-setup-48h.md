@@ -67,10 +67,10 @@ Evita poner "GTA", "Rockstar" o "Vice City" en el nombre: son marcas registradas
 - [ ] **Bio** (cópiala tal cual en las 3 plataformas):
   ```
   🔎 Secretos, easter eggs y trucos de GTA VI
-  💸 Cómo hacer dinero rápido (guía 👇)
+  🎮 Trucos y datos curiosos (guía 👇)
   🇪🇸 Shorts nuevos cada día · Canal fan no oficial
   ```
-- [ ] **Enlace en la bio (hasta que salga la guía, el día 23):** crea en Gumroad un producto gratuito (0 €) llamado **"Lista de espera: Guía GTA VI dinero rápido (−50 % el día de salida)"**. Quien lo "compre" te deja su email, y el día 23 le mandas el descuento desde Gumroad (Emails → New email). Pon ese enlace en las 3 bios y en la sección "Enlaces" del canal de YouTube.
+- [ ] **Enlace en la bio (hasta que salga la guía, el día 23):** crea en Gumroad un producto gratuito (0 €) llamado **"Lista de espera: Guía de secretos y trucos de GTA VI (−50 % el día de salida)"**. Quien lo "compre" te deja su email, y el día 23 le mandas el descuento desde Gumroad (Emails → New email). Pon ese enlace en las 3 bios y en la sección "Enlaces" del canal de YouTube.
 - [ ] Del 23/11 en adelante, el enlace apunta directamente a la guía de pago.
 
 ---
@@ -80,7 +80,7 @@ Evita poner "GTA", "Rockstar" o "Vice City" en el nombre: son marcas registradas
 ### E1. Banco de recursos (30 min)
 - [ ] Crea en Google Drive la carpeta `ARCHIVO-NEON` con estas subcarpetas: `01-guiones`, `02-voces`, `03-clips-oficiales`, `04-stock`, `05-ia`, `06-exportados`, `07-permisos`.
 - [ ] `03-clips-oficiales`: descarga las **capturas oficiales** que Rockstar publica en su web de GTA VI. Graba con OBS (gratis) fragmentos de los tráilers oficiales, que solo usarás en cortes de **3 segundos o menos** con tu voz encima.
-- [ ] `04-stock`: descarga de **Pexels** y **Pixabay** (licencia gratuita) unos 30 clips verticales: Miami de noche, playas, coches deportivos, dinero, pantanos de Florida, policía con luces o flamencos. Te servirán de relleno legal.
+- [ ] `04-stock`: descarga de **Pexels** y **Pixabay** (licencia gratuita) unos 30 clips verticales: Miami de noche, playas, coches deportivos, pantanos de Florida, policía con luces o flamencos. Te servirán de relleno legal.
 - [ ] `07-permisos`: crea un documento llamado "Permisos de clips" donde apuntes qué creador te dio permiso, la fecha y la captura de pantalla del mensaje.
 
 ### E2. Voz en ElevenLabs (20 min)

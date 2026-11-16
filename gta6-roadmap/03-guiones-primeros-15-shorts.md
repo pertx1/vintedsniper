@@ -106,16 +106,16 @@
 
 ---
 
-## S8 · "La forma más rápida de ganar dinero en GTA VI (de momento)" — sábado 21 a las 14:00 ⭐ el Short de la guía
+## S8 · "5 trucos que GTA VI no te explica" — sábado 21 a las 14:00 ⭐ el Short de la guía
 
 | Elemento | Contenido |
 |---|---|
-| **Gancho (0-2 s)** | Voz: "Este es el método más rápido para hacer dinero en GTA VI ahora mismo." · Texto: **"💸 DINERO RÁPIDO"** |
-| **Voz** | "Lo que más se está usando en la comunidad es [RELLENAR: nombre del método]. Paso uno: [RELLENAR]. Paso dos: [RELLENAR]. Paso tres: [RELLENAR]. Según [RELLENAR: fuente 1 y fuente 2], sacas unos [RELLENAR: cantidad] por [RELLENAR: tiempo]. Ojo: Rockstar suele ajustar estos métodos con parches, así que aprovéchalo ahora. Tengo otros [RELLENAR: número] métodos ordenados de más a menos rentable." |
-| **Visuales** | Un número de dinero subiendo en cada paso · clip con permiso (con su @ en pantalla) o capturas oficiales · fondo de stock de billetes |
-| **Texto en pantalla** | "PASO 1" · "PASO 2" · "PASO 3" · "≈ [cantidad] / [tiempo]" |
-| **CTA** | "Los [número] métodos, ordenados, están en la guía. Enlace en el perfil (lista de espera con −50 %)." |
-| **Hashtags** | base + `#dinerogta6 #gta6dinero #trucosgta6` |
+| **Gancho (0-2 s)** | Voz: "GTA VI no te explica esto, y cambia cómo juegas." · Texto: **"🎮 5 TRUCOS OCULTOS"** |
+| **Voz** | "Uno: [RELLENAR: un control o atajo poco conocido, con 2 fuentes]. Dos: [RELLENAR: una mecánica escondida, por ejemplo algo de conducción, sigilo o policía]. Tres: [RELLENAR: un ajuste del menú que casi nadie cambia]. Cuatro: [RELLENAR: algo que puedes hacer en el mapa y nadie te cuenta]. Y cinco, mi favorito: [RELLENAR: el truco más sorprendente]. Lo encontró [RELLENAR: @ o usuario], y créditos para él." |
+| **Visuales** | Número grande en cada punto (plantilla `gta-capitulo` o `gta-dato`) · clip con permiso (con su @) o captura oficial (≤3 s) · el n.º 5 con el sello "CONFIRMADO" (`gta-sello`) |
+| **Texto en pantalla** | "1 · [3 palabras]" … "5 · [3 palabras]" |
+| **CTA** | "Tengo otros [número] trucos ordenados en la guía. Enlace en el perfil (lista de espera con −50 %)." |
+| **Hashtags** | base + `#trucosgta6 #secretosgta6` |
 
 ---
 
@@ -137,10 +137,10 @@
 | Elemento | Contenido |
 |---|---|
 | **Gancho (0-2 s)** | Voz: "Mismo estudio, trece años después. Cinco diferencias que se notan." · Texto: **"GTA V vs GTA VI"** |
-| **Voz** | "Uno: tres protagonistas frente a dos, y por primera vez en la saga moderna una protagonista mujer. Dos: Los Santos frente a todo el estado de Leonida. Tres: las redes sociales dentro del juego, que ya salían en el primer tráiler. Cuatro: [RELLENAR: una diferencia de jugabilidad confirmada por la comunidad]. Cinco: [RELLENAR: otra diferencia, por ejemplo de conducción, policía o economía]. Y una que no cambia: Rockstar sigue escondiendo dinero fácil para quien sabe dónde mirar." |
+| **Voz** | "Uno: tres protagonistas frente a dos, y por primera vez en la saga moderna una protagonista mujer. Dos: Los Santos frente a todo el estado de Leonida. Tres: las redes sociales dentro del juego, que ya salían en el primer tráiler. Cuatro: [RELLENAR: una diferencia de jugabilidad confirmada por la comunidad]. Cinco: [RELLENAR: otra diferencia, por ejemplo de conducción, policía o economía]. Y una que no cambia: Rockstar sigue escondiendo secretos para quien sabe dónde mirar." |
 | **Visuales** | Pantalla partida: una captura de GTA V (≤ 2 s) y una de GTA VI (≤ 2 s) en cada punto · un marcador "V vs VI" que cambia |
 | **Texto en pantalla** | "3 vs 2" · "LOS SANTOS vs LEONIDA" · "REDES SOCIALES" · "[4]" · "[5]" |
-| **CTA** | "La guía de dinero rápido ya está disponible: enlace en el perfil." |
+| **CTA** | "La guía de secretos y trucos ya está disponible: enlace en el perfil." |
 | **Hashtags** | base + `#gtav #comparativa` |
 
 ---
@@ -171,16 +171,16 @@
 
 ---
 
-## S13 · "Dinero rápido #2: el método que casi nadie usa" — miércoles 25 a las 14:00 💶
+## S13 · "Datos curiosos de GTA VI que casi nadie sabe" — miércoles 25 a las 21:00
 
 | Elemento | Contenido |
 |---|---|
-| **Gancho (0-2 s)** | Voz: "Todos están haciendo dinero mal en GTA VI." · Texto: **"💸 MÉTODO #2"** |
-| **Voz** | "Todo el mundo está con [RELLENAR: el método popular], pero [RELLENAR: método 2] da [RELLENAR: comparación] y casi nadie lo usa. Haz esto: [RELLENAR: paso 1], [RELLENAR: paso 2] y [RELLENAR: truco extra]. Combinado con el método del otro vídeo, en una tarde tienes [RELLENAR: cantidad]." |
-| **Visuales** | Comparativa con dos barras (método popular frente a método 2) · clip con permiso o capturas oficiales · dinero que sube |
-| **Texto en pantalla** | "POPULAR: [X]/h" · "ESTE: [Y]/h" · "PASO 1-2-3" |
-| **CTA** | "Están los dos, y 10 más, en la guía. Enlace en el perfil." |
-| **Hashtags** | base + `#dinerogta6 #trucosgta6` |
+| **Gancho (0-2 s)** | Voz: "El tercer dato de GTA VI me ha volado la cabeza." · Texto: **"🤯 DATOS CURIOSOS"** |
+| **Voz** | "Uno: [RELLENAR: un detalle técnico o de realismo, como animales, clima o reflejos]. Dos: [RELLENAR: una referencia a la Florida real o a un juego anterior]. Tres: [RELLENAR: el dato más sorprendente, con 2 fuentes]. Y un extra: [RELLENAR: una cifra del juego, como edificios, NPCs o canciones, si es oficial]. ¿Cuál no sabías?" |
+| **Visuales** | `gta-sinopsis` para enumerar · `gta-senal` con un cerco sobre el detalle en una captura oficial · `gta-cita` si hay una declaración de Rockstar |
+| **Texto en pantalla** | "DATO 1" · "DATO 2" · "🤯 DATO 3" · "EXTRA" |
+| **CTA** | "Hay 50 más en la guía de secretos. Enlace en el perfil." |
+| **Hashtags** | base + `#curiosidadesgta6 #sabiasque` |
 
 ---
 

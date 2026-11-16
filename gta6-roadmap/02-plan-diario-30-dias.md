@@ -46,19 +46,19 @@
 
 ### Vie 20/11
 - [ ] Rellenar S6 y S7 con datos de la Base, montarlos y **publicarlos a las 14:00 y a las 21:00** (75 min)
-- [ ] +10 descubrimientos a la Base, marcando los de **dinero** (25 min)
+- [ ] +10 descubrimientos a la Base, marcando los **trucos y easter eggs** (25 min)
 - [ ] Mandar el mensaje de permiso a 5 creadores más y responder a los que contesten (10 min)
-- **Producto:** marca en la Base los 15 mejores métodos de dinero que tengan 2 fuentes.
+- **Producto:** marca en la Base los 15 mejores trucos y secretos que tengan 2 fuentes.
 
 ### Sáb 21/11
-- [ ] S8 ("dinero rápido") y **publicarlo a las 14:00** (35 min). **Es el Short más importante de la semana: está directamente ligado a la guía.**
+- [ ] S8 ("5 trucos que el juego no te explica") y **publicarlo a las 14:00** (35 min). **Es el Short más importante de la semana: está directamente ligado a la guía.**
 - [ ] Contestar los 20 primeros comentarios en las 3 plataformas (15 min)
 - [ ] **Producto:** crear en Notion el esqueleto de la guía con el índice de `05-…`, solo los títulos (30 min)
-- [ ] Copiar en el borrador de la guía los métodos de dinero de la Base (30 min)
+- [ ] Copiar en el borrador de la guía los trucos y secretos de la Base (30 min)
 
 ### Dom 22/11
 - [ ] S9 y **publicarlo a las 14:00** (35 min)
-- [ ] **Producto:** con Claude, escribir el capítulo 1 (dinero rápido) y el capítulo 2 (primeras horas) de la v1.0 en tus propias palabras, a partir de la Base (60 min)
+- [ ] **Producto:** con Claude, escribir el capítulo 1 (trucos que el juego no explica) y el capítulo 2 (primeras horas) de la v1.0 en tus propias palabras, a partir de la Base (60 min)
 - [ ] Exportar el PDF desde Notion y crear la portada en Canva sin logos oficiales (20 min)
 
 ### Lun 23/11 · 💶 Sale la guía v1.0
@@ -74,19 +74,19 @@
 ### Mar 24/11
 - **Publicas:** S11 a las 14:00
 - [ ] S11 a las 14:00 (35 min)
-- [ ] 🎬 L1 "Dinero rápido": guion con Claude (40 min)
+- [ ] 🎬 L1 "Trucos de GTA VI": guion con Claude (40 min)
 - [ ] **Producto:** +10 descubrimientos (20 min)
 - [ ] Comentario fijado con CTA en todos los Shorts (10 min)
 
 ### Mié 25/11
 - **Publicas:** 🎬 L1 a las 18:00 · S13 a las 21:00
 - [ ] 🎬 L1: voz + plantillas + montaje + publicar a las 18:00 (80 min)
-- [ ] S13 (dinero #2) a las 21:00 (35 min)
+- [ ] S13 (datos curiosos) a las 21:00 (35 min)
 
 ### Jue 26/11
 - **Publicas:** S14 a las 14:00
 - [ ] S14 a las 14:00 (35 min)
-- [ ] 🎬 L2 "Trucos de GTA VI": guion (40 min)
+- [ ] 🎬 L2 "50 datos curiosos": guion (40 min)
 - [ ] Tracker: ¿qué Short y qué vídeo largo van mejor? (5 min)
 
 ### Vie 27/11 · Black Friday
@@ -97,7 +97,7 @@
 ### Sáb 28/11
 - **Publicas:** S15 a las 14:00 · S17 a las 21:00
 - [ ] S15 y S17 (70 min)
-- [ ] **Producto:** v1.1: 5 métodos nuevos + preguntas frecuentes (40 min)
+- [ ] **Producto:** v1.1: 5 trucos o secretos nuevos + preguntas frecuentes (40 min)
 
 ### Dom 29/11
 - **Publicas:** S18 a las 14:00
@@ -218,13 +218,13 @@ Usa la estructura de los guiones de `03-…` (gancho, 4-6 frases, giro y CTA) y 
 | S16 | "Black Friday: cuánto cuesta GTA VI hoy en cada tienda" | Noticia |
 | S17 | El coche más rápido encontrado hasta ahora | Secreto |
 | S18 | El easter egg de "Florida Man" más loco | Easter egg |
-| S19 | Dinero rápido #3 | 💶 Dinero |
+| S19 | Trucos ocultos #2 | Truco |
 | S20 | Cómo funcionan las redes sociales dentro del juego | Curiosidad |
 | S21 | Las 3 misiones secundarias más raras | Secreto |
 | S22 | Los animales de Leonida (caimanes, flamencos…) | Curiosidad |
 | S23 | La referencia a GTA Vice City (2002) | Comparativa |
 | S24 | El bug más gracioso de la semana (**solo un clip con permiso**) | Reacción |
-| S25 | Dinero rápido #4 | 💶 Dinero |
+| S25 | Datos curiosos #2 | Curiosidad |
 | S26 | Un lugar secreto del mapa | Secreto |
 | S27 | Los 3 mejores sitios del mapa para hacer fotos (modo foto) | Truco |
 | S28 | La mejor arma para empezar | Truco |
@@ -232,14 +232,14 @@ Usa la estructura de los guiones de `03-…` (gancho, 4-6 frases, giro y CTA) y 
 | S30 | GTA VI Online: lo que se sabe oficialmente | Noticia |
 | S31 | PS5 frente a Xbox Series S: dónde se ve mejor (citando análisis públicos) | Comparativa |
 | S32 | 5 detalles de realismo que nadie esperaba | Secreto |
-| S33 | Dinero rápido #5 | 💶 Dinero |
+| S33 | Trucos ocultos #3 | Truco |
 | S34 | Récord de ventas actualizado (cifra oficial de Take-Two) | Noticia |
 | S35 | Un easter egg de Red Dead Redemption | Easter egg |
 | S36 | Dónde está el coleccionable X | Truco |
 | S37 | Una teoría de la comunidad (**nunca leaks**) | Teoría |
 | S38 | Pack 100 % + truco gratis | 💶 Producto |
 | S39 | Lo que nadie hace en GTA VI (y deberías) | Truco |
-| S40 | Dinero rápido #6 | 💶 Dinero |
+| S40 | Datos curiosos #3 | Curiosidad |
 | S41 | Resumen del primer mes de GTA VI | Noticia |
 
 ---

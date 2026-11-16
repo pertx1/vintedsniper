@@ -1,7 +1,7 @@
 # 04 · 20 ideas de vídeos largos de YouTube
 
-**Están ordenadas por potencial de búsqueda en español.** Es mi estimación según lo que más se buscó con GTA V y RDR2 (trucos, dinero, PC, coches, duración…). Compruébala tecleando cada título en la barra de YouTube y mirando las sugerencias de autocompletar.
-**Orden en el que las produces (plan diario, 2 por semana para la monetización):** L1 = #2, L2 = #1, L3 = #3, L4 = #4, L5 = #5, L6 = #6, L7 = #7, L8 = #8, y del L9 al L14 = #9-#17 hasta el 20/01. Usa las plantillas del pack (ver `09-…`). Empiezo por "dinero" en lugar de "trucos" porque es el que vende la guía.
+**Están ordenadas por potencial de búsqueda en español.** Es mi estimación según lo que más se buscó con GTA V y RDR2 (trucos, secretos, PC, coches, duración…). Compruébala tecleando cada título en la barra de YouTube y mirando las sugerencias de autocompletar.
+**Orden en el que las produces (2 por semana para la monetización):** L1 = #1 Trucos, L2 = #2 Datos curiosos, L3 = #3 PC, L4 = #4 Coches, L5 = #5 Duración, L6 = #6 Secretos, L7 = #7 Mapa, L8 = #8 Final, y del L9 al L14 = #9-#17 hasta el 20/01. **Todo va del juego: trucos, secretos, datos curiosos y easter eggs.** Usa las plantillas del pack (ver `09-…`).
 
 **Formato para todos:** de 8 a 12 minutos (suma horas de visualización sin necesitar gameplay infinito), voz IA, **guion 100 % tuyo**, y gráficos propios (tablas, mapas dibujados, rankings) en al menos el 60 % del tiempo. Clips de terceros con permiso u oficiales ≤ 3 s, sin su audio. Capítulos en la descripción. Las 2 primeras frases repiten el título (es bueno para el SEO).
 
@@ -13,7 +13,7 @@
 | # | Título | Miniatura (texto ≤ 4 palabras) | Estructura específica |
 |---|---|---|---|
 | 1 | **Trucos de GTA VI para PS5 y Xbox: todos los que existen (2026)** | Mando de stock con botones brillando + "¿HAY TRUCOS?" | 0:00 ¿Tiene claves como GTA V? (respuesta según la comunidad y Rockstar) · Si **sí**: tabla de claves por consola, de 30 s cada una · Si **no**: "15 trucos de jugabilidad que funcionan como claves" · cómo afectan a los logros o trofeos · CTA guía |
-| 2 | **Cómo ganar dinero rápido en GTA VI: los mejores métodos ordenados** ⭐ | Montón de billetes + "💸 TOP 10" | 10 métodos del 10 al 1 con cantidad por hora en una tabla en pantalla · un método "que no funciona" (mito) · cuál usar según tu momento de la historia · CTA guía a mitad y al final |
+| 2 | **50 datos curiosos de GTA VI que no sabías** ⭐ | Lupa sobre captura + "🤯 50 DATOS" | Del 50 al 1 en bloques de 10 (técnicos, Florida real, referencias a otros juegos, cifras oficiales) · fuente en pantalla en cada dato · el más sorprendente al final · CTA guía a mitad |
 | 3 | **GTA VI en PC: fecha, requisitos y todo lo que sabemos** | PC con luces + "¿CUÁNDO?" | Estado oficial · historial GTA IV, GTA V y RDR2 (8, 19 y 13 meses) · qué PC necesitarías (estimación basada en requisitos de RDR2 y GTA V Enhanced, **marcada como estimación**) · alternativas hoy (consola, juego en la nube si existe oficialmente) |
 | 4 | **Los mejores coches de GTA VI y dónde encontrarlos** | Coche deportivo de stock + "TOP 10 GRATIS" | Del 10 al 1: nombre, dónde aparece y por qué · coches gratis frente a coches de pago · el más rápido según pruebas de la comunidad (con créditos) |
 | 5 | **¿Cuánto dura GTA VI? Historia, secundarias y 100 %** | 3 relojes + "¿CUÁNTAS HORAS?" | Datos de HowLongToBeat y de la comunidad · comparación con GTA V y RDR2 · cuántas misiones · ruta para no perder horas → CTA guía |
@@ -31,7 +31,7 @@
 | 17 | **15 errores de principiante en GTA VI que te hacen perder horas** | Cruz roja + "NO HAGAS ESTO" | Del 15 al 1 · solución de cada uno · CTA guía |
 | 18 | **La historia de Vice City: de 2002 a GTA VI** *(largo plazo, siempre tendrá búsquedas)* | Tommy (silueta) y Lucia (silueta) + "24 AÑOS" | Vice City de 2002 → Vice City Stories (2006) → GTA VI · conexiones y guiños |
 | 19 | **GTA VI vs Red Dead Redemption 2: ¿cuál es mejor?** | Mitad vaquero y mitad Miami + "¿CUÁL GANA?" | 8 categorías · votación en los comentarios |
-| 20 | **Cuánto dinero ha ganado GTA VI: todos los récords** | Gráfico que sube + "RÉCORD" | Cifras oficiales de Take-Two y comparativa con GTA V (800 M$ en 24 h y 1.000 M$ en 3 días) · actualízalo con el siguiente informe trimestral |
+| 20 | **Todos los récords de GTA VI: ventas, jugadores y cifras** | Gráfico que sube + "RÉCORD" | Cifras oficiales de Take-Two y comparativa con GTA V (800 M$ en 24 h y 1.000 M$ en 3 días) · actualízalo con el siguiente informe trimestral |
 
 ---
 

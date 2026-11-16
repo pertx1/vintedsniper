@@ -7,6 +7,8 @@
 
 ## La estrategia en 4 frases
 
+> **Enfoque del contenido (actualizado):** todo va **del juego**: trucos, datos curiosos, easter eggs, secretos, comparativas y noticias. Nada de "cómo hacer dinero". La guía de pago es una **guía de secretos, trucos y 100 %**.
+
 1. **No compites con gameplay, compites con velocidad y criterio.** Mientras otros juegan, tú haces el resumen: "lo que ha descubierto la comunidad hoy", explicado en 30-45 segundos en español.
 2. **Todo el contenido lleva tu voz IA, tu guion, tus gráficos y tu montaje.** Los clips de terceros son siempre cortos y comentados. Así cuentan como contenido original y no como resubido (las reglas están en `07-riesgos-y-reglas.md`).
 3. **El dinero de las primeras 4 semanas sale de la guía, no de los anuncios.** Ni TikTok ni YouTube te van a pagar por visitas en diciembre, porque una cuenta nueva no llega a los requisitos.

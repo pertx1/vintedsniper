@@ -39,8 +39,8 @@ Las tareas nuevas de vídeo largo ya están metidas en el panel (marcadas 🎬) 
 
 | # | Tema (de `04-…`) | Guion | Montaje y publicación (18:00) |
 |---|---|---|---|
-| L1 | #2 Dinero rápido | mar 24/11 | **mié 25/11** |
-| L2 | #1 Trucos para PS5 y Xbox | jue 26/11 | **vie 27/11** |
+| L1 | #1 Trucos para PS5 y Xbox | mar 24/11 | **mié 25/11** |
+| L2 | #2 50 datos curiosos | jue 26/11 | **vie 27/11** |
 | L3 | #3 GTA VI en PC | dom 29/11 | **lun 30/11** |
 | L4 | #4 Mejores coches | mié 2/12 | **jue 3/12** |
 | L5 | #5 Cuánto dura + 100 % | sáb 5/12 | **dom 6/12** |
@@ -55,7 +55,7 @@ Las tareas nuevas de vídeo largo ya están metidas en el panel (marcadas 🎬) 
 - **Listas numeradas que cuentan hacia atrás**, con el mejor punto al final: la gente se queda hasta el final.
 - **Pantalla final** que lleve a otro vídeo largo tuyo, no a un Short. Así encadenas sesiones.
 - **Cada Short lleva el "Vídeo relacionado"** apuntando al vídeo largo del mismo tema. Es tu mejor fuente de tráfico hacia los vídeos largos.
-- **Una lista de reproducción por tema** ("Dinero en GTA VI", "Secretos de GTA VI") con reproducción seguida.
+- **Una lista de reproducción por tema** ("Trucos de GTA VI", "Secretos y easter eggs", "Datos curiosos") con reproducción seguida.
 - **No pagues anuncios de YouTube** para conseguir horas: esas visitas no cuentan.
 - **Pide la monetización solo cuando el canal esté "limpio"**: al menos 8 vídeos largos con guion propio, sin reclamaciones abiertas ni avisos (sección 4).
 
