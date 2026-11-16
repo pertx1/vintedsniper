@@ -1,0 +1,582 @@
+{
+ "voz": "voz-s2.mp3",
+ "planos": [
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_hook.mp4",
+   "topText": "6 ZONAS · TODAS REALES",
+   "segundos": 1.9
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "SON REALES",
+   "accent": "#FFE02E",
+   "grado": -6,
+   "videoUrl": "s2_noche.mp4",
+   "segundos": 1.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "postal-vicecity.jpg",
+   "segundos": 1.0
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_board.mp4",
+   "topText": "VICE CITY = MIAMI",
+   "segundos": 1.45
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_yate.mp4",
+   "segundos": 1.55
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "postal-keys.jpg",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_keys.mp4",
+   "topText": "LEONIDA KEYS = CAYOS",
+   "segundos": 1.3
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_hidroav.mp4",
+   "segundos": 1.3
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "cayos-mar-playa-06.jpg",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "postal-grassrivers.jpg",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_pantano.mp4",
+   "topText": "GRASSRIVERS = EVERGLADES",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "s2-hidro.jpg",
+   "segundos": 1.6
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "s2-caiman.jpg",
+   "topText": "CAIMANES",
+   "segundos": 1.3
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "postal-ambrosia.jpg",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "s2-ambrosia.jpg",
+   "topText": "AMBROSIA: FÁBRICAS",
+   "segundos": 2.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "postal-portgellhorn.jpg",
+   "segundos": 2.3
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "postal-kalaga.jpg",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "s2-kalaga1.jpg",
+   "topText": "MOUNT KALAGA",
+   "segundos": 1.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "s2-kalaga2.jpg",
+   "segundos": 1.3
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "SON",
+   "value": 6,
+   "unit": " ZONAS",
+   "text": "un estado entero",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 2.2
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s2_pareja.mp4",
+   "topText": "¿CUÁL ELIGES?",
+   "segundos": 1.65
+  },
+  {
+   "plantilla": "gta-marcador",
+   "topText": "cada día, un secreto nuevo",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25,
+   "segundos": 3.05
+  }
+ ],
+ "palabras": [
+  [
+   "Todos",
+   0.274,
+   0.32
+  ],
+  [
+   "los",
+   0.4,
+   0.48
+  ],
+  [
+   "lugares",
+   0.56,
+   0.88
+  ],
+  [
+   "de",
+   0.92,
+   0.96
+  ],
+  [
+   "GTA",
+   1.04,
+   1.44
+  ],
+  [
+   "6",
+   1.52,
+   1.76
+  ],
+  [
+   "existen",
+   2,
+   2.32
+  ],
+  [
+   "de",
+   2.4,
+   2.48
+  ],
+  [
+   "verdad.",
+   2.56,
+   3.28
+  ],
+  [
+   "Vice",
+   3.36,
+   3.6
+  ],
+  [
+   "City",
+   3.8,
+   4
+  ],
+  [
+   "es",
+   4.12,
+   4.24
+  ],
+  [
+   "Miami:",
+   4.32,
+   5.04
+  ],
+  [
+   "playas,",
+   5.2,
+   5.68
+  ],
+  [
+   "neones",
+   5.76,
+   6.24
+  ],
+  [
+   "y",
+   6.28,
+   6.32
+  ],
+  [
+   "yates.",
+   6.36,
+   7.2
+  ],
+  [
+   "Leonida",
+   7.36,
+   7.68
+  ],
+  [
+   "Keys",
+   7.84,
+   8
+  ],
+  [
+   "son",
+   8.16,
+   8.32
+  ],
+  [
+   "los",
+   8.4,
+   8.48
+  ],
+  [
+   "Cayos",
+   8.56,
+   8.8
+  ],
+  [
+   "de",
+   8.84,
+   8.88
+  ],
+  [
+   "Florida,",
+   8.96,
+   9.6
+  ],
+  [
+   "islas",
+   9.72,
+   10
+  ],
+  [
+   "unidas",
+   10.08,
+   10.4
+  ],
+  [
+   "por",
+   10.48,
+   10.56
+  ],
+  [
+   "puentes",
+   10.72,
+   11.12
+  ],
+  [
+   "eternos.",
+   11.2,
+   12.08
+  ],
+  [
+   "Grassrivers",
+   12.16,
+   12.88
+  ],
+  [
+   "son",
+   12.96,
+   13.12
+  ],
+  [
+   "los",
+   13.2,
+   13.36
+  ],
+  [
+   "Everglades:",
+   13.48,
+   14.24
+  ],
+  [
+   "pantanos,",
+   14.347,
+   14.96
+  ],
+  [
+   "hidrodeslizadores",
+   15.04,
+   15.92
+  ],
+  [
+   "y",
+   15.96,
+   16
+  ],
+  [
+   "caimanes.",
+   16.08,
+   17.12
+  ],
+  [
+   "Ambrosia",
+   17.24,
+   17.76
+  ],
+  [
+   "es",
+   17.84,
+   17.92
+  ],
+  [
+   "un",
+   18,
+   18.08
+  ],
+  [
+   "pueblo",
+   18.16,
+   18.32
+  ],
+  [
+   "industrial",
+   18.4,
+   18.88
+  ],
+  [
+   "lleno",
+   18.96,
+   19.28
+  ],
+  [
+   "de",
+   19.32,
+   19.36
+  ],
+  [
+   "fábricas.",
+   19.44,
+   20.32
+  ],
+  [
+   "Port",
+   20.44,
+   20.56
+  ],
+  [
+   "Gellhorn,",
+   20.6,
+   21.2
+  ],
+  [
+   "la",
+   21.28,
+   21.36
+  ],
+  [
+   "costa",
+   21.44,
+   21.76
+  ],
+  [
+   "del",
+   21.84,
+   21.92
+  ],
+  [
+   "golfo.",
+   21.96,
+   22.64
+  ],
+  [
+   "Y",
+   22.72,
+   22.8
+  ],
+  [
+   "Mount",
+   22.88,
+   23.12
+  ],
+  [
+   "Kalaga,",
+   23.2,
+   23.76
+  ],
+  [
+   "un",
+   23.84,
+   24
+  ],
+  [
+   "parque",
+   24.08,
+   24.24
+  ],
+  [
+   "nacional",
+   24.32,
+   24.64
+  ],
+  [
+   "con",
+   24.72,
+   24.88
+  ],
+  [
+   "montañas",
+   25.04,
+   25.44
+  ],
+  [
+   "y",
+   25.52,
+   25.56
+  ],
+  [
+   "bosques.",
+   25.6,
+   26.48
+  ],
+  [
+   "Seis",
+   26.52,
+   26.72
+  ],
+  [
+   "zonas,",
+   26.8,
+   27.36
+  ],
+  [
+   "un",
+   27.44,
+   27.52
+  ],
+  [
+   "estado",
+   27.72,
+   27.92
+  ],
+  [
+   "entero.",
+   28.08,
+   28.72
+  ],
+  [
+   "¿Cuál",
+   28.747,
+   28.88
+  ],
+  [
+   "vas",
+   28.96,
+   29.04
+  ],
+  [
+   "a",
+   29.1,
+   29.16
+  ],
+  [
+   "explorar",
+   29.22,
+   29.52
+  ],
+  [
+   "primero?",
+   29.6,
+   30.32
+  ],
+  [
+   "Sígueme",
+   30.36,
+   30.8
+  ],
+  [
+   "para",
+   30.88,
+   30.96
+  ],
+  [
+   "descubrir",
+   31.08,
+   31.6
+  ],
+  [
+   "todos",
+   31.76,
+   31.92
+  ],
+  [
+   "sus",
+   32,
+   32.08
+  ],
+  [
+   "secretos.",
+   32.28,
+   32.88
+  ]
+ ],
+ "claves": [
+  "GTA",
+  "6",
+  "verdad.",
+  "Vice",
+  "Miami:",
+  "yates.",
+  "Leonida",
+  "Cayos",
+  "puentes",
+  "Grassrivers",
+  "Everglades:",
+  "caimanes.",
+  "Ambrosia",
+  "fábricas.",
+  "Port",
+  "golfo.",
+  "Mount",
+  "Kalaga,",
+  "montañas",
+  "Seis",
+  "entero.",
+  "primero?",
+  "Sígueme"
+ ],
+ "booms": [
+  0,
+  16.08,
+  26.52,
+  30.36
+ ],
+ "flami": [
+  {
+   "desde": 0.0,
+   "hasta": 1.85,
+   "x": 740,
+   "y": 1080,
+   "h": 440,
+   "rot": -8
+  },
+  {
+   "desde": 16.1,
+   "hasta": 17.15,
+   "x": 690,
+   "y": 1180,
+   "h": 520,
+   "rot": 10
+  },
+  {
+   "desde": 30.4,
+   "hasta": 33.4,
+   "x": 590,
+   "y": 1060,
+   "h": 780,
+   "rot": -4
+  }
+ ]
+}

@@ -201,7 +201,7 @@ svg text{fill:var(--muted);font-family:var(--mono);font-size:10px}
   <div class="kpis" id="kpis"></div>
 
   <nav class="tabs" id="tabs" aria-label="Secciones">
-    <a href="#hoy">🎯 Hoy</a><a href="#youtube">▶ YouTube</a><a href="#calendario">🗓 Calendario</a><a href="#shorts">Shorts</a><a href="#largos">Vídeos largos</a>
+    <a href="#hoy">🎯 Hoy</a><a href="#videos">🎬 Vídeos</a><a href="#youtube">▶ YouTube</a><a href="#calendario">🗓 Calendario</a><a href="#shorts">Shorts</a><a href="#largos">Vídeos largos</a>
     <a href="#producto">Guía de pago</a><a href="#tracker">Tracker</a><a href="#monetizacion">Monetización</a><a href="#reglas">Reglas</a><a href="#preparacion">Preparación 48 h</a>
   </nav>
 
@@ -582,6 +582,67 @@ V.youtube=()=>{const t=totals().last, d=yppDays(); const hLeft=Math.max(0,4000-t
  <div class="panel"><h3>Antes de solicitar la monetización</h3><ul class="tasks" style="margin-top:10px">${YPPCHK.map((x,i)=>{const id="ypp#"+i,on=!!S.done[id];return `<li class="task${on?" done":""}"><input type="checkbox" id="yp-${i}" data-task="${id}" ${on?"checked":""}><label for="yp-${i}"><span class="t">${esc(x)}</span></label></li>`}).join("")}</ul></div>
  </section>`};
 
+/* ============ VÍDEOS: calendario de publicación ============ */
+const FIRMA="\n\n🔔 Sígueme: cada día, secretos, trucos y easter eggs de GTA 6 en español.\n\nImágenes y vídeo: Rockstar Games. Canal fan no oficial, sin relación con Rockstar Games.";
+const VIDS=[
+ {id:"S1",d:"2026-11-17",h:"21:00",tipo:"Short",listo:true,titulo:"GTA 6 sale en 2 días: lo que tienes que saber 👀",
+  desc:"GTA 6 sale este jueves 19 de noviembre en PS5 y Xbox Series. En 30 segundos: protagonistas, mapa, ¿PC?, la espera más larga de la saga y la precarga."+FIRMA,
+  tags:"#gta6 #gtavi #gta6español #shorts",thumb:"media/S1.jpg",file:"media/S1.mp4"},
+ {id:"S2",d:"2026-11-18",h:"14:00",tipo:"Short",listo:true,titulo:"Todos los lugares de GTA 6 existen de verdad 🌴",
+  desc:"Vice City, Leonida Keys, Grassrivers, Ambrosia, Port Gellhorn y Mount Kalaga: las 6 zonas de GTA 6 y su versión real en Florida. ¿Cuál vas a explorar primero?"+FIRMA,
+  tags:"#gta6 #vicecity #leonida #gta6español #shorts",thumb:"media/S2.jpg",file:"media/S2.mp4"},
+ {id:"S3",d:"2026-11-18",h:"21:00",tipo:"Short",titulo:"Por qué GTA 6 ha tardado 13 años"},
+ {id:"S4",d:"2026-11-19",h:"09:00",tipo:"Short",titulo:"Jason y Lucía: quiénes son los protagonistas de GTA 6"},
+ {id:"S5",d:"2026-11-19",h:"14:00",tipo:"Short",titulo:"¿Saldrá GTA 6 en PC? La historia lo dice"},
+ {id:"S6",d:"2026-11-20",h:"14:00",tipo:"Short",titulo:"GTA 6 acaba de salir y ya ha hecho historia"},
+ {id:"S7",d:"2026-11-20",h:"21:00",tipo:"Short",titulo:"3 errores que todos cometen en la primera hora de GTA 6"},
+ {id:"S8",d:"2026-11-21",h:"14:00",tipo:"Short",titulo:"5 trucos que GTA 6 no te explica"},
+ {id:"S9",d:"2026-11-22",h:"14:00",tipo:"Short",titulo:"El easter egg de GTA 6 que casi nadie ha visto"},
+ {id:"S10",d:"2026-11-23",h:"21:00",tipo:"Short",titulo:"GTA 5 vs GTA 6: 5 diferencias que se notan"},
+ {id:"S11",d:"2026-11-24",h:"14:00",tipo:"Short",titulo:"El mapa de GTA 6 encima de Florida real"},
+ {id:"L1",d:"2026-11-25",h:"18:00",tipo:"Largo",titulo:"Trucos de GTA 6 para PS5 y Xbox: todos los que existen"},
+ {id:"S13",d:"2026-11-25",h:"21:00",tipo:"Short",titulo:"Datos curiosos de GTA 6 que casi nadie sabe"},
+ {id:"S14",d:"2026-11-26",h:"14:00",tipo:"Short",titulo:"Vice City 2002 vs Vice City 2026"},
+ {id:"L2",d:"2026-11-27",h:"18:00",tipo:"Largo",titulo:"50 datos curiosos de GTA 6 que no sabías"},
+ {id:"L3",d:"2026-11-30",h:"18:00",tipo:"Largo",titulo:"GTA 6 en PC: fecha, requisitos y todo lo que sabemos"},
+ {id:"L4",d:"2026-12-03",h:"18:00",tipo:"Largo",titulo:"Los mejores coches de GTA 6 y dónde encontrarlos"},
+ {id:"L5",d:"2026-12-06",h:"18:00",tipo:"Largo",titulo:"¿Cuánto dura GTA 6? Historia, secundarias y 100 %"},
+ {id:"L6",d:"2026-12-09",h:"18:00",tipo:"Largo",titulo:"El iceberg de GTA 6: todos los misterios explicados"},
+ {id:"L7",d:"2026-12-12",h:"18:00",tipo:"Largo",titulo:"30 lugares secretos de GTA 6 que no conocías"},
+ {id:"L8",d:"2026-12-15",h:"18:00",tipo:"Largo",titulo:"El final de GTA 6 explicado (spoilers)"}
+];
+const descDe=v=>v.desc||(v.titulo+"."+FIRMA);
+const tagsDe=v=>v.tags||("#gta6 #gtavi #gta6español"+(v.tipo==="Short"?" #shorts":""));
+async function descargar(id){
+  const v=VIDS.find(x=>x.id===id); if(!v||!v.file)return;
+  let dl=null; try{dl=window.claude?await window.claude.use("downloads"):null}catch(e){}
+  if(!dl){toast("La descarga no está disponible en esta vista. Abre el panel en claude.ai");return}
+  toast("Preparando "+id+"…");
+  try{const r=await fetch(v.file); const blob=await r.blob(); await dl.save({filename:`${v.id}-gtaoculto.mp4`,data:blob}); toast("Descargado")}
+  catch(e){toast(e&&e.code==="declined"?"Descarga cancelada":"No se pudo descargar: "+(e&&e.message||"error"))}
+}
+V.videos=()=>{
+  const dias=[...new Set(VIDS.map(v=>v.d))];
+  return `<section class="view"><div class="panel"><div class="row" style="justify-content:space-between"><h2>Calendario de vídeos</h2><span class="chip">${VIDS.filter(v=>v.listo).length}/${VIDS.length} listos</span></div>
+   <p class="muted" style="margin:6px 0 0">Cada vídeo con su título, descripción y etiquetas para copiar, su miniatura y el botón de descarga. Programa en YouTube Studio con la hora indicada (España).</p></div>
+   ${dias.map(d=>`<div><div class="eyebrow" style="margin:6px 0 8px">${fmt(d)}${d===todayIso?" · hoy":""}</div><div class="grid2">${VIDS.filter(v=>v.d===d).map(v=>`
+    <div class="panel" style="display:grid;grid-template-columns:${v.thumb?"120px":"0px"} minmax(0,1fr);gap:14px;${v.listo?"border-color:#2bd47d88":""}">
+      ${v.thumb?`<img src="${v.thumb}" alt="Miniatura ${v.id}" style="width:120px;aspect-ratio:9/16;object-fit:cover;border-radius:10px">`:"<span></span>"}
+      <div style="min-width:0;display:flex;flex-direction:column;gap:8px">
+        <div class="row"><span class="chip ms">${v.id}</span><span class="chip ${v.tipo==="Largo"?"k-product":"k-content"}">${v.tipo}</span><span class="chip time">${v.h}</span>${v.listo?'<span class="chip" style="background:#2bd47d33;color:#2bd47d">✓ Listo</span>':'<span class="chip k-review">Por producir</span>'}</div>
+        <b style="font-family:var(--display);font-size:19px;letter-spacing:.02em;text-transform:uppercase;line-height:1.15">${esc(v.titulo)}</b>
+        <div class="row">
+          <button class="btn small" data-cp="t:${v.id}">Copiar título</button>
+          <button class="btn small" data-cp="d:${v.id}">Copiar descripción</button>
+          <button class="btn small" data-cp="h:${v.id}">Copiar etiquetas</button>
+          ${v.file?`<button class="btn small primary" data-dl="${v.id}">⬇ Descargar vídeo</button>`:""}
+          ${v.thumb?`<a class="btn small" href="${v.thumb}" target="_blank" rel="noopener">Ver miniatura</a>`:""}
+        </div>
+        <details><summary class="muted" style="cursor:pointer;font-size:13px">Ver descripción</summary><pre style="white-space:pre-wrap;font-family:var(--body);font-size:13px;margin:8px 0 0;background:#0005;padding:10px;border-radius:8px">${esc(descDe(v))}\n\n${esc(tagsDe(v))}</pre></details>
+      </div></div>`).join("")}</div></div>`).join("")}
+   <div class="panel"><h3>Frecuencia</h3><p class="muted" style="margin:6px 0 0">Shorts: 1-2 al día (separados ≥ 5 h). Vídeos largos: 2 por semana. Constancia antes que volumen.</p></div>
+  </section>`};
+
 V.calendario=()=>{
   const first=dt(START); const pad=(first.getDay()+6)%7; let cells="";
   ["L","M","X","J","V","S","D"].forEach(h=>cells+=`<div class="hd">${h}</div>`);
@@ -740,7 +801,7 @@ V.preparacion=()=>{const chosen=S.settings.channel||"";
 🇪🇸 Shorts nuevos cada día · Canal fan no oficial</pre><button class="btn small" data-copybio>Copiar la bio</button></div></section>`};
 
 /* ============ ROUTER + EVENTOS ============ */
-const ROUTES=["hoy","youtube","calendario","shorts","largos","producto","tracker","monetizacion","reglas","preparacion"];
+const ROUTES=["hoy","videos","youtube","calendario","shorts","largos","producto","tracker","monetizacion","reglas","preparacion"];
 let route="hoy";
 function render(){
   const h=(location.hash||"").slice(1); route=ROUTES.includes(h)?h:"hoy";
@@ -773,6 +834,8 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b)return;
   if(b.dataset.nav){const i=DAYS.findIndex(x=>x.d===selDay)+Number(b.dataset.nav); if(DAYS[i]){selDay=DAYS[i].d;render()}}
   if(b.hasAttribute("data-today")){selDay=todayIso;render()}
+  if(b.dataset.dl){descargar(b.dataset.dl);return}
+  if(b.dataset.cp){const [k,id]=b.dataset.cp.split(":");const v=VIDS.find(x=>x.id===id);copy(k==="t"?v.titulo:k==="d"?descDe(v):tagsDe(v));return}
   if(b.dataset.openshort){const id=b.dataset.openshort;location.hash="#shorts";setTimeout(()=>{const d=document.getElementById("sc-"+id);if(d){d.open=true;d.scrollIntoView({block:"start"})}},60);return}
   if(b.dataset.goto){selDay=b.dataset.goto;location.hash="#hoy";render()}
   if(b.dataset.copy)copy(b.dataset.copy);
