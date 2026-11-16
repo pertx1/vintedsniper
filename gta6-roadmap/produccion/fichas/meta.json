@@ -143,13 +143,14 @@
   "tags": "#gta6 #florida #gta6español #shorts"
  },
  "S15": {
-  "t": 12.6,
   "lineas": [
    "¿LO",
    "VISTE?"
   ],
   "desc": "Brian's Marina: el detalle del tráiler de lanzamiento de GTA 6 que casi nadie vio, y por qué es el negocio de Brian Heder.",
-  "tags": "#gta6 #easteregg #gta6español #shorts"
+  "tags": "#gta6 #easteregg #gta6español #shorts",
+  "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/cf/marina.png",
+  "cx": 0.5
  },
  "S16": {
   "bg": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/render/public/p2/Artwork_Wallpapers_Boobie_Ike_Boobie_Ike_portrait.jpg",
@@ -218,9 +219,9 @@
  },
  "L0b": {
   "largo": true,
-  "bg": "vc/OceanDrive-GTAVC.jpg",
+  "bg": "p/Vice_City_01.jpg",
   "lado": "der",
-  "dark": 560,
+  "dark": 520,
   "lineas": [
    [
     "LA HISTORIA",
