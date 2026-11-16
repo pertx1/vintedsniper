@@ -1,0 +1,2124 @@
+{
+ "voz": "voz-l0a.mp3",
+ "planos": [
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-09.mp4",
+   "segundos": 1.283,
+   "topText": "13 AÑOS ESPERANDO"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-33.mp4",
+   "segundos": 1.017
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "LA ESPERA",
+   "value": 13,
+   "unit": " AÑOS",
+   "text": "desde GTA 5",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 2.3
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-22.mp4",
+   "segundos": 1.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-29.mp4",
+   "segundos": 2.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-02.mp4",
+   "segundos": 2.2
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "h/jason-lucia-09.jpg",
+   "topText": "PROTAGONISTAS",
+   "segundos": 1.9
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-21.mp4",
+   "segundos": 1.5
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-37.mp4",
+   "segundos": 1.1
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "INFO OFICIAL",
+   "accent": "#FFE02E",
+   "grado": -5,
+   "segundos": 2.7,
+   "imageUrl": "h/vice-city-01.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "h/jason-lucia-25.jpg",
+   "topText": "AL FINAL: EL DETALLE DE LUCÍA",
+   "segundos": 3.3
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "¿OTRO GTA?",
+   "accent": "#FFE02E",
+   "grado": 6,
+   "segundos": 2.7,
+   "imageUrl": "h/cayos-mar-playa-06.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-28.mp4",
+   "segundos": 1.283
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-35.mp4",
+   "segundos": 0.917
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-36.mp4",
+   "segundos": 0.5
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "SALE EL",
+   "value": 19,
+   "unit": " NOV",
+   "text": "de 2026",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 2.5
+  },
+  {
+   "plantilla": "gta-sinopsis",
+   "text": "SOLO EN CONSOLA",
+   "value": 8,
+   "items": [
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "segundos": 4.0
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-17.mp4",
+   "segundos": 1.25
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-38.mp4",
+   "segundos": 1.05
+  },
+  {
+   "plantilla": "gta-sinopsis",
+   "text": "3 FECHAS",
+   "value": 10,
+   "items": [
+    "2025",
+    "26 de mayo de 2026",
+    "19 de noviembre de 2026"
+   ],
+   "segundos": 3.7
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "RETRASADO",
+   "accent": "#EC517D",
+   "grado": -7,
+   "segundos": 2.5,
+   "imageUrl": "h/coches-motos-01.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-18.mp4",
+   "segundos": 1.717,
+   "topText": "AHORA SÍ: 19/11"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-39.mp4",
+   "segundos": 0.817
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-03.mp4",
+   "segundos": 0.466
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "PC: SIN ANUNCIAR",
+   "accent": "#EC517D",
+   "grado": -7,
+   "segundos": 3.1,
+   "imageUrl": "h/fiesta-noche-05.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/precarga-36.mp4",
+   "segundos": 0.917
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-04.mp4",
+   "segundos": 0.883
+  },
+  {
+   "plantilla": "gta-barras",
+   "topText": "retraso de la versión de PC",
+   "text": "MESES HASTA PC",
+   "unit": "meses",
+   "items": [
+    {
+     "t": "GTA IV",
+     "v": 8,
+     "en": 0.4
+    },
+    {
+     "t": "GTA V",
+     "v": 19,
+     "en": 2.4
+    },
+    {
+     "t": "RDR2",
+     "v": 13,
+     "en": 4.2
+    }
+   ],
+   "segundos": 6.2
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-24.mp4",
+   "segundos": 1.217
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-05.mp4",
+   "segundos": 1.083
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "PC ESTIMADO",
+   "value": 2027,
+   "unit": "-28",
+   "text": "no es oficial",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 3.1
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-12.mp4",
+   "segundos": 0.65
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-06.mp4",
+   "segundos": 0.817
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-10.mp4",
+   "segundos": 1.417
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "ESTIMACIÓN",
+   "accent": "#FFE02E",
+   "grado": 5,
+   "segundos": 2.5,
+   "imageUrl": "h/vice-city-08.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-25.mp4",
+   "segundos": 3.0,
+   "topText": "TIENE TRUCO"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-11.mp4",
+   "segundos": 0.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-15.mp4",
+   "segundos": 1.35
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-13.mp4",
+   "segundos": 1.283
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-14.mp4",
+   "segundos": 0.067
+  },
+  {
+   "plantilla": "gta-barras",
+   "topText": "años entre GTAs",
+   "text": "LA ESPERA MÁS LARGA",
+   "unit": "años",
+   "items": [
+    {
+     "t": "III→IV",
+     "v": 6.5,
+     "en": 1.0
+    },
+    {
+     "t": "IV→V",
+     "v": 5.4,
+     "en": 3.6
+    },
+    {
+     "t": "V→VI",
+     "v": 13.2,
+     "en": 6.8
+    }
+   ],
+   "segundos": 6.5
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-16.mp4",
+   "segundos": 0.817
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-20.mp4",
+   "segundos": 1.283
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "LA MÁS LARGA",
+   "accent": "#FFE02E",
+   "grado": -6,
+   "segundos": 2.9,
+   "imageUrl": "h/pantanos-naturaleza-06.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-20.mp4",
+   "segundos": 1.717
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-23.mp4",
+   "segundos": 0.883
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "h/vice-city-01.jpg",
+   "topText": "DICIEMBRE 2023: TRÁILER 1",
+   "segundos": 3.2
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "EN 24 HORAS",
+   "value": 90,
+   "unit": " M",
+   "text": "visitas del tráiler 1",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 4.2
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "RÉCORD EN YOUTUBE",
+   "accent": "#FFE02E",
+   "grado": -6,
+   "segundos": 4.3,
+   "imageUrl": "h/accion-armas-11.jpg"
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-03.mp4",
+   "segundos": 1.8
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "GTA 5 · DÍA 1",
+   "value": 800,
+   "unit": " M$",
+   "text": "1.000 M$ en 3 días",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 4.5
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-05.mp4",
+   "segundos": 2.117
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "h/trailer-26.mp4",
+   "segundos": 0.283
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "COPIAS DE GTA 5",
+   "value": 200,
+   "unit": " M+",
+   "text": "vendidas",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 2.4
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "h/jason-lucia-02.jpg",
+   "segundos": 2.6,
+   "topText": "JASON Y LUCÍA"
+  },
+  {
+   "plantilla": "gta-plano",
+   "imageUrl": "h/vice-city-02.jpg",
+   "segundos": 2.8
+  }
+ ],
+ "palabras": [
+  [
+   "Trece",
+   0.069,
+   0.4
+  ],
+  [
+   "años.",
+   0.56,
+   1.24
+  ],
+  [
+   "Trece",
+   1.44,
+   1.76
+  ],
+  [
+   "años",
+   1.92,
+   2.16
+  ],
+  [
+   "esperando,",
+   2.32,
+   2.88
+  ],
+  [
+   "y",
+   3.04,
+   3.12
+  ],
+  [
+   "mañana",
+   3.2,
+   3.6
+  ],
+  [
+   "por",
+   3.68,
+   3.84
+  ],
+  [
+   "fin",
+   4.0,
+   4.24
+  ],
+  [
+   "sale",
+   4.32,
+   4.56
+  ],
+  [
+   "GTA",
+   4.64,
+   5.04
+  ],
+  [
+   "6.",
+   5.12,
+   5.68
+  ],
+  [
+   "En",
+   5.92,
+   6.0
+  ],
+  [
+   "los",
+   6.08,
+   6.16
+  ],
+  [
+   "próximos",
+   6.2,
+   6.56
+  ],
+  [
+   "minutos",
+   6.64,
+   7.04
+  ],
+  [
+   "te",
+   7.08,
+   7.12
+  ],
+  [
+   "cuento",
+   7.2,
+   7.68
+  ],
+  [
+   "todo",
+   7.8,
+   7.92
+  ],
+  [
+   "lo",
+   7.96,
+   8.0
+  ],
+  [
+   "que",
+   8.08,
+   8.12
+  ],
+  [
+   "se",
+   8.16,
+   8.24
+  ],
+  [
+   "sabe",
+   8.32,
+   8.48
+  ],
+  [
+   "del",
+   8.56,
+   8.64
+  ],
+  [
+   "juego",
+   8.72,
+   9.04
+  ],
+  [
+   "antes",
+   9.12,
+   9.36
+  ],
+  [
+   "de",
+   9.44,
+   9.52
+  ],
+  [
+   "jugarlo:",
+   9.627,
+   10.36
+  ],
+  [
+   "los",
+   10.4,
+   10.48
+  ],
+  [
+   "protagonistas,",
+   10.56,
+   11.4
+  ],
+  [
+   "los",
+   11.44,
+   11.6
+  ],
+  [
+   "personajes,",
+   11.76,
+   12.44
+  ],
+  [
+   "el",
+   12.48,
+   12.64
+  ],
+  [
+   "mapa,",
+   12.8,
+   13.24
+  ],
+  [
+   "las",
+   13.28,
+   13.44
+  ],
+  [
+   "fechas",
+   13.52,
+   13.92
+  ],
+  [
+   "y",
+   14.0,
+   14.04
+  ],
+  [
+   "los",
+   14.08,
+   14.24
+  ],
+  [
+   "récords.",
+   14.28,
+   15.08
+  ],
+  [
+   "Todo",
+   15.12,
+   15.52
+  ],
+  [
+   "con",
+   15.6,
+   15.68
+  ],
+  [
+   "información",
+   15.84,
+   16.24
+  ],
+  [
+   "oficial",
+   16.32,
+   16.64
+  ],
+  [
+   "de",
+   16.72,
+   16.8
+  ],
+  [
+   "Rockstar.",
+   16.92,
+   17.733
+  ],
+  [
+   "Y",
+   17.787,
+   17.84
+  ],
+  [
+   "quédate",
+   17.88,
+   18.08
+  ],
+  [
+   "hasta",
+   18.16,
+   18.32
+  ],
+  [
+   "el",
+   18.36,
+   18.4
+  ],
+  [
+   "final,",
+   18.68,
+   19.013
+  ],
+  [
+   "porque",
+   19.067,
+   19.2
+  ],
+  [
+   "hay",
+   19.28,
+   19.36
+  ],
+  [
+   "un",
+   19.4,
+   19.44
+  ],
+  [
+   "detalle",
+   19.64,
+   19.84
+  ],
+  [
+   "en",
+   19.88,
+   19.92
+  ],
+  [
+   "la",
+   19.96,
+   20.0
+  ],
+  [
+   "historia",
+   20.16,
+   20.4
+  ],
+  [
+   "de",
+   20.44,
+   20.48
+  ],
+  [
+   "Lucía",
+   20.6,
+   21.12
+  ],
+  [
+   "que",
+   21.2,
+   21.28
+  ],
+  [
+   "conecta",
+   21.36,
+   21.76
+  ],
+  [
+   "GTA",
+   21.84,
+   22.187
+  ],
+  [
+   "6",
+   22.24,
+   22.56
+  ],
+  [
+   "con",
+   22.64,
+   22.72
+  ],
+  [
+   "otro",
+   22.8,
+   22.96
+  ],
+  [
+   "GTA…",
+   23.04,
+   23.8
+  ],
+  [
+   "y",
+   23.84,
+   24.0
+  ],
+  [
+   "casi",
+   24.04,
+   24.32
+  ],
+  [
+   "nadie",
+   24.4,
+   24.8
+  ],
+  [
+   "se",
+   24.84,
+   24.88
+  ],
+  [
+   "ha",
+   24.92,
+   24.96
+  ],
+  [
+   "dado",
+   25.04,
+   25.2
+  ],
+  [
+   "cuenta.",
+   25.28,
+   26.48
+  ],
+  [
+   "GTA",
+   26.56,
+   26.8
+  ],
+  [
+   "6",
+   26.88,
+   27.2
+  ],
+  [
+   "sale",
+   27.28,
+   27.52
+  ],
+  [
+   "el",
+   27.6,
+   27.68
+  ],
+  [
+   "diecinueve",
+   27.76,
+   28.16
+  ],
+  [
+   "de",
+   28.24,
+   28.28
+  ],
+  [
+   "noviembre",
+   28.32,
+   28.72
+  ],
+  [
+   "de",
+   28.8,
+   28.88
+  ],
+  [
+   "dos",
+   28.96,
+   29.04
+  ],
+  [
+   "mil",
+   29.12,
+   29.2
+  ],
+  [
+   "veintiséis,",
+   29.24,
+   30.08
+  ],
+  [
+   "solo",
+   30.16,
+   30.4
+  ],
+  [
+   "en",
+   30.48,
+   30.56
+  ],
+  [
+   "PlayStation",
+   30.68,
+   31.12
+  ],
+  [
+   "cinco",
+   31.24,
+   31.52
+  ],
+  [
+   "y",
+   31.6,
+   31.68
+  ],
+  [
+   "Xbox",
+   31.84,
+   32.08
+  ],
+  [
+   "Series.",
+   32.52,
+   32.987
+  ],
+  [
+   "Y",
+   33.013,
+   33.04
+  ],
+  [
+   "no",
+   33.2,
+   33.28
+  ],
+  [
+   "ha",
+   33.36,
+   33.44
+  ],
+  [
+   "sido",
+   33.48,
+   33.68
+  ],
+  [
+   "fácil",
+   33.76,
+   34.0
+  ],
+  [
+   "llegar",
+   34.08,
+   34.28
+  ],
+  [
+   "hasta",
+   34.32,
+   34.48
+  ],
+  [
+   "aquí:",
+   34.56,
+   35.24
+  ],
+  [
+   "Rockstar",
+   35.28,
+   35.76
+  ],
+  [
+   "lo",
+   35.84,
+   35.88
+  ],
+  [
+   "anunció",
+   35.92,
+   36.32
+  ],
+  [
+   "primero",
+   36.4,
+   36.64
+  ],
+  [
+   "para",
+   36.76,
+   36.88
+  ],
+  [
+   "dos",
+   36.92,
+   36.96
+  ],
+  [
+   "mil",
+   37.04,
+   37.12
+  ],
+  [
+   "veinticinco,",
+   37.2,
+   38.16
+  ],
+  [
+   "luego",
+   38.2,
+   38.64
+  ],
+  [
+   "lo",
+   38.68,
+   38.72
+  ],
+  [
+   "movió",
+   38.8,
+   39.04
+  ],
+  [
+   "al",
+   39.08,
+   39.12
+  ],
+  [
+   "veintiséis",
+   39.2,
+   39.68
+  ],
+  [
+   "de",
+   39.76,
+   39.84
+  ],
+  [
+   "mayo",
+   39.96,
+   40.12
+  ],
+  [
+   "de",
+   40.16,
+   40.24
+  ],
+  [
+   "dos",
+   40.32,
+   40.4
+  ],
+  [
+   "mil",
+   40.44,
+   40.48
+  ],
+  [
+   "veintiséis,",
+   40.56,
+   41.413
+  ],
+  [
+   "y",
+   41.467,
+   41.52
+  ],
+  [
+   "finalmente",
+   41.68,
+   42.24
+  ],
+  [
+   "a",
+   42.32,
+   42.36
+  ],
+  [
+   "este",
+   42.4,
+   42.72
+  ],
+  [
+   "diecinueve",
+   42.84,
+   43.28
+  ],
+  [
+   "de",
+   43.36,
+   43.4
+  ],
+  [
+   "noviembre.",
+   43.44,
+   44.5
+  ],
+  [
+   "¿Y",
+   44.52,
+   44.56
+  ],
+  [
+   "en",
+   44.64,
+   44.72
+  ],
+  [
+   "PC?",
+   44.76,
+   45.6
+  ],
+  [
+   "De",
+   45.64,
+   45.68
+  ],
+  [
+   "momento,",
+   45.84,
+   46.36
+  ],
+  [
+   "nada",
+   46.4,
+   46.56
+  ],
+  [
+   "anunciado.",
+   46.64,
+   47.547
+  ],
+  [
+   "Pero",
+   47.573,
+   47.76
+  ],
+  [
+   "mira",
+   47.8,
+   47.92
+  ],
+  [
+   "el",
+   47.96,
+   48.0
+  ],
+  [
+   "historial",
+   48.16,
+   48.4
+  ],
+  [
+   "de",
+   48.48,
+   48.56
+  ],
+  [
+   "Rockstar.",
+   48.68,
+   49.4
+  ],
+  [
+   "GTA",
+   49.44,
+   49.76
+  ],
+  [
+   "4",
+   49.84,
+   50.16
+  ],
+  [
+   "llegó",
+   50.2,
+   50.427
+  ],
+  [
+   "a",
+   50.453,
+   50.48
+  ],
+  [
+   "PC",
+   50.56,
+   50.96
+  ],
+  [
+   "ocho",
+   51.04,
+   51.28
+  ],
+  [
+   "meses",
+   51.36,
+   51.6
+  ],
+  [
+   "después",
+   51.68,
+   51.92
+  ],
+  [
+   "de",
+   51.96,
+   52.0
+  ],
+  [
+   "las",
+   52.08,
+   52.16
+  ],
+  [
+   "consolas.",
+   52.28,
+   53.08
+  ],
+  [
+   "GTA",
+   53.12,
+   53.44
+  ],
+  [
+   "5",
+   53.56,
+   53.84
+  ],
+  [
+   "tardó",
+   53.88,
+   54.24
+  ],
+  [
+   "diecinueve",
+   54.36,
+   54.8
+  ],
+  [
+   "meses.",
+   54.88,
+   55.64
+  ],
+  [
+   "Red",
+   55.68,
+   55.84
+  ],
+  [
+   "Dead",
+   55.92,
+   56.0
+  ],
+  [
+   "Redemption",
+   56.08,
+   56.48
+  ],
+  [
+   "dos,",
+   56.76,
+   57.12
+  ],
+  [
+   "trece.",
+   57.2,
+   57.947
+  ],
+  [
+   "Si",
+   57.973,
+   58.0
+  ],
+  [
+   "se",
+   58.08,
+   58.16
+  ],
+  [
+   "repite",
+   58.24,
+   58.48
+  ],
+  [
+   "el",
+   58.52,
+   58.56
+  ],
+  [
+   "patrón,",
+   58.64,
+   59.24
+  ],
+  [
+   "la",
+   59.28,
+   59.36
+  ],
+  [
+   "versión",
+   59.44,
+   59.68
+  ],
+  [
+   "de",
+   59.72,
+   59.76
+  ],
+  [
+   "PC",
+   59.84,
+   60.08
+  ],
+  [
+   "llegaría",
+   60.12,
+   60.48
+  ],
+  [
+   "entre",
+   60.64,
+   60.8
+  ],
+  [
+   "finales",
+   60.84,
+   61.2
+  ],
+  [
+   "de",
+   61.24,
+   61.28
+  ],
+  [
+   "dos",
+   61.36,
+   61.44
+  ],
+  [
+   "mil",
+   61.52,
+   61.6
+  ],
+  [
+   "veintisiete",
+   61.64,
+   62.4
+  ],
+  [
+   "y",
+   62.427,
+   62.453
+  ],
+  [
+   "dos",
+   62.48,
+   62.64
+  ],
+  [
+   "mil",
+   62.68,
+   62.72
+  ],
+  [
+   "veintiocho.",
+   62.8,
+   63.813
+  ],
+  [
+   "Es",
+   63.867,
+   63.92
+  ],
+  [
+   "una",
+   63.96,
+   64.0
+  ],
+  [
+   "estimación,",
+   64.08,
+   64.76
+  ],
+  [
+   "no",
+   64.8,
+   64.88
+  ],
+  [
+   "un",
+   64.92,
+   64.96
+  ],
+  [
+   "dato",
+   65.04,
+   65.2
+  ],
+  [
+   "oficial.",
+   65.28,
+   66.32
+  ],
+  [
+   "Pero",
+   66.4,
+   66.56
+  ],
+  [
+   "lo",
+   66.6,
+   66.64
+  ],
+  [
+   "de",
+   66.72,
+   66.8
+  ],
+  [
+   "la",
+   66.84,
+   66.88
+  ],
+  [
+   "espera",
+   67.04,
+   67.36
+  ],
+  [
+   "tiene",
+   67.44,
+   67.68
+  ],
+  [
+   "truco:",
+   67.76,
+   68.36
+  ],
+  [
+   "no",
+   68.4,
+   68.48
+  ],
+  [
+   "es",
+   68.56,
+   68.64
+  ],
+  [
+   "solo",
+   68.68,
+   68.88
+  ],
+  [
+   "la",
+   68.92,
+   68.96
+  ],
+  [
+   "más",
+   69.0,
+   69.12
+  ],
+  [
+   "larga,",
+   69.2,
+   69.787
+  ],
+  [
+   "también",
+   69.813,
+   70.32
+  ],
+  [
+   "es",
+   70.4,
+   70.48
+  ],
+  [
+   "la",
+   70.56,
+   70.64
+  ],
+  [
+   "que",
+   70.76,
+   70.88
+  ],
+  [
+   "más",
+   70.92,
+   71.12
+  ],
+  [
+   "récords",
+   71.2,
+   71.6
+  ],
+  [
+   "ha",
+   71.64,
+   71.68
+  ],
+  [
+   "roto.",
+   71.76,
+   72.52
+  ],
+  [
+   "Entre",
+   72.56,
+   72.8
+  ],
+  [
+   "GTA",
+   72.88,
+   73.12
+  ],
+  [
+   "3",
+   73.2,
+   73.44
+  ],
+  [
+   "y",
+   73.48,
+   73.52
+  ],
+  [
+   "GTA",
+   73.6,
+   73.92
+  ],
+  [
+   "4",
+   73.96,
+   74.24
+  ],
+  [
+   "pasaron",
+   74.48,
+   74.88
+  ],
+  [
+   "unos",
+   75.04,
+   75.2
+  ],
+  [
+   "seis",
+   75.24,
+   75.44
+  ],
+  [
+   "años",
+   75.52,
+   75.76
+  ],
+  [
+   "y",
+   75.8,
+   75.84
+  ],
+  [
+   "medio.",
+   75.96,
+   76.64
+  ],
+  [
+   "Entre",
+   76.72,
+   76.8
+  ],
+  [
+   "el",
+   76.84,
+   76.88
+  ],
+  [
+   "cuatro",
+   76.96,
+   77.2
+  ],
+  [
+   "y",
+   77.24,
+   77.28
+  ],
+  [
+   "el",
+   77.32,
+   77.36
+  ],
+  [
+   "cinco,",
+   77.44,
+   78.08
+  ],
+  [
+   "cinco.",
+   78.16,
+   78.76
+  ],
+  [
+   "Entre",
+   78.8,
+   79.04
+  ],
+  [
+   "el",
+   79.08,
+   79.12
+  ],
+  [
+   "cinco",
+   79.2,
+   79.44
+  ],
+  [
+   "y",
+   79.48,
+   79.52
+  ],
+  [
+   "el",
+   79.6,
+   79.68
+  ],
+  [
+   "seis,",
+   79.72,
+   80.28
+  ],
+  [
+   "trece.",
+   80.32,
+   81.08
+  ],
+  [
+   "Es",
+   81.12,
+   81.28
+  ],
+  [
+   "la",
+   81.36,
+   81.4
+  ],
+  [
+   "espera",
+   81.44,
+   82.0
+  ],
+  [
+   "más",
+   82.04,
+   82.24
+  ],
+  [
+   "larga",
+   82.32,
+   82.56
+  ],
+  [
+   "de",
+   82.64,
+   82.8
+  ],
+  [
+   "toda",
+   82.84,
+   83.04
+  ],
+  [
+   "la",
+   83.08,
+   83.12
+  ],
+  [
+   "saga.",
+   83.2,
+   84.027
+  ],
+  [
+   "Y",
+   84.053,
+   84.08
+  ],
+  [
+   "la",
+   84.16,
+   84.24
+  ],
+  [
+   "gente",
+   84.32,
+   84.72
+  ],
+  [
+   "estaba",
+   84.8,
+   85.12
+  ],
+  [
+   "esperando",
+   85.2,
+   85.68
+  ],
+  [
+   "de",
+   85.72,
+   85.76
+  ],
+  [
+   "verdad.",
+   85.84,
+   86.613
+  ],
+  [
+   "El",
+   86.667,
+   86.72
+  ],
+  [
+   "primer",
+   86.84,
+   86.96
+  ],
+  [
+   "tráiler,",
+   87.04,
+   87.547
+  ],
+  [
+   "publicado",
+   87.653,
+   87.84
+  ],
+  [
+   "en",
+   87.92,
+   88.0
+  ],
+  [
+   "diciembre",
+   88.08,
+   88.48
+  ],
+  [
+   "de",
+   88.52,
+   88.56
+  ],
+  [
+   "dos",
+   88.64,
+   88.72
+  ],
+  [
+   "mil",
+   88.8,
+   88.88
+  ],
+  [
+   "veintitrés,",
+   88.92,
+   89.787
+  ],
+  [
+   "superó",
+   89.893,
+   90.04
+  ],
+  [
+   "los",
+   90.08,
+   90.24
+  ],
+  [
+   "noventa",
+   90.32,
+   90.8
+  ],
+  [
+   "millones",
+   90.88,
+   91.2
+  ],
+  [
+   "de",
+   91.28,
+   91.36
+  ],
+  [
+   "visitas",
+   91.44,
+   91.76
+  ],
+  [
+   "en",
+   91.84,
+   91.92
+  ],
+  [
+   "sus",
+   92.04,
+   92.16
+  ],
+  [
+   "primeras",
+   92.28,
+   92.56
+  ],
+  [
+   "veinticuatro",
+   92.6,
+   93.2
+  ],
+  [
+   "horas:",
+   93.28,
+   93.88
+  ],
+  [
+   "el",
+   93.92,
+   94.08
+  ],
+  [
+   "mayor",
+   94.2,
+   94.4
+  ],
+  [
+   "estreno",
+   94.52,
+   94.88
+  ],
+  [
+   "de",
+   94.92,
+   94.96
+  ],
+  [
+   "un",
+   95.0,
+   95.04
+  ],
+  [
+   "vídeo",
+   95.12,
+   95.44
+  ],
+  [
+   "que",
+   95.52,
+   95.6
+  ],
+  [
+   "no",
+   95.68,
+   95.76
+  ],
+  [
+   "es",
+   95.8,
+   95.84
+  ],
+  [
+   "de",
+   95.92,
+   96.0
+  ],
+  [
+   "música",
+   96.04,
+   96.48
+  ],
+  [
+   "en",
+   96.56,
+   96.64
+  ],
+  [
+   "la",
+   96.72,
+   96.76
+  ],
+  [
+   "historia",
+   96.8,
+   97.2
+  ],
+  [
+   "de",
+   97.28,
+   97.36
+  ],
+  [
+   "YouTube.",
+   97.8,
+   98.293
+  ],
+  [
+   "Para",
+   98.347,
+   98.4
+  ],
+  [
+   "que",
+   98.44,
+   98.48
+  ],
+  [
+   "te",
+   98.56,
+   98.6
+  ],
+  [
+   "hagas",
+   98.64,
+   98.8
+  ],
+  [
+   "una",
+   98.88,
+   98.96
+  ],
+  [
+   "idea",
+   99.08,
+   99.2
+  ],
+  [
+   "del",
+   99.28,
+   99.36
+  ],
+  [
+   "listón:",
+   99.48,
+   100.12
+  ],
+  [
+   "GTA",
+   100.16,
+   100.48
+  ],
+  [
+   "5",
+   100.6,
+   100.88
+  ],
+  [
+   "ingresó",
+   100.96,
+   101.52
+  ],
+  [
+   "ochocientos",
+   101.6,
+   102.4
+  ],
+  [
+   "millones",
+   102.52,
+   102.8
+  ],
+  [
+   "de",
+   102.88,
+   102.96
+  ],
+  [
+   "dólares",
+   103.0,
+   103.36
+  ],
+  [
+   "en",
+   103.44,
+   103.52
+  ],
+  [
+   "su",
+   103.6,
+   103.68
+  ],
+  [
+   "primer",
+   103.84,
+   104.0
+  ],
+  [
+   "día,",
+   104.28,
+   104.6
+  ],
+  [
+   "mil",
+   104.64,
+   104.8
+  ],
+  [
+   "millones",
+   104.92,
+   105.36
+  ],
+  [
+   "en",
+   105.44,
+   105.6
+  ],
+  [
+   "tres,",
+   105.84,
+   106.12
+  ],
+  [
+   "y",
+   106.16,
+   106.2
+  ],
+  [
+   "ha",
+   106.24,
+   106.28
+  ],
+  [
+   "vendido",
+   106.32,
+   106.72
+  ],
+  [
+   "más",
+   106.8,
+   106.96
+  ],
+  [
+   "de",
+   107.04,
+   107.12
+  ],
+  [
+   "doscientos",
+   107.28,
+   107.84
+  ],
+  [
+   "millones",
+   107.96,
+   108.24
+  ],
+  [
+   "de",
+   108.32,
+   108.4
+  ],
+  [
+   "copias.",
+   108.48,
+   109.4
+  ],
+  [
+   "Ahora,",
+   109.44,
+   109.867
+  ],
+  [
+   "lo",
+   109.893,
+   109.92
+  ],
+  [
+   "importante:",
+   110.12,
+   110.933
+  ],
+  [
+   "quiénes",
+   110.987,
+   111.28
+  ],
+  [
+   "son",
+   111.36,
+   111.44
+  ],
+  [
+   "las",
+   111.52,
+   111.68
+  ],
+  [
+   "dos",
+   111.8,
+   111.92
+  ],
+  [
+   "personas",
+   112.08,
+   112.4
+  ],
+  [
+   "con",
+   112.48,
+   112.56
+  ],
+  [
+   "las",
+   112.64,
+   112.72
+  ],
+  [
+   "que",
+   112.76,
+   112.8
+  ],
+  [
+   "vas",
+   112.88,
+   113.04
+  ],
+  [
+   "a",
+   113.08,
+   113.12
+  ],
+  [
+   "pasar",
+   113.24,
+   113.68
+  ],
+  [
+   "cien",
+   113.72,
+   113.92
+  ],
+  [
+   "horas.",
+   114.0,
+   114.56
+  ]
+ ],
+ "claves": [
+  "Trece",
+  "GTA",
+  "6.",
+  "mañana",
+  "protagonistas,",
+  "mapa,",
+  "récords.",
+  "Rockstar.",
+  "Lucía",
+  "diecinueve",
+  "PC?",
+  "nada",
+  "ocho",
+  "diecinueve",
+  "trece.",
+  "patrón,",
+  "estimación,",
+  "truco:",
+  "trece.",
+  "saga.",
+  "noventa",
+  "YouTube.",
+  "ochocientos",
+  "doscientos",
+  "importante:",
+  "cien"
+ ],
+ "booms": [
+  0,
+  66.4,
+  80.32,
+  109.44
+ ],
+ "flami": [
+  {
+   "desde": 0.1,
+   "hasta": 2.25,
+   "x": 1500,
+   "y": 560,
+   "h": 480,
+   "rot": -8
+  },
+  {
+   "desde": 66.5,
+   "hasta": 69.7,
+   "x": 1520,
+   "y": 580,
+   "h": 460,
+   "rot": 8
+  },
+  {
+   "desde": 109.5,
+   "hasta": 114.8,
+   "x": 1480,
+   "y": 520,
+   "h": 520,
+   "rot": -4
+  }
+ ]
+}
