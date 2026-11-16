@@ -44,3 +44,7 @@ Medición del S1: voz sola −24,4 dB de media; mezcla −22,6 dB; pico −1,9 d
 - **Vídeo**: descargas oficiales de rockstargames.com/VI (tráiler de lanzamiento y "Pre-Load Now", 4K). 38 clips ya cortados en la biblioteca.
 - **Fotos**: 233 capturas oficiales clasificadas en 9 carpetas (`biblioteca-gta6`).
 - No se suben al repositorio: son de Rockstar.
+
+## Miniaturas
+- **Vídeos largos (1280×720):** sin Flami. Tipografía **Anton** (titular grande en blanco/amarillo `#FFE02E`, etiqueta "GTA 6" en caja amarilla). Arte o captura oficial a un lado y el texto sobre un degradado oscuro al otro (modelo: miniatura A del L0, `panel-media/L0.jpg`).
+- **Shorts (1080×1920):** se mantiene Flami, como en S1 y S2.
