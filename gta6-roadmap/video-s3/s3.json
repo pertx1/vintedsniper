@@ -1,0 +1,803 @@
+{
+ "voz": "voz-s3.mp3",
+ "planos": [
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_hook.mp4",
+   "topText": "2013 → 2026",
+   "segundos": 1.52
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "LA ESPERA",
+   "value": 13,
+   "unit": " AÑOS",
+   "text": "desde GTA 5",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 1.28
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "NO FUE VAGANCIA",
+   "accent": "#FFE02E",
+   "grado": -6,
+   "imageUrl": "p/Vice_City_15.jpg",
+   "segundos": 1.68
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "GTA 5 SALIÓ EN",
+   "value": 2013,
+   "unit": "",
+   "text": "septiembre",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 1.88
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_puerto.mp4",
+   "segundos": 1.04
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "COPIAS DE GTA 5",
+   "value": 200,
+   "unit": " M+",
+   "text": "y subiendo",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 3.16
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_noche.mp4",
+   "topText": "MIENTRAS TANTO…",
+   "segundos": 2.56
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "SIN PRISA",
+   "accent": "#EC517D",
+   "grado": 5,
+   "imageUrl": "p/Vice_City_02.jpg",
+   "segundos": 2.32
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_sil.mp4",
+   "segundos": 1.4
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "CONFIRMADO EN",
+   "value": 2022,
+   "unit": "",
+   "text": "por Rockstar",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 1.8
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_exit.mp4",
+   "segundos": 1.68
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "UN HACKER FILTRÓ",
+   "value": 90,
+   "unit": "+",
+   "text": "vídeos del desarrollo",
+   "lang": "es",
+   "fijo": false,
+   "segundos": 2.96
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_pareja.mp4",
+   "segundos": 1.32
+  },
+  {
+   "plantilla": "gta-sinopsis",
+   "text": "TRÁILERES",
+   "value": 25,
+   "items": [
+    "Dic 2023 · Tráiler 1",
+    "May 2025 · Tráiler 2"
+   ],
+   "segundos": 4.4
+  },
+  {
+   "plantilla": "gta-sello",
+   "text": "2 RETRASOS",
+   "accent": "#EC517D",
+   "grado": -6,
+   "videoUrl": "s3_retraso.mp4",
+   "segundos": 2.36
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_keys.mp4",
+   "topText": "IBA A SER MAYO 2026",
+   "segundos": 2.24
+  },
+  {
+   "plantilla": "gta-dato",
+   "topText": "AL FINAL",
+   "value": 19,
+   "unit": " NOV",
+   "text": "este jueves",
+   "lang": "es",
+   "fijo": true,
+   "segundos": 2.6
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_tren.mp4",
+   "topText": "13 AÑOS",
+   "segundos": 1.7
+  },
+  {
+   "plantilla": "gta-plano",
+   "videoUrl": "s3_club.mp4",
+   "topText": "TERMINAN MAÑANA",
+   "segundos": 1.94
+  },
+  {
+   "plantilla": "gta-marcador",
+   "topText": "desde mañana, cada día",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25,
+   "segundos": 4.76
+  }
+ ],
+ "palabras": [
+  [
+   "GTA",
+   0.144,
+   0.48
+  ],
+  [
+   "seis",
+   0.56,
+   0.8
+  ],
+  [
+   "ha",
+   0.88,
+   0.96
+  ],
+  [
+   "tardado",
+   1.04,
+   1.44
+  ],
+  [
+   "trece",
+   1.52,
+   1.92
+  ],
+  [
+   "años.",
+   2.0,
+   2.76
+  ],
+  [
+   "Y",
+   2.8,
+   2.96
+  ],
+  [
+   "no",
+   3.04,
+   3.12
+  ],
+  [
+   "fue",
+   3.16,
+   3.28
+  ],
+  [
+   "por",
+   3.36,
+   3.44
+  ],
+  [
+   "vagancia.",
+   3.52,
+   4.4
+  ],
+  [
+   "GTA",
+   4.48,
+   4.8
+  ],
+  [
+   "cinco",
+   4.88,
+   5.12
+  ],
+  [
+   "salió",
+   5.2,
+   5.44
+  ],
+  [
+   "en",
+   5.48,
+   5.52
+  ],
+  [
+   "septiembre",
+   5.6,
+   6.08
+  ],
+  [
+   "de",
+   6.16,
+   6.24
+  ],
+  [
+   "dos",
+   6.36,
+   6.48
+  ],
+  [
+   "mil",
+   6.52,
+   6.56
+  ],
+  [
+   "trece",
+   6.64,
+   7.2
+  ],
+  [
+   "y",
+   7.24,
+   7.28
+  ],
+  [
+   "ha",
+   7.32,
+   7.36
+  ],
+  [
+   "vendido",
+   7.4,
+   7.84
+  ],
+  [
+   "más",
+   7.893,
+   8.0
+  ],
+  [
+   "de",
+   8.08,
+   8.16
+  ],
+  [
+   "doscientos",
+   8.32,
+   8.96
+  ],
+  [
+   "millones",
+   9.04,
+   9.44
+  ],
+  [
+   "de",
+   9.52,
+   9.6
+  ],
+  [
+   "copias.",
+   9.72,
+   10.52
+  ],
+  [
+   "Con",
+   10.56,
+   10.64
+  ],
+  [
+   "GTA",
+   10.72,
+   11.0
+  ],
+  [
+   "Online",
+   11.04,
+   11.36
+  ],
+  [
+   "ganando",
+   11.44,
+   11.76
+  ],
+  [
+   "dinero",
+   11.8,
+   12.16
+  ],
+  [
+   "cada",
+   12.24,
+   12.4
+  ],
+  [
+   "día,",
+   12.48,
+   13.04
+  ],
+  [
+   "Rockstar",
+   13.12,
+   13.68
+  ],
+  [
+   "no",
+   13.76,
+   13.84
+  ],
+  [
+   "tenía",
+   13.96,
+   14.16
+  ],
+  [
+   "ninguna",
+   14.24,
+   14.56
+  ],
+  [
+   "prisa.",
+   14.6,
+   15.4
+  ],
+  [
+   "GTA",
+   15.44,
+   15.76
+  ],
+  [
+   "seis",
+   15.84,
+   16.08
+  ],
+  [
+   "no",
+   16.24,
+   16.32
+  ],
+  [
+   "se",
+   16.4,
+   16.48
+  ],
+  [
+   "confirmó",
+   16.68,
+   16.96
+  ],
+  [
+   "hasta",
+   17.0,
+   17.28
+  ],
+  [
+   "dos",
+   17.36,
+   17.44
+  ],
+  [
+   "mil",
+   17.52,
+   17.6
+  ],
+  [
+   "veintidós…",
+   17.68,
+   18.6
+  ],
+  [
+   "y",
+   18.64,
+   18.72
+  ],
+  [
+   "ese",
+   18.84,
+   18.96
+  ],
+  [
+   "mismo",
+   19.04,
+   19.28
+  ],
+  [
+   "año,",
+   19.36,
+   19.813
+  ],
+  [
+   "un",
+   19.867,
+   19.92
+  ],
+  [
+   "hacker",
+   19.96,
+   20.24
+  ],
+  [
+   "filtró",
+   20.32,
+   20.72
+  ],
+  [
+   "más",
+   20.76,
+   20.88
+  ],
+  [
+   "de",
+   20.96,
+   21.12
+  ],
+  [
+   "noventa",
+   21.2,
+   21.6
+  ],
+  [
+   "vídeos",
+   21.68,
+   22.0
+  ],
+  [
+   "del",
+   22.08,
+   22.16
+  ],
+  [
+   "desarrollo.",
+   22.24,
+   23.24
+  ],
+  [
+   "El",
+   23.28,
+   23.36
+  ],
+  [
+   "primer",
+   23.48,
+   23.6
+  ],
+  [
+   "tráiler",
+   23.68,
+   24.08
+  ],
+  [
+   "llegó",
+   24.133,
+   24.32
+  ],
+  [
+   "en",
+   24.36,
+   24.4
+  ],
+  [
+   "diciembre",
+   24.44,
+   24.88
+  ],
+  [
+   "de",
+   24.96,
+   25.04
+  ],
+  [
+   "dos",
+   25.12,
+   25.2
+  ],
+  [
+   "mil",
+   25.28,
+   25.36
+  ],
+  [
+   "veintitrés,",
+   25.4,
+   26.28
+  ],
+  [
+   "el",
+   26.32,
+   26.4
+  ],
+  [
+   "segundo",
+   26.48,
+   26.96
+  ],
+  [
+   "en",
+   27.04,
+   27.28
+  ],
+  [
+   "mayo",
+   27.4,
+   27.56
+  ],
+  [
+   "de",
+   27.6,
+   27.68
+  ],
+  [
+   "dos",
+   27.76,
+   27.84
+  ],
+  [
+   "mil",
+   27.92,
+   28.0
+  ],
+  [
+   "veinticinco,",
+   28.04,
+   28.987
+  ],
+  [
+   "y",
+   29.013,
+   29.04
+  ],
+  [
+   "el",
+   29.12,
+   29.2
+  ],
+  [
+   "juego",
+   29.333,
+   29.6
+  ],
+  [
+   "se",
+   29.64,
+   29.68
+  ],
+  [
+   "retrasó",
+   29.76,
+   30.32
+  ],
+  [
+   "dos",
+   30.44,
+   30.56
+  ],
+  [
+   "veces:",
+   30.64,
+   31.32
+  ],
+  [
+   "primero",
+   31.36,
+   31.84
+  ],
+  [
+   "a",
+   31.92,
+   32.0
+  ],
+  [
+   "mayo",
+   32.12,
+   32.28
+  ],
+  [
+   "de",
+   32.32,
+   32.4
+  ],
+  [
+   "dos",
+   32.48,
+   32.56
+  ],
+  [
+   "mil",
+   32.64,
+   32.72
+  ],
+  [
+   "veintiséis,",
+   32.76,
+   33.547
+  ],
+  [
+   "y",
+   33.573,
+   33.6
+  ],
+  [
+   "luego",
+   33.68,
+   34.08
+  ],
+  [
+   "a",
+   34.16,
+   34.2
+  ],
+  [
+   "este",
+   34.24,
+   34.48
+  ],
+  [
+   "diecinueve",
+   34.56,
+   35.04
+  ],
+  [
+   "de",
+   35.12,
+   35.2
+  ],
+  [
+   "noviembre.",
+   35.28,
+   36.187
+  ],
+  [
+   "Trece",
+   36.213,
+   36.56
+  ],
+  [
+   "años",
+   36.64,
+   36.96
+  ],
+  [
+   "de",
+   37.0,
+   37.04
+  ],
+  [
+   "espera…",
+   37.24,
+   37.88
+  ],
+  [
+   "que",
+   37.92,
+   38.0
+  ],
+  [
+   "terminan",
+   38.08,
+   38.72
+  ],
+  [
+   "mañana.",
+   38.8,
+   39.8
+  ],
+  [
+   "Sígueme:",
+   39.84,
+   40.613
+  ],
+  [
+   "desde",
+   40.667,
+   40.8
+  ],
+  [
+   "mañana,",
+   40.88,
+   41.467
+  ],
+  [
+   "cada",
+   41.493,
+   41.68
+  ],
+  [
+   "día,",
+   41.76,
+   42.213
+  ],
+  [
+   "los",
+   42.267,
+   42.32
+  ],
+  [
+   "secretos",
+   42.52,
+   42.88
+  ],
+  [
+   "de",
+   42.96,
+   43.04
+  ],
+  [
+   "GTA",
+   43.08,
+   43.44
+  ],
+  [
+   "seis.",
+   43.52,
+   44.08
+  ]
+ ],
+ "claves": [
+  "trece",
+  "vagancia.",
+  "doscientos",
+  "prisa.",
+  "veintidós…",
+  "hacker",
+  "noventa",
+  "retrasó",
+  "diecinueve",
+  "mañana.",
+  "Sígueme:"
+ ],
+ "booms": [
+  0,
+  20.32,
+  29.0,
+  39.84
+ ],
+ "flami": [
+  {
+   "desde": 0.0,
+   "hasta": 1.5,
+   "x": 740,
+   "y": 1080,
+   "h": 440,
+   "rot": -8
+  },
+  {
+   "desde": 20.35,
+   "hasta": 21.6,
+   "x": 690,
+   "y": 1180,
+   "h": 520,
+   "rot": 10
+  },
+  {
+   "desde": 39.9,
+   "hasta": 44.6,
+   "x": 590,
+   "y": 1060,
+   "h": 780,
+   "rot": -4
+  }
+ ]
+}
