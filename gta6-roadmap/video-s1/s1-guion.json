@@ -1,19 +1,20 @@
 [
  {
+  "plantilla": "gta-atardecer",
+  "topText": "sale este jueves",
+  "text": "GTA VI",
+  "bottomText": "todo en 30 segundos",
+  "segundos": 2.28
+ },
+ {
   "plantilla": "gta-dato",
   "topText": "FALTAN",
   "value": 2,
   "unit": " DÍAS",
-  "text": "para GTA VI",
+  "text": "lo que tienes que saber",
   "lang": "es",
-  "segundos": 2.28
- },
- {
-  "plantilla": "gta-atardecer",
-  "topText": "en 30 segundos",
-  "text": "GTA VI",
-  "bottomText": "lo que tienes que saber",
-  "segundos": 2.4
+  "segundos": 2.4,
+  "fijo": true
  },
  {
   "plantilla": "gta-dato",
@@ -22,7 +23,8 @@
   "unit": " NOV",
   "text": "este jueves",
   "lang": "es",
-  "segundos": 2.32
+  "segundos": 2.32,
+  "fijo": true
  },
  {
   "plantilla": "gta-sinopsis",

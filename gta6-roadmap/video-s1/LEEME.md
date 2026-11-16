@@ -17,3 +17,10 @@ npx remotion render src/index.ts S1 salida/S1.mp4
 ```
 
 Para cambiar cómo se ve, edita `s1-guion.json` (qué plantilla va en cada plano, sus textos y su duración) y vuelve a renderizar.
+
+## v3 (más enganche)
+- Gancho: portada de atardecer con "GTA VI" + Flami entrando de golpe + boom + sacudida desde el fotograma 0.
+- Cámara: zoom de golpe en cada corte y en cada palabra clave, flash corto en los cortes, deriva lenta.
+- Barra de progreso arriba. Subtítulos con rebote.
+- Sonido: música synthwave hecha con código (`musica-synthwave.wav`, propia, sin derechos), whoosh en cada corte y boom en los momentos clave (efectos de ElevenLabs).
+- En `gta-dato.tsx` se añadió la propiedad `fijo: true` para que una cifra no cuente hacia arriba (fechas).
