@@ -63,7 +63,7 @@ No te obsesiones con los seguidores. Si las 3 métricas van bien, los seguidores
 ---
 
 ## Archivos de este roadmap
-`01-setup-48h.md` · `02-plan-diario-30-dias.md` · `03-guiones-primeros-15-shorts.md` · `04-ideas-videos-largos.md` · `05-producto-digital.md` · `06-monetizacion.md` · `07-riesgos-y-reglas.md` · `08-tracker.md` · `09-estrategia-youtube-y-plantillas.md` · `panel.html`
+`01-setup-48h.md` · `02-plan-diario-30-dias.md` · `03-guiones-primeros-15-shorts.md` · `04-ideas-videos-largos.md` · `05-producto-digital.md` · `06-monetizacion.md` · `07-riesgos-y-reglas.md` · `08-tracker.md` · `09-estrategia-youtube-y-plantillas.md` · `10-ideas-titulos.md` · `panel.html`
 
 **Fuentes del contexto (consultadas el 16/11/2026):**
 - Fecha de lanzamiento y plataformas: [PCWorld](https://www.pcworld.com/article/3052217/gta-6s-release-date-confirmed-for-real-this-time-seriously.html), [Fox10](https://www.fox10tv.com/2026/10/16/gta-6-locks-nov-19-release-date-after-delays/?outputType=amp), [TechRadar](https://www.techradar.com/gaming/grand-theft-auto-6-delayed-again-but-itll-still-ship-in-2026).
