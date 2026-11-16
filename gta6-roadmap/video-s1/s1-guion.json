@@ -1,0 +1,122 @@
+[
+ {
+  "plantilla": "gta-sello",
+  "text": "2 DÍAS",
+  "accent": "#FFE02E",
+  "grado": -6,
+  "imageUrl": "img0.jpg",
+  "segundos": 2.28
+ },
+ {
+  "plantilla": "gta-atardecer",
+  "topText": "en 30 segundos",
+  "text": "GTA VI",
+  "bottomText": "lo que tienes que saber",
+  "segundos": 2.4
+ },
+ {
+  "plantilla": "gta-dato",
+  "topText": "SALE EL",
+  "value": 19,
+  "unit": " NOV",
+  "text": "jueves",
+  "lang": "es",
+  "segundos": 2.32
+ },
+ {
+  "plantilla": "gta-plano",
+  "topText": "SOLO PS5 Y XBOX SERIES",
+  "imageUrl": "img1.jpg",
+  "segundos": 2.22
+ },
+ {
+  "plantilla": "gta-sello",
+  "text": "PC: SIN ANUNCIAR",
+  "accent": "#EC517D",
+  "grado": -8,
+  "imageUrl": "img2.jpg",
+  "segundos": 3.05
+ },
+ {
+  "plantilla": "gta-plano",
+  "topText": "2 PROTAGONISTAS",
+  "imageUrl": "img3.jpg",
+  "segundos": 2.63
+ },
+ {
+  "plantilla": "gta-sinopsis",
+  "text": "JASON + LUCÍA",
+  "value": 8,
+  "items": [
+   "Una pareja",
+   "que huye",
+   "junta"
+  ],
+  "segundos": 2.24
+ },
+ {
+  "plantilla": "gta-plano",
+  "topText": "LEONIDA ≈ FLORIDA",
+  "imageUrl": "img4.jpg",
+  "segundos": 2.56
+ },
+ {
+  "plantilla": "gta-plano",
+  "topText": "VICE CITY",
+  "imageUrl": "img0.jpg",
+  "segundos": 2.48
+ },
+ {
+  "plantilla": "gta-barras",
+  "topText": "años entre GTAs",
+  "text": "LA ESPERA MÁS LARGA",
+  "unit": "años",
+  "items": [
+   {
+    "t": "III→IV",
+    "v": 6.5,
+    "en": 0.3
+   },
+   {
+    "t": "IV→V",
+    "v": 5.4,
+    "en": 1.0
+   },
+   {
+    "t": "V→VI",
+    "v": 13.2,
+    "en": 1.7
+   }
+  ],
+  "segundos": 3.12
+ },
+ {
+  "plantilla": "gta-dato",
+  "topText": "DESDE GTA V",
+  "value": 13,
+  "unit": " AÑOS",
+  "text": "de espera",
+  "lang": "es",
+  "segundos": 3.2
+ },
+ {
+  "plantilla": "gta-sello",
+  "text": "PRECARGA ABIERTA",
+  "accent": "#2BD47D",
+  "grado": 6,
+  "imageUrl": "img5.jpg",
+  "segundos": 3.6
+ },
+ {
+  "plantilla": "gta-marcador",
+  "topText": "desde el jueves, cada día",
+  "text": "SÍGUEME",
+  "items": [
+   "Secretos",
+   "Trucos",
+   "Easter eggs"
+  ],
+  "value": 25,
+  "segundos": 4.6
+ }
+]
