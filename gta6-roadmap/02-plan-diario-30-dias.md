@@ -247,6 +247,6 @@ Usa la estructura de los guiones de `03-…` (gancho, 4-6 frases, giro y CTA) y 
 ## Plantilla de mensaje para pedir permiso a otros creadores
 Mándalo por mensaje privado de TikTok o Instagram, o por email desde "Más información" en YouTube. Busca canales de **500 a 20.000 seguidores**: son los que suelen contestar.
 
-> Hola [nombre], soy [tu nombre] de @archivoneon, un canal nuevo de secretos de GTA VI en español. Me ha encantado tu clip de [qué]. ¿Me das permiso para usar 3-5 segundos en un Short, con tu @ en pantalla y el enlace a tu vídeo en la descripción? Yo pongo la voz y el análisis encima, no lo resubo tal cual. Si prefieres que no, ¡sin problema! Gracias 🙌
+> Hola [nombre], soy [tu nombre] de @gtaoculto_es, un canal nuevo de secretos de GTA VI en español. Me ha encantado tu clip de [qué]. ¿Me das permiso para usar 3-5 segundos en un Short, con tu @ en pantalla y el enlace a tu vídeo en la descripción? Yo pongo la voz y el análisis encima, no lo resubo tal cual. Si prefieres que no, ¡sin problema! Gracias 🙌
 
 Guarda una captura de cada "sí" en `07-permisos`. **Sin un "sí" por escrito, no usas el clip.**

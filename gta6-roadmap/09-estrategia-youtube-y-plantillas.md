@@ -143,12 +143,12 @@ El vídeo dura 17 minutos y es, en el fondo, un anuncio de su programa y de las 
 |---|---|
 | **Formato Iceberg** ("el iceberg de GTA" con unos 5 M de visitas). La gente que ve estos vídeos consume contenido largo, curiosidades y documentales, así que hay más tiempo de visualización y mejor RPM | **L6 pasa a ser "El Iceberg de GTA VI"** (20-30 min) y añado el "Iceberg de Leonida: casos reales de Florida" (#19). Un solo iceberg que funcione puede darte cientos de horas: **es el mejor formato para llegar a las 4.000 h**. |
 | **Formato "30 curiosidades de X"** (lugares secretos, NPC, bandas…) | L7 = "30 lugares secretos" y #9 = "30 curiosidades de los NPC". Es serializable: de cada tema sale una saga. |
-| **Nicho concreto:** curiosidades, referencias ocultas y documental, no "GTA en general" | Es justo tu enfoque nuevo (trucos, datos curiosos, easter eggs). "Archivo Neón" encaja como canal de archivo o documental. |
+| **Nicho concreto:** curiosidades, referencias ocultas y documental, no "GTA en general" | Es justo tu enfoque nuevo (trucos, datos curiosos, easter eggs). "GTA Oculto" encaja como canal de secretos y documental. |
 | **Guion y storytelling:** reengancha cada pocos segundos y adelanta lo que vendrá | Añadido a la estructura de `04-…`. Pídeselo a Claude en el prompt: *"Incluye un reenganche cada 45 s y 2 adelantos de lo que viene"*. |
 | **Animaciones hechas con Claude Code** (sus vídeos de 130.000-300.000 visitas en un canal de 2.000 suscriptores son casi todo animación) | Confirma el flujo de plantillas de Remotion: **depender poco de clips ajenos** es a la vez lo que te protege legalmente y lo que diferencia el canal. |
 | **La ventana es de 6 a 10 semanas** de boom | Coincide con el plan: velocidad hasta mediados o finales de enero. |
 | **Los Shorts pagan muy poco** (él estima unos 0,10 $ por cada 1.000 visitas) y los vídeos largos mucho más | Refuerza la decisión de 2 vídeos largos por semana. Los Shorts sirven para suscriptores y para llevar gente a los vídeos largos y a la guía. |
-| Entrenar un **Proyecto de Claude** con mucha información del nicho para sacar ideas | Crea un Proyecto en Claude llamado "Archivo Neón" y súbele tu Base de descubrimientos (exportada de Notion), los guiones publicados y tus métricas. Pídele ideas ahí, no en un chat nuevo. |
+| Entrenar un **Proyecto de Claude** con mucha información del nicho para sacar ideas | Crea un Proyecto en Claude llamado "GTA Oculto" y súbele tu Base de descubrimientos (exportada de Notion), los guiones publicados y tus métricas. Pídele ideas ahí, no en un chat nuevo. |
 
 ### ❌ Lo que NO debes hacer (aunque el vídeo lo sugiera)
 | Lo que dice | Por qué no |

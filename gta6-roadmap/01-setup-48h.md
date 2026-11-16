@@ -14,7 +14,7 @@ Evita poner "GTA", "Rockstar" o "Vice City" en el nombre: son marcas registradas
 
 | # | Nombre | @ sugerido | Disponibilidad probable | Notas |
 |---|---|---|---|---|
-| 1 | **Archivo Neón** ⭐ | @archivoneon | Alta | **Mi recomendación.** "Neón" evoca la estética del juego sin usar marcas. Es corto, fácil de recordar y te sirve para otros juegos. |
+| 1 | **Archivo Neón** ⭐ | @gtaoculto_es | Alta | **Mi recomendación.** "Neón" evoca la estética del juego sin usar marcas. Es corto, fácil de recordar y te sirve para otros juegos. |
 | 2 | Modo Secreto | @modosecreto.es | Media (es probable que @modosecreto esté cogido) | Muy claro y fácil de buscar |
 | 3 | Mapa Oculto | @mapaocultoes | Media-baja | Encaja perfecto con los easter eggs |
 | 4 | Pixel Forense | @pixelforense | Alta | Tono "investigador", ideal para secretos |
@@ -95,7 +95,7 @@ Evita poner "GTA", "Rockstar" o "Vice City" en el nombre: son marcas registradas
   3. **Pista 3:** subtítulos automáticos (Texto → Subtítulos automáticos → Español), fuente *Montserrat Black*, blanca con borde negro, 2-4 palabras por línea, en el centro de la pantalla.
   4. **Pista 4:** texto del gancho arriba durante los 2 primeros segundos (amarillo).
   5. **Pista 5:** música sin copyright de la Biblioteca de audio de YouTube, a −25 dB.
-  6. **Pista 6:** tu marca de agua "@archivoneon" en la esquina superior derecha, al 40 % de opacidad. Esto también te protege de que te roben los vídeos.
+  6. **Pista 6:** tu marca de agua "@gtaoculto_es" en la esquina superior derecha, al 40 % de opacidad. Esto también te protege de que te roben los vídeos.
   7. **Último fotograma (1,5 s):** "📖 Guía completa → enlace en el perfil".
 - [ ] Exporta en 1080p y 30 fps. **Sube el mismo archivo a las 3 plataformas, sin la marca de agua de TikTok** (exporta desde CapCut, no descargues desde TikTok).
 

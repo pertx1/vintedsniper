@@ -110,7 +110,7 @@ En Gumroad, activa **"Let customers pay what they want"** con un mínimo igual a
 > Si no te sirve, escríbeme en los 14 días siguientes a la compra y te devuelvo el dinero. Sin preguntas.
 >
 > ### Quién soy
-> Soy Oier, de **@archivoneon**: cada día publico los secretos, trucos y easter eggs que encuentra la comunidad de GTA VI. Esta guía es la versión ordenada y completa de lo que ves en el canal.
+> Soy Oier, de **@gtaoculto_es**: cada día publico los secretos, trucos y easter eggs que encuentra la comunidad de GTA VI. Esta guía es la versión ordenada y completa de lo que ves en el canal.
 >
 > ---
 > *Guía no oficial hecha por fans. Sin relación con Rockstar Games ni Take-Two Interactive. "Grand Theft Auto" y "GTA" son marcas de Take-Two Interactive. Información recopilada y verificada a partir de fuentes públicas que se citan dentro de la guía. Formato PDF, en español.*
