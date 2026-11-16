@@ -35,7 +35,8 @@ def cover_largo(i,m):
     x0=60 if m.get('lado','izq')=='izq' else 660
     fnt=ImageFont.truetype(ANTON,60); b=d.textbbox((x0,60),'GTA 6',font=fnt); d.rectangle([b[0]-16,b[1]-10,b[2]+16,b[3]+10],fill=(255,224,46)); d.text((x0,60),'GTA 6',font=fnt,fill=INK)
     y=150
-    for txt,size,col in m['lineas']:
+    for txt,size,col in m["lineas"]:
+        col=tuple(col)
         fnt=ImageFont.truetype(ANTON,size); d.text((x0+6,y+8),txt,font=fnt,fill=(0,0,0)); d.text((x0,y),txt,font=fnt,fill=col,stroke_width=6,stroke_fill=INK); y+=int(size*1.12)
     im.save(f"{PM}/{i}.jpg",quality=90)
 def panel(i,m,file_ok):
