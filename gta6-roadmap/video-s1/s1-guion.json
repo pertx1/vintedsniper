@@ -1,8 +1,8 @@
 [
  {
   "plantilla": "gta-plano",
+  "videoUrl": "v_hook.mp4",
   "topText": "SALE ESTE JUEVES",
-  "imageUrl": "jason-lucia-11.jpg",
   "segundos": 2.28
  },
  {
@@ -13,7 +13,12 @@
   "text": "lo que tienes que saber",
   "lang": "es",
   "fijo": true,
-  "segundos": 2.4
+  "segundos": 1.12
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_playa.mp4",
+  "segundos": 1.28
  },
  {
   "plantilla": "gta-dato",
@@ -23,7 +28,12 @@
   "text": "este jueves",
   "lang": "es",
   "fijo": true,
-  "segundos": 2.32
+  "segundos": 1.22
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_noche.mp4",
+  "segundos": 1.1
  },
  {
   "plantilla": "gta-sinopsis",
@@ -40,7 +50,7 @@
   "text": "PC: SIN ANUNCIAR",
   "accent": "#EC517D",
   "grado": -8,
-  "imageUrl": "vice-city-01.jpg",
+  "videoUrl": "v_pc.mp4",
   "segundos": 3.05
  },
  {
@@ -61,21 +71,31 @@
  },
  {
   "plantilla": "gta-plano",
+  "videoUrl": "v_pareja.mp4",
   "topText": "UNA PAREJA QUE HUYE",
-  "imageUrl": "pareja-v.jpg",
   "segundos": 1.24
  },
  {
   "plantilla": "gta-plano",
+  "videoUrl": "v_keys.mp4",
   "topText": "LEONIDA ≈ FLORIDA",
-  "imageUrl": "cayos-mar-playa-06.jpg",
-  "segundos": 2.56
+  "segundos": 1.36
  },
  {
   "plantilla": "gta-plano",
+  "videoUrl": "v_hidro.mp4",
+  "segundos": 1.2
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_boardwalk.mp4",
   "topText": "VICE CITY",
-  "imageUrl": "vice-city-06.jpg",
-  "segundos": 2.48
+  "segundos": 1.3
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_yate.mp4",
+  "segundos": 1.18
  },
  {
   "plantilla": "gta-barras",
@@ -108,15 +128,31 @@
   "unit": " AÑOS",
   "text": "de espera",
   "lang": "es",
-  "segundos": 3.2
+  "segundos": 1.4
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_explosion.mp4",
+  "segundos": 1.8
  },
  {
   "plantilla": "gta-sello",
   "text": "PRECARGA ABIERTA",
   "accent": "#2BD47D",
   "grado": 6,
-  "imageUrl": "vice-city-02.jpg",
-  "segundos": 3.6
+  "videoUrl": "v_club.mp4",
+  "segundos": 1.8
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_moto.mp4",
+  "segundos": 1.8
+ },
+ {
+  "plantilla": "gta-plano",
+  "videoUrl": "v_pareja2.mp4",
+  "topText": "SÍGUEME",
+  "segundos": 1.9
  },
  {
   "plantilla": "gta-marcador",
@@ -128,6 +164,6 @@
    "Easter eggs"
   ],
   "value": 25,
-  "segundos": 4.6
+  "segundos": 2.7
  }
 ]

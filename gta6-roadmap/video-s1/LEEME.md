@@ -30,3 +30,8 @@ Para cambiar cómo se ve, edita `s1-guion.json` (qué plantilla va en cada plano
 - Gancho con el arte oficial de Jason y Lucía, fichas de personaje (`gta-personaje`) con recortes verticales centrados en la cara, Cayos reales para Leonida y el letrero de Vice City.
 - Crédito "Imágenes: Rockstar Games" en pequeño abajo a la izquierda.
 - Archivos de imagen que espera `public/`: jason-lucia-11.jpg, jason-v.jpg, lucia-v.jpg, pareja-v.jpg, cayos-mar-playa-06.jpg, vice-city-01.jpg, vice-city-02.jpg, vice-city-06.jpg, flami.png, voz.mp3, musica.wav, whoosh.mp3, boom.mp3.
+
+## v5 (vídeo real del tráiler)
+- 13 clips de vídeo del **tráiler de lanzamiento oficial** y del vídeo **"Pre-Load Now"** (descargas oficiales de rockstargames.com/VI, en 4K), recortados en vertical y a la duración exacta de cada plano (todos ≤ 3 s, sin su audio).
+- 21 planos en 36,7 s: un cambio cada ~1,7 s. Las plantillas quedan como golpes de texto entre los clips.
+- Fichas de Jason y Lucía con imagen fija; el resto es vídeo en movimiento.

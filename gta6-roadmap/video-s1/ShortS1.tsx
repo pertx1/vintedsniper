@@ -64,7 +64,7 @@ const Subtitulos: React.FC = () => {
   const rebote = spring({ frame: frame - Math.round(W[idx][1] * FPS), fps: FPS, config: { damping: 9, stiffness: 220 } });
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 380 }}>
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "4px 44px", maxWidth: width - 160 }}>
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "4px 54px", maxWidth: width - 160 }}>
         {W.slice(g, g + 3).map(([w], i) => {
           const act = g + i === idx;
           return (
@@ -94,7 +94,7 @@ const Flami: React.FC = () => {
   const apariciones = [
     { desde: 0.0, hasta: 2.2, x: 740, y: 1080, h: 440, rot: -8 },
     { desde: 22.6, hasta: 25.2, x: 700, y: 1220, h: 540, rot: 8 },
-    { desde: 32.1, hasta: 36.7, x: 590, y: 1060, h: 780, rot: -4 },
+    { desde: 34.0, hasta: 36.7, x: 590, y: 1060, h: 780, rot: -4 },
   ];
   const t = frame / FPS;
   const a = apariciones.find((p) => t >= p.desde && t < p.hasta);
@@ -134,7 +134,7 @@ export const ShortS1: React.FC = () => (
     <Audio src={staticFile("musica.wav")} volume={0.13} />
     {inicios.slice(1).map((s, i) => (
       <Sequence key={"w" + i} from={Math.max(0, Math.round((s - 0.1) * FPS))} durationInFrames={20}>
-        <Audio src={staticFile("whoosh.mp3")} volume={0.35} />
+        <Audio src={staticFile("whoosh.mp3")} volume={0.2} />
       </Sequence>
     ))}
     {BOOMS.map((s, i) => (
