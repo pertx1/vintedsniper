@@ -1,7 +1,7 @@
 # L0 · "GTA 6: TODO lo que sabemos antes de jugarlo"
 
 - **Publicación:** miércoles 18/11 a las 18:00, la víspera del lanzamiento, cuando más se busca "todo lo que sabemos de GTA 6".
-- **Duración objetivo:** unos 9 minutos (~1.400 palabras con la voz de Dani).
+- **Duración final:** 6:05 (voz real de Dani; el guion estimaba 9 min).
 - **Fuentes:** web oficial rockstargames.com/VI (textos de personajes y lugares, consultados el 16/11/2026) y noticias sobre fechas y récords. Lo que no está confirmado se dice como "según la comunidad".
 - **Estilo:** el del S1 adaptado a vídeo largo: plano nuevo cada 2-3 s (más lento que un Short), clips del tráiler oficial, postales, fichas de personaje, Flami en los reenganches y música synthwave de fondo.
 

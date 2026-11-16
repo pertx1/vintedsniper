@@ -623,7 +623,9 @@ const VIDS=[
   desc:"Vice City, Leonida Keys, Grassrivers, Ambrosia, Port Gellhorn y Mount Kalaga: las 6 zonas de GTA 6 y su versión real en Florida. ¿Cuál vas a explorar primero?"+FIRMA,
   tags:"#gta6 #vicecity #leonida #gta6español #shorts",thumb:"media/S2.jpg",file:"media/S2.mp4"},
  {id: "S3", d: "2026-11-18", h: "21:00", tipo: "Short", titulo: "Por qué GTA 6 ha tardado 13 años"},
- {id: "L0", d: "2026-11-18", h: "18:00", tipo: "Largo", titulo: "GTA 6: TODO lo que sabemos antes de jugarlo"},
+ {id:"L0",d:"2026-11-18",h:"18:00",tipo:"Largo",listo:true,titulo:"GTA 6: TODO lo que sabemos antes de jugarlo (personajes, mapa y secretos)",
+  desc:"Mañana sale GTA 6. Aquí tienes todo lo que se sabe antes de jugarlo, con información oficial de Rockstar: Jason y Lucía, los personajes secundarios, las 6 zonas de Leonida, las fechas, los récords… y un detalle de la biografía de Lucía que conecta GTA 6 con Liberty City.\n\n0:00 Intro\n0:27 Fecha y plataformas\n0:44 ¿Y en PC?\n1:12 La espera más larga y los récords\n1:54 Jason Duval\n2:24 Lucía Caminos\n2:57 Los secundarios\n4:14 Leonida: las 6 zonas\n4:56 Precarga, ediciones y música\n5:19 El detalle de Liberty City"+FIRMA,
+  tags:"#gta6 #gtavi #gta6español #vicecity",thumb:"media/L0.jpg"},
  {id: "S4", d: "2026-11-19", h: "14:00", tipo: "Short", titulo: "Jason y Lucía: quiénes son los protagonistas de GTA 6"},
  {id: "S5", d: "2026-11-19", h: "21:00", tipo: "Short", titulo: "¿Saldrá GTA 6 en PC? La historia lo dice"},
  {id: "S6", d: "2026-11-20", h: "14:00", tipo: "Short", titulo: "GTA 6 acaba de salir y ya ha hecho historia"},
@@ -714,7 +716,7 @@ V.videos=()=>{
           <button class="btn small" data-cp="t:${v.id}">Copiar título</button>
           <button class="btn small" data-cp="d:${v.id}">Copiar descripción</button>
           <button class="btn small" data-cp="h:${v.id}">Copiar etiquetas</button>
-          ${v.file?`<button class="btn small primary" data-dl="${v.id}">⬇ Descargar vídeo</button>`:""}
+          ${v.file?`<button class="btn small primary" data-dl="${v.id}">⬇ Descargar vídeo</button>`:(v.listo?`<span class="muted">Vídeo largo: descárgalo del chat (pesa demasiado para el panel)</span>`:"")}
           ${v.thumb?`<a class="btn small" href="${v.thumb}" target="_blank" rel="noopener">Ver miniatura</a>`:""}
         </div>
         <details><summary class="muted" style="cursor:pointer;font-size:13px">Ver descripción</summary><pre style="white-space:pre-wrap;font-family:var(--body);font-size:13px;margin:8px 0 0;background:#0005;padding:10px;border-radius:8px">${esc(descDe(v))}\n\n${esc(tagsDe(v))}</pre></details>

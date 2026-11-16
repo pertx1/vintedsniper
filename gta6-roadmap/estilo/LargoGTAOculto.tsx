@@ -16,6 +16,8 @@ const FPS = 30;
 let inicios: number[] = []; let DUR = 0;
 const planoEn = (t: number) => { let i = inicios.length - 1; while (i > 0 && inicios[i] > t) i--; return i; };
 
+let GRUPO: number[] = [];
+const agrupa = (w: DatosShort["palabras"]) => { const g: number[] = []; let ini = 0; w.forEach(([, ], i) => { if (i > 0 && (i - ini >= 3 || /[.?!…:]$/.test(w[i - 1][0]))) ini = i; g.push(ini); }); return g; };
 let golpes: number[] = []; let BOOMS: number[] = [0]; let FLAMI: DatosShort["flami"] = [];
 const desde = (t: number, lista: number[]) => { let d = Infinity; for (const x of lista) if (t >= x) d = Math.min(d, t - x); return d; };
 
@@ -61,19 +63,21 @@ const Subtitulos: React.FC = () => {
   let idx = W.findIndex(([, s, e]) => t >= s && t < e + 0.12);
   if (idx === -1) { for (let i = W.length - 1; i >= 0; i--) if (W[i][1] <= t) { idx = i; break; } }
   if (idx === -1 || P[planoEn(t)].plantilla === "gta-personaje") return null;
-  const g = Math.floor(idx / 3) * 3;
+  const g = GRUPO[idx];
+  const n = GRUPO.findIndex((x, j) => j > idx && x !== g);
+  const fin = n === -1 ? W.length : n;
   const rebote = spring({ frame: frame - Math.round(W[idx][1] * FPS), fps: FPS, config: { damping: 9, stiffness: 220 } });
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 70 }}>
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "4px 30px", maxWidth: 1500 }}>
-        {W.slice(g, g + 3).map(([w], i) => {
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "4px 46px", maxWidth: 1500 }}>
+        {W.slice(g, fin).map(([w], i) => {
           const act = g + i === idx;
           return (
             <span key={i} style={{
               display: "inline-block", fontFamily: "Montserrat, Inter, sans-serif", fontWeight: 900, fontSize: 50, lineHeight: 1.1,
               textTransform: "uppercase", color: act ? "#FFE02E" : "#FFFFFF",
               WebkitTextStroke: "8px #0B0620", paintOrder: "stroke fill", textShadow: "0 6px 0 rgba(11,6,32,.5)",
-              transform: act ? `scale(${0.85 + 0.3 * rebote}) rotate(${(1 - rebote) * -4}deg)` : "scale(1)",
+              transform: act ? `scale(${0.9 + 0.16 * rebote}) rotate(${(1 - rebote) * -4}deg)` : "scale(1)",
             }}>{w.replace(/[.,:]$/, "")}</span>
           );
         })}
@@ -121,7 +125,7 @@ const Marca: React.FC = () => (
 export const duracionDe = (d: DatosShort) => d.planos.reduce((a, p) => a + (p.segundos || 3), 0);
 
 export const LargoGTAOculto: React.FC<{ datos: DatosShort }> = ({ datos }) => {
-  P = datos.planos; W = datos.palabras; BOOMS = datos.booms; FLAMI = datos.flami;
+  P = datos.planos; W = datos.palabras; GRUPO = agrupa(W); BOOMS = datos.booms; FLAMI = datos.flami;
   golpes = W.filter(([w]) => datos.claves.includes(w)).map(([, s]) => s);
   inicios = (() => { let t = 0; return P.map((p) => { const s = t; t += p.segundos || 3; return s; }); })();
   DUR = duracionDe(datos);
