@@ -289,3 +289,9 @@ Mándalo por mensaje privado de TikTok o Instagram, o por email desde "Más info
 > Hola [nombre], soy [tu nombre] de @gtaoculto_es, un canal nuevo de secretos de GTA VI en español. Me ha encantado tu clip de [qué]. ¿Me das permiso para usar 3-5 segundos en un Short, con tu @ en pantalla y el enlace a tu vídeo en la descripción? Yo pongo la voz y el análisis encima, no lo resubo tal cual. Si prefieres que no, ¡sin problema! Gracias 🙌
 
 Guarda una captura de cada "sí" en `07-permisos`. **Sin un "sí" por escrito, no usas el clip.**
+
+## Cambio del 17/11 (noche): 3 vídeos largos por semana en las 2 semanas del lanzamiento
+- Semana 1 (19-25/11): L1 (20/11), L0b (22/11), L2 (25/11).
+- Semana 2 (26/11-2/12): **L9 «Las primeras 10 horas de GTA 6: lo que nadie te dice» (mié 26/11)**, L3 «GTA 6 castiga a estos jugadores (y premia a estos otros)» (sáb 29/11), L4 «7 hábitos de GTA 5 que te van a matar en GTA 6» (mar 2/12).
+- Después, 2 por semana: L5 «Todo lo que GTA 6 arregla de GTA 5» (6/12), L6 «Los 9 personajes de GTA 6: de quién NO te debes fiar» (9/12), L7 (13/12), L8 (16/12).
+- L9, L3, L4 y L5 necesitan datos del juego ya publicado: guion con prensa y comunidad confirmada en 2 fuentes a partir del 20/11.
