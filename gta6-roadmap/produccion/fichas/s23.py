@@ -3,17 +3,17 @@ SP='/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/s
 def P(n): return f'p/{n}.jpg'
 def mk(a,txt,items,top='te leo en comentarios'): return {'a':a,'tpl':'gta-marcador','topText':top,'text':txt,'items':items,'value':25}
 v=dict(planos=[
- {'img':'ds/ds2.jpg','top':'PS5 vs XBOX'},
- {'a':'Lo ha confirmado','sello':'ROCKSTAR NORTH','acc':'#EC517D','g':5,'img':P('GTAVI_Pre_Load')},
+ {'clip':'ds/mov2','top':'PS5 vs XBOX'},
+ {'a':'Lo ha confirmado','sello':'ROCKSTAR NORTH','acc':'#EC517D','g':5,'clip':'trailer-17','cx':0.45},
  {'a':'en una entrevista','cita':'Las vibraciones de los minijuegos y de los vehículos están todas ajustadas.','quien':'Rob Nelson','donde':'entrevista en Famitsu'},
- {'a':'En PS5, la vibración','img':'ds/ds5.jpg','top':'VIBRACIÓN POR ARMA'},
- {'a':'los minijuegos','img':P('Jason_and_Lucia_17')},
- {'a':'Y al conducir','img':'ds/ds1.jpg','top':'EL GATILLO = ACELERADOR'},
- {'a':'si lo aprietas a fondo','sello':'A FONDO = MÁS RÁPIDO','acc':'#EC517D','g':5,'img':P('Vice_City_17')},
+ {'a':'En PS5, la vibración','lista':[{'clip':'ds/mov5','top':'VIBRACIÓN POR ARMA'},{'clip':'trailer-30','cx':0.4}]},
+ {'a':'los minijuegos','lista':[{'clip':'precarga-37','cx':0.5},{'clip':'x-tren','cx':0.5}]},
+ {'a':'Y al conducir','clip':'ds/mov1','top':'EL GATILLO = ACELERADOR'},
+ {'a':'si lo aprietas a fondo','sello':'A FONDO = MÁS RÁPIDO','acc':'#EC517D','g':5,'clip':'trailer-27','cx':0.5},
  {'a':'Sony añade','tpl':'gta-sinopsis','text':'DUALSENSE EN GTA 6','items':['Gatillos adaptativos','Háptica','Altavoz del mando'],'value':14},
- {'a':'¿Y en Xbox?','img':'ds/ds9.jpg','top':'¿Y EN XBOX?'},
- {'a':'pero su mando','sello':'SIN GATILLOS ADAPTATIVOS','img':P('Vice_City_20')},
- {'a':'Así que','img':'ds/ds8.jpg','top':'SE SIENTE DISTINTO'},
+ {'a':'¿Y en Xbox?','clip':'ds/mov9','top':'¿Y EN XBOX?'},
+ {'a':'pero su mando','sello':'SIN GATILLOS ADAPTATIVOS','clip':'trailer-02','cx':0.5},
+ {'a':'Así que','lista':[{'clip':'trailer-09','cx':0.35,'top':'SE SIENTE DISTINTO'},{'clip':'ds/mov8'}]},
  mk('¿Tú en cuál','¿DÓNDE VAS A JUGAR?',['PS5','Xbox'])],
  booms=['¿Y en Xbox?'],flami=['Así que'],claves=['Xbox','Famitsu.','gatillo:','resistencia,'])
 v.update(id='S23',tipo='short',voz='voz-s23.mp3',words=f'{SP}/words/S23.json',fin=0.8)

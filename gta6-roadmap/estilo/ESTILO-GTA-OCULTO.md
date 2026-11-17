@@ -54,6 +54,12 @@ Medición del S1: voz sola −24,4 dB de media; mezcla −22,6 dB; pico −1,9 d
   - Fondo oficial desenfocado y oscurecido por el lado del texto; viñeta.
 - **Shorts (1080×1920):** se mantiene Flami, como en S1 y S2.
 
+## Movimiento en los Shorts (desde el 17/11)
+- **Más vídeo que foto:** al menos 2 de cada 3 planos tienen que ser clips. Las imágenes fijas, solo para fichas, citas, sellos o cuando no hay clip del tema.
+- Fuentes de clips: `render/public/h/` (tráilers y precarga), `render/public/ext/` (trozos de 2,6 s del Extended Look oficial, catálogo en `produccion/clips-extended.md`), loops oficiales de personajes y clips animados hechos con `zoompan` a partir de imágenes oficiales (`render/public/ds/mov*.mp4`).
+- En la ficha: `{'clip':'ext/ext-0452'}` usa cualquier ruta de `public/` (sin `.mp4`).
+- Clips de ≤ 3 s y sin audio (regla de `07-riesgos-y-reglas.md`).
+
 ## Tipografía (desde el 17/11)
 - **Pricedown** (`marca/Pricedown.otf`, licencia Typodermic: uso comercial en logos e imágenes permitido) para títulos, cifras, sellos, fichas, subtítulos, marca de agua y miniaturas. En Remotion se carga como `GTAPD` desde `public/Pricedown.otf` con `font-synthesis: none`.
 - Inter solo para textos pequeños de lectura (descripciones de fichas, listas, créditos).

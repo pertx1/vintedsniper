@@ -18,8 +18,13 @@ def fondo(path, oscuro=0.55, blur=0, sat=1.3, tinte=None, crop=None):
         t = Image.new('RGB', (W, H), tinte); im = Image.blend(im, t, 0.25)
     return im
 
-def recorte(path, alto, borde=10, col_borde=(255, 255, 255), glow=(255, 60, 160)):
-    c = Image.open(path).convert('RGBA'); c = c.crop(c.getchannel('A').point(lambda a: 255 if a > 40 else 0).getbbox())
+def recorte(path, alto, borde=10, col_borde=(255, 255, 255), glow=(255, 60, 160), borde_limpio=0):
+    c = Image.open(path).convert('RGBA'); al = c.getchannel('A').point(lambda a: 0 if a < 90 else a)
+    if borde_limpio:
+        dd = ImageDraw.Draw(al); bw = int(min(c.size) * borde_limpio)
+        dd.rectangle((0, 0, c.width, bw), fill=0); dd.rectangle((0, 0, bw, c.height), fill=0); dd.rectangle((c.width - bw, 0, c.width, c.height), fill=0)
+    c.putalpha(al)
+    c = c.crop(al.point(lambda a: 255 if a > 200 else 0).getbbox())
     r = alto / c.height; c = c.resize((int(c.width * r), alto), Image.LANCZOS)
     a = c.getchannel('A').point(lambda v: 255 if v > 100 else 0)
     pad = borde * 4

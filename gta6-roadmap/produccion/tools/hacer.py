@@ -40,7 +40,7 @@ def dur(path):
 
 def cortar(vid, ss, d, cx, vertical, nombre):
     """Corta (y si hace falta ralentiza) un clip a d segundos exactos. Devuelve la ruta relativa a public."""
-    src = f"{PUB}/h/{vid}.mp4"
+    src = f"{PUB}/{vid}.mp4" if "/" in vid else f"{PUB}/h/{vid}.mp4"
     disp = dur(src) - ss - 0.05
     lento = max(1.0, (d + 0.1) / disp)
     if lento > 3.0:
@@ -50,7 +50,7 @@ def cortar(vid, ss, d, cx, vertical, nombre):
     os.makedirs(os.path.dirname(out), exist_ok=True)
     vf = []
     if vertical:
-        vf.append(f"crop=ih*9/16:ih:(iw-ih*9/16)*{cx}:0,scale=1080:1920")
+        vf.append(f"crop=min(iw\\,ih*9/16):ih:(iw-min(iw\\,ih*9/16))*{cx}:0,scale=1080:1920")
     if lento > 1.0:
         vf.append(f"minterpolate=fps=60,setpts={lento:.3f}*PTS")
     vf.append("fps=30,format=yuv420p")
