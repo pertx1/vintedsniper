@@ -1,0 +1,122 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "precarga-40",
+     "top": "¿GTA 6 ONLINE?"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "La respuesta corta",
+   "lista": [
+    {
+     "clip": "ext/ext-1028"
+    },
+    {
+     "img": "p/Vice_City_06.jpg",
+     "sello": "NO ANUNCIADO",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "La edición estándar",
+   "lista": [
+    {
+     "clip": "ext/ext-1064",
+     "top": "UN JUGADOR"
+    },
+    {
+     "img": "p/GTAVI_Pre_Load.jpg",
+     "cx": 0.4
+    }
+   ]
+  },
+  {
+   "a": "y ni la Ultimate",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_01.jpg"
+    },
+    {
+     "clip": "ext/ext-1136"
+    }
+   ]
+  },
+  {
+   "a": "Pero mira el historial",
+   "clip": "trailer-29"
+  },
+  {
+   "a": "GTA Online llegó",
+   "tpl": "gta-dato",
+   "topText": "GTA ONLINE LLEGÓ",
+   "value": 2,
+   "unit": " SEMANAS",
+   "text": "después de GTA V (1/10/2013)",
+   "fijo": true
+  },
+  {
+   "a": "Y Red Dead Online",
+   "tpl": "gta-dato",
+   "topText": "RED DEAD ONLINE",
+   "value": 1,
+   "unit": " MES",
+   "text": "después, en beta",
+   "fijo": true
+  },
+  {
+   "a": "O sea",
+   "clip": "trailer-21",
+   "ss": 1.9,
+   "cx": 0.45
+  },
+  {
+   "a": "Es lo más probable",
+   "lista": [
+    {
+     "clip": "ext/ext-1076"
+    },
+    {
+     "img": "p/Vice_City_17.jpg",
+     "sello": "NO ES OFICIAL"
+    }
+   ]
+  },
+  {
+   "a": "El día que",
+   "tpl": "gta-marcador",
+   "topText": "el día que se anuncie",
+   "text": "SÍGUEME",
+   "items": [
+    "Fecha del Online",
+    "Novedades",
+    "Secretos"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "no lo ha anunciado"
+ ],
+ "flami": [
+  "O sea"
+ ],
+ "claves": [
+  "online?",
+  "semanas",
+  "mes",
+  "oficial."
+ ],
+ "id": "S13",
+ "tipo": "short",
+ "voz": "voz-s13.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S13.json",
+ "fin": 0.8
+}

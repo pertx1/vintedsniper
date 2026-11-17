@@ -1,0 +1,85 @@
+{
+ "planos": [
+  {
+   "clip": "portada",
+   "ss": 8,
+   "cx": 0.5,
+   "top": "¿LO COMPRAS EN TIENDA?"
+  },
+  {
+   "a": "ojo",
+   "sello": "SIN DISCO",
+   "acc": "#EC517D",
+   "g": 5,
+   "img": "p2/Artwork_Wallpapers_Official_Cover_Art_Official_Cover_Art_portrait.jpg"
+  },
+  {
+   "a": "La versión física",
+   "img": "p/GTAVI_Pre_Load.jpg",
+   "cx": 0.4,
+   "top": "CÓDIGO EN LA CAJA"
+  },
+  {
+   "a": "y estaba a la venta",
+   "tpl": "gta-dato",
+   "topText": "EN TIENDAS DESDE",
+   "value": 12,
+   "unit": " NOV",
+   "text": "para poder precargarlo",
+   "fijo": true
+  },
+  {
+   "a": "O sea",
+   "clip": "precarga-34",
+   "cx": 0.5
+  },
+  {
+   "a": "La edición estándar",
+   "tpl": "gta-sinopsis",
+   "text": "EDICIONES",
+   "items": [
+    "Estándar · física y digital",
+    "Ultimate · solo digital"
+   ],
+   "value": 12
+  },
+  {
+   "a": "Y si compras la física",
+   "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_01.jpg",
+   "top": "MEJORA A ULTIMATE"
+  },
+  {
+   "a": "en cuanto canjees",
+   "clip": "precarga-40",
+   "ss": 3
+  },
+  {
+   "a": "Tú lo compras",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿CAJA O DIGITAL?",
+   "items": [
+    "Caja",
+    "Digital"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "no trae disco"
+ ],
+ "flami": [
+  "O sea"
+ ],
+ "claves": [
+  "disco.",
+  "código",
+  "doce",
+  "digital."
+ ],
+ "id": "S10",
+ "tipo": "short",
+ "voz": "voz-s10.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S10.json",
+ "fin": 0.8
+}

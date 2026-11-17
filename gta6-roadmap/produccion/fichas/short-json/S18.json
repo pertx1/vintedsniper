@@ -1,0 +1,117 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-22",
+     "top": "VIRALES"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Real_Dimez_Real_Dimez_portrait.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Bae-Luxe y Roxy",
+   "ficha": "Real Dimez",
+   "img": "p/Real_Dimez_04.jpg",
+   "cx": 0.35,
+   "sub": "Bae-Luxe y Roxy",
+   "bot": "Amigas desde el instituto"
+  },
+  {
+   "a": "Según Rockstar",
+   "lista": [
+    {
+     "clip": "ext/ext-1256"
+    },
+    {
+     "img": "p/Real_Dimez_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "a base de rap",
+   "lista": [
+    {
+     "img": "p/Real_Dimez_03.jpg"
+    },
+    {
+     "clip": "trailer-16"
+    }
+   ]
+  },
+  {
+   "a": "Su primer éxito",
+   "lista": [
+    {
+     "clip": "trailer-20"
+    },
+    {
+     "img": "p/Real_Dimez_02.jpg",
+     "sello": "PRIMER ÉXITO"
+    }
+   ]
+  },
+  {
+   "a": "Cinco años",
+   "lista": [
+    {
+     "img": "p/Vice_City_07.jpg"
+    },
+    {
+     "clip": "ext/ext-1544"
+    }
+   ]
+  },
+  {
+   "a": "han fichado",
+   "lista": [
+    {
+     "clip": "precarga-38",
+     "top": "ONLY RAW RECORDS"
+    },
+    {
+     "img": "p/DreQuan_Priest_04.jpg",
+     "cx": 0.4
+    }
+   ]
+  },
+  {
+   "a": "Rockstar las resume",
+   "cita": "Vídeos virales. Estribillos virales.",
+   "quien": "Rockstar sobre Real Dimez"
+  },
+  {
+   "a": "Las vas a escuchar",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿LAS ESCUCHARÁS?",
+   "items": [
+    "Sí",
+    "No"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Real Dimez"
+ ],
+ "flami": [
+  "Su primer éxito"
+ ],
+ "claves": [
+  "Dimez:",
+  "redes",
+  "Downplay,",
+  "virales."
+ ],
+ "id": "S18",
+ "tipo": "short",
+ "voz": "voz-s18.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S18.json",
+ "fin": 0.8
+}

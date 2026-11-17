@@ -1,0 +1,134 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "precarga-40",
+     "ss": 0.5,
+     "top": "¿Y EN PC?"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Lock_and_Load_With_Logos_Jason_Lucia_Lock_And_Load_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "pero no en PC",
+   "sello": "PC: NO",
+   "acc": "#EC517D",
+   "clip": "trailer-21",
+   "ss": 1.9,
+   "cx": 0.45
+  },
+  {
+   "a": "Cuándo llegará",
+   "lista": [
+    {
+     "clip": "ext/ext-0740"
+    },
+    {
+     "img": "p/Vice_City_27.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Rockstar no ha dicho",
+   "clip": "trailer-04"
+  },
+  {
+   "a": "su historial",
+   "clip": "trailer-29"
+  },
+  {
+   "a": "GTA cuatro",
+   "tpl": "gta-dato",
+   "topText": "GTA IV EN PC",
+   "value": 8,
+   "unit": " MESES",
+   "text": "después de consolas"
+  },
+  {
+   "a": "GTA cinco",
+   "tpl": "gta-dato",
+   "topText": "GTA V EN PC",
+   "value": 19,
+   "unit": " MESES",
+   "text": "de espera"
+  },
+  {
+   "a": "Red Dead",
+   "tpl": "gta-dato",
+   "topText": "RDR2 EN PC",
+   "value": 13,
+   "unit": " MESES",
+   "text": "de espera"
+  },
+  {
+   "a": "Si se repite",
+   "clip": "trailer-02",
+   "ss": 1.0
+  },
+  {
+   "a": "la versión de PC",
+   "tpl": "gta-dato",
+   "topText": "PC ESTIMADO",
+   "value": 2027,
+   "unit": "-28",
+   "text": "no es oficial",
+   "fijo": true
+  },
+  {
+   "a": "Ojo",
+   "lista": [
+    {
+     "clip": "precarga-34"
+    },
+    {
+     "img": "p/Vice_City_15.jpg",
+     "sello": "ESTIMACIÓN"
+    }
+   ]
+  },
+  {
+   "a": "Lo único oficial",
+   "tpl": "gta-sinopsis",
+   "text": "HOY SALE EN",
+   "items": [
+    "PlayStation 5",
+    "Xbox Series X|S"
+   ],
+   "value": 10
+  },
+  {
+   "a": "Si juegas en PC",
+   "tpl": "gta-marcador",
+   "topText": "el día que se anuncie",
+   "text": "SÍGUEME",
+   "items": [
+    "Fecha de PC",
+    "Requisitos",
+    "Novedades"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "pero no en PC",
+  "dos mil veintisiete"
+ ],
+ "flami": [
+  "Ojo"
+ ],
+ "claves": [
+  "PC.",
+  "ocho",
+  "diecinueve",
+  "trece.",
+  "estimación,"
+ ],
+ "id": "S5",
+ "tipo": "short",
+ "voz": "voz-s5.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S5.json",
+ "fin": 0.8
+}

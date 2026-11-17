@@ -1,0 +1,120 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1136",
+     "top": "EL REY DE VICE CITY"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Boobie_Ike_Boobie_Ike_portrait.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_With_Logos_Jason_Lucia_Rooftop_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Según Rockstar",
+   "ficha": "Boobie Ike",
+   "img": "p/Boobie_Ike_03.jpg",
+   "cx": 0.4,
+   "sub": "Leyenda de Vice City",
+   "bot": "De la calle a un imperio"
+  },
+  {
+   "a": "Es de los pocos",
+   "lista": [
+    {
+     "clip": "trailer-25"
+    },
+    {
+     "img": "p/Boobie_Ike_01.jpg",
+     "cx": 0.35
+    }
+   ]
+  },
+  {
+   "a": "inmobiliarias",
+   "lista": [
+    {
+     "img": "p/Boobie_Ike_04.jpg",
+     "top": "JACK OF HEARTS"
+    },
+    {
+     "clip": "ext/ext-1388"
+    }
+   ]
+  },
+  {
+   "a": "Su lema",
+   "cita": "Todo va de corazón. Del Jack of Hearts.",
+   "quien": "Boobie Ike"
+  },
+  {
+   "a": "Pero lo que más",
+   "lista": [
+    {
+     "img": "p/Boobie_Ike_02.jpg",
+     "cx": 0.45,
+     "top": "ONLY RAW RECORDS"
+    },
+    {
+     "clip": "trailer-20"
+    }
+   ]
+  },
+  {
+   "a": "junto a un joven",
+   "lista": [
+    {
+     "clip": "trailer-31"
+    },
+    {
+     "img": "p/DreQuan_Priest_04.jpg",
+     "cx": 0.4
+    }
+   ]
+  },
+  {
+   "a": "Ahora solo les falta",
+   "lista": [
+    {
+     "clip": "ext/ext-0572"
+    },
+    {
+     "img": "p/Vice_City_13.jpg",
+     "sello": "FALTA UN ÉXITO"
+    }
+   ]
+  },
+  {
+   "a": "Será Boobie",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿ALIADO O ENEMIGO?",
+   "items": [
+    "Aliado",
+    "Enemigo"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Boobie Ike"
+ ],
+ "flami": [
+  "Ahora solo les falta"
+ ],
+ "claves": [
+  "Boobie",
+  "imperio",
+  "corazón.",
+  "éxito."
+ ],
+ "id": "S16",
+ "tipo": "short",
+ "voz": "voz-s16.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S16.json",
+ "fin": 0.8
+}

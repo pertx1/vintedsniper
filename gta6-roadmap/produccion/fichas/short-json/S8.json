@@ -1,0 +1,142 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1232",
+     "top": "EL CASERO DE JASON"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Brian_Heder_Brian_Heder_portrait.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Beach_With_Logos_Jason_and_Lucia_Beach_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Brian Heder",
+   "ficha": "Brian Heder",
+   "img": "p/Brian_Heder_01.jpg",
+   "sub": "Traficante de los Cayos",
+   "bot": "De la vieja escuela"
+  },
+  {
+   "a": "Sigue moviendo",
+   "clip": "trailer-02",
+   "ss": 2.6,
+   "top": "BRIAN'S MARINA"
+  },
+  {
+   "a": "tercera esposa",
+   "lista": [
+    {
+     "img": "p/Brian_Heder_04.jpg",
+     "top": "CON LORI"
+    },
+    {
+     "clip": "ext/ext-0680"
+    }
+   ]
+  },
+  {
+   "a": "transporté",
+   "cita": "Transporté tanta hierba en ese avión que podría hacer levitar el estado de Leonida",
+   "quien": "Brian Heder"
+  },
+  {
+   "a": "Rockstar dice",
+   "lista": [
+    {
+     "img": "p/Brian_Heder_02.jpg"
+    },
+    {
+     "clip": "precarga-39"
+    }
+   ]
+  },
+  {
+   "a": "tiburón blanco",
+   "lista": [
+    {
+     "clip": "ext/ext-0668"
+    },
+    {
+     "img": "p/Brian_Heder_03.jpg",
+     "sello": "TIBURÓN BLANCO",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "Y el trato",
+   "lista": [
+    {
+     "img": "p/Jason_Duval_14.jpg",
+     "top": "EL TRATO"
+    },
+    {
+     "clip": "ext/ext-1088"
+    }
+   ]
+  },
+  {
+   "a": "a cambio",
+   "lista": [
+    {
+     "clip": "trailer-04"
+    },
+    {
+     "img": "p/Leonida_Keys_03.jpg",
+     "sello": "EXTORSIONES"
+    }
+   ]
+  },
+  {
+   "a": "y de pasarse",
+   "lista": [
+    {
+     "clip": "trailer-06"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Brian_Heder_Brian_Heder_landscape.jpg",
+     "sello": "SANGRÍA DE LORI",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "Sígueme",
+   "tpl": "gta-marcador",
+   "topText": "conoce a todos",
+   "text": "SÍGUEME",
+   "items": [
+    "Cal",
+    "Boobie",
+    "Raul"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Brian Heder",
+  "sangría"
+ ],
+ "flami": [
+  "tiburón"
+ ],
+ "claves": [
+  "gratis,",
+  "hierba",
+  "levitar",
+  "tiburón",
+  "sangría"
+ ],
+ "id": "S8",
+ "tipo": "short",
+ "voz": "voz-s8.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S8.json",
+ "fin": 0.8
+}

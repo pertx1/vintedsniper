@@ -1,0 +1,168 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1232",
+     "top": "4 GUIÑOS A VICE CITY"
+    },
+    {
+     "img": "p/Vice_City_01.jpg",
+     "cx": 0.45
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_With_Logos_Jason_Lucia_Rooftop_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Uno",
+   "lista": [
+    {
+     "clip": "ext/ext-1100"
+    },
+    {
+     "img": "p/Vice_City_27.jpg",
+     "sello": "1 · LA CIUDAD"
+    }
+   ]
+  },
+  {
+   "a": "ya no es",
+   "lista": [
+    {
+     "clip": "ext/ext-0740",
+     "top": "VICE CITY · 1986"
+    },
+    {
+     "img": "vc/OceanDrive-GTAVC.jpg"
+    }
+   ]
+  },
+  {
+   "a": "es la Vice City de hoy",
+   "lista": [
+    {
+     "img": "p/Vice_City_15.jpg",
+     "top": "VICE CITY · 2026"
+    },
+    {
+     "clip": "ext/ext-1076"
+    }
+   ]
+  },
+  {
+   "a": "Dos",
+   "lista": [
+    {
+     "clip": "ext/ext-0536"
+    },
+    {
+     "img": "vc/OceanBeach-GTAVC.jpg",
+     "sello": "2 · WASHINGTON BEACH"
+    }
+   ]
+  },
+  {
+   "a": "Es un barrio",
+   "lista": [
+    {
+     "img": "vc/GTATrilogyDE-GTAVC-Screenshot2.jpg",
+     "top": "GTA VICE CITY (2002)"
+    },
+    {
+     "clip": "precarga-40"
+    }
+   ]
+  },
+  {
+   "a": "la descripción oficial",
+   "lista": [
+    {
+     "clip": "x-marina",
+     "top": "SHITZU SQUALO"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_SQUALO_02.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Tres",
+   "lista": [
+    {
+     "clip": "ext/ext-0848"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_HAWK_AND_LITTLE_MORGAN_REVOLVERS_02.jpg",
+     "sello": "3 · MANSIÓN VERCETTI"
+    }
+   ]
+  },
+  {
+   "a": "Sí: la mansión",
+   "lista": [
+    {
+     "clip": "ext/ext-0596",
+     "top": "TOMMY VERCETTI"
+    },
+    {
+     "img": "vc/Artwork-GTAVC-TommyVercetti.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Y cuatro",
+   "lista": [
+    {
+     "clip": "trailer-21"
+    },
+    {
+     "img": "p2/Vintage_Vice_City_Pack_VINTAGE_VICE_CITY_PACK_01.jpg",
+     "sello": "4 · VINTAGE VICE CITY"
+    }
+   ]
+  },
+  {
+   "a": "con trajes pastel",
+   "lista": [
+    {
+     "clip": "ext/ext-0944"
+    },
+    {
+     "img": "p2/Vintage_Vice_City_Pack_VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Te acuerdas",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿TE ACUERDAS?",
+   "items": [
+    "Tommy",
+    "Lance",
+    "Ken"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Uno",
+  "Tommy Vercetti"
+ ],
+ "flami": [
+  "Sí: la mansión"
+ ],
+ "claves": [
+  "Vice",
+  "Washington",
+  "Vercetti.",
+  "ochenteros."
+ ],
+ "id": "S12",
+ "tipo": "short",
+ "voz": "voz-s12.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S12.json",
+ "fin": 0.8
+}

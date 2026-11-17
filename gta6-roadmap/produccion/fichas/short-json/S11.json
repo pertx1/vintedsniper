@@ -1,0 +1,97 @@
+{
+ "planos": [
+  {
+   "clip": "x-iguana",
+   "cx": 0.6,
+   "top": "5 ANIMALES OCULTOS"
+  },
+  {
+   "a": "y casi nadie",
+   "img": "p2/Artwork_Wallpapers_Postcards_Grassrivers_Grassrivers_Postcard_portrait.jpg"
+  },
+  {
+   "a": "Uno",
+   "sello": "1 · IGUANA",
+   "img": "p/Leonida_Keys_02.jpg",
+   "cx": 0.22
+  },
+  {
+   "a": "y en el tráiler",
+   "clip": "x-iguana",
+   "cx": 0.62
+  },
+  {
+   "a": "Dos",
+   "sello": "2 · CAIMANES",
+   "img": "p/Grassrivers_01.jpg",
+   "cx": 0.3
+  },
+  {
+   "a": "En los pantanos",
+   "img": "p/Grassrivers_08.jpg",
+   "cx": 0.55
+  },
+  {
+   "a": "Tres",
+   "sello": "3 · SERPIENTE",
+   "img": "p/Grassrivers_07.jpg",
+   "cx": 0.22
+  },
+  {
+   "a": "Cuatro",
+   "sello": "4 · TORTUGA",
+   "img": "p/Leonida_Keys_04.jpg",
+   "cx": 0.55
+  },
+  {
+   "a": "peces león",
+   "img": "p/Leonida_Keys_07.jpg",
+   "cx": 0.85,
+   "top": "PEZ LEÓN"
+  },
+  {
+   "a": "Y cinco",
+   "sello": "5 · CIERVOS",
+   "img": "p/Mount_Kalaga_National_Park_05.jpg",
+   "cx": 0.62
+  },
+  {
+   "a": "Ah, y un pitbull",
+   "img": "p/Vice_City_19.jpg",
+   "cx": 0.3,
+   "top": "BONUS"
+  },
+  {
+   "a": "Cuál quieres",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿CUÁL PRIMERO?",
+   "items": [
+    "Iguana",
+    "Caimán",
+    "Pez león"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Uno",
+  "Y cinco"
+ ],
+ "flami": [
+  "Ah, y un pitbull"
+ ],
+ "claves": [
+  "iguana.",
+  "caimanes.",
+  "serpiente",
+  "tortugas",
+  "ciervos",
+  "pitbull"
+ ],
+ "id": "S11",
+ "tipo": "short",
+ "voz": "voz-s11.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S11.json",
+ "fin": 0.8
+}

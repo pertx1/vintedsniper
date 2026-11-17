@@ -1,0 +1,101 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "x-tren",
+     "top": "EL ATRACADOR"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Raul_Bautista_Raul_Bautista_portrait.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Robbery_With_Logo_Jason_and_Lucia_Robbery_With_Logo_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Raul Bautista:",
+   "ficha": "Raul Bautista",
+   "img": "p/Raul_Bautista_04.jpg",
+   "sub": "Atracador de bancos",
+   "bot": "Siempre busca talento"
+  },
+  {
+   "a": "Según Rockstar",
+   "lista": [
+    {
+     "clip": "ext/ext-0728"
+    },
+    {
+     "img": "p/Raul_Bautista_03.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Pero su temeridad",
+   "clip": "trailer-14",
+   "top": "CADA GOLPE, MÁS RIESGO"
+  },
+  {
+   "a": "y tarde o temprano",
+   "lista": [
+    {
+     "clip": "ext/ext-0860"
+    },
+    {
+     "img": "p/Raul_Bautista_02.jpg",
+     "cx": 0.4
+    }
+   ]
+  },
+  {
+   "a": "Su frase oficial",
+   "cita": "La vida está llena de sorpresas, amigo. Sería sabio que todos lo recordáramos.",
+   "quien": "Raul Bautista"
+  },
+  {
+   "a": "Jason y Lucía en la banda",
+   "lista": [
+    {
+     "clip": "ext/ext-0800"
+    },
+    {
+     "img": "p/Jason_and_Lucia_15.jpg",
+     "sello": "HUELE A PROBLEMAS",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "Sígueme",
+   "tpl": "gta-marcador",
+   "topText": "conoce a todos",
+   "text": "SÍGUEME",
+   "items": [
+    "Boobie",
+    "Cal",
+    "Brian"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Raul Bautista"
+ ],
+ "flami": [
+  "Su frase oficial"
+ ],
+ "claves": [
+  "atracos",
+  "temeridad",
+  "sorpresas,",
+  "problemas."
+ ],
+ "id": "S19",
+ "tipo": "short",
+ "voz": "voz-s19.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S19.json",
+ "fin": 0.8
+}

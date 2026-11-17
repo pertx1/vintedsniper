@@ -1,0 +1,132 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0848",
+     "top": "EL MÁS RARO"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Cal_Hampton_Cal_Hampton_portrait.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_With_Logos_Jason_Lucia_Rooftop_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Cal Hampton",
+   "ficha": "Cal Hampton",
+   "img": "p/Cal_Hampton_01.jpg",
+   "sub": "Amigo de Jason",
+   "bot": "Conspiranoico profesional"
+  },
+  {
+   "a": "Rockstar lo presenta",
+   "lista": [
+    {
+     "clip": "ext/ext-0620"
+    },
+    {
+     "img": "p/Cal_Hampton_02.jpg"
+    }
+   ]
+  },
+  {
+   "a": "y si todo",
+   "cita": "¿Y si todo lo que hay en internet fuera verdad?",
+   "quien": "Cal Hampton"
+  },
+  {
+   "a": "Se siente más seguro",
+   "lista": [
+    {
+     "clip": "precarga-35"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Cal_Hampton_Cal_Hampton_landscape.jpg"
+    }
+   ]
+  },
+  {
+   "a": "espiando",
+   "lista": [
+    {
+     "clip": "ext/ext-0632"
+    },
+    {
+     "img": "p/Cal_Hampton_04.jpg",
+     "sello": "MODO ESPÍA"
+    }
+   ]
+  },
+  {
+   "a": "pestañas privadas",
+   "clip": "trailer-24"
+  },
+  {
+   "a": "Sus frases",
+   "lista": [
+    {
+     "clip": "trailer-06"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Cal_Hampton_Cal_Hampton_square.jpg",
+     "sello": "FRASES OFICIALES"
+    }
+   ]
+  },
+  {
+   "a": "hay demasiados",
+   "cita": "Hay demasiados pájaros volando en formación perfecta",
+   "quien": "Cal Hampton"
+  },
+  {
+   "a": "los psicópatas",
+   "cita": "Los psicópatas mandan. Acostúmbrate.",
+   "quien": "Cal Hampton"
+  },
+  {
+   "a": "Según Rockstar",
+   "lista": [
+    {
+     "clip": "ext/ext-1544",
+     "top": "MAREA BAJA"
+    },
+    {
+     "img": "p/Cal_Hampton_03.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Lo quieres",
+   "tpl": "gta-marcador",
+   "topText": "¿lo quieres en tu banda?",
+   "text": "SÍGUEME",
+   "items": [
+    "Cal",
+    "Brian",
+    "Boobie"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Cal Hampton",
+  "hay demasiados"
+ ],
+ "flami": [
+  "hay demasiados"
+ ],
+ "claves": [
+  "raro",
+  "internet",
+  "psicópatas",
+  "feliz"
+ ],
+ "id": "S7",
+ "tipo": "short",
+ "voz": "voz-s7.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S7.json",
+ "fin": 0.8
+}

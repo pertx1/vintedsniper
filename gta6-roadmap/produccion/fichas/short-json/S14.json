@@ -1,0 +1,141 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-22",
+     "top": "ESTO PASA EN FLORIDA"
+    },
+    {
+     "img": "p/Leonida_Keys_02.jpg",
+     "cx": 0.22
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Beach_With_Logos_Jason_and_Lucia_Beach_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Una:",
+   "sello": "1 · IGUANAS",
+   "clip": "x-iguana",
+   "cx": 0.62
+  },
+  {
+   "a": "En Florida son",
+   "lista": [
+    {
+     "clip": "x-marina"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Postcards_Leonida_Keys_Leonida_Keys_Postcard_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "y caen de los árboles",
+   "lista": [
+    {
+     "clip": "ext/ext-0644"
+    },
+    {
+     "img": "p/Leonida_Keys_05.jpg",
+     "sello": "CAEN DE LOS ÁRBOLES",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "Dos:",
+   "lista": [
+    {
+     "clip": "trailer-10"
+    },
+    {
+     "img": "p/Grassrivers_01.jpg",
+     "cx": 0.3,
+     "sello": "2 · CAIMANES"
+    }
+   ]
+  },
+  {
+   "a": "Los pantanos",
+   "lista": [
+    {
+     "img": "p/Grassrivers_04.jpg",
+     "top": "GRASSRIVERS = EVERGLADES"
+    },
+    {
+     "clip": "ext/ext-0464"
+    }
+   ]
+  },
+  {
+   "a": "Y tres",
+   "lista": [
+    {
+     "clip": "ext/ext-0680"
+    },
+    {
+     "img": "p/Leonida_Keys_07.jpg",
+     "cx": 0.85,
+     "sello": "3 · PEZ LEÓN"
+    }
+   ]
+  },
+  {
+   "a": "y en la Florida real",
+   "lista": [
+    {
+     "img": "p/Leonida_Keys_04.jpg",
+     "cx": 0.55
+    },
+    {
+     "clip": "x-keys"
+    }
+   ]
+  },
+  {
+   "a": "Rockstar no se lo ha inventado",
+   "lista": [
+    {
+     "clip": "ext/ext-0992",
+     "top": "LEONIDA = FLORIDA"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Postcards_Vice_City_Vice_City_Postcard_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Sígueme",
+   "tpl": "gta-marcador",
+   "topText": "cada día, un secreto nuevo",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Una:"
+ ],
+ "flami": [
+  "Dos:"
+ ],
+ "claves": [
+  "iguanas.",
+  "árboles.",
+  "caimanes.",
+  "plaga"
+ ],
+ "id": "S14",
+ "tipo": "short",
+ "voz": "voz-s14.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S14.json",
+ "fin": 0.8
+}

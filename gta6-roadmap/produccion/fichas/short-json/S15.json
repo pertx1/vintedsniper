@@ -1,0 +1,131 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-22",
+     "top": "¿LO VISTE?"
+    },
+    {
+     "clip": "precarga-37",
+     "cx": 0.5
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_02_With_Logos_Jason_and_Lucia_02_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Mira bien",
+   "clip": "x-keys",
+   "cx": 0.55,
+   "top": "THE KEYS"
+  },
+  {
+   "a": "Y justo después",
+   "lista": [
+    {
+     "clip": "trailer-12"
+    },
+    {
+     "img": "p/Leonida_Keys_03.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Brian's Marina",
+   "lista": [
+    {
+     "clip": "x-marina",
+     "top": "BRIAN'S MARINA"
+    },
+    {
+     "clip": "trailer-02",
+     "ss": 2.6,
+     "cx": 0.6
+    }
+   ]
+  },
+  {
+   "a": "Brian es Brian Heder",
+   "ficha": "Brian Heder",
+   "img": "p/Brian_Heder_01.jpg",
+   "cx": 0.45,
+   "sub": "Traficante de los Cayos",
+   "bot": "Dueño del puerto"
+  },
+  {
+   "a": "sigue moviendo",
+   "lista": [
+    {
+     "img": "p/Brian_Heder_04.jpg",
+     "top": "CON LORI"
+    },
+    {
+     "clip": "x-marina"
+    }
+   ]
+  },
+  {
+   "a": "O sea, este puerto",
+   "lista": [
+    {
+     "clip": "precarga-37"
+    },
+    {
+     "img": "p/Leonida_Keys_05.jpg",
+     "sello": "SU NEGOCIO"
+    }
+   ]
+  },
+  {
+   "a": "Y Jason vive gratis",
+   "lista": [
+    {
+     "img": "p/Jason_Duval_14.jpg"
+    },
+    {
+     "clip": "ext/ext-0800"
+    }
+   ]
+  },
+  {
+   "a": "Así que este sitio",
+   "lista": [
+    {
+     "clip": "ext/ext-0680"
+    },
+    {
+     "img": "p/Leonida_Keys_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Lo habías visto",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿LO HABÍAS VISTO?",
+   "items": [
+    "Sí",
+    "No"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Brian's Marina"
+ ],
+ "flami": [
+  "Así que este sitio"
+ ],
+ "claves": [
+  "Keys.",
+  "Marina.",
+  "gratis"
+ ],
+ "id": "S15",
+ "tipo": "short",
+ "voz": "voz-s15.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S15.json",
+ "fin": 0.8
+}

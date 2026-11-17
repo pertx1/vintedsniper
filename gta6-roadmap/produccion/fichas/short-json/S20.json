@@ -1,0 +1,120 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-30",
+     "top": "LA PISTA"
+    },
+    {
+     "img": "p/Lucia_Caminos_14.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_02_With_Logos_Jason_and_Lucia_02_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Está en la biografía",
+   "ficha": "Lucía Caminos",
+   "img": "p/Lucia_Caminos_13.jpg",
+   "cx": 0.32,
+   "sub": "Biografía oficial",
+   "bot": "Su madre y Liberty City"
+  },
+  {
+   "a": "lo que más quiere",
+   "cita": "Lo que más quiere es la buena vida con la que su madre soñaba desde sus días en Liberty City",
+   "quien": "Biografía de Lucía"
+  },
+  {
+   "a": "Liberty City. La ciudad",
+   "lista": [
+    {
+     "clip": "ext/ext-0572"
+    },
+    {
+     "img": "p/Vice_City_27.jpg",
+     "sello": "LIBERTY CITY",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "O sea: la familia",
+   "lista": [
+    {
+     "clip": "ext/ext-0392"
+    },
+    {
+     "img": "p/Lucia_Caminos_02.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Es la primera conexión",
+   "lista": [
+    {
+     "img": "p/Jason_and_Lucia_20.jpg"
+    },
+    {
+     "clip": "ext/ext-0716"
+    }
+   ]
+  },
+  {
+   "a": "Significa que veremos",
+   "lista": [
+    {
+     "clip": "trailer-15"
+    },
+    {
+     "img": "p/Lucia_Caminos_03.jpg",
+     "sello": "¿CONFIRMADO? NO",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "Pero la pista",
+   "lista": [
+    {
+     "img": "p/Lucia_Caminos_Video_Clip.jpg",
+     "cx": 0.55
+    },
+    {
+     "clip": "ext/ext-0404"
+    }
+   ]
+  },
+  {
+   "a": "Tú qué crees",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿LA VEREMOS?",
+   "items": [
+    "Sí",
+    "No"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Liberty City. La ciudad"
+ ],
+ "flami": [
+  "Pero la pista"
+ ],
+ "claves": [
+  "Liberty",
+  "madre",
+  "pista"
+ ],
+ "id": "S20",
+ "tipo": "short",
+ "voz": "voz-s20.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S20.json",
+ "fin": 0.8
+}

@@ -1,0 +1,199 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0860",
+     "top": "ULTIMATE EDITION"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_01.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Esto es lo que trae",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_02.jpg"
+    },
+    {
+     "clip": "ext/ext-0740"
+    }
+   ]
+  },
+  {
+   "a": "Grotti Cheetah",
+   "lista": [
+    {
+     "clip": "ext/ext-0536",
+     "top": "'95 GROTTI CHEETAH"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_GROTTI_CHEETAH_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "lancha Squalo",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_SQUALO_01.jpg",
+     "top": "SHITZU SQUALO"
+    },
+    {
+     "clip": "x-marina"
+    }
+   ]
+  },
+  {
+   "a": "buggy",
+   "lista": [
+    {
+     "clip": "ext/ext-0752",
+     "top": "DOMINATOR BUGGY"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_VAPID_BUGGY_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "revólveres",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_HAWK_AND_LITTLE_MORGAN_REVOLVERS_01.jpg",
+     "top": "REVÓLVERES VERCETTI"
+    },
+    {
+     "clip": "ext/ext-0848"
+    }
+   ]
+  },
+  {
+   "a": "cinco negocios",
+   "lista": [
+    {
+     "clip": "ext/ext-1100"
+    },
+    {
+     "img": "p/Vice_City_22.jpg",
+     "sello": "SOLO ULTIMATE"
+    }
+   ]
+  },
+  {
+   "a": "Rideout",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_RIDEOUT_CUSTOMS_01.jpg",
+     "top": "RIDEOUT CUSTOMS"
+    },
+    {
+     "clip": "trailer-02"
+    }
+   ]
+  },
+  {
+   "a": "el salón de Sara",
+   "lista": [
+    {
+     "clip": "precarga-34",
+     "top": "SARA'S SALON"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_SARAS_SALON_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "la tienda Stock",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_STOCK_305_01.jpg",
+     "top": "STOCK 305"
+    },
+    {
+     "clip": "ext/ext-0572"
+    }
+   ]
+  },
+  {
+   "a": "el estudio de tatuajes",
+   "lista": [
+    {
+     "clip": "ext/ext-0596",
+     "top": "ELECTRIC FANG"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_ELECTRIC_FANG_01.jpg"
+    }
+   ]
+  },
+  {
+   "a": "el taller todoterreno",
+   "lista": [
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_ONE_EYED_WILLIE_01.jpg",
+     "top": "ONE-EYED WILLIE'S"
+    },
+    {
+     "clip": "ext/ext-1232"
+    }
+   ]
+  },
+  {
+   "a": "La diferencia",
+   "tpl": "gta-dato",
+   "topText": "DIFERENCIA DE PRECIO",
+   "value": 20,
+   "unit": " $",
+   "text": "79,99 $ → 99,99 $"
+  },
+  {
+   "a": "si tienes la estándar",
+   "lista": [
+    {
+     "clip": "ext/ext-1028"
+    },
+    {
+     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_02.jpg",
+     "sello": "SE PUEDE MEJORAR"
+    }
+   ]
+  },
+  {
+   "a": "Te compensa",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿TE COMPENSA?",
+   "items": [
+    "Sí",
+    "No",
+    "Ya la tengo"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "cinco negocios"
+ ],
+ "flami": [
+  "cinco negocios"
+ ],
+ "claves": [
+  "Cheetah",
+  "Squalo",
+  "buggy",
+  "cincuenta",
+  "veinte"
+ ],
+ "id": "S9",
+ "tipo": "short",
+ "voz": "voz-s9.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S9.json",
+ "fin": 0.8
+}

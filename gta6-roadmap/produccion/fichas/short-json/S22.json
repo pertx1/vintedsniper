@@ -1,0 +1,110 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-28",
+     "cx": 0.55,
+     "top": "NO ES CASUALIDAD"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_With_Logos_Jason_Lucia_Rooftop_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "El primero usó",
+   "tpl": "gta-sinopsis",
+   "text": "TRÁILER 1",
+   "items": [
+    "Love Is a Long Road",
+    "Tom Petty · 1989"
+   ],
+   "value": 14
+  },
+  {
+   "a": "Su primera frase",
+   "clip": "trailer-09",
+   "cx": 0.3
+  },
+  {
+   "a": "justo cuando aparece",
+   "lista": [
+    {
+     "img": "p/Lucia_Caminos_05.jpg",
+     "cx": 0.4,
+     "top": "LUCÍA, TRÁILER 1"
+    },
+    {
+     "clip": "ext/ext-0392"
+    }
+   ]
+  },
+  {
+   "a": "El segundo tráiler",
+   "tpl": "gta-sinopsis",
+   "text": "TRÁILER 2",
+   "items": [
+    "Hot Together",
+    "The Pointer Sisters · 1986"
+   ],
+   "value": 14
+  },
+  {
+   "a": "el mismo año",
+   "lista": [
+    {
+     "img": "vc/OceanBeach-GTAVC.jpg",
+     "top": "VICE CITY · 1986"
+    },
+    {
+     "clip": "trailer-18"
+    }
+   ]
+  },
+  {
+   "a": "Y Rockstar ya ha publicado",
+   "lista": [
+    {
+     "clip": "trailer-25",
+     "top": "BANDA SONORA OFICIAL"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_The_Album_Cover_Art_The_Album_Cover_Art_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "con su propio álbum",
+   "clip": "precarga-38"
+  },
+  {
+   "a": "Cuál de las dos",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿CUÁL TE GUSTA?",
+   "items": [
+    "Tom Petty",
+    "Pointer Sisters"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "El segundo tráiler"
+ ],
+ "flami": [
+  "Y Rockstar ya ha publicado"
+ ],
+ "claves": [
+  "Petty,",
+  "pueblo",
+  "Sisters,",
+  "álbum."
+ ],
+ "id": "S22",
+ "tipo": "short",
+ "voz": "voz-s22.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S22.json",
+ "fin": 0.8
+}

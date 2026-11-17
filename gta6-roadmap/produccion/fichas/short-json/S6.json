@@ -1,0 +1,125 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-22",
+     "top": "RÉCORD MUNDIAL"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_With_Logos_Jason_Lucia_Rooftop_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "ya había roto",
+   "sello": "ROMPIÓ INTERNET",
+   "clip": "trailer-06"
+  },
+  {
+   "a": "El primer tráiler",
+   "lista": [
+    {
+     "clip": "trailer-26",
+     "top": "TRÁILER 1 · DIC 2023"
+    },
+    {
+     "img": "p/Lucia_Caminos_05.jpg"
+    }
+   ]
+  },
+  {
+   "a": "noventa millones",
+   "tpl": "gta-dato",
+   "topText": "EN 24 HORAS",
+   "value": 90,
+   "unit": " M",
+   "text": "visitas en YouTube"
+  },
+  {
+   "a": "Récord Guinness",
+   "lista": [
+    {
+     "clip": "ext/ext-0716"
+    },
+    {
+     "img": "p/Jason_and_Lucia_20.jpg",
+     "sello": "RÉCORD GUINNESS"
+    }
+   ]
+  },
+  {
+   "a": "por encima del récord",
+   "tpl": "gta-barras",
+   "topText": "visitas en 24 h",
+   "text": "YOUTUBE",
+   "unit": "M",
+   "items": [
+    {
+     "t": "MrBeast",
+     "v": 59.4,
+     "en": 0.3
+    },
+    {
+     "t": "GTA 6",
+     "v": 90,
+     "en": 1.0
+    }
+   ]
+  },
+  {
+   "a": "Y el segundo tráiler",
+   "clip": "trailer-18",
+   "top": "TRÁILER 2 · MAYO 2025"
+  },
+  {
+   "a": "cuatrocientos setenta",
+   "tpl": "gta-dato",
+   "topText": "EN SU PRIMER DÍA",
+   "value": 475,
+   "unit": " M",
+   "text": "en todas las plataformas"
+  },
+  {
+   "a": "El mayor lanzamiento",
+   "sello": "RÉCORD ABSOLUTO",
+   "clip": "precarga-38"
+  },
+  {
+   "a": "Y ahora",
+   "clip": "precarga-34",
+   "top": "YA DISPONIBLE"
+  },
+  {
+   "a": "Sígueme",
+   "tpl": "gta-marcador",
+   "topText": "cada día, un secreto nuevo",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "noventa millones",
+  "cuatrocientos setenta"
+ ],
+ "flami": [
+  "Récord Guinness"
+ ],
+ "claves": [
+  "noventa",
+  "Guinness",
+  "MrBeast,",
+  "cuatrocientos",
+  "historia."
+ ],
+ "id": "S6",
+ "tipo": "short",
+ "voz": "voz-s6.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S6.json",
+ "fin": 0.8
+}

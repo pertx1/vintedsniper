@@ -1,0 +1,125 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1136",
+     "top": "2002 VS 2026"
+    },
+    {
+     "img": "vc/OceanDrive-GTAVC.jpg"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "El original salió",
+   "tpl": "gta-dato",
+   "topText": "GTA VICE CITY SALIÓ EN",
+   "value": 2002,
+   "unit": "",
+   "text": "29 de octubre",
+   "fijo": true
+  },
+  {
+   "a": "ambientado",
+   "lista": [
+    {
+     "clip": "trailer-22",
+     "top": "AMBIENTADO EN 1986"
+    },
+    {
+     "img": "vc/Screenshot__1__GTAVC.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Protagonista",
+   "lista": [
+    {
+     "img": "vc/Artwork-GTAVC-TommyVercetti.jpg",
+     "top": "TOMMY VERCETTI · RAY LIOTTA"
+    },
+    {
+     "clip": "ext/ext-0596"
+    }
+   ]
+  },
+  {
+   "a": "Costó cinco",
+   "tpl": "gta-sinopsis",
+   "text": "VICE CITY 2002",
+   "items": [
+    "Presupuesto: 5 M$",
+    "Metacritic: 95",
+    "500.000 copias en 24 h"
+   ],
+   "value": 14
+  },
+  {
+   "a": "Veinticuatro años después",
+   "lista": [
+    {
+     "img": "p/Vice_City_15.jpg",
+     "top": "VICE CITY · 2026"
+    },
+    {
+     "clip": "precarga-40"
+    }
+   ]
+  },
+  {
+   "a": "dentro de un estado",
+   "lista": [
+    {
+     "clip": "ext/ext-1232",
+     "top": "LEONIDA"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Postcards_Vice_City_Vice_City_Postcard_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "y con dos protagonistas",
+   "lista": [
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_Jason_Lucia_Rooftop_portrait.jpg"
+    },
+    {
+     "clip": "ext/ext-0716"
+    }
+   ]
+  },
+  {
+   "a": "Con cuál te quedas",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿2002 O 2026?",
+   "items": [
+    "2002",
+    "2026"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Veinticuatro años después"
+ ],
+ "flami": [
+  "Veinticuatro años después"
+ ],
+ "claves": [
+  "Vercetti,",
+  "Liotta.",
+  "noventa",
+  "Leonida,"
+ ],
+ "id": "S21",
+ "tipo": "short",
+ "voz": "voz-s21.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S21.json",
+ "fin": 0.8
+}

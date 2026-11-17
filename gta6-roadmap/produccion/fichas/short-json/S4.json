@@ -1,0 +1,189 @@
+{
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-09",
+     "cx": 0.3,
+     "top": "HOY SALE GTA 6"
+    },
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+    }
+   ]
+  },
+  {
+   "a": "horas y horas",
+   "lista": [
+    {
+     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Beach_Jason_and_Lucia_Beach_portrait.jpg"
+    },
+    {
+     "clip": "ext/ext-0512"
+    }
+   ]
+  },
+  {
+   "a": "Él es Jason",
+   "ficha": "Jason Duval",
+   "img": "p/Jason_Duval_02.jpg",
+   "sub": "Protagonista",
+   "bot": "Creció entre timadores"
+  },
+  {
+   "a": "pasó por el ejército",
+   "lista": [
+    {
+     "img": "p/Jason_Duval_17.jpg"
+    },
+    {
+     "clip": "ext/ext-0800"
+    }
+   ]
+  },
+  {
+   "a": "acabó en los Cayos",
+   "clip": "trailer-02",
+   "ss": 1.0,
+   "cx": 0.55,
+   "top": "LOS CAYOS"
+  },
+  {
+   "a": "trabajando para",
+   "lista": [
+    {
+     "img": "p/Jason_Duval_Video_Clip.jpg"
+    },
+    {
+     "clip": "ext/ext-0716"
+    }
+   ]
+  },
+  {
+   "a": "Solo quiere",
+   "clip": "trailer-12",
+   "cx": 0.4
+  },
+  {
+   "a": "pero todo",
+   "lista": [
+    {
+     "clip": "trailer-05"
+    },
+    {
+     "img": "p/Jason_Duval_19.jpg",
+     "sello": "TODO SE COMPLICA"
+    }
+   ]
+  },
+  {
+   "a": "Ella es Lucía",
+   "ficha": "Lucía Caminos",
+   "img": "p/Lucia_Caminos_13.jpg",
+   "cx": 0.32,
+   "sub": "Protagonista",
+   "bot": "Aprendió a pelear al andar",
+   "g": -1
+  },
+  {
+   "a": "Luchar por su familia",
+   "lista": [
+    {
+     "img": "p/Lucia_Caminos_01.jpg"
+    },
+    {
+     "clip": "ext/ext-0392"
+    }
+   ]
+  },
+  {
+   "a": "la cárcel",
+   "lista": [
+    {
+     "clip": "ext/ext-0968",
+     "top": "CÁRCEL DE LEONIDA"
+    },
+    {
+     "img": "p/Lucia_Caminos_05.jpg"
+    }
+   ]
+  },
+  {
+   "a": "por pura suerte",
+   "clip": "trailer-26",
+   "cx": 0.5
+  },
+  {
+   "a": "Ahora solo quiere",
+   "lista": [
+    {
+     "clip": "ext/ext-0404"
+    },
+    {
+     "img": "p/Lucia_Caminos_12.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Rockstar lo resume",
+   "clip": "trailer-28",
+   "cx": 0.55
+  },
+  {
+   "a": "para él",
+   "lista": [
+    {
+     "clip": "trailer-18"
+    },
+    {
+     "img": "p/Jason_and_Lucia_14.jpg",
+     "sello": "LO MEJOR O LO PEOR"
+    }
+   ]
+  },
+  {
+   "a": "Para ella",
+   "lista": [
+    {
+     "clip": "ext/ext-1004"
+    },
+    {
+     "img": "p/Jason_and_Lucia_17.jpg",
+     "sello": "SU SALIDA",
+     "acc": "#EC517D",
+     "g": 5
+    }
+   ]
+  },
+  {
+   "a": "Con quién",
+   "tpl": "gta-marcador",
+   "topText": "te leo en comentarios",
+   "text": "¿JASON O LUCÍA?",
+   "items": [
+    "Jason",
+    "Lucía"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Él es Jason",
+  "Ella es Lucía"
+ ],
+ "flami": [
+  "Rockstar lo resume"
+ ],
+ "claves": [
+  "Jason",
+  "Lucía",
+  "cárcel",
+  "suerte.",
+  "salida."
+ ],
+ "id": "S4",
+ "tipo": "short",
+ "voz": "voz-s4.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/S4.json",
+ "fin": 0.8
+}
