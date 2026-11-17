@@ -43,8 +43,9 @@ def cortar(vid, ss, d, cx, vertical, nombre):
     src = f"{PUB}/{vid}.mp4" if "/" in vid else f"{PUB}/h/{vid}.mp4"
     disp = dur(src) - ss - 0.05
     lento = max(1.0, (d + 0.1) / disp)
-    if lento > 3.0:
-        raise SystemExit(f"Clip {vid} demasiado corto para {d:.2f}s (hay {disp:.2f}s)")
+    bucle = []
+    if lento > 3.0:  # clip demasiado corto: se ralentiza x2 y se repite en bucle
+        lento, bucle = 2.0, ["-stream_loop", "-1"]
     out_rel = f"gen/{nombre}.mp4"
     out = f"{PUB}/{out_rel}"
     os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -54,7 +55,7 @@ def cortar(vid, ss, d, cx, vertical, nombre):
     if lento > 1.0:
         vf.append(f"minterpolate=fps=60,setpts={lento:.3f}*PTS")
     vf.append("fps=30,format=yuv420p")
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(ss), "-t", f"{(d + 0.1) / lento:.3f}", "-i", src,
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *bucle, "-ss", str(ss), "-t", f"{(d + 0.1) / lento:.3f}", "-i", src,
                     "-vf", ",".join(vf), "-t", f"{d + 0.1:.3f}", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", out], check=True)
     return out_rel
 
