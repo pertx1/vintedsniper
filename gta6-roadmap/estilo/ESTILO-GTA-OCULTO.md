@@ -46,7 +46,12 @@ Medición del S1: voz sola −24,4 dB de media; mezcla −22,6 dB; pico −1,9 d
 - No se suben al repositorio: son de Rockstar.
 
 ## Miniaturas
-- **Vídeos largos (1280×720):** sin Flami. Tipografía **Pricedown** (la de GTA) (titular grande en blanco/amarillo `#FFE02E`, etiqueta "GTA 6" en caja amarilla). Arte o captura oficial a un lado y el texto sobre un degradado oscuro al otro (modelo: miniatura A del L0, `panel-media/L0.jpg`).
+- **Vídeos largos (1280×720), estilo "clic" (desde el 17/11):** sin Flami. Herramienta `produccion/tools/mini2.py` + recetas en `produccion/tools/miniaturas_largos.py`.
+  - Personaje **recortado del arte oficial** (rembg) enorme, ocupando 40-55 % del ancho, con borde blanco y brillo de color (rosa `#FF28A0` o cian).
+  - **2-4 palabras gigantes** en Pricedown (150-220 px), blanco + amarillo `#FFE02E` (o rojo para la palabra de alarma), contorno negro grueso y sombra.
+  - Una pregunta o un reto: "¿MUERE LUCÍA?", "¿20$ TIRADOS?", "NO JUEGUES SIN VER ESTO", "2002 VS 2026". Siempre algo que el vídeo responde de verdad.
+  - Etiqueta pequeña en caja de color (GTA 6, ULTIMATE, 25 TEORÍAS) y, si ayuda, flecha roja hacia el objeto clave.
+  - Fondo oficial desenfocado y oscurecido por el lado del texto; viñeta.
 - **Shorts (1080×1920):** se mantiene Flami, como en S1 y S2.
 
 ## Tipografía (desde el 17/11)

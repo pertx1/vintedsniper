@@ -1,0 +1,40 @@
+import sys; sys.path.insert(0,'tools')
+from mini2 import *
+from PIL import Image
+M='mini2/'; P=PUB
+# L0: NO JUEGUES SIN VER ESTO
+im=fondo(P+'p/Vice_City_09.jpg',oscuro=0.6,blur=3,sat=1.4).convert('RGBA'); lado_oscuro(im,True,0.75,235)
+c=recorte(M+'cut_robbery.png',820,glow=(255,40,150)); im.alpha_composite(c,(W-c.width+120,H-c.height+170))
+texto(im,'GTA 6',48,40,64,(20,20,20),stroke=0,caja=(255,224,46),sombra=False)
+texto(im,'NO JUEGUES',40,150,150,(255,255,255))
+texto(im,'SIN VER',40,320,150,(255,224,46))
+texto(im,'ESTO',40,490,150,(255,224,46))
+flecha(im,560,600,700,520)
+vineta(im); guardar(im,'L0')
+# L1: ¿20$ TIRADOS?
+im=fondo(P+'p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_GROTTI_CHEETAH_02.jpg',oscuro=0.5,blur=6,sat=1.3).convert('RGBA'); lado_oscuro(im,True,0.7,230)
+car=recorte(M+'cut_cheetah.png',360,borde=8,glow=(255,224,46)); im.alpha_composite(car,(W-car.width+40,H-car.height-10))
+texto(im,'ULTIMATE',W-60,40,74,(20,20,20),stroke=0,caja=(255,224,46),sombra=False,ancla='ra')
+texto(im,'¿20$',40,120,220,(255,255,255))
+texto(im,'TIRADOS?',40,360,170,(255,70,70))
+flecha(im,600,560,760,520)
+vineta(im); guardar(im,'L1')
+# L0b: 2002 vs 2026
+a=fondo(P+'vc/GTA_Vice_City_Box_Art.jpg',oscuro=0.5,blur=4,sat=1.5,crop=None); b=fondo(P+'p/Vice_City_08.jpg',oscuro=0.55,blur=4,sat=1.4)
+im=Image.new('RGBA',(W,H)); im.paste(a.crop((0,0,W//2,H)),(0,0)); im.paste(b.crop((W//2,0,W,H)),(W//2,0))
+t=recorte(M+'cut_tommy.png',700,glow=(0,220,255)); im.alpha_composite(t,(W//2-t.width+40,H-t.height+120))
+l=recorte(M+'cut_beach.png',720,glow=(255,40,150)); im.alpha_composite(l,(W//2-60,H-l.height+140))
+d=ImageDraw.Draw(im); d.line((W//2,0,W//2,H),fill=(255,255,255),width=10)
+texto(im,'2002',30,20,150,(0,230,255))
+texto(im,'2026',W-30,20,150,(255,80,170),ancla='ra')
+texto(im,'VS',W//2,280,130,(255,224,46),ancla='ma')
+texto(im,'VICE CITY',W//2,560,96,(255,255,255),ancla='ma')
+guardar(im,'L0b')
+# L2: ¿MUERE LUCÍA?
+im=fondo(P+'iceberg.jpg',oscuro=0.55,sat=1.3).convert('RGBA'); lado_oscuro(im,True,0.65,220)
+c=recorte(M+'cut_lucia14.png',700,glow=(120,220,255)); im.alpha_composite(c,(W-c.width+60,H-c.height+40))
+texto(im,'25 TEORÍAS',40,40,70,(20,20,20),stroke=0,caja=(127,219,255),sombra=False)
+texto(im,'¿MUERE',40,160,190,(255,255,255))
+texto(im,'LUCÍA?',40,370,190,(255,224,46))
+texto(im,'EL ICEBERG DE GTA 6',44,600,58,(127,219,255))
+vineta(im); guardar(im,'L2')
