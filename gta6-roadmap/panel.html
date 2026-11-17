@@ -773,8 +773,9 @@ const VIDS=[
  {id:"J68",d:"2026-12-16",h:"21:00",tipo:"Short",titulo:"🎮 Secreto de GTA 6 del día #33"},
  {id:"L8",d:"2026-12-16",h:"18:00",tipo:"Largo",titulo:"Los mejores coches de GTA 6 y dónde encontrarlos"}
 ];
-const descDe=v=>v.desc||(v.titulo+"."+FIRMA);
 const tagsDe=v=>v.tags||("#gta6 #gtavi #gta6español"+(v.tipo==="Short"?" #shorts":""));
+const descDe=v=>(v.desc||(v.titulo+"."+FIRMA))+"\n\n"+tagsDe(v);
+const campoTags=v=>[...new Set(["gta 6","gta vi","gta 6 español"].concat(tagsDe(v).split(/\s+/).filter(Boolean).map(t=>t.replace(/^#/,"").replace(/gta6/i,"gta 6 ").trim()).filter(t=>t&&t!=="shorts")))].join(", ");
 async function descargar(id){
   const v=VIDS.find(x=>x.id===id); if(!v||!v.file)return;
   let dl=null; try{dl=window.claude?await window.claude.use("downloads"):null}catch(e){}
@@ -795,12 +796,13 @@ V.videos=()=>{
         <b style="font-family:var(--display);font-size:19px;letter-spacing:.02em;text-transform:uppercase;line-height:1.15">${esc(v.titulo)}</b>
         <div class="row">
           <button class="btn small" data-cp="t:${v.id}">Copiar título</button>
-          <button class="btn small" data-cp="d:${v.id}">Copiar descripción</button>
-          <button class="btn small" data-cp="h:${v.id}">Copiar etiquetas</button>
+          <button class="btn small" data-cp="d:${v.id}">Copiar descripción + hashtags</button>
+          <button class="btn small" data-cp="h:${v.id}" title="Para el campo Etiquetas de YouTube Studio (Detalles → Mostrar más). Los hashtags ya van dentro de la descripción.">Copiar etiquetas (campo Etiquetas)</button>
           ${v.file?`<button class="btn small primary" data-dl="${v.id}">⬇ Descargar vídeo</button>`:(v.listo?`<span class="muted">Vídeo largo: descárgalo del chat (pesa demasiado para el panel)</span>`:"")}
           ${v.thumb?`<a class="btn small" href="${v.thumb}" target="_blank" rel="noopener">Ver miniatura</a>`:""}
         </div>
-        <details><summary class="muted" style="cursor:pointer;font-size:13px">Ver descripción</summary><pre style="white-space:pre-wrap;font-family:var(--body);font-size:13px;margin:8px 0 0;background:#0005;padding:10px;border-radius:8px">${esc(descDe(v))}\n\n${esc(tagsDe(v))}</pre></details>
+        <details><summary class="muted" style="cursor:pointer;font-size:13px">Ver descripción</summary><pre style="white-space:pre-wrap;font-family:var(--body);font-size:13px;margin:8px 0 0;background:#0005;padding:10px;border-radius:8px">${esc(descDe(v))}</pre></details>
+        ${v.file?`<details class="vidprev"><summary class="muted" style="cursor:pointer;font-size:13px">▶ Ver vídeo</summary><video controls playsinline preload="none" src="${v.file}"${v.thumb?` poster="${v.thumb}"`:""} style="display:block;margin-top:8px;width:100%;max-width:${v.tipo==="Short"?"260px":"100%"};border-radius:10px;background:#000"></video></details>`:""}
       </div></div>`).join("")}</div></div>`).join("")}
    <div class="panel"><h3>Frecuencia</h3><p class="muted" style="margin:6px 0 0">Shorts: 2 al día, a las 14:00 y a las 21:00. Vídeos largos: 2 por semana, a las 18:00. Los monta Claude; tú revisas, programas y contestas comentarios.</p></div>
   </section>`};
@@ -997,7 +999,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.nav){const i=DAYS.findIndex(x=>x.d===selDay)+Number(b.dataset.nav); if(DAYS[i]){selDay=DAYS[i].d;render()}}
   if(b.hasAttribute("data-today")){selDay=todayIso;render()}
   if(b.dataset.dl){descargar(b.dataset.dl);return}
-  if(b.dataset.cp){const [k,id]=b.dataset.cp.split(":");const v=VIDS.find(x=>x.id===id);copy(k==="t"?v.titulo:k==="d"?descDe(v):tagsDe(v));return}
+  if(b.dataset.cp){const [k,id]=b.dataset.cp.split(":");const v=VIDS.find(x=>x.id===id);copy(k==="t"?v.titulo:k==="d"?descDe(v):campoTags(v));return}
   if(b.dataset.openshort){const id=b.dataset.openshort;location.hash="#shorts";setTimeout(()=>{const d=document.getElementById("sc-"+id);if(d){d.open=true;d.scrollIntoView({block:"start"})}},60);return}
   if(b.dataset.goto){selDay=b.dataset.goto;location.hash="#hoy";render()}
   if(b.dataset.copy)copy(b.dataset.copy);
