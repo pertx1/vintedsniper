@@ -27,3 +27,12 @@ Herramientas en `produccion/tools` (copiar al scratchpad si hace falta; el proye
 6. **Entrega**: datos en `fichas/meta.json` y `python3 tools/entregar.py ID` → miniatura + vídeo + entrada del panel; publicar el panel con los `media/` nuevos (máx. ~60 MB por publicación).
 **Shorts 🎮 (desde el 20/11)**: cada día buscar en prensa (IGN, Vandal, 3DJuegos, HobbyConsolas, MeriStation, Rockstar Newswire) lo que haya encontrado la comunidad, confirmar en 2 fuentes y montar con capturas oficiales; no usar gameplay de otros creadores sin permiso.
 **Límite del panel:** una versión del artifact admite 256 MB en total. Cuando haga falta espacio, quitar con `remove` los `media/*.mp4` de vídeos ya publicados (fecha pasada) antes de subir nuevos; los que no quepan se mandan por el chat.
+
+## Estadísticas automáticas (Windsor.ai, desde el 17/11)
+Al responder "qué toca hoy", **antes** de nada:
+1. `mcp__Windsor_ai_for_Social_Media__get_data` con `connector: "youtube"`:
+   - `fields: [channel_title, subscriber_count]` (sin fechas) → suscriptores actuales (`sYT`). Comprobar que el canal es **GTA OCULTO** (UCRRMgCBoG6ArTKL1RZkVJmg).
+   - `fields: [date, creator_content_type, views, estimated_minutes_watched]`, `date_preset: "last_30d"` → por día: visitas totales (`vYT`), visitas de Shorts y minutos de vídeos largos (`videoOnDemand`).
+2. Escribir con ArtifactData en `tracker/<fecha>` (url del panel) los días que falten: `vYT` (visitas del día), `sYT` (suscriptores, solo en el día de hoy), `hYT` (horas acumuladas de vídeos largos = suma de minutos `videoOnDemand` desde el 17/11 ÷ 60, con 1 decimal), `svYT` (visitas de Shorts de los últimos 90 días = suma acumulada desde el 17/11 mientras no haya 90 días). Leer antes cada documento y escribir con `if_version`.
+3. Dar en la respuesta una línea de progreso: suscriptores / 1.000, horas / 4.000 y días hasta el 31/01.
+Notas: YouTube publica los datos con 1-2 días de retraso. La prueba de Windsor solo deja leer 30 días hacia atrás: por eso las cifras se acumulan día a día en el tracker. Punto de partida (17/11): 75 suscriptores, 0 h de vídeos largos, 241 visitas de Shorts en 30 días (vídeos antiguos, ya privados).
