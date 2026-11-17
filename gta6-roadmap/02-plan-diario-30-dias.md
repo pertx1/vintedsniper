@@ -1,6 +1,6 @@
 # 02 · Plan diario: del 16/11 al 16/12
 
-> **Cambio del 16/11:** desde el 17/11 se publican **3 Shorts al día (11:00, 16:00 y 21:00)** y 2 vídeos largos por semana (más el L1 especial del viernes 20). Los Shorts marcados con 🎮 en el panel se hacen el mismo día con lo que vaya encontrando la comunidad en el juego; el resto ya los prepara Claude con material oficial. **El calendario exacto está en el panel (pestaña Calendario)**, que manda sobre este archivo.
+> **Cambio del 17/11:** desde el 17/11, **3 Shorts al día (11:00, 16:00 y 21:00)**. **Desde el 19/11 todos son del juego (🎮)**: Claude los hace cada día con lo que encuentre la comunidad y la prensa. Los Shorts ya hechos con material oficial (S5-S22) quedan en **Reserva** para los días sin novedades. 2 vídeos largos por semana (más el L1 especial del viernes 20). El calendario exacto está en el panel, que manda sobre este archivo.
 
 
 ## Cómo usar este archivo (léelo una vez)
