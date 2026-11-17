@@ -34,7 +34,7 @@
 ### Mié 18/11
 - **🎬 Vídeo largo L0 "GTA 6: TODO lo que sabemos antes de jugarlo" a las 18:00** (lo monta Claude; tú revisas el guion y la voz y lo programas, 20 min)
 - [ ] Montar S2 y S3 (70 min)
-- [ ] **Publicar S2 a las 14:00 y S3 a las 21:00** en las 3
+- [ ] **Publicar S23 (mando PS5 vs Xbox) a las 14:00 y S3 a las 21:00 (S2 pasa al 5/12 a las 11:00)** en las 3
 - [ ] Programar S4 para mañana a las 09:00 (YouTube Studio y TikTok web) (10 min)
 - [ ] **Producto:** crear la tabla "Base de descubrimientos" en Notion (10 min) y guardar el prompt maestro (setup F)
 
