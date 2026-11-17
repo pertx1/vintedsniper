@@ -56,6 +56,9 @@ const Progreso: React.FC = () => {
 };
 
 /* Subtítulos: 3 palabras, la activa en amarillo con rebote. */
+const CSS_FUENTES = `@font-face{font-family:'GTAPD';src:url('${staticFile("Pricedown.otf")}') format('opentype');font-weight:100 900;font-style:normal}
+*{font-synthesis:none}`;
+
 const Subtitulos: React.FC = () => {
   const frame = useCurrentFrame();
   const { width } = useVideoConfig();
@@ -74,7 +77,7 @@ const Subtitulos: React.FC = () => {
           const act = g + i === idx;
           return (
             <span key={i} style={{
-              display: "inline-block", fontFamily: "Montserrat, Inter, sans-serif", fontWeight: 900, fontSize: 64, lineHeight: 1.1,
+              display: "inline-block", fontFamily: "GTAPD, Montserrat, sans-serif", fontWeight: 900, fontSize: 72, letterSpacing: 1, lineHeight: 1.1,
               textTransform: "uppercase", color: act ? "#FFE02E" : "#FFFFFF",
               WebkitTextStroke: "10px #0B0620", paintOrder: "stroke fill", textShadow: "0 6px 0 rgba(11,6,32,.5)",
               transform: act ? `scale(${0.9 + 0.16 * rebote}) rotate(${(1 - rebote) * -4}deg)` : "scale(1)",
@@ -119,7 +122,7 @@ const Creditos: React.FC = () => (
 
 const Marca: React.FC = () => (
   <div style={{ position: "absolute", top: 60, right: 50, color: "rgba(255,255,255,.55)",
-    fontFamily: "Montserrat, Inter, sans-serif", fontWeight: 800, fontSize: 30 }}>@gtaoculto_es</div>
+    fontFamily: "GTAPD, Montserrat, sans-serif", fontWeight: 800, fontSize: 34 }}>@gtaoculto_es</div>
 );
 
 export const duracionDe = (d: DatosShort) => d.planos.reduce((a, p) => a + (p.segundos || 3), 0);
@@ -131,6 +134,7 @@ export const ShortGTAOculto: React.FC<{ datos: DatosShort }> = ({ datos }) => {
   DUR = duracionDe(datos);
   return (
   <AbsoluteFill style={{ background: "#0B0620", overflow: "hidden" }}>
+      <style>{CSS_FUENTES}</style>
     <Camara><Montaje planos={P} /></Camara>
     <Flash />
     <Flami />

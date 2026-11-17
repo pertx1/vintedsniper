@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 SP='/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad'
 PANEL='/home/user/vintedsniper/gta6-roadmap'; PM=PANEL+'/panel-media'
 META=json.load(open(SP+'/fichas/meta.json'))
-ANTON='/root/.fonts/Anton-Regular.ttf'; INK=(12,4,26)
+ANTON='/root/.fonts/Pricedown.otf'; INK=(12,4,26)
 def cover_short(i,m):
     f=f"{SP}/cf/{i}_frame.png"
     subprocess.run(['ffmpeg','-loglevel','error','-y','-ss',str(m.get('t',1.0)),'-i',f"{SP}/render/out/{i}.mp4",'-frames:v','1',f],check=True)

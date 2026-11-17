@@ -46,5 +46,10 @@ Medición del S1: voz sola −24,4 dB de media; mezcla −22,6 dB; pico −1,9 d
 - No se suben al repositorio: son de Rockstar.
 
 ## Miniaturas
-- **Vídeos largos (1280×720):** sin Flami. Tipografía **Anton** (titular grande en blanco/amarillo `#FFE02E`, etiqueta "GTA 6" en caja amarilla). Arte o captura oficial a un lado y el texto sobre un degradado oscuro al otro (modelo: miniatura A del L0, `panel-media/L0.jpg`).
+- **Vídeos largos (1280×720):** sin Flami. Tipografía **Pricedown** (la de GTA) (titular grande en blanco/amarillo `#FFE02E`, etiqueta "GTA 6" en caja amarilla). Arte o captura oficial a un lado y el texto sobre un degradado oscuro al otro (modelo: miniatura A del L0, `panel-media/L0.jpg`).
 - **Shorts (1080×1920):** se mantiene Flami, como en S1 y S2.
+
+## Tipografía (desde el 17/11)
+- **Pricedown** (`marca/Pricedown.otf`, licencia Typodermic: uso comercial en logos e imágenes permitido) para títulos, cifras, sellos, fichas, subtítulos, marca de agua y miniaturas. En Remotion se carga como `GTAPD` desde `public/Pricedown.otf` con `font-synthesis: none`.
+- Inter solo para textos pequeños de lectura (descripciones de fichas, listas, créditos).
+- Pricedown no tiene la flecha →: usar guion.
