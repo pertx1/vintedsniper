@@ -75,3 +75,6 @@ Usar siempre el modelo más barato: `gpt_image_2_6` con `quality: "low"` y `reso
 
 ## Duración de los Shorts (desde el 18/11)
 Objetivo 25-30 s (el S23 de 43 s retuvo de media 19 s). Gancho + 2-3 datos fuertes + pregunta final; fuera explicaciones de relleno. Para recortar un Short ya grabado sin regenerar voz: `python3 tools/recortar.py ID` (lista frases) y `python3 tools/recortar.py ID 3,5` (quita esas frases del audio, palabras, guion y ficha).
+
+## Serie «¿MITO o VERDAD?» (desde el 22/11)
+Gancho = la pregunta del mito («¿Hay un fantasma en Mount Kalaga?»), sello final MITO / VERDAD / SIN CONFIRMAR (2 fuentes para VERDAD o MITO). Título con la pregunta + emoji + «MITO o VERDAD». Comentario fijado: «¿Qué mito quieres que compruebe ahora?».
