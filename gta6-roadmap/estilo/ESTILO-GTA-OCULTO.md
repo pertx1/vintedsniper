@@ -86,3 +86,6 @@ Para explicar mecánicas, como en las referencias de TikTok: `{"a":"…","tpl":"
 - precio: barra que se llena y "+$X" contando.
 - app: móvil que escanea y va mostrando `items` (WAiNK, menús).
 1-2 por Short, sobre la frase que explica la mecánica. `tools/jshort.py` los pone solo por palabras clave (luego revisar `items`/`value` a mano con el dato real).
+
+## Títulos de vídeos largos (desde el 18/11)
+«GTA 6» + palabra que se busca primero («Trucos de GTA 6…», «Mapa de GTA 6…», «GTA 6 vs GTA 5…»), luego la promesa concreta. 50-70 caracteres. Los títulos de curiosidad («NO juegues…») solo para Shorts.
