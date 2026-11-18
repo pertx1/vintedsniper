@@ -38,6 +38,9 @@ Usarla primero en "¿qué toca hoy?" (suscriptores reales de hoy para `sYT`); Wi
 Página "GTA Oculto" (privada): https://app.notion.com/p/41cecd20cb1d810e884df7f0bb162ef9 · base: https://app.notion.com/p/41cecd20cb1d81caa527d28771c8c6b2 (data source `collection://41cecd20-cb1d-81a3-838b-000b70501d99`).
 Cada hallazgo de la comunidad entra como "Visto"; pasa a "Verificado" solo con Fuente 1 y Fuente 2 independientes (marcar "2 fuentes"); luego Guion → Montado → Publicado (rellenar "Vídeo" y "Fecha publicación"). Los Shorts 🎮 (J01…) salen de aquí, por "Potencial".
 
+## Rutina automática de las mañanas (desde el 19/11)
+Tarea programada diaria a las 08:43 (Madrid), id `trig_01X8AGcNvaNaQtxbCxQDkko5`, en esta sesión: estadísticas → barrido de prensa → Notion → 2 Shorts 🎮 con `tools/jshort.py` (ficha automática por temas; antes: guion, voz ElevenLabs y `alinear.py`) → panel → resumen. Comentarios fijados de cada vídeo: página de Notion "Comentarios fijados" (https://app.notion.com/p/41cecd20cb1d81e88ce9e5cdc055464d).
+
 ## Estadísticas automáticas (Windsor.ai, desde el 17/11)
 Al responder "qué toca hoy", **antes** de nada:
 1. `mcp__Windsor_ai_for_Social_Media__get_data` con `connector: "youtube"`:
