@@ -12,14 +12,6 @@
    ]
   },
   {
-   "a": "Según Rockstar",
-   "ficha": "Boobie Ike",
-   "img": "p/Boobie_Ike_03.jpg",
-   "cx": 0.4,
-   "sub": "Leyenda de Vice City",
-   "bot": "De la calle a un imperio"
-  },
-  {
    "a": "Es de los pocos",
    "lista": [
     {
@@ -42,11 +34,6 @@
      "clip": "ext/ext-1388"
     }
    ]
-  },
-  {
-   "a": "Su lema",
-   "cita": "Todo va de corazón. Del Jack of Hearts.",
-   "quien": "Boobie Ike"
   },
   {
    "a": "Pero lo que más",

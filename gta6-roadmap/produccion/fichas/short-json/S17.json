@@ -32,42 +32,6 @@
    ]
   },
   {
-   "a": "Según la web oficial",
-   "lista": [
-    {
-     "img": "p/DreQuan_Priest_01.jpg"
-    },
-    {
-     "clip": "ext/ext-1256"
-    }
-   ]
-  },
-  {
-   "a": "acaba de fichar",
-   "lista": [
-    {
-     "clip": "trailer-20",
-     "top": "FICHAJE: REAL DIMEZ"
-    },
-    {
-     "img": "p/Real_Dimez_04.jpg",
-     "cx": 0.4
-    }
-   ]
-  },
-  {
-   "a": "y apunta",
-   "lista": [
-    {
-     "img": "p/DreQuan_Priest_02.jpg",
-     "cx": 0.6
-    },
-    {
-     "clip": "ext/ext-1268"
-    }
-   ]
-  },
-  {
    "a": "Su frase",
    "cita": "Las bailarinas son mis cazatalentos. Si un tema pega en el club, los DJ lo van a pinchar.",
    "quien": "Dre'Quan Priest"
@@ -85,9 +49,7 @@
    "value": 25
   }
  ],
- "booms": [
-  "acaba de fichar"
- ],
+ "booms": [],
  "flami": [
   "Su frase"
  ],

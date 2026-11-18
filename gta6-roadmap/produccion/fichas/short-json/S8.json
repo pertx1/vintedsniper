@@ -42,31 +42,6 @@
    "quien": "Brian Heder"
   },
   {
-   "a": "Rockstar dice",
-   "lista": [
-    {
-     "img": "p/Brian_Heder_02.jpg"
-    },
-    {
-     "clip": "precarga-39"
-    }
-   ]
-  },
-  {
-   "a": "tiburón blanco",
-   "lista": [
-    {
-     "clip": "ext/ext-0668"
-    },
-    {
-     "img": "p/Brian_Heder_03.jpg",
-     "sello": "TIBURÓN BLANCO",
-     "acc": "#EC517D",
-     "g": 5
-    }
-   ]
-  },
-  {
    "a": "Y el trato",
    "lista": [
     {
@@ -121,9 +96,7 @@
   "Brian Heder",
   "sangría"
  ],
- "flami": [
-  "tiburón"
- ],
+ "flami": [],
  "claves": [
   "gratis,",
   "hierba",

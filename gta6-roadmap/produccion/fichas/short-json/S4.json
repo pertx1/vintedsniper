@@ -59,11 +59,6 @@
    ]
   },
   {
-   "a": "Ahora solo quiere",
-   "clip": "trailer-09",
-   "cx": 0.3
-  },
-  {
    "a": "Y él es Jason",
    "ficha": "Jason Duval",
    "img": "p/Jason_Duval_02.jpg",
@@ -100,23 +95,6 @@
    ]
   },
   {
-   "a": "Solo quiere una",
-   "clip": "trailer-12",
-   "cx": 0.4
-  },
-  {
-   "a": "pero todo",
-   "lista": [
-    {
-     "clip": "trailer-05"
-    },
-    {
-     "img": "p/Jason_Duval_19.jpg",
-     "sello": "TODO SE COMPLICA"
-    }
-   ]
-  },
-  {
    "a": "Rockstar lo resume",
    "clip": "trailer-28",
    "cx": 0.55
@@ -130,20 +108,6 @@
     {
      "img": "p/Jason_and_Lucia_14.jpg",
      "sello": "LO MEJOR O LO PEOR"
-    }
-   ]
-  },
-  {
-   "a": "Para ella",
-   "lista": [
-    {
-     "clip": "ext/ext-1004"
-    },
-    {
-     "img": "p/Jason_and_Lucia_17.jpg",
-     "sello": "SU SALIDA",
-     "acc": "#EC517D",
-     "g": 5
     }
    ]
   },

@@ -26,30 +26,6 @@
    ]
   },
   {
-   "a": "La edición estándar",
-   "lista": [
-    {
-     "clip": "ext/ext-1064",
-     "top": "UN JUGADOR"
-    },
-    {
-     "img": "p/GTAVI_Pre_Load.jpg",
-     "cx": 0.4
-    }
-   ]
-  },
-  {
-   "a": "y ni la Ultimate",
-   "lista": [
-    {
-     "img": "p2/Ultimate_Edition_Benefits_ULTIMATE_EDITION_01.jpg"
-    },
-    {
-     "clip": "ext/ext-1136"
-    }
-   ]
-  },
-  {
    "a": "Pero mira el historial",
    "clip": "trailer-29"
   },
@@ -70,12 +46,6 @@
    "unit": " MES",
    "text": "después, en beta",
    "fijo": true
-  },
-  {
-   "a": "O sea",
-   "clip": "trailer-21",
-   "ss": 1.9,
-   "cx": 0.45
   },
   {
    "a": "Es lo más probable",
@@ -105,9 +75,7 @@
  "booms": [
   "no ha anunciado"
  ],
- "flami": [
-  "O sea"
- ],
+ "flami": [],
  "claves": [
   "online?",
   "semanas",

@@ -64,18 +64,6 @@
    ]
   },
   {
-   "a": "O sea, este puerto",
-   "lista": [
-    {
-     "clip": "precarga-37"
-    },
-    {
-     "img": "p/Leonida_Keys_05.jpg",
-     "sello": "SU NEGOCIO"
-    }
-   ]
-  },
-  {
    "a": "Y Jason vive gratis",
    "lista": [
     {
@@ -83,17 +71,6 @@
     },
     {
      "clip": "ext/ext-0800"
-    }
-   ]
-  },
-  {
-   "a": "Así que este sitio",
-   "lista": [
-    {
-     "clip": "ext/ext-0680"
-    },
-    {
-     "img": "p/Leonida_Keys_01.jpg"
     }
    ]
   },
@@ -112,9 +89,7 @@
  "booms": [
   "Brian's Marina"
  ],
- "flami": [
-  "Así que este sitio"
- ],
+ "flami": [],
  "claves": [
   "Keys.",
   "Marina.",

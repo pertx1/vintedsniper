@@ -32,14 +32,6 @@
    ]
   },
   {
-   "a": "Rockstar no ha dicho",
-   "clip": "trailer-04"
-  },
-  {
-   "a": "su historial",
-   "clip": "trailer-29"
-  },
-  {
    "a": "GTA cuatro",
    "tpl": "gta-dato",
    "topText": "GTA IV EN PC",
@@ -88,16 +80,6 @@
      "sello": "ESTIMACIÓN"
     }
    ]
-  },
-  {
-   "a": "Lo único oficial",
-   "tpl": "gta-sinopsis",
-   "text": "HOY SALE EN",
-   "items": [
-    "PlayStation 5",
-    "Xbox Series X|S"
-   ],
-   "value": 10
   },
   {
    "a": "Si juegas en PC",

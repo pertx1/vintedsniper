@@ -72,3 +72,6 @@ Usar siempre el modelo más barato: `gpt_image_2_6` con `quality: "low"` y `reso
 1. Primera frase dirigida al espectador o con el dato más sorprendente en los 2 primeros segundos ("Si juegas en PC, hoy no vas a poder…", "Esta mujer salió de la cárcel…"). Nada de "Cuatro cosas que…" como arranque.
 2. Primer plano: una cara o movimiento, no una vista general de la ciudad.
 3. El texto de arriba del primer plano dice el dato, no el tema.
+
+## Duración de los Shorts (desde el 18/11)
+Objetivo 25-30 s (el S23 de 43 s retuvo de media 19 s). Gancho + 2-3 datos fuertes + pregunta final; fuera explicaciones de relleno. Para recortar un Short ya grabado sin regenerar voz: `python3 tools/recortar.py ID` (lista frases) y `python3 tools/recortar.py ID 3,5` (quita esas frases del audio, palabras, guion y ficha).

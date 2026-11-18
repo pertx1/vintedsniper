@@ -63,22 +63,6 @@
    ]
   },
   {
-   "a": "Y Rockstar ya ha publicado",
-   "lista": [
-    {
-     "clip": "trailer-25",
-     "top": "BANDA SONORA OFICIAL"
-    },
-    {
-     "img": "p2/Artwork_Wallpapers_The_Album_Cover_Art_The_Album_Cover_Art_portrait.jpg"
-    }
-   ]
-  },
-  {
-   "a": "con su propio álbum",
-   "clip": "precarga-38"
-  },
-  {
    "a": "Cuál de las dos",
    "tpl": "gta-marcador",
    "topText": "te leo en comentarios",
@@ -93,9 +77,7 @@
  "booms": [
   "El segundo tráiler"
  ],
- "flami": [
-  "Y Rockstar ya ha publicado"
- ],
+ "flami": [],
  "claves": [
   "Petty,",
   "pueblo",
