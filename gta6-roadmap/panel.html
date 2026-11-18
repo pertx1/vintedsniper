@@ -370,7 +370,7 @@ const DAYS = [
   ["Pedir a Claude los 3 Shorts del juego de hoy (🎮) (5 min)","content"],
   ["Contestar los comentarios de los vídeos de ayer (10 min)","content"],
   ["Revisión del mes con Claude a partir del tracker (45 min)","review"],
-  ["Plan YPP hasta el 31/01: 2 vídeos largos por semana (L9-L14) + comprobar horas y suscriptores","review"]]}
+  ["Plan YPP hasta el 31/01: 3 vídeos largos por semana (L17 en adelante, según Google Trends) + comprobar horas y suscriptores","review"]]}
 ];
 const KLBL={content:"Contenido",product:"Producto",promo:"Promoción",review:"Revisión",setup:"Preparación"};
 
@@ -607,7 +607,7 @@ V.youtube=()=>{const t=totals().last, d=yppDays(); const hLeft=Math.max(0,4000-t
  </div>
  <div class="panel"><h3>🎬 Vídeos largos: 2 por semana</h3><div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>#</th><th>Tema</th><th>Publicación (18:00)</th></tr></thead><tbody>
   ${LPLAN.map(([c,tt,dd])=>`<tr><td class="num">${c}</td><td>${esc(tt)}</td><td><button class="btn small" data-goto="${dd}">${fmt(dd)}</button></td></tr>`).join("")}
-  <tr><td class="num">L9-L14</td><td class="muted">Ideas #9-#17 de la pestaña Vídeos largos</td><td class="muted">2 por semana hasta el 20/01</td></tr></tbody></table></div>
+  <tr><td class="num">L17+</td><td class="muted">Guías y recopilaciones según Google Trends</td><td class="muted">3 por semana hasta el 31/01</td></tr></tbody></table></div>
   <ul style="margin:10px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px"><li>De 10 a 15 min (los icebergs, de 20 a 30) · los primeros 30 s repiten la promesa · lista hacia atrás con el n.º 1 al final · reenganche cada 30-60 s</li><li>Pantalla final hacia otro vídeo largo · cada Short con «Vídeo relacionado» hacia su vídeo largo · listas de reproducción por tema</li><li>Los días de vídeo largo, solo 1 Short. Instagram, solo como repost.</li></ul></div>
  <div class="panel"><h3>Pack de plantillas (Drive de JimGorlich)</h3><ul style="margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px">
   <li><b>Útil:</b> 15 plantillas animadas de Remotion (cifras, barras, expedientes, sellos de RUMOR/CONFIRMADO). He revisado el código y está limpio, pero no lo he renderizado.</li>
