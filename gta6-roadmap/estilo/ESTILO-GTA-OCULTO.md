@@ -64,3 +64,6 @@ Medición del S1: voz sola −24,4 dB de media; mezcla −22,6 dB; pico −1,9 d
 - **Pricedown** (`marca/Pricedown.otf`, licencia Typodermic: uso comercial en logos e imágenes permitido) para títulos, cifras, sellos, fichas, subtítulos, marca de agua y miniaturas. En Remotion se carga como `GTAPD` desde `public/Pricedown.otf` con `font-synthesis: none`.
 - Inter solo para textos pequeños de lectura (descripciones de fichas, listas, créditos).
 - Pricedown no tiene la flecha →: usar guion.
+
+## Higgsfield para miniaturas (desde el 18/11)
+Usar siempre el modelo más barato: `gpt_image_2_6` con `quality: "low"` y `resolution: "1k"` (0,25 créditos por imagen; antes 2,75 con high/2k). Solo subir calidad si Oier lo pide para una miniatura concreta. El texto se pone después con `tools/mini2.py` (Pricedown), no con la IA.
