@@ -78,3 +78,11 @@ Objetivo 25-30 s (el S23 de 43 s retuvo de media 19 s). Gancho + 2-3 datos fuert
 
 ## Serie «¿MITO o VERDAD?» (desde el 22/11)
 Gancho = la pregunta del mito («¿Hay un fantasma en Mount Kalaga?»), sello final MITO / VERDAD / SIN CONFIRMAR (2 fuentes para VERDAD o MITO). Título con la pregunta + emoji + «MITO o VERDAD». Comentario fijado: «¿Qué mito quieres que compruebe ahora?».
+
+## Motion graphics (desde el 18/11): plantilla `gta-grafico`
+Para explicar mecánicas, como en las referencias de TikTok: `{"a":"…","tpl":"gta-grafico","tipo":"rastreador|velocimetro|precio|app","text":"PÍLDORA","topText":"línea pequeña","value":N,"unit":"…","items":[…],"imageUrl":"p/…"}`.
+- rastreador: mapa en cuadrícula + ruta que se dibuja + punto que late (GPS, policía, rutas).
+- velocimetro: aguja hasta `value` sobre `unit` (máximo).
+- precio: barra que se llena y "+$X" contando.
+- app: móvil que escanea y va mostrando `items` (WAiNK, menús).
+1-2 por Short, sobre la frase que explica la mecánica. `tools/jshort.py` los pone solo por palabras clave (luego revisar `items`/`value` a mano con el dato real).

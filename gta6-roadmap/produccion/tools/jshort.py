@@ -29,6 +29,11 @@ for w in W:
     cur.append(w['text'])
     if re.search(r'[.?!]$', w['text']): frases.append(cur); cur = []
 if cur: frases.append(cur)
+GRAF = [(r'gps|localizador|rastreador|ruta|te persigue|polic[ií]a', {'tipo': 'rastreador', 'topText': 'te localizan'}),
+        (r'r[aá]pido|velocidad|despacio|kil[oó]metros', {'tipo': 'velocimetro', 'value': 160, 'unit': '200'}),
+        (r'app|m[oó]vil|tel[eé]fono|men[uú]', {'tipo': 'app', 'items': ['Dato 1', 'Dato 2', 'Dato 3']}),
+        (r'd[oó]lares|precio|cuesta|vale|dinero', {'tipo': 'precio', 'value': 1000, 'unit': '$'})]
+n_graf = 0
 planos = []
 for k, f in enumerate(frases):
     txt = ' '.join(f).lower()
@@ -36,6 +41,15 @@ for k, f in enumerate(frases):
     for pat, p, im in CLAVES:
         if re.search(pat, txt): pool, imgs = p, im; break
     if k == 0: pool = 'gancho'
+    graf = None
+    if k > 0 and n_graf < 2:
+        for pat, g in GRAF:
+            mm = re.search(pat, txt)
+            if mm: graf = dict(g); graf.setdefault('text', mm.group(0).upper()); break
+    if graf:
+        n_graf += 1
+        graf.update({'a': ' '.join(f[:2]), 'tpl': 'gta-grafico', 'imageUrl': 'p/' + os.path.basename(coge(IMG[imgs]))})
+        planos.append(graf); continue
     clip = {'clip': coge(POOLS[pool])}
     img = {'img': 'p/' + os.path.basename(coge(IMG[imgs]))}
     q = {'lista': [clip, img] if k % 2 == 0 else [img, clip]}

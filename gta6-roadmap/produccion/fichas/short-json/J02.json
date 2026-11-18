@@ -28,26 +28,33 @@
    "a": "Muchos tienen"
   },
   {
-   "lista": [
-    {
-     "clip": "ext/ext-1100"
-    },
-    {
-     "img": "p/Vice_City_19.jpg"
-    }
+   "a": "Antes, escanéalo",
+   "tpl": "gta-grafico",
+   "tipo": "app",
+   "text": "WAiNK",
+   "topText": "escanea antes de robar",
+   "items": [
+    "Valor del coche",
+    "Alarma",
+    "Localizador GPS"
    ],
-   "a": "Antes, escanéalo"
+   "imageUrl": "p/Vice_City_02.jpg"
   },
   {
-   "lista": [
-    {
-     "img": "p/Vice_City_02.jpg"
-    },
-    {
-     "clip": "ext/ext-0512"
-    }
-   ],
-   "a": "Y cuidado"
+   "a": "Y cuidado",
+   "tpl": "gta-grafico",
+   "tipo": "rastreador",
+   "text": "Localizador GPS",
+   "topText": "avisa a la policía"
+  },
+  {
+   "a": "conducir rápido",
+   "tpl": "gta-grafico",
+   "tipo": "velocimetro",
+   "text": "Conduce rápido",
+   "value": 160,
+   "unit": "200",
+   "imageUrl": "p/Vice_City_06.jpg"
   },
   {
    "lista": [
