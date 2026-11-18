@@ -28,6 +28,12 @@ Herramientas en `produccion/tools` (copiar al scratchpad si hace falta; el proye
 **Shorts 🎮 (desde el 20/11)**: cada día buscar en prensa (IGN, Vandal, 3DJuegos, HobbyConsolas, MeriStation, Rockstar Newswire) lo que haya encontrado la comunidad, confirmar en 2 fuentes y montar con capturas oficiales; no usar gameplay de otros creadores sin permiso.
 **Límite del panel:** una versión del artifact admite 256 MB en total. Cuando haga falta espacio, quitar con `remove` los `media/*.mp4` de vídeos ya publicados (fecha pasada) antes de subir nuevos; los que no quepan se mandan por el chat.
 
+## YouTube Data API (desde el 18/11, en tiempo real)
+La clave está guardada como network secret del entorno (host `www.googleapis.com`, cabecera `X-Goog-Api-Key`): basta con `curl` sin poner clave.
+- Canal: `curl -s "https://www.googleapis.com/youtube/v3/channels?part=statistics,contentDetails&id=UCRRMgCBoG6ArTKL1RZkVJmg"` → suscriptores (`subscriberCount`), visitas totales y la lista de subidas (`relatedPlaylists.uploads`).
+- Vídeos: `playlistItems?part=contentDetails&maxResults=50&playlistId=<uploads>` → ids; `videos?part=snippet,statistics&id=<ids>` → visitas, likes y comentarios de cada vídeo.
+Usarla primero en "¿qué toca hoy?" (suscriptores reales de hoy para `sYT`); Windsor sigue siendo la fuente de horas de vídeos largos y de visitas por día. Retención, CTR y "pasar de largo" solo salen de capturas de YouTube Studio.
+
 ## Estadísticas automáticas (Windsor.ai, desde el 17/11)
 Al responder "qué toca hoy", **antes** de nada:
 1. `mcp__Windsor_ai_for_Social_Media__get_data` con `connector: "youtube"`:
