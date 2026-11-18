@@ -34,6 +34,10 @@ La clave está guardada como network secret del entorno (host `www.googleapis.co
 - Vídeos: `playlistItems?part=contentDetails&maxResults=50&playlistId=<uploads>` → ids; `videos?part=snippet,statistics&id=<ids>` → visitas, likes y comentarios de cada vídeo.
 Usarla primero en "¿qué toca hoy?" (suscriptores reales de hoy para `sYT`); Windsor sigue siendo la fuente de horas de vídeos largos y de visitas por día. Retención, CTR y "pasar de largo" solo salen de capturas de YouTube Studio.
 
+## Notion: base "Descubrimientos GTA VI" (desde el 18/11)
+Página "GTA Oculto" (privada): https://app.notion.com/p/41cecd20cb1d810e884df7f0bb162ef9 · base: https://app.notion.com/p/41cecd20cb1d81caa527d28771c8c6b2 (data source `collection://41cecd20-cb1d-81a3-838b-000b70501d99`).
+Cada hallazgo de la comunidad entra como "Visto"; pasa a "Verificado" solo con Fuente 1 y Fuente 2 independientes (marcar "2 fuentes"); luego Guion → Montado → Publicado (rellenar "Vídeo" y "Fecha publicación"). Los Shorts 🎮 (J01…) salen de aquí, por "Potencial".
+
 ## Estadísticas automáticas (Windsor.ai, desde el 17/11)
 Al responder "qué toca hoy", **antes** de nada:
 1. `mcp__Windsor_ai_for_Social_Media__get_data` con `connector: "youtube"`:
