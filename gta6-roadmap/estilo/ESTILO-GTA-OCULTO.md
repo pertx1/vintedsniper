@@ -89,3 +89,10 @@ Para explicar mecánicas, como en las referencias de TikTok: `{"a":"…","tpl":"
 
 ## Títulos de vídeos largos (desde el 18/11)
 «GTA 6» + palabra que se busca primero («Trucos de GTA 6…», «Mapa de GTA 6…», «GTA 6 vs GTA 5…»), luego la promesa concreta. 50-70 caracteres. Los títulos de curiosidad («NO juegues…») solo para Shorts.
+
+## Más comentarios y más suscripciones (desde el 18/11)
+- **Shorts:** la última frase pide UNA respuesta fácil: elegir entre dos («Escribe JASON o LUCÍA», «¿Deportivo o chatarra?») o un número/una palabra. Nada de «déjame tu opinión».
+- **Suscripción con motivo, no «suscríbete» a secas:** «Sígueme: el día que lo confirmen, lo tienes aquí» / «mañana subo la parte 2».
+- **Largos:** a los 25-35 % del vídeo, una llamada con motivo («si esto te sirve, suscríbete: el 24 subo todos los trucos»); a mitad, una pregunta para comentar con número («dime en comentarios qué pregunta era la tuya»); al final, pantalla final con el siguiente vídeo + suscribirse.
+- **Oier:** comentario fijado con pregunta, ❤️ a todos y responder en la primera hora SIEMPRE con otra pregunta. Una encuesta al día en la pestaña Comunidad (2 opciones, del tema del día).
+- **Series** («¿MITO o VERDAD?», «Secretos parte 1/2…»): crean el motivo para suscribirse.

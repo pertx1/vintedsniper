@@ -1,0 +1,943 @@
+{
+ "id": "LFAQ",
+ "tipo": "largo",
+ "voz": "voz-lfaq.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/LFAQ.json",
+ "fin": 1.5,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "x-avioneta",
+     "top": "20 PREGUNTAS"
+    },
+    {
+     "img": "p/Vice_City_04.jpg"
+    }
+   ]
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_15.jpg"
+    }
+   ],
+   "a": "¿A qué"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1028"
+    }
+   ],
+   "a": "¿Cuánto ocupa?"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_16.jpg"
+    }
+   ],
+   "a": "¿Tiene online?"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1076"
+    },
+    {
+     "img": "p/Vice_City_14.jpg"
+    },
+    {
+     "clip": "ext/ext-1004"
+    }
+   ],
+   "a": "En este"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_05.jpg"
+    },
+    {
+     "clip": "trailer-21"
+    }
+   ],
+   "a": "Y quédate"
+  },
+  {
+   "a": "Pregunta uno:",
+   "sello": "PREGUNTA 1",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-0740"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_17.jpg"
+    },
+    {
+     "clip": "x-avioneta"
+    },
+    {
+     "img": "p/Vice_City_23.jpg"
+    }
+   ],
+   "a": "GTA seis"
+  },
+  {
+   "lista": [
+    {
+     "clip": "precarga-40"
+    }
+   ],
+   "a": "Pero no"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_07.jpg"
+    },
+    {
+     "clip": "ext/ext-0944"
+    },
+    {
+     "img": "p/Vice_City_20.jpg"
+    }
+   ],
+   "a": "Nueva Zelanda"
+  },
+  {
+   "lista": [
+    {
+     "clip": "precarga-34"
+    }
+   ],
+   "a": "Y un"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_08.jpg"
+    },
+    {
+     "clip": "ext/ext-0572"
+    },
+    {
+     "img": "p/Vice_City_02.jpg"
+    }
+   ],
+   "a": "el desbloqueo"
+  },
+  {
+   "a": "Pregunta dos:",
+   "sello": "PREGUNTA 2",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-1232"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_25.jpg"
+    },
+    {
+     "clip": "ext/ext-1544"
+    }
+   ],
+   "a": "En PlayStation"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0596"
+    },
+    {
+     "img": "p/Vice_City_09.jpg"
+    }
+   ],
+   "a": "Y en"
+  },
+  {
+   "a": "Pregunta tres:",
+   "sello": "PREGUNTA 3",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-0992"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1100"
+    }
+   ],
+   "a": "De momento,"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_26.jpg"
+    }
+   ],
+   "a": "Rockstar no"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1028"
+    },
+    {
+     "img": "p/Vice_City_21.jpg"
+    },
+    {
+     "clip": "ext/ext-1076"
+    }
+   ],
+   "a": "Si miramos"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_06.jpg"
+    },
+    {
+     "clip": "ext/ext-1004"
+    },
+    {
+     "img": "p/Vice_City_24.jpg"
+    }
+   ],
+   "a": "Si se"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-21"
+    },
+    {
+     "img": "p/Vice_City_01.jpg"
+    }
+   ],
+   "a": "Pero ojo:"
+  },
+  {
+   "a": "Pregunta cuatro:",
+   "sello": "PREGUNTA 4",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-1136"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-22"
+    },
+    {
+     "img": "p/Vice_City_03.jpg"
+    }
+   ],
+   "a": "Bastante. La"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_05.jpg"
+    }
+   ],
+   "a": "Así que,"
+  },
+  {
+   "a": "Pregunta cinco:",
+   "sello": "PREGUNTA 5",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-0740"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_17.jpg"
+    },
+    {
+     "clip": "precarga-40"
+    }
+   ],
+   "a": "No. La"
+  },
+  {
+   "lista": [
+    {
+     "clip": "x-avioneta"
+    }
+   ],
+   "a": "Por eso"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_22.jpg"
+    },
+    {
+     "clip": "precarga-34"
+    }
+   ],
+   "a": "si lo"
+  },
+  {
+   "a": "Pregunta seis:",
+   "sello": "PREGUNTA 6",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-0572"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_13.jpg"
+    },
+    {
+     "clip": "ext/ext-1544"
+    }
+   ],
+   "a": "La edición"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0944"
+    },
+    {
+     "img": "p/Vice_City_16.jpg"
+    }
+   ],
+   "a": "La Ultimate,"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_19.jpg"
+    }
+   ],
+   "a": "En euros"
+  },
+  {
+   "a": "Pregunta siete:",
+   "sello": "PREGUNTA 7",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-1100"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Leonida_Keys_01.jpg"
+    },
+    {
+     "clip": "trailer-02"
+    },
+    {
+     "img": "p/Leonida_Keys_07.jpg"
+    }
+   ],
+   "a": "Por veinte"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1076"
+    },
+    {
+     "img": "p/Vice_City_25.jpg"
+    }
+   ],
+   "a": "Y si"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_07.jpg"
+    },
+    {
+     "clip": "ext/ext-0596"
+    }
+   ],
+   "a": "Te lo"
+  },
+  {
+   "a": "Pregunta ocho:",
+   "sello": "PREGUNTA 8",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-1028"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_02.jpg"
+    }
+   ],
+   "a": "Aquí hay"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0992"
+    },
+    {
+     "img": "p/Vice_City_26.jpg"
+    },
+    {
+     "clip": "trailer-22"
+    }
+   ],
+   "a": "Un analista"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_24.jpg"
+    },
+    {
+     "clip": "ext/ext-1136"
+    },
+    {
+     "img": "p/Vice_City_23.jpg"
+    }
+   ],
+   "a": "Rob Nelson,"
+  },
+  {
+   "lista": [
+    {
+     "clip": "precarga-40"
+    },
+    {
+     "img": "p/Vice_City_06.jpg"
+    }
+   ],
+   "a": "Y si"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_09.jpg"
+    }
+   ],
+   "a": "Para que"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0740"
+    },
+    {
+     "img": "p/Vice_City_18.jpg"
+    }
+   ],
+   "a": "la historia"
+  },
+  {
+   "a": "Pregunta nueve:",
+   "sello": "PREGUNTA 9",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "precarga-34"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1004"
+    }
+   ],
+   "a": "Un noventa"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_17.jpg"
+    },
+    {
+     "clip": "trailer-21"
+    }
+   ],
+   "a": "Es la"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1544"
+    },
+    {
+     "img": "p/Vice_City_13.jpg"
+    }
+   ],
+   "a": "Con más"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_16.jpg"
+    }
+   ],
+   "a": "GTA cinco"
+  },
+  {
+   "a": "Pregunta diez:",
+   "sello": "PREGUNTA 10",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-1232"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_05.jpg"
+    },
+    {
+     "clip": "ext/ext-0572"
+    }
+   ],
+   "a": "De momento,"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1076"
+    }
+   ],
+   "a": "Pero el"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_21.jpg"
+    },
+    {
+     "clip": "ext/ext-1100"
+    },
+    {
+     "img": "p/Vice_City_14.jpg"
+    }
+   ],
+   "a": "GTA Online"
+  },
+  {
+   "lista": [
+    {
+     "clip": "x-avioneta"
+    },
+    {
+     "img": "p/Vice_City_01.jpg"
+    }
+   ],
+   "a": "Así que"
+  },
+  {
+   "a": "Pregunta once:",
+   "sello": "PREGUNTA 11",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-1028"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0404"
+    }
+   ],
+   "a": "Jason Duval"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Leonida_Keys_02.jpg"
+    },
+    {
+     "clip": "trailer-04"
+    },
+    {
+     "img": "p/Leonida_Keys_01.jpg"
+    }
+   ],
+   "a": "Él creció"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-22"
+    },
+    {
+     "img": "p/Vice_City_15.jpg"
+    }
+   ],
+   "a": "Ella aprendió"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_08.jpg"
+    }
+   ],
+   "a": "Rockstar lo"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-15"
+    },
+    {
+     "img": "p/Lucia_Caminos_02.jpg"
+    }
+   ],
+   "a": "para él,"
+  },
+  {
+   "a": "Pregunta doce:",
+   "sello": "PREGUNTA 12",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-0992"
+  },
+  {
+   "lista": [
+    {
+     "clip": "precarga-40"
+    }
+   ],
+   "a": "En Leonida,"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_24.jpg"
+    },
+    {
+     "clip": "ext/ext-0740"
+    }
+   ],
+   "a": "Y su"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1004"
+    }
+   ],
+   "a": "Pero no"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Leonida_Keys_05.jpg"
+    },
+    {
+     "clip": "trailer-12"
+    }
+   ],
+   "a": "también hay"
+  },
+  {
+   "a": "Pregunta trece:",
+   "sello": "PREGUNTA 13",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "trailer-17"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_25.jpg"
+    }
+   ],
+   "a": "En PS"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0512"
+    },
+    {
+     "img": "p/Vice_City_06.jpg"
+    },
+    {
+     "clip": "ext/ext-0776"
+    }
+   ],
+   "a": "Según Rob"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_22.jpg"
+    },
+    {
+     "clip": "ext/ext-0932"
+    }
+   ],
+   "a": "El mando"
+  },
+  {
+   "a": "Pregunta catorce:",
+   "sello": "PREGUNTA 14",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-0572"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_20.jpg"
+    }
+   ],
+   "a": "Sí, el"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1232"
+    },
+    {
+     "img": "p/Vice_City_14.jpg"
+    },
+    {
+     "clip": "ext/ext-1028"
+    }
+   ],
+   "a": "Lo que"
+  },
+  {
+   "a": "Pregunta quince:",
+   "sello": "PREGUNTA 15",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-1100"
+  },
+  {
+   "lista": [
+    {
+     "clip": "x-tren"
+    },
+    {
+     "img": "p/Jason_and_Lucia_19.jpg"
+    },
+    {
+     "clip": "trailer-30"
+    }
+   ],
+   "a": "En la"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_05.jpg"
+    }
+   ],
+   "a": "Y también"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1136"
+    }
+   ],
+   "a": "Es un"
+  },
+  {
+   "a": "Pregunta dieciséis:",
+   "sello": "PREGUNTA 16",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "x-iguana"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-08"
+    },
+    {
+     "img": "p/Grassrivers_08.jpg"
+    },
+    {
+     "clip": "trailer-06"
+    }
+   ],
+   "a": "Muchos. En"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_02.jpg"
+    }
+   ],
+   "a": "Y varios"
+  },
+  {
+   "a": "Pregunta diecisiete:",
+   "sello": "PREGUNTA 17",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "trailer-09"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_19.jpg"
+    }
+   ],
+   "a": "Rockstar ha"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0824"
+    },
+    {
+     "img": "p/Jason_Duval_02.jpg"
+    },
+    {
+     "clip": "trailer-05"
+    }
+   ],
+   "a": "Cal Hampton,"
+  },
+  {
+   "a": "Pregunta dieciocho:",
+   "sello": "PREGUNTA 18",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "precarga-38"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-21"
+    },
+    {
+     "img": "p/Vice_City_08.jpg"
+    },
+    {
+     "clip": "precarga-40"
+    }
+   ],
+   "a": "Los tráileres"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Real_Dimez_01.jpg"
+    },
+    {
+     "clip": "ext/ext-1280"
+    }
+   ],
+   "a": "Y Rockstar"
+  },
+  {
+   "a": "Pregunta diecinueve:",
+   "sello": "PREGUNTA 19",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "x-avioneta"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_13.jpg"
+    }
+   ],
+   "a": "Todavía no"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0740"
+    },
+    {
+     "img": "p/Vice_City_09.jpg"
+    },
+    {
+     "clip": "precarga-34"
+    }
+   ],
+   "a": "Las primeras"
+  },
+  {
+   "a": "Y la",
+   "sello": "PREGUNTA 20",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "ext/ext-0848"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0596"
+    },
+    {
+     "img": "p/Vice_City_04.jpg"
+    },
+    {
+     "clip": "ext/ext-1028"
+    }
+   ],
+   "a": "¿tiene trucos?"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_06.jpg"
+    },
+    {
+     "clip": "ext/ext-1544"
+    }
+   ],
+   "a": "Así que"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1136"
+    },
+    {
+     "img": "p/Vice_City_27.jpg"
+    }
+   ],
+   "a": "secretos, trucos"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_24.jpg"
+    }
+   ],
+   "a": "¿Cuál de"
+  },
+  {
+   "a": "Te leo",
+   "tpl": "gta-marcador",
+   "topText": "cada día, lo nuevo de GTA 6",
+   "text": "SUSCRÍBETE",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Pregunta uno:",
+  "Pregunta dos:",
+  "Pregunta tres:",
+  "Pregunta cuatro:",
+  "Pregunta cinco:",
+  "Pregunta seis:"
+ ],
+ "flami": [
+  "Pregunta siete:",
+  "Pregunta ocho:",
+  "Pregunta nueve:"
+ ],
+ "claves": []
+}
