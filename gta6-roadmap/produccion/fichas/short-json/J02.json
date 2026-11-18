@@ -1,0 +1,81 @@
+{
+ "id": "J02",
+ "tipo": "short",
+ "voz": "voz-j02.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/J02.json",
+ "fin": 0.8,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0752",
+     "top": "ROBAR YA NO BASTA"
+    },
+    {
+     "img": "p/Vice_City_23.jpg"
+    }
+   ]
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_24.jpg"
+    },
+    {
+     "clip": "x-avioneta"
+    }
+   ],
+   "a": "Muchos tienen"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1100"
+    },
+    {
+     "img": "p/Vice_City_19.jpg"
+    }
+   ],
+   "a": "Antes, escanéalo"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_02.jpg"
+    },
+    {
+     "clip": "ext/ext-0512"
+    }
+   ],
+   "a": "Y cuidado"
+  },
+  {
+   "lista": [
+    {
+     "clip": "trailer-02"
+    },
+    {
+     "img": "p/Vice_City_14.jpg"
+    }
+   ],
+   "a": "Los coches"
+  },
+  {
+   "a": "¿Tú vas",
+   "tpl": "gta-marcador",
+   "topText": "cada día, lo nuevo de GTA 6",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Muchos tienen"
+ ],
+ "flami": [],
+ "claves": []
+}

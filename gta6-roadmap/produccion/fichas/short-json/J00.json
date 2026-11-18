@@ -1,0 +1,70 @@
+{
+ "id": "J00",
+ "tipo": "short",
+ "voz": "voz-j00.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/J00.json",
+ "fin": 0.8,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "trailer-22",
+     "top": "ESPAÑA: 00:00"
+    },
+    {
+     "img": "p/Vice_City_05.jpg"
+    }
+   ]
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_07.jpg"
+    },
+    {
+     "clip": "ext/ext-0944"
+    }
+   ],
+   "a": "Pero en"
+  },
+  {
+   "lista": [
+    {
+     "clip": "x-avioneta"
+    },
+    {
+     "img": "p/Vice_City_15.jpg"
+    }
+   ],
+   "a": "El juego"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_02.jpg"
+    },
+    {
+     "clip": "precarga-34"
+    }
+   ],
+   "a": "Y la"
+  },
+  {
+   "a": "¿Te vas",
+   "tpl": "gta-marcador",
+   "topText": "cada día, lo nuevo de GTA 6",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Pero en"
+ ],
+ "flami": [],
+ "claves": []
+}
