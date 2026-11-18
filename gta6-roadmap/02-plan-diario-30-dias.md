@@ -292,6 +292,13 @@ Guarda una captura de cada "sí" en `07-permisos`. **Sin un "sí" por escrito, n
 
 ## Cambio del 17/11 (noche): 3 vídeos largos por semana en las 2 semanas del lanzamiento
 - Semana 1 (19-25/11): L1 (20/11), L0b (22/11), L2 (25/11).
-- Semana 2 (26/11-2/12): **L9 «Las primeras 10 horas de GTA 6: lo que nadie te dice» (mié 26/11)**, L3 «GTA 6 castiga a estos jugadores (y premia a estos otros)» (sáb 29/11), L4 «7 hábitos de GTA 5 que te van a matar en GTA 6» (mar 2/12).
-- Después, 2 por semana: L5 «Todo lo que GTA 6 arregla de GTA 5» (6/12), L6 «Los 9 personajes de GTA 6: de quién NO te debes fiar» (9/12), L7 (13/12), L8 (16/12).
+- Semana 2 (26/11-2/12): **L9 «GTA 6: 20 cosas que debes saber antes de empezar (guía para principiantes)» (mié 26/11)**, L3 «TODOS los secretos y easter eggs de GTA 6 (semana 1)» (sáb 29/11), L4 «GTA 6 vs GTA 5: TODAS las diferencias (comparativa completa)» (mar 2/12).
+- Después, 2 por semana: L5 «Todo lo que GTA 6 arregla de GTA 5» (6/12), L6 «Todos los personajes de GTA 6 explicados (y de quién NO fiarte)» (9/12), L7 (13/12), L8 (16/12).
 - L9, L3, L4 y L5 necesitan datos del juego ya publicado: guion con prensa y comunidad confirmada en 2 fuentes a partir del 20/11.
+
+### Cambio del 18/11 (tarde): modo "máximo crecimiento" sin gameplay propio
+- Oier no puede grabar gameplay: todo se hace con material oficial + prensa y comunidad confirmada en 2 fuentes (base de Notion "Descubrimientos GTA VI").
+- **Noticias primero:** cada mañana desde el 19/11, barrido de prensa → Notion → Shorts 🎮 de lo más fuerte (objetivo: Short montado ~2 h después de que salga el hallazgo). 3 Shorts al día (11:00 · 16:00 · 21:00).
+- **Vídeos largos de búsqueda** (12-20 min, capítulos): L9 guía para principiantes (26/11), L3 todos los secretos semana 1 (29/11), L4 GTA 6 vs GTA 5 diferencias (2/12), L5 mapa explicado (6/12), L6 todos los personajes (9/12), L7 secretos parte 2 (13/12), L8 mejores coches (16/12). Las recopilaciones de secretos son serie: una cada 1-2 semanas.
+- **Shorts:** gancho en 2 s, 25-30 s, final que enlaza con el principio.
+- **Comunidad:** comentario fijado con pregunta en cada vídeo (página de Notion "Comentarios fijados") y responder todo en la primera hora.
