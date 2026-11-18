@@ -3,14 +3,11 @@
   {
    "lista": [
     {
-     "clip": "ext/ext-0848",
-     "top": "EL MÁS RARO"
+     "img": "p2/Artwork_Wallpapers_Cal_Hampton_Cal_Hampton_portrait.jpg",
+     "top": "ESPÍA DESDE EL SOFÁ"
     },
     {
-     "img": "p2/Artwork_Wallpapers_Cal_Hampton_Cal_Hampton_portrait.jpg"
-    },
-    {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Rooftop_With_Logos_Jason_Lucia_Rooftop_With_Logos_portrait.jpg"
+     "clip": "ext/ext-0848"
     }
    ]
   },
@@ -90,7 +87,7 @@
    "a": "Según Rockstar",
    "lista": [
     {
-     "clip": "ext/ext-1544",
+     "clip": "ext/ext-1232",
      "top": "MAREA BAJA"
     },
     {

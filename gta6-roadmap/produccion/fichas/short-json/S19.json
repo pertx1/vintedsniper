@@ -3,14 +3,11 @@
   {
    "lista": [
     {
-     "clip": "x-tren",
-     "top": "EL ATRACADOR"
+     "img": "p2/Artwork_Wallpapers_Raul_Bautista_Raul_Bautista_portrait.jpg",
+     "top": "TU HOMBRE PARA LOS ATRACOS"
     },
     {
-     "img": "p2/Artwork_Wallpapers_Raul_Bautista_Raul_Bautista_portrait.jpg"
-    },
-    {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Robbery_With_Logo_Jason_and_Lucia_Robbery_With_Logo_portrait.jpg"
+     "clip": "x-tren"
     }
    ]
   },

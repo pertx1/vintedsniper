@@ -3,19 +3,16 @@
   {
    "lista": [
     {
-     "clip": "trailer-30",
-     "top": "LA PISTA"
+     "img": "p/Lucia_Caminos_14.jpg",
+     "top": "PISTA: LIBERTY CITY"
     },
     {
-     "img": "p/Lucia_Caminos_14.jpg"
-    },
-    {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_02_With_Logos_Jason_and_Lucia_02_With_Logos_portrait.jpg"
+     "clip": "trailer-30"
     }
    ]
   },
   {
-   "a": "Está en la biografía",
+   "a": "Está en su biografía",
    "ficha": "Lucía Caminos",
    "img": "p/Lucia_Caminos_13.jpg",
    "cx": 0.32,

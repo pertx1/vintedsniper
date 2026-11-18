@@ -4,15 +4,15 @@
    "lista": [
     {
      "clip": "precarga-40",
-     "top": "¿GTA 6 ONLINE?"
+     "top": "SIN ONLINE (DE MOMENTO)"
     },
     {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+     "clip": "ext/ext-0992"
     }
    ]
   },
   {
-   "a": "La respuesta corta",
+   "a": "cuidado",
    "lista": [
     {
      "clip": "ext/ext-1028"
@@ -103,7 +103,7 @@
   }
  ],
  "booms": [
-  "no lo ha anunciado"
+  "no ha anunciado"
  ],
  "flami": [
   "O sea"

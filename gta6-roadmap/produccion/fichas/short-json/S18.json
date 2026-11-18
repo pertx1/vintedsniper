@@ -3,14 +3,11 @@
   {
    "lista": [
     {
-     "clip": "trailer-22",
-     "top": "VIRALES"
+     "img": "p2/Artwork_Wallpapers_Real_Dimez_Real_Dimez_portrait.jpg",
+     "top": "EMPEZARON EXTORSIONANDO"
     },
     {
-     "img": "p2/Artwork_Wallpapers_Real_Dimez_Real_Dimez_portrait.jpg"
-    },
-    {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
+     "clip": "trailer-22"
     }
    ]
   },
@@ -63,7 +60,7 @@
      "img": "p/Vice_City_07.jpg"
     },
     {
-     "clip": "ext/ext-1544"
+     "clip": "ext/ext-1028"
     }
    ]
   },

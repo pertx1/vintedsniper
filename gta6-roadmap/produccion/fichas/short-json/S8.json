@@ -3,14 +3,11 @@
   {
    "lista": [
     {
-     "clip": "ext/ext-1232",
-     "top": "EL CASERO DE JASON"
+     "img": "p2/Artwork_Wallpapers_Brian_Heder_Brian_Heder_portrait.jpg",
+     "top": "JASON NO PAGA ALQUILER"
     },
     {
-     "img": "p2/Artwork_Wallpapers_Brian_Heder_Brian_Heder_portrait.jpg"
-    },
-    {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Beach_With_Logos_Jason_and_Lucia_Beach_With_Logos_portrait.jpg"
+     "clip": "ext/ext-1232"
     }
    ]
   },
