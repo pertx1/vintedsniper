@@ -67,3 +67,8 @@ Medición del S1: voz sola −24,4 dB de media; mezcla −22,6 dB; pico −1,9 d
 
 ## Higgsfield para miniaturas (desde el 18/11)
 Usar siempre el modelo más barato: `gpt_image_2_6` con `quality: "low"` y `resolution: "1k"` (0,25 créditos por imagen; antes 2,75 con high/2k). Solo subir calidad si Oier lo pide para una miniatura concreta. El texto se pone después con `tools/mini2.py` (Pricedown), no con la IA.
+
+## Gancho de los Shorts (desde el 18/11, tras el 62,5 % de "pasar de largo" del S12)
+1. Primera frase dirigida al espectador o con el dato más sorprendente en los 2 primeros segundos ("Si juegas en PC, hoy no vas a poder…", "Esta mujer salió de la cárcel…"). Nada de "Cuatro cosas que…" como arranque.
+2. Primer plano: una cara o movimiento, no una vista general de la ciudad.
+3. El texto de arriba del primer plano dice el dato, no el tema.

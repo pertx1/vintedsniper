@@ -3,9 +3,55 @@
   {
    "lista": [
     {
-     "clip": "trailer-09",
-     "cx": 0.3,
-     "top": "HOY SALE GTA 6"
+     "clip": "trailer-26",
+     "cx": 0.5,
+     "top": "SALIÓ DE LA CÁRCEL"
+    },
+    {
+     "img": "p/Lucia_Caminos_05.jpg"
+    }
+   ]
+  },
+  {
+   "a": "la controlas tú",
+   "lista": [
+    {
+     "clip": "ext/ext-0392"
+    },
+    {
+     "img": "p/Lucia_Caminos_01.jpg",
+     "sello": "DESDE HOY: TÚ",
+     "acc": "#EC517D",
+     "g": -4
+    }
+   ]
+  },
+  {
+   "a": "Es Lucía",
+   "ficha": "Lucía Caminos",
+   "img": "p/Lucia_Caminos_13.jpg",
+   "cx": 0.32,
+   "sub": "Protagonista",
+   "bot": "Aprendió a pelear al andar",
+   "g": -1
+  },
+  {
+   "a": "Su padre",
+   "lista": [
+    {
+     "img": "p/Lucia_Caminos_12.jpg"
+    },
+    {
+     "clip": "ext/ext-0404"
+    }
+   ]
+  },
+  {
+   "a": "la llevó",
+   "lista": [
+    {
+     "clip": "ext/ext-0968",
+     "top": "CÁRCEL DE LEONIDA"
     },
     {
      "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_01_With_Logos_Jason_and_Lucia_01_With_Logos_portrait.jpg"
@@ -13,18 +59,12 @@
    ]
   },
   {
-   "a": "horas y horas",
-   "lista": [
-    {
-     "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Beach_Jason_and_Lucia_Beach_portrait.jpg"
-    },
-    {
-     "clip": "ext/ext-0512"
-    }
-   ]
+   "a": "Ahora solo quiere",
+   "clip": "trailer-09",
+   "cx": 0.3
   },
   {
-   "a": "Él es Jason",
+   "a": "Y él es Jason",
    "ficha": "Jason Duval",
    "img": "p/Jason_Duval_02.jpg",
    "sub": "Protagonista",
@@ -60,7 +100,7 @@
    ]
   },
   {
-   "a": "Solo quiere",
+   "a": "Solo quiere una",
    "clip": "trailer-12",
    "cx": 0.4
   },
@@ -73,54 +113,6 @@
     {
      "img": "p/Jason_Duval_19.jpg",
      "sello": "TODO SE COMPLICA"
-    }
-   ]
-  },
-  {
-   "a": "Ella es Lucía",
-   "ficha": "Lucía Caminos",
-   "img": "p/Lucia_Caminos_13.jpg",
-   "cx": 0.32,
-   "sub": "Protagonista",
-   "bot": "Aprendió a pelear al andar",
-   "g": -1
-  },
-  {
-   "a": "Luchar por su familia",
-   "lista": [
-    {
-     "img": "p/Lucia_Caminos_01.jpg"
-    },
-    {
-     "clip": "ext/ext-0392"
-    }
-   ]
-  },
-  {
-   "a": "la cárcel",
-   "lista": [
-    {
-     "clip": "ext/ext-0968",
-     "top": "CÁRCEL DE LEONIDA"
-    },
-    {
-     "img": "p/Lucia_Caminos_05.jpg"
-    }
-   ]
-  },
-  {
-   "a": "por pura suerte",
-   "clip": "trailer-26",
-   "cx": 0.5
-  },
-  {
-   "a": "Ahora solo quiere",
-   "lista": [
-    {
-     "clip": "ext/ext-0404"
-    },
-    {
-     "img": "p/Lucia_Caminos_12.jpg"
     }
    ]
   },
@@ -168,17 +160,17 @@
   }
  ],
  "booms": [
-  "Él es Jason",
-  "Ella es Lucía"
+  "Es Lucía",
+  "Y él es Jason"
  ],
  "flami": [
   "Rockstar lo resume"
  ],
  "claves": [
-  "Jason",
-  "Lucía",
   "cárcel",
-  "suerte.",
+  "suerte…",
+  "tú.",
+  "Jason",
   "salida."
  ],
  "id": "S4",

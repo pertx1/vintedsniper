@@ -1,24 +1,24 @@
 {
  "planos": [
   {
+   "sello": "PC: HOY NO",
+   "acc": "#EC517D",
+   "clip": "trailer-21",
+   "ss": 1.9,
+   "cx": 0.45,
+   "top": "GTA 6 EN PC"
+  },
+  {
+   "a": "no vas a poder",
    "lista": [
     {
      "clip": "precarga-40",
-     "ss": 0.5,
-     "top": "¿Y EN PC?"
+     "ss": 0.5
     },
     {
      "img": "p2/Artwork_Wallpapers_Jason_and_Lucia_Lock_and_Load_With_Logos_Jason_Lucia_Lock_And_Load_With_Logos_portrait.jpg"
     }
    ]
-  },
-  {
-   "a": "pero no en PC",
-   "sello": "PC: NO",
-   "acc": "#EC517D",
-   "clip": "trailer-21",
-   "ss": 1.9,
-   "cx": 0.45
   },
   {
    "a": "Cuándo llegará",
@@ -113,7 +113,7 @@
   }
  ],
  "booms": [
-  "pero no en PC",
+  "no vas a poder",
   "dos mil veintisiete"
  ],
  "flami": [
