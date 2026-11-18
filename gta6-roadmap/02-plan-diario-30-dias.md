@@ -303,4 +303,4 @@ Guarda una captura de cada "sí" en `07-permisos`. **Sin un "sí" por escrito, n
 - **Shorts:** gancho en 2 s, 25-30 s, final que enlaza con el principio.
 - **Comunidad:** comentario fijado con pregunta en cada vídeo (página de Notion "Comentarios fijados") y responder todo en la primera hora.
 - **Largos añadidos el 18/11 (Google Trends: lo que más se buscó con GTA 5 y lo que sube de GTA 6):** L10 «GTA 6 tiene un 99: lo que dice TODA la prensa» (sáb 21/11), L11 «TODOS los trucos de GTA 6» (mar 24/11), L12 «Cómo ganar dinero RÁPIDO en GTA 6 (dinero del juego)» (lun 30/11), L13 «Coches secretos de GTA 6 y dónde encontrarlos» (vie 4/12). L8 pasa a «Lugares secretos de GTA 6». Resultado: 4 largos/semana hasta el 6/12 y 3 después. L11-L13 solo con datos confirmados en 2 fuentes (si no hay trucos: «GTA 6 NO tiene trucos: esto es lo que hay»).
-- Shorts de noticias del 18/11: J00 «A qué hora sale GTA 6 en España» (20:00) y J01 «99 en Metacritic» (22:30).
+- Shorts de noticias del 18/11: J00 «A qué hora sale GTA 6 en España» (20:00) y J00M «99 en Metacritic» (22:30).
