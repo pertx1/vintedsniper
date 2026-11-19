@@ -21,104 +21,64 @@
    "tpl": "gta-sinopsis",
    "text": "🔫 ARMAS",
    "items": [
-    "Armas de matón",
-    "Armas de profesional",
-    "Armas de locos",
-    "Vida y chaleco",
-    "Munición infinita"
+    "Armas · △ R2 ← L1 ✕ → △ ↓ □ L1 L1 L1",
+    "Vida y chaleco · ○ L1 △ R2 ✕ □ ○ → □ L1 L1 L1",
+    "Invencible · → ✕ → ← → R1 → ← ✕ △",
+    "⚠ Códigos de GTA 5, sin probar en GTA 6"
    ],
-   "value": 25
-  },
-  {
-   "a": "y munición",
-   "clip": "trailer-27",
-   "top": "SIN PROBAR"
+   "value": 9
   },
   {
    "a": "Para la policía",
    "tpl": "gta-sinopsis",
    "text": "🚔 POLICÍA",
    "items": [
-    "Subir estrellas",
-    "Bajar estrellas",
-    "Quitarlas del todo",
-    "Que la poli desaparezca"
+    "Subir estrellas · R1 R1 ○ R2 ← → ← → ← →",
+    "Bajar estrellas · R1 R1 ○ R2 → ← → ← → ←",
+    "⚠ Códigos de GTA 5, sin probar en GTA 6"
    ],
-   "value": 25
-  },
-  {
-   "a": "quitártelas del",
-   "lista": [
-    {
-     "clip": "ext/ext-0848",
-     "top": "SIN PROBAR"
-    },
-    {
-     "img": "p/Jason_and_Lucia_14.jpg"
-    }
-   ]
+   "value": 9
   },
   {
    "a": "Para coches",
    "tpl": "gta-sinopsis",
    "text": "🚗 COCHES",
    "items": [
-    "Comet",
-    "PCJ",
-    "Sánchez",
-    "Limusina",
-    "Carrito de golf",
-    "Camión de la basura"
+    "Comet · R1 ○ R2 → L1 L2 ✕ ✕ □ R1",
+    "PCJ · R1 → ← → R2 ← → □ → L2 L1 L1",
+    "Sánchez · ○ ✕ L1 ○ ○ L1 ○ R1 R2 L2 L1 L1",
+    "Limusina · R2 → L2 ← ← R1 L1 ○ →",
+    "Carrito de golf · ○ L1 ← R1 L2 ✕ R1 L1 ○ ✕",
+    "Camión basura · ○ R1 ○ R1 ← ← R1 L1 ○ →",
+    "⚠ Códigos de GTA 5, sin probar en GTA 6"
    ],
-   "value": 25
-  },
-  {
-   "a": "el carrito",
-   "clip": "ext/ext-0512",
-   "top": "SIN PROBAR"
+   "value": 9
   },
   {
    "a": "Y si quieres",
    "tpl": "gta-sinopsis",
    "text": "🚁 ALGO MÁS GORDO",
    "items": [
-    "Buzzard",
-    "Lancha",
-    "Tanque",
-    "Jetpack"
+    "Buzzard · ○ ○ L1 ○ ○ ○ L1 L2 R1 △ ○ △",
+    "Lancha · sin código conocido",
+    "Tanque · sin código conocido",
+    "Jetpack · sin código conocido",
+    "⚠ Códigos de GTA 5, sin probar en GTA 6"
    ],
-   "value": 25
-  },
-  {
-   "a": "un tanque",
-   "lista": [
-    {
-     "clip": "x-avioneta",
-     "top": "SIN PROBAR"
-    },
-    {
-     "clip": "x-marina"
-    }
-   ]
+   "value": 9
   },
   {
    "a": "Y para el mundo",
    "tpl": "gta-sinopsis",
    "text": "🌎 EL MUNDO",
    "items": [
-    "Cambiar el clima",
-    "Tormenta",
-    "Cámara lenta",
-    "Nadar rápido",
-    "Supersalto",
-    "Nitro"
+    "Clima · R2 ✕ L1 L1 L2 L2 L2 □",
+    "Cámara lenta · △ ← → → □ R2 R1",
+    "Nadar rápido · ← ← L1 → → R2 ← L2 →",
+    "Supersalto · ← ← △ △ → → ← → □ R1 R2",
+    "⚠ Códigos de GTA 5, sin probar en GTA 6"
    ],
-   "value": 25
-  },
-  {
-   "a": "nadar rápido",
-   "clip": "trailer-06",
-   "top": "SIN PROBAR"
+   "value": 9
   },
   {
    "a": "Ahora, ojo",
