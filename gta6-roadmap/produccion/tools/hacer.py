@@ -48,6 +48,8 @@ def cortar(vid, ss, d, cx, vertical, nombre):
         lento, bucle = 2.0, ["-stream_loop", "-1"]
     out_rel = f"gen/{nombre}.mp4"
     out = f"{PUB}/{out_rel}"
+    if os.environ.get("CACHE_DESDE") and os.path.exists(out) and os.path.getmtime(out) > float(os.environ["CACHE_DESDE"]):
+        return out_rel
     os.makedirs(os.path.dirname(out), exist_ok=True)
     vf = []
     if vertical:

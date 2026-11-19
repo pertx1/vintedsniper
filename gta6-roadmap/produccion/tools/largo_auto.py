@@ -11,7 +11,7 @@ CLAVES = [(r'luc[ií]a', 'lucia', 'Lucia_Caminos'), (r'jason', 'jason', 'Jason_D
           (r'pantano|caim[aá]n|animal|iguana|serpiente|ciervo', 'naturaleza', 'Grassrivers'), (r'coche|conduc|veh[ií]culo|gatillo|mando', 'coches', 'Vice_City'),
           (r'polic[ií]a|arma|violencia|atraca', 'accion', 'Jason_and_Lucia'), (r'm[uú]sica|canci[oó]n|rap|banda sonora', 'musica', 'Real_Dimez'),
           (r'monta[ñn]a|pueblo', 'pueblo', 'Ambrosia'), (r'brian', 'brian', 'Brian_Heder'), (r'cal hampton', 'cal', 'Cal_Hampton'), (r'raul', 'raul', 'Raul_Bautista')]
-NUM = {'uno':1,'dos':2,'tres':3,'cuatro':4,'cinco':5,'seis':6,'siete':7,'ocho':8,'nueve':9,'diez':10,'once':11,'doce':12,'trece':13,'catorce':14,'quince':15,'dieciséis':16,'diecisiete':17,'dieciocho':18,'diecinueve':19,'veinte':20}
+NUM = {'uno':1,'dos':2,'tres':3,'cuatro':4,'cinco':5,'seis':6,'siete':7,'ocho':8,'nueve':9,'diez':10,'once':11,'doce':12,'trece':13,'catorce':14,'quince':15,'dieciséis':16,'diecisiete':17,'dieciocho':18,'diecinueve':19,'veinte':20,'veintiuno':21,'veintidós':22,'veintitrés':23,'veinticuatro':24,'veinticinco':25,'veintiséis':26,'veintisiete':27,'veintiocho':28,'veintinueve':29,'treinta':30}
 rnd = random.Random(vid); usados = []
 def coge(lista):
     l = [x for x in lista if x not in usados[-25:]] or lista
@@ -31,7 +31,7 @@ for k, f in enumerate(frases):
     m = re.match(r'(y la )?pregunta (\w+)', txt)
     if m and k > 0:
         n = NUM.get(m.group(2).strip(':'), '')
-        planos.append({'a': a, 'sello': f'PREGUNTA {n}', 'acc': '#EC517D' if n and n % 2 else '#FFE02E', 'g': -5 if n and n % 2 else 5, 'clip': coge(POOLS['gancho' if not n or n > 19 else pool])})
+        planos.append({'a': a, 'sello': f'PREGUNTA {n}', 'acc': '#EC517D' if n and n % 2 else '#FFE02E', 'g': -5 if n and n % 2 else 5, 'clip': coge(POOLS['gancho' if not n or n > 29 else pool])})
         booms.append(a); continue
     dur = W[sum(len(x) for x in frases[:k+1]) - 1]['end'] - W[sum(len(x) for x in frases[:k])]['start']
     n_items = 1 if dur < 2.6 else 2 if dur < 5 else 3
