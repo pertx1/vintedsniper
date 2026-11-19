@@ -1,0 +1,173 @@
+{
+ "id": "J06L",
+ "tipo": "short",
+ "voz": "voz-j06l.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/J06L.json",
+ "fin": 0.8,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0752",
+     "top": "LISTA VIRAL · SIN PROBAR"
+    },
+    {
+     "clip": "ext/ext-1136"
+    }
+   ]
+  },
+  {
+   "a": "Para armas",
+   "tpl": "gta-sinopsis",
+   "text": "🔫 ARMAS",
+   "items": [
+    "Armas de matón",
+    "Armas de profesional",
+    "Armas de locos",
+    "Vida y chaleco",
+    "Munición infinita"
+   ],
+   "value": 25
+  },
+  {
+   "a": "y munición",
+   "clip": "trailer-27",
+   "top": "SIN PROBAR"
+  },
+  {
+   "a": "Para la policía",
+   "tpl": "gta-sinopsis",
+   "text": "🚔 POLICÍA",
+   "items": [
+    "Subir estrellas",
+    "Bajar estrellas",
+    "Quitarlas del todo",
+    "Que la poli desaparezca"
+   ],
+   "value": 25
+  },
+  {
+   "a": "quitártelas del",
+   "lista": [
+    {
+     "clip": "ext/ext-0848",
+     "top": "SIN PROBAR"
+    },
+    {
+     "img": "p/Jason_and_Lucia_14.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Para coches",
+   "tpl": "gta-sinopsis",
+   "text": "🚗 COCHES",
+   "items": [
+    "Comet",
+    "PCJ",
+    "Sánchez",
+    "Limusina",
+    "Carrito de golf",
+    "Camión de la basura"
+   ],
+   "value": 25
+  },
+  {
+   "a": "el carrito",
+   "clip": "ext/ext-0512",
+   "top": "SIN PROBAR"
+  },
+  {
+   "a": "Y si quieres",
+   "tpl": "gta-sinopsis",
+   "text": "🚁 ALGO MÁS GORDO",
+   "items": [
+    "Buzzard",
+    "Lancha",
+    "Tanque",
+    "Jetpack"
+   ],
+   "value": 25
+  },
+  {
+   "a": "un tanque",
+   "lista": [
+    {
+     "clip": "x-avioneta",
+     "top": "SIN PROBAR"
+    },
+    {
+     "clip": "x-marina"
+    }
+   ]
+  },
+  {
+   "a": "Y para el mundo",
+   "tpl": "gta-sinopsis",
+   "text": "🌎 EL MUNDO",
+   "items": [
+    "Cambiar el clima",
+    "Tormenta",
+    "Cámara lenta",
+    "Nadar rápido",
+    "Supersalto",
+    "Nitro"
+   ],
+   "value": 25
+  },
+  {
+   "a": "nadar rápido",
+   "clip": "trailer-06",
+   "top": "SIN PROBAR"
+  },
+  {
+   "a": "Ahora, ojo",
+   "sello": "NINGUNO PROBADO",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-1232"
+  },
+  {
+   "a": "y muchos vienen",
+   "lista": [
+    {
+     "img": "vc/OceanDrive-GTAVC.jpg"
+    },
+    {
+     "clip": "ext/ext-0992"
+    }
+   ]
+  },
+  {
+   "a": "En cuanto",
+   "sello": "LOS PRUEBO Y TE DIGO",
+   "acc": "#FFE02E",
+   "g": 5,
+   "img": "p/Vice_City_15.jpg"
+  },
+  {
+   "a": "Sígueme para",
+   "tpl": "gta-marcador",
+   "topText": "¿cuál vas a probar primero? 👇",
+   "text": "SÍGUEME",
+   "items": [
+    "Armas",
+    "Policía",
+    "Coches"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Para armas",
+  "Para la policía",
+  "Para coches",
+  "Ahora, ojo"
+ ],
+ "flami": [],
+ "claves": [
+  "viral.",
+  "probado,",
+  "funcionan"
+ ]
+}
