@@ -1,0 +1,4 @@
+[{"frase":"veinte dólares de diferencia","tipo":"precio","value":20,"unit":"$","text":"DIFERENCIA"},
+ {"frase":"cinco negocios que solo","tipo":"app","text":"SOLO ULTIMATE","items":["Rideout Customs","Salón de Sara","Stock 305","Electric Fang","One-Eyed Willie's"]},
+ {"frase":"trescientos noventa y nueve","tipo":"precio","value":399,"unit":"$","text":"COLLECTOR'S BOX"},
+ {"frase":"doscientos doce gigas","tipo":"precio","value":212,"unit":"-","text":"GIGAS","topText":"lo que ocupa"}]
