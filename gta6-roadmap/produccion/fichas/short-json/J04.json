@@ -9,7 +9,7 @@
    "lista": [
     {
      "clip": "comunidad/avion",
-     "top": "EL AVIÓN NO CHOCA"
+     "top": "EL AVIÓN NO SE ROMPE"
     },
     {
      "clip": "x-avioneta"
@@ -17,54 +17,71 @@
    ]
   },
   {
-   "lista": [
-    {
-     "img": "p/Vice_City_24.jpg"
-    },
-    {
-     "clip": "ext/ext-0596"
-    }
-   ],
-   "a": "Lo ha"
+   "a": "simplemente se",
+   "sello": "SOLO SE CAE",
+   "acc": "#EC517D",
+   "g": -5,
+   "clip": "ext/ext-1232"
   },
   {
+   "a": "Los aviones",
    "lista": [
+    {
+     "img": "p/Vice_City_04.jpg"
+    },
     {
      "clip": "ext/ext-1136"
-    },
-    {
-     "img": "p/Vice_City_23.jpg"
     }
-   ],
-   "a": "Y no"
+   ]
   },
   {
+   "a": "Unos creen",
    "lista": [
     {
-     "img": "p/Vice_City_09.jpg"
+     "clip": "ext/ext-0992"
     },
     {
-     "clip": "trailer-21"
+     "img": "p/Vice_City_20.jpg"
     }
-   ],
-   "a": "De momento,"
+   ]
   },
   {
-   "a": "¿Te ha",
+   "a": "Otros creen",
+   "lista": [
+    {
+     "img": "p/Vice_City_13.jpg"
+    },
+    {
+     "clip": "trailer-22"
+    }
+   ]
+  },
+  {
+   "a": "Rockstar no",
+   "sello": "SIN EXPLICACIÓN",
+   "acc": "#FFE02E",
+   "g": 5,
+   "clip": "precarga-34"
+  },
+  {
+   "a": "¿Te gustaría",
    "tpl": "gta-marcador",
    "topText": "escribe SÍ o NO 👇",
    "text": "SÍGUEME",
    "items": [
     "Secretos",
-    "Trucos",
+    "Bugs",
     "Easter eggs"
    ],
    "value": 25
   }
  ],
  "booms": [
-  "Lo ha"
+  "simplemente se"
  ],
  "flami": [],
- "claves": []
+ "claves": [
+  "explota,",
+  "cae."
+ ]
 }

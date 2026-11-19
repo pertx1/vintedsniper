@@ -1,0 +1,109 @@
+{
+ "id": "J06",
+ "tipo": "short",
+ "voz": "voz-j06.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/J06.json",
+ "fin": 0.8,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0752",
+     "top": "LISTA VIRAL DE TRUCOS"
+    },
+    {
+     "clip": "ext/ext-1136"
+    }
+   ]
+  },
+  {
+   "a": "Armas infinitas",
+   "tpl": "gta-sinopsis",
+   "text": "LA LISTA",
+   "items": [
+    "Armas",
+    "Policía",
+    "Coches",
+    "Tanque y jetpack",
+    "Dinero"
+   ],
+   "value": 25
+  },
+  {
+   "a": "tanques, jetpacks",
+   "lista": [
+    {
+     "clip": "x-avioneta"
+    },
+    {
+     "img": "p/Vice_City_06.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Mito o verdad",
+   "sello": "¿MITO O VERDAD?",
+   "acc": "#FFE02E",
+   "g": -5,
+   "clip": "ext/ext-1232"
+  },
+  {
+   "a": "Muchos de esos",
+   "lista": [
+    {
+     "img": "vc/OceanDrive-GTAVC.jpg"
+    },
+    {
+     "clip": "ext/ext-0992"
+    }
+   ]
+  },
+  {
+   "a": "y Rockstar no",
+   "sello": "SIN CONFIRMAR",
+   "acc": "#EC517D",
+   "g": 5,
+   "clip": "precarga-34"
+  },
+  {
+   "a": "Lo del dinero",
+   "sello": "DINERO: MITO",
+   "acc": "#EC517D",
+   "g": -6,
+   "img": "p/Vice_City_15.jpg"
+  },
+  {
+   "a": "En cuanto alguien",
+   "lista": [
+    {
+     "clip": "trailer-22"
+    },
+    {
+     "img": "p/Jason_and_Lucia_14.jpg"
+    }
+   ]
+  },
+  {
+   "a": "¿Cuál quieres",
+   "tpl": "gta-marcador",
+   "topText": "escribe ARMAS, COCHES o POLICÍA 👇",
+   "text": "SÍGUEME",
+   "items": [
+    "Armas",
+    "Coches",
+    "Policía"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Mito o verdad",
+  "Lo del dinero"
+ ],
+ "flami": [],
+ "claves": [
+  "viral.",
+  "mito:",
+  "dinero."
+ ]
+}
