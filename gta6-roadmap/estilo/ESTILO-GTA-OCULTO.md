@@ -113,3 +113,13 @@ Canales grandes de GTA 6 (100K–3,4M vistas en días). Patrones comunes:
 8. **Dramático**: una frase manuscrita blanca subrayada en rojo sobre plano oscuro con luces de policía («THEY REMEMBER»).
 
 Títulos de esas referencias que adaptamos: «Todo lo que tienes que saber antes de jugar», «150+ cosas confirmadas», «GTA 6 hace cosas que GTA 5 nunca pudo», «¿Se puede despistar a la policía en GTA 6?», «GTA 6 vs GTA 5 (sin spoilers)», «El mapa de GTA 6 es imposible», «Armas legendarias pronto», «Dinero rápido» (del juego), «¿GTA 6 está sobrevalorado?».
+
+## Retención ≥ 50 % (desde el 20/11) — reglas obligatorias para Shorts
+Motivo: los primeros Shorts (25–45 s) se quedaban en ~25 % visto entero.
+1. **Duración 15–20 s** (45–55 palabras). Nunca más de 25 s.
+2. **Primera frase = la afirmación más fuerte**, sin preámbulo («Bigfoot existe en GTA seis», «GTA seis no sale en PC»). Nada de «¿Mito o verdad?» ni «Hoy te cuento».
+3. **Frases de 2–5 palabras** en la parte central («Nada. No explota. No rompe el edificio.»): cortes cada 1–2 s.
+4. **Voz a ×1,1** (`atempo=1.1`) y sin silencio inicial (`silenceremove`).
+5. **Sin cierre «SÍGUEME»** ni tarjeta final: la gente desliza en cuanto ve el CTA. Se termina con una pregunta de 3–5 palabras y el vídeo vuelve al principio (bucle). `fin` 0,25 s.
+6. La llamada a comentar va en el **comentario fijado** y en la descripción, no hablada al final.
+7. `tools/jshort.py`: el marcador final solo sale con `CIERRE=1`; los motion graphics solo con `MG=1`.
