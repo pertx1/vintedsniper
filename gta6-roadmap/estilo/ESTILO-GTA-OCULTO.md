@@ -100,3 +100,16 @@ Para explicar mecánicas, como en las referencias de TikTok: `{"a":"…","tpl":"
 ## Vídeos largos dinámicos (desde el 19/11)
 `python3 tools/dinamizar.py GENID graf/GENID.json` sobre el gen ya montado: parte cada imagen en clip oficial (≤2,4 s) + imagen, mete 2-7 motion graphics en las frases con datos (precio, línea de tiempo, app, rastreador, velocímetro) y efectos de sonido propios (sfx/: stamp en sellos, ping en gráficos, cash con dinero, siren con policía, scratch con «ojo», shutter con fotos; mínimo 6 s entre efectos). Render con `tools/render_ins.sh GENID`.
 Inspiración de miniatura (Willyrex, «¿Qué pasa si tienes 6 estrellas en GTA VI?», 498 K en 11 h): escena de acción enorme + cara de reacción en recuadro + fila de 6 estrellas; título «¿QUÉ PASA SI…?».
+
+## Miniaturas: referencias que funcionan (19/11, carpeta `estilo/referencias-miniaturas/`)
+Canales grandes de GTA 6 (100K–3,4M vistas en días). Patrones comunes:
+1. **1–3 palabras ENORMES**, mayúsculas, amarillo/blanco con borde negro grueso, ocupando 1/3 de la imagen (lado izquierdo o franja superior). Ej.: «LEGENDARY WEAPONS EARLY!», «MAKE MONEY FAST», «OVERHYPED.».
+2. **Un personaje oficial recortado** (Jason o Lucía), cara grande y expresiva, mirando a cámara o al elemento clave. Nunca escenas generadas recargadas.
+3. **Un elemento de prueba**: tarjetas de inventario con precio (armas), cifra verde «$78000 / +$50000», móvil con la app VI, mapa, coches comparados.
+4. **Logo GTA VI** en una esquina (y logo GTA V si es comparación).
+5. **Fondos limpios**: cielo/playa de Leonida, degradado synthwave rosa-morado con texto estilo Vice («EVERYTHING»), o la Tierra de noche.
+6. **Comparaciones**: pantalla partida mitad GTA 6 / mitad GTA 5 + «VS» rojo grande + etiqueta «SIN SPOILERS».
+7. **Serie**: misma plantilla y cambia solo el número/personaje («100+ FEATURES» → «150+ FEATURES PARTE 2»).
+8. **Dramático**: una frase manuscrita blanca subrayada en rojo sobre plano oscuro con luces de policía («THEY REMEMBER»).
+
+Títulos de esas referencias que adaptamos: «Todo lo que tienes que saber antes de jugar», «150+ cosas confirmadas», «GTA 6 hace cosas que GTA 5 nunca pudo», «¿Se puede despistar a la policía en GTA 6?», «GTA 6 vs GTA 5 (sin spoilers)», «El mapa de GTA 6 es imposible», «Armas legendarias pronto», «Dinero rápido» (del juego), «¿GTA 6 está sobrevalorado?».
