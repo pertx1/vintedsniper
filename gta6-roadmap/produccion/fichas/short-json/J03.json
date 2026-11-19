@@ -8,86 +8,94 @@
   {
    "lista": [
     {
-     "clip": "x-marina",
-     "top": "TE LO CHIVA UN LORO"
+     "img": "p/Grassrivers_03.jpg",
+     "top": "¿BIGFOOT EN GTA 6?"
     },
     {
-     "img": "p/Leonida_Keys_02.jpg",
-     "cx": 0.3
+     "clip": "trailer-10"
     }
    ]
   },
   {
-   "lista": [
-    {
-     "img": "p/Vice_City_01.jpg"
-    },
-    {
-     "clip": "trailer-21"
-    }
-   ],
-   "a": "Cuando Shirley,"
+   "a": "Mito o verdad",
+   "sello": "¿MITO O VERDAD?",
+   "acc": "#FFE02E",
+   "g": -5,
+   "clip": "x-iguana"
   },
   {
-   "lista": [
-    {
-     "clip": "ext/ext-0572"
-    },
-    {
-     "img": "p/Vice_City_25.jpg"
-    }
-   ],
-   "a": "Eso te"
+   "a": "Verdad: los",
+   "sello": "VERDAD",
+   "acc": "#3DDC84",
+   "g": 6,
+   "img": "p/Grassrivers_01.jpg"
   },
   {
+   "a": "Se llama",
    "lista": [
     {
-     "img": "p/Vice_City_18.jpg"
+     "clip": "ext/ext-0464"
     },
     {
-     "clip": "ext/ext-1100"
-    }
-   ],
-   "a": "Vuelve, rodea"
-  },
-  {
-   "a": "Habla con",
-   "lista": [
-    {
-     "clip": "x-keys"
-    },
-    {
-     "img": "p/Vice_City_13.jpg"
+     "clip": "trailer-10"
     }
    ]
   },
   {
+   "a": "Lo verás",
    "lista": [
     {
-     "img": "p/Vice_City_07.jpg"
+     "img": "p/Grassrivers_02.jpg"
     },
     {
-     "clip": "ext/ext-1004"
+     "clip": "trailer-08"
     }
-   ],
-   "a": "Y no"
+   ]
   },
   {
-   "a": "¿Ya lo",
+   "a": "corre más",
+   "lista": [
+    {
+     "img": "p/Grassrivers_08.jpg"
+    },
+    {
+     "img": "p/Grassrivers_04.jpg"
+    }
+   ]
+  },
+  {
+   "a": "Y si",
+   "lista": [
+    {
+     "img": "p/Mount_Kalaga_National_Park_01.jpg"
+    },
+    {
+     "clip": "trailer-06"
+    }
+   ]
+  },
+  {
+   "a": "¿Vas a",
    "tpl": "gta-marcador",
    "topText": "escribe SÍ o NO 👇",
    "text": "SÍGUEME",
    "items": [
+    "Mitos",
     "Secretos",
-    "Trucos",
     "Easter eggs"
    ],
    "value": 25
   }
  ],
  "booms": [
-  "Cuando Shirley,"
+  "Mito o verdad",
+  "Verdad: los"
  ],
  "flami": [],
- "claves": []
+ "claves": [
+  "Bigfoot",
+  "Verdad:",
+  "Skunk",
+  "balas"
+ ]
 }
