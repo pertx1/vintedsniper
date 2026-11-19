@@ -1,0 +1,93 @@
+{
+ "id": "J03",
+ "tipo": "short",
+ "voz": "voz-j03.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/J03.json",
+ "fin": 0.8,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "x-marina",
+     "top": "TE LO CHIVA UN LORO"
+    },
+    {
+     "img": "p/Leonida_Keys_02.jpg",
+     "cx": 0.3
+    }
+   ]
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_01.jpg"
+    },
+    {
+     "clip": "trailer-21"
+    }
+   ],
+   "a": "Cuando Shirley,"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-0572"
+    },
+    {
+     "img": "p/Vice_City_25.jpg"
+    }
+   ],
+   "a": "Eso te"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_18.jpg"
+    },
+    {
+     "clip": "ext/ext-1100"
+    }
+   ],
+   "a": "Vuelve, rodea"
+  },
+  {
+   "a": "Habla con",
+   "lista": [
+    {
+     "clip": "x-keys"
+    },
+    {
+     "img": "p/Vice_City_13.jpg"
+    }
+   ]
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_07.jpg"
+    },
+    {
+     "clip": "ext/ext-1004"
+    }
+   ],
+   "a": "Y no"
+  },
+  {
+   "a": "¿Ya lo",
+   "tpl": "gta-marcador",
+   "topText": "escribe SÍ o NO 👇",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Cuando Shirley,"
+ ],
+ "flami": [],
+ "claves": []
+}

@@ -1,0 +1,70 @@
+{
+ "id": "J04",
+ "tipo": "short",
+ "voz": "voz-j04.mp3",
+ "words": "/tmp/claude-0/-home-user-vintedsniper/f149cbb4-300b-549b-a6bb-754b879e5cbb/scratchpad/words/J04.json",
+ "fin": 0.8,
+ "planos": [
+  {
+   "lista": [
+    {
+     "clip": "comunidad/avion",
+     "top": "EL AVIÓN NO CHOCA"
+    },
+    {
+     "clip": "x-avioneta"
+    }
+   ]
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_24.jpg"
+    },
+    {
+     "clip": "ext/ext-0596"
+    }
+   ],
+   "a": "Lo ha"
+  },
+  {
+   "lista": [
+    {
+     "clip": "ext/ext-1136"
+    },
+    {
+     "img": "p/Vice_City_23.jpg"
+    }
+   ],
+   "a": "Y no"
+  },
+  {
+   "lista": [
+    {
+     "img": "p/Vice_City_09.jpg"
+    },
+    {
+     "clip": "trailer-21"
+    }
+   ],
+   "a": "De momento,"
+  },
+  {
+   "a": "¿Te ha",
+   "tpl": "gta-marcador",
+   "topText": "escribe SÍ o NO 👇",
+   "text": "SÍGUEME",
+   "items": [
+    "Secretos",
+    "Trucos",
+    "Easter eggs"
+   ],
+   "value": 25
+  }
+ ],
+ "booms": [
+  "Lo ha"
+ ],
+ "flami": [],
+ "claves": []
+}
