@@ -42,7 +42,7 @@ for k, f in enumerate(frases):
         if re.search(pat, txt): pool, imgs = p, im; break
     if k == 0: pool = 'gancho'
     graf = None
-    if k > 0 and n_graf < 2:
+    if k > 0 and n_graf < 2 and os.environ.get('MG'):
         for pat, g in GRAF:
             mm = re.search(pat, txt)
             if mm: graf = dict(g); graf.setdefault('text', mm.group(0).upper()); break
@@ -56,8 +56,8 @@ for k, f in enumerate(frases):
     if k == 0: q['lista'][0]['top'] = top
     else: q['a'] = ' '.join(f[:2])
     planos.append(q)
-planos[-1] = {'a': ' '.join(frases[-1][:2]), 'tpl': 'gta-marcador', 'topText': cierre, 'text': 'SÍGUEME', 'items': ['Secretos', 'Trucos', 'Easter eggs'], 'value': 25}
-F = {'id': vid, 'tipo': 'short', 'voz': f'voz-{vid.lower()}.mp3', 'words': f'{SP}/words/{vid}.json', 'fin': 0.8,
+if os.environ.get('CIERRE'): planos[-1] = {'a': ' '.join(frases[-1][:2]), 'tpl': 'gta-marcador', 'topText': cierre, 'text': 'SÍGUEME', 'items': ['Secretos', 'Trucos', 'Easter eggs'], 'value': 25}
+F = {'id': vid, 'tipo': 'short', 'voz': f'voz-{vid.lower()}.mp3', 'words': f'{SP}/words/{vid}.json', 'fin': 0.25,
      'planos': planos, 'booms': [' '.join(frases[1][:2])] if len(frases) > 2 else [], 'flami': [], 'claves': []}
 json.dump(F, open(f'{SP}/fichas/{vid}.json', 'w'), ensure_ascii=False, indent=1)
 print(f'{vid}: {len(planos)} planos -> fichas/{vid}.json')
