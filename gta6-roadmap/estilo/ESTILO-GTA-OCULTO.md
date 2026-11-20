@@ -123,3 +123,12 @@ Motivo: los primeros Shorts (25–45 s) se quedaban en ~25 % visto entero.
 5. **Sin cierre «SÍGUEME»** ni tarjeta final: la gente desliza en cuanto ve el CTA. Se termina con una pregunta de 3–5 palabras y el vídeo vuelve al principio (bucle). `fin` 0,25 s.
 6. La llamada a comentar va en el **comentario fijado** y en la descripción, no hablada al final.
 7. `tools/jshort.py`: el marcador final solo sale con `CIERRE=1`; los motion graphics solo con `MG=1`.
+
+## Más comentarios y suscriptores (desde el 20/11)
+Dato: Metacritic (19/11) 61,8 % se queda, 40 likes, 3 comentarios… y 0 suscriptores.
+1. **Sello final con la pregunta** (`tools/sello_final.py ID "TEXTO"`): la pregunta se ve en grande el último segundo, además de oírse. Preguntas binarias: «SÍ o NO», «¿FALLO o A PROPÓSITO?».
+2. **Responder a todos los comentarios en la primera hora**, siempre con otra pregunta (cada respuesta cuenta como interacción y reactiva el vídeo).
+3. **Comentario fijado = la misma pregunta + enlace al largo** («🎥 Las 30 preguntas de GTA 6 en mi canal»).
+4. **Títulos con afirmación + curiosidad** («Bigfoot existe en GTA 6 🦶 y ya lo han encontrado»), no con «MITO o VERDAD» delante.
+5. **Serie diaria para suscribirse**: los descubrimientos van numerados en la descripción y en el comentario fijado («Secreto nº 3 de GTA 6 · cada día uno nuevo»), para que seguir el canal tenga sentido.
+6. Temas: primero descubrimientos nuevos de la comunidad (Notion, potencial 🔥), luego datos generales.
