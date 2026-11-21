@@ -132,3 +132,9 @@ Dato: Metacritic (19/11) 61,8 % se queda, 40 likes, 3 comentarios… y 0 suscrip
 4. **Títulos con afirmación + curiosidad** («Bigfoot existe en GTA 6 🦶 y ya lo han encontrado»), no con «MITO o VERDAD» delante.
 5. **Serie diaria para suscribirse**: los descubrimientos van numerados en la descripción y en el comentario fijado («Secreto nº 3 de GTA 6 · cada día uno nuevo»), para que seguir el canal tenga sentido.
 6. Temas: primero descubrimientos nuevos de la comunidad (Notion, potencial 🔥), luego datos generales.
+
+## Gancho del fotograma 0 (desde el 21/11)
+Dato de Studio con los Shorts viejos (25-31 s): Bigfoot 66 % pasa de largo, aviones 47 %, PC 36 %.
+- Primer plano = **sello gigante con el dato** sobre un clip en movimiento: `tools/sello_inicio.py ID "TEXTO" clip` (máx. ~16 caracteres para que no se salga: «32 MILLONES», «PERRO AL RESCATE», «61 TRUCOS»).
+- Primera frase hablada de 4-6 palabras con el dato («Un perro te rescata en GTA seis»).
+- Objetivo: < 30 % pasa de largo y mínimo 3.000 visitas por Short.
