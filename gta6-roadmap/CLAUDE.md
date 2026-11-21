@@ -49,3 +49,6 @@ Al responder "qué toca hoy", **antes** de nada:
 2. Escribir con ArtifactData en `tracker/<fecha>` (url del panel) los días que falten: `vYT` (visitas del día), `sYT` (suscriptores, solo en el día de hoy), `hYT` (horas acumuladas de vídeos largos = suma de minutos `videoOnDemand` desde el 17/11 ÷ 60, con 1 decimal), `svYT` (visitas de Shorts de los últimos 90 días = suma acumulada desde el 17/11 mientras no haya 90 días). Leer antes cada documento y escribir con `if_version`.
 3. Dar en la respuesta una línea de progreso: suscriptores / 1.000, horas / 4.000 y días hasta el 31/01.
 Notas: YouTube publica los datos con 1-2 días de retraso. La prueba de Windsor solo deja leer 30 días hacia atrás: por eso las cifras se acumulan día a día en el tracker. Punto de partida (17/11): 75 suscriptores, 0 h de vídeos largos, 241 visitas de Shorts en 30 días (vídeos antiguos, ya privados).
+
+## Regla de Oier (21/11): el panel siempre al día
+Cada vez que se rehace un vídeo, una miniatura, un título o una descripción, se copia a `panel-media/` y **se vuelve a publicar el panel en ese mismo momento** con los `media/` cambiados. Oier descarga los vídeos del panel: si el panel no está al día, sube versiones viejas (pasó el 20/11 con J03 y J04).
