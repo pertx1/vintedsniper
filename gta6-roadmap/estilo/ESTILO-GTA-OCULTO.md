@@ -138,3 +138,7 @@ Dato de Studio con los Shorts viejos (25-31 s): Bigfoot 66 % pasa de largo, avio
 - Primer plano = **sello gigante con el dato** sobre un clip en movimiento: `tools/sello_inicio.py ID "TEXTO" clip` (máx. ~16 caracteres para que no se salga: «32 MILLONES», «PERRO AL RESCATE», «61 TRUCOS»).
 - Primera frase hablada de 4-6 palabras con el dato («Un perro te rescata en GTA seis»).
 - Objetivo: < 30 % pasa de largo y mínimo 3.000 visitas por Short.
+
+## Gameplay real como b-roll (desde el 21/11)
+Gameplay del amigo de Oier (Drive, sin audio, 720p): índice de escenas en `scratchpad/drive_gp/cs_*.jpg`, clips cortados en `render/public/gp/` (mar1, mar2, barco, perro, avion1, avion2, coche1, coche2, armas, menu, playa, playa2, tienda). En las fichas: `{"clip": "gp/NOMBRE", "cx": 0.5}`; `hacer.py` lo recorta a vertical a pantalla completa.
+Regla: el primer plano de cada Short, gameplay real en movimiento (no imágenes del tráiler).
