@@ -879,6 +879,7 @@ async function descargar(id){
   catch(e){toast(e&&e.code==="declined"?"Descarga cancelada":"No se pudo descargar: "+(e&&e.message||"error"))}
 }
 V.videos=()=>{
+  VIDS.sort((a,b)=>((a.d||"")+(a.h||"")).localeCompare((b.d||"")+(b.h||"")));
   const dias=[...new Set(VIDS.map(v=>v.d))];
   return `<section class="view"><div class="panel"><div class="row" style="justify-content:space-between"><h2>Calendario de vídeos</h2><span class="chip">${VIDS.filter(v=>v.listo).length}/${VIDS.length} listos</span></div>
    <p class="muted" style="margin:6px 0 0">Cada vídeo con su título, descripción y etiquetas para copiar, su miniatura y el botón de descarga. Programa en YouTube Studio con la hora indicada (España).</p></div>
