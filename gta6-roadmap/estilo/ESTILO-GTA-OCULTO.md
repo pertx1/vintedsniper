@@ -142,3 +142,8 @@ Dato de Studio con los Shorts viejos (25-31 s): Bigfoot 66 % pasa de largo, avio
 ## Gameplay real como b-roll (desde el 21/11)
 Gameplay del amigo de Oier (Drive, sin audio, 720p): índice de escenas en `scratchpad/drive_gp/cs_*.jpg`, clips cortados en `render/public/gp/` (mar1, mar2, barco, perro, avion1, avion2, coche1, coche2, armas, menu, playa, playa2, tienda). En las fichas: `{"clip": "gp/NOMBRE", "cx": 0.5}`; `hacer.py` lo recorta a vertical a pantalla completa.
 Regla: el primer plano de cada Short, gameplay real en movimiento (no imágenes del tráiler).
+
+## Fórmula ganadora (22/11)
+- **Shorts:** como el del perro (4.467 visitas): algo raro o absurdo que no sabías que existía, gameplay en movimiento desde el fotograma 0, sin sello grande al inicio, 14-17 s, una sola idea.
+- **Largos:** como Ultimate vs Estándar (5.665 visitas, 250 h en 2 días, 73 % desde búsqueda, CTR búsqueda 21,7 %): responder una pregunta que la gente busca ahora. Uno al día durante el pico del lanzamiento, solo con temas de búsqueda real. Temas de historia/curiosidad → Shorts.
+- `tools/entregar.py` crea o pisa la entrada del panel por ID: usar IDs nuevos (comprobar que no existen) para no machacar huecos de otros días.
