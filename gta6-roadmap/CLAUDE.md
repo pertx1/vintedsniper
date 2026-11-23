@@ -52,3 +52,6 @@ Notas: YouTube publica los datos con 1-2 días de retraso. La prueba de Windsor 
 
 ## Regla de Oier (21/11): el panel siempre al día
 Cada vez que se rehace un vídeo, una miniatura, un título o una descripción, se copia a `panel-media/` y **se vuelve a publicar el panel en ese mismo momento** con los `media/` cambiados. Oier descarga los vídeos del panel: si el panel no está al día, sube versiones viejas (pasó el 20/11 con J03 y J04).
+
+## Regla de Oier (23/11): vídeos largos de 9 minutos como mínimo
+Todos los vídeos largos duran **9 minutos o más** (guion de ~1.700 palabras o más, voz en 3 partes). La única excepción es L11 (trucos, 7 min). Hay que ampliarlos con datos reales con fuente, nunca con relleno ni inventando.

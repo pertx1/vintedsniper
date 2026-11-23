@@ -97,6 +97,9 @@ Para explicar mecánicas, como en las referencias de TikTok: `{"a":"…","tpl":"
 - **Oier:** comentario fijado con pregunta, ❤️ a todos y responder en la primera hora SIEMPRE con otra pregunta. Una encuesta al día en la pestaña Comunidad (2 opciones, del tema del día).
 - **Series** («¿MITO o VERDAD?», «Secretos parte 1/2…»): crean el motivo para suscribirse.
 
+## Duración de los largos (desde el 23/11)
+- Mínimo **9 minutos** (≈1.700 palabras). Excepción: L11 trucos. Se alarga con más datos con fuente (secciones extra, errores típicos, dónde encontrar cosas), nunca con relleno.
+
 ## Vídeos largos dinámicos (desde el 19/11)
 `python3 tools/dinamizar.py GENID graf/GENID.json` sobre el gen ya montado: parte cada imagen en clip oficial (≤2,4 s) + imagen, mete 2-7 motion graphics en las frases con datos (precio, línea de tiempo, app, rastreador, velocímetro) y efectos de sonido propios (sfx/: stamp en sellos, ping en gráficos, cash con dinero, siren con policía, scratch con «ojo», shutter con fotos; mínimo 6 s entre efectos). Render con `tools/render_ins.sh GENID`.
 Inspiración de miniatura (Willyrex, «¿Qué pasa si tienes 6 estrellas en GTA VI?», 498 K en 11 h): escena de acción enorme + cara de reacción en recuadro + fila de 6 estrellas; título «¿QUÉ PASA SI…?».
