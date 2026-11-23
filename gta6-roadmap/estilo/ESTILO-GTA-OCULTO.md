@@ -150,3 +150,9 @@ Regla: el primer plano de cada Short, gameplay real en movimiento (no imágenes 
 - **Shorts:** como el del perro (4.467 visitas): algo raro o absurdo que no sabías que existía, gameplay en movimiento desde el fotograma 0, sin sello grande al inicio, 14-17 s, una sola idea.
 - **Largos:** como Ultimate vs Estándar (5.665 visitas, 250 h en 2 días, 73 % desde búsqueda, CTR búsqueda 21,7 %): responder una pregunta que la gente busca ahora. Uno al día durante el pico del lanzamiento, solo con temas de búsqueda real. Temas de historia/curiosidad → Shorts.
 - `tools/entregar.py` crea o pisa la entrada del panel por ID: usar IDs nuevos (comprobar que no existen) para no machacar huecos de otros días.
+
+## Títulos y ganchos de Shorts que despegan (23/11)
+De 23 Shorts, casi todos se quedan en 1.100-1.500 visitas. Solo 2 han despegado, y los dos con la misma forma:
+- «Si te pierdes en el mar en GTA 6, te rescata un perro» (4.897): **«Si haces X en GTA 6, pasa Y»**, algo que el jugador puede probar.
+- «El coche de Paul Walker está escondido en GTA 6» (3.068): **«[algo famoso] está escondido en GTA 6»**.
+La primera frase de la voz es el título, dicho tal cual. La lore pura («qué pasó con Wade») y las cifras se quedan en la media.
