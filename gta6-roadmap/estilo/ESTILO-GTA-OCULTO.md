@@ -156,3 +156,15 @@ De 23 Shorts, casi todos se quedan en 1.100-1.500 visitas. Solo 2 han despegado,
 - «Si te pierdes en el mar en GTA 6, te rescata un perro» (4.897): **«Si haces X en GTA 6, pasa Y»**, algo que el jugador puede probar.
 - «El coche de Paul Walker está escondido en GTA 6» (3.068): **«[algo famoso] está escondido en GTA 6»**.
 La primera frase de la voz es el título, dicho tal cual. La lore pura («qué pasó con Wade») y las cifras se quedan en la media.
+
+## Plan desde el 25/11 (Oier: «haz eso a partir de mañana»)
+**Shorts como el de la casa (24/11: 7.949 visitas en 11 h, 82 likes, +22 subs).**
+- Primera frase = el misterio inquietante dicho tal cual, sin contexto antes: «En GTA 6 hay una casa donde alguien sabe que vive en un videojuego», «…una vecina que podría ser una asesina en serie».
+- 15-16 s, gameplay en movimiento desde el fotograma 0, 3-4 datos concretos (2 fuentes) y cierre con pregunta de sí o no: «¿Te da miedo?», «¿Es una asesina?».
+- Temas: secretos turbios, teorías, cosas que «no deberían estar ahí», guiños escondidos. Mínimo 2 de los 3 Shorts diarios de este tipo; el tercero puede ser «Si haces X, pasa Y».
+
+**Largos de búsqueda con poca competencia.**
+- Antes de elegir tema, mirar con la API de YouTube (search + videos) los 10 primeros resultados en español: si hay vídeos con más de 100.000 visitas sobre lo mismo, se descarta. Buscar huecos (el 24/11: «extras de la Ultimate: dónde están» tenía 0 vídeos; «códigos de cajas fuertes», el mejor 6.800).
+- Títulos «GTA 6 + búsqueda exacta + qué resuelve».
+
+**Cada largo con su Short del mismo tema el mismo día** (o el anterior), y en ese Short «Vídeo relacionado» = el largo. En el resumen diario, decirle a Oier qué Short enlaza a qué largo.
