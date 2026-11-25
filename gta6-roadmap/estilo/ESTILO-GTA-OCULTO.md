@@ -168,3 +168,4 @@ La primera frase de la voz es el título, dicho tal cual. La lore pura («qué p
 - Títulos «GTA 6 + búsqueda exacta + qué resuelve».
 
 **Cada largo con su Short del mismo tema el mismo día** (o el anterior), y en ese Short «Vídeo relacionado» = el largo. En el resumen diario, decirle a Oier qué Short enlaza a qué largo.
+- **Demanda:** además de la competencia, comprobar que la gente lo busca con el autocompletado de YouTube (`suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=es&gl=es&q=...`). Si no sale ninguna sugerencia (p. ej. «gta 6 peristas» el 24/11), el tema se descarta. No hay número exacto de búsquedas: es una señal de sí o no.
