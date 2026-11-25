@@ -175,3 +175,10 @@ La primera frase de la voz es el título, dicho tal cual. La lore pura («qué p
 - Por tanto: los 3 Shorts del día son misterios inquietantes y POCO CONTADOS (comprobar con la API que en español el mejor tiene menos de ~20.000 visitas). Nada de consejos prácticos («cámbiate de ropa», «glitch de FPS»), salvo que lo que pase sea absurdo de verdad (el perro).
 - Las segundas partes de un Short que despegó aprovechan a su público (casa → casa parte 2).
 - Revisar fotogramas: los clips gp/noche3 y gpx/a27 llevan texto del juego en inglés («Go to the drive-thru window»); no usarlos. Con CACHE_DESDE se reutilizan clips cortados antiguos: si cambias un clip, renderiza sin caché.
+
+## Método «viral» (desde el 25/11): copiar lo que peta fuera, antes que nadie en español
+1. Con la API de YouTube: search con `order=viewCount`, `publishedAfter` = hace 3 días, `videoDuration=short`, consultas en inglés («gta 6 secret», «easter egg», «creepy», «mystery», «hidden», «npc»). Mirar los Shorts de GTA 6 con más de 300.000 visitas.
+2. Para cada tema, buscar en español (search con relevanceLanguage=es): si el mejor vídeo en español tiene menos de ~20.000 visitas, es un hueco.
+3. Confirmar con 2 fuentes escritas (Game Rant, IGN, GamesRadar, PC Gamer, Dexerto…). Sin 2 fuentes, se espera.
+4. Hacerlo YA, al estilo de la casa. Preferencia: algo famoso escondido (Paul Walker, Mario, Scarface) o misterio inquietante (casa, faro fantasma, asesino).
+Ejemplos del 25/11: Mario y Luigi (686.000 en otros idiomas, 0 vídeos en español) → K11. Scarface (1,1 M, 1 vídeo en español de 1.100) → falta la 2.ª fuente escrita.
