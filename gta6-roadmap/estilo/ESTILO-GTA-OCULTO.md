@@ -169,3 +169,9 @@ La primera frase de la voz es el título, dicho tal cual. La lore pura («qué p
 
 **Cada largo con su Short del mismo tema el mismo día** (o el anterior), y en ese Short «Vídeo relacionado» = el largo. En el resumen diario, decirle a Oier qué Short enlaza a qué largo.
 - **Demanda:** además de la competencia, comprobar que la gente lo busca con el autocompletado de YouTube (`suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=es&gl=es&q=...`). Si no sale ninguna sugerencia (p. ej. «gta 6 peristas» el 24/11), el tema se descarta. No hay número exacto de búsquedas: es una señal de sí o no.
+
+## Lecciones del 24-25/11
+- Casa (misterio que casi nadie había contado en español): 17.101 visitas. Mandy (misterio ya contado por canales grandes, uno con 11 M): 1.232. Policía (consejo práctico y tema muy visto): 421. **Kreo no es la causa**: los cuatro se subieron con Kreo.
+- Por tanto: los 3 Shorts del día son misterios inquietantes y POCO CONTADOS (comprobar con la API que en español el mejor tiene menos de ~20.000 visitas). Nada de consejos prácticos («cámbiate de ropa», «glitch de FPS»), salvo que lo que pase sea absurdo de verdad (el perro).
+- Las segundas partes de un Short que despegó aprovechan a su público (casa → casa parte 2).
+- Revisar fotogramas: los clips gp/noche3 y gpx/a27 llevan texto del juego en inglés («Go to the drive-thru window»); no usarlos. Con CACHE_DESDE se reutilizan clips cortados antiguos: si cambias un clip, renderiza sin caché.
