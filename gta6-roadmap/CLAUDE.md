@@ -55,3 +55,6 @@ Cada vez que se rehace un vídeo, una miniatura, un título o una descripción, 
 
 ## Regla de Oier (23/11): vídeos largos de 9 minutos como mínimo
 Todos los vídeos largos duran **9 minutos o más** (guion de ~1.700 palabras o más, voz en 3 partes). La única excepción es L11 (trucos, 7 min). Hay que ampliarlos con datos reales con fuente, nunca con relleno ni inventando.
+
+## Objetivos de Oier (26/11): monetizar antes de febrero y placa de plata antes de junio
+La estrategia completa está en `estrategia-objetivos-2027.md`: largos «análisis» de 12-15 min (3/semana) + largos de búsqueda (4/semana) + 3 Shorts virales al día, cada Short con «Vídeo relacionado» a un largo.
