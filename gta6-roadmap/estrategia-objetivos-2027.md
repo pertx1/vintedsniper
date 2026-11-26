@@ -20,11 +20,11 @@
 - **Nuestro hueco:** en español casi todos son de ANTES del lanzamiento (especulación). Nosotros: con el juego ya salido, datos reales con fuente y gameplay real.
 - Título: corto, fuerte, en mayúsculas una palabra: «La policía de GTA 6 es IMPOSIBLE», «Lugares de GTA 6 a los que NUNCA deberías ir».
 - Miniatura estilo capturas: primer plano de un personaje, fondo oscuro de cine, 1-2 palabras gigantes blanco/rojo («TE CAZA», «NO ENTRES», «IMPOSIBLE»). Nada de tarjetas VS en este formato.
-- **3 por semana** (lunes, miércoles, viernes).
+- Un largo **día sí, día no** (decisión de Oier, 26/11): se alternan análisis y búsqueda.
 
 ### 2. Largos de búsqueda (los que ya hacemos)
 - 9+ min, dudas concretas con demanda (autocompletado) y poca competencia: Ultimate extras, cajas fuertes, etc. Traen visitas poco a poco durante meses.
-- **4 por semana** (los otros días).
+- Se alternan con los análisis (día sí, día no en total).
 
 ### 3. Shorts: método viral (3 al día)
 - Temas que petan fuera y no existen en español, misterio poco contado o algo famoso escondido, estilo de la casa.

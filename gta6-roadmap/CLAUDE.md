@@ -58,3 +58,6 @@ Todos los vídeos largos duran **9 minutos o más** (guion de ~1.700 palabras o 
 
 ## Objetivos de Oier (26/11): monetizar antes de febrero y placa de plata antes de junio
 La estrategia completa está en `estrategia-objetivos-2027.md`: largos «análisis» de 12-15 min (3/semana) + largos de búsqueda (4/semana) + 3 Shorts virales al día, cada Short con «Vídeo relacionado» a un largo.
+
+## Regla de Oier (26/11): un vídeo largo día sí, día no
+Calendario: 27/11 L24 Online · 29/11 L17 consolas · 1/12 L23 lugares · 3/12 L20 cajas fuertes · 5/12 L21 easter eggs · 7/12 L25 policía (análisis) · 9/12 L26 bandas (análisis). Los 3 Shorts diarios se mantienen.
