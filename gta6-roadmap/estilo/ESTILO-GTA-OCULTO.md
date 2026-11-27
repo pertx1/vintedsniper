@@ -181,4 +181,5 @@ La primera frase de la voz es el título, dicho tal cual. La lore pura («qué p
 2. Para cada tema, buscar en español (search con relevanceLanguage=es): si el mejor vídeo en español tiene menos de ~20.000 visitas, es un hueco.
 3. Confirmar con 2 fuentes escritas (Game Rant, IGN, GamesRadar, PC Gamer, Dexerto…). Sin 2 fuentes, se espera.
 4. Hacerlo YA, al estilo de la casa. Preferencia: algo famoso escondido (Paul Walker, Mario, Scarface) o misterio inquietante (casa, faro fantasma, asesino).
+- 27/11: más clips con texto o HUD que NO se usan en ningún vídeo: gp/noche5 («Approach the speaker…»), gp/barco («Press … to swim faster»), gpx/a28 (cuadro de diálogo), gpx/b14 (pantalla «wasted»), gpx/a10, gpx/a04, gpx/b13 (GPS «Keep Right») y gpx/b29 (aviso abajo a la derecha). En los largos la ficha automática coge clips al azar: excluirlos en `bad` del builder y revisar SIEMPRE una hoja de 4 fotogramas por clip antes de renderizar.
 Ejemplos del 25/11: Mario y Luigi (686.000 en otros idiomas, 0 vídeos en español) → K11. Scarface (1,1 M, 1 vídeo en español de 1.100) → falta la 2.ª fuente escrita.
