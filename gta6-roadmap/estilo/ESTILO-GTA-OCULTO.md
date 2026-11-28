@@ -184,3 +184,10 @@ La primera frase de la voz es el título, dicho tal cual. La lore pura («qué p
 - 27/11: más clips con texto o HUD que NO se usan en ningún vídeo: gp/noche5 («Approach the speaker…»), gp/barco («Press … to swim faster»), gpx/a28 (cuadro de diálogo), gpx/b14 (pantalla «wasted»), gpx/a10, gpx/a04, gpx/b13 (GPS «Keep Right») y gpx/b29 (aviso abajo a la derecha). En los largos la ficha automática coge clips al azar: excluirlos en `bad` del builder y revisar SIEMPRE una hoja de 4 fotogramas por clip antes de renderizar.
 - 28/11: gpx/a03 lleva subtítulos de cinemática en inglés («Where do you work?») en la parte de abajo: prohibido. Para revisar subtítulos, hacer una tira con el 30 % inferior de cada clip (5 fotogramas) antes de renderizar.
 Ejemplos del 25/11: Mario y Luigi (686.000 en otros idiomas, 0 vídeos en español) → K11. Scarface (1,1 M, 1 vídeo en español de 1.100) → falta la 2.ª fuente escrita.
+
+## Diagnóstico del 28/11 (Oier: «no pasan de 1k»)
+- De 37 Shorts, 30 se quedan en 1.000-1.500: es el reparto de prueba de YouTube; si no retienen, se cortan ahí. El tema «poco contado» NO ha cambiado eso (Mario 1.087, Dexter 995, portal 1.381, Breaking Bad 296 a las 2,5 h).
+- Los que despegan: la casa (19.350) cogió la ola mundial del «NPC que sabe que vive en un juego» (ese tema sigue haciendo 1 M+ en otros idiomas); el perro (4.982) y Paul Walker (3.424) mostraban LA COSA en pantalla (mar, el coche real).
+- Por tanto: 1) temas de NPC raros / tendencia mundial del momento por encima de easter eggs de lista; 2) el plano tiene que enseñar lo que se dice (gasolinera para la bañera, coche para Toretto); 3) lo mejor en las 10-11 h (casa, vecina y Paul Walker salieron a esa hora).
+- Palanca grande pendiente: grabar en el juego la cosa exacta de cada Short (el amigo de Oier o Oier). Con b-roll genérico el techo es ~1.500.
+- Clip gpx/a01 (pickup en gasolinera): usar con ss 1.2 y cx 0.75 (al principio sale «Services»). gpx/a19 es un atraco: no usar.
